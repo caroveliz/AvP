@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Fair Market Value</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Fair Market Value</value>
+    </caseValues>
+    <fields>
+        <label><!-- Annual Depreciation % --></label>
+        <name>Annual_Depreciation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Program --></label>
+        <name>Client_Program__c</name>
+        <relationshipLabel><!-- Fair Market Value --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- FMV Notes --></label>
+        <name>FMV_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fair Market Value --></label>
+        <name>Fair_Market_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final --></label>
+        <name>Final__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valuation Date --></label>
+        <name>Valuation_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Years of Asset Ownership --></label>
+        <name>Years_of_Asset_Ownership__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

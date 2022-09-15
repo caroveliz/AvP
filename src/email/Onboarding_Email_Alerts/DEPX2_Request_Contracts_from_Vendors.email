@@ -1,0 +1,10 @@
+Opportunity: {!Opportunity.Name} is signed. Please reach out to Vendors to request flight histories and contracts. 
+
+Once received forward to Aviv to enter info SF.
+
+Operator Programs:
+{!Opportunity.Operator_Program_Name__c}
+
+
+Link to Opp: 
+{!Opportunity.Link}

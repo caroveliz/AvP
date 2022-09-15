@@ -1,0 +1,3340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>IS_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>IS_Compact_Layout</fullName>
+        <fields>Trip_Manager_Number__c</fields>
+        <fields>Operator__c</fields>
+        <fields>Estimated_Cost__c</fields>
+        <fields>Cost__c</fields>
+        <fields>Broker__c</fields>
+        <fields>Subcontracted__c</fields>
+        <label>IS Compact Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Account_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Trip_Manager_Number__r.Account.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Added_as_Additionally_Insured__c</fullName>
+        <externalId>false</externalId>
+        <label>Added as Additionally Insured</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>Pending</fullName>
+                    <default>false</default>
+                    <label>Pending</label>
+                </value>
+                <value>
+                    <fullName>Not Required</fullName>
+                    <default>false</default>
+                    <label>Not Required</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Aircraft_Calculator__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Aircraft Calculator</label>
+        <referenceTo>Aircraft_Calculator__c</referenceTo>
+        <relationshipLabel>Itinerary Solutions</relationshipLabel>
+        <relationshipName>Itinerary_Solutions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Aircraft_Owner_Approval_Received__c</fullName>
+        <externalId>false</externalId>
+        <label>Aircraft Owner Approval Received</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>Requested - Pending</fullName>
+                    <default>false</default>
+                    <label>Requested - Pending</label>
+                </value>
+                <value>
+                    <fullName>Declined</fullName>
+                    <default>false</default>
+                    <label>Declined</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Aircraft_Type_Charter__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Aircraft Type</label>
+        <referenceTo>Aircraft__c</referenceTo>
+        <relationshipLabel>Itinerary Solutions (Aircraft Type)</relationshipLabel>
+        <relationshipName>Itinerary_Solutions2</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Aircraft_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Tail_Number__r.Aircraft_Type__c)</formula>
+        <label>Aircraft Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Aircraft__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Aircraft</label>
+        <referenceTo>Aircraft__c</referenceTo>
+        <relationshipLabel>Itinerary Solutions (Aircraft)</relationshipLabel>
+        <relationshipName>Itinerary_Solutions1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>All_In_Cost_Savings__c</fullName>
+        <externalId>false</externalId>
+        <label>All-In Cost Savings</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>All_In_Cost__c</fullName>
+        <externalId>false</externalId>
+        <label>All-In Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Arrival_Airport_Risk__c</fullName>
+        <externalId>false</externalId>
+        <label>Arrival Airport Risk</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Arrival Airport - May be unusable if wet conditions – Make sure to know the nearest alternative airport</fullName>
+                    <default>false</default>
+                    <label>Arrival Airport - May be unusable if wet conditions – Make sure to know the nearest alternative airport</label>
+                </value>
+                <value>
+                    <fullName>After-hours are subject to approval</fullName>
+                    <default>false</default>
+                    <label>After-hours are subject to approval</label>
+                </value>
+                <value>
+                    <fullName>Often experiences ATC Delays – Make sure to know the nearest alternative airport</fullName>
+                    <default>false</default>
+                    <label>Often experiences ATC Delays – Make sure to know the nearest alternative airport</label>
+                </value>
+                <value>
+                    <fullName>Weather Restricted – Make sure to know the nearest alternative airport</fullName>
+                    <default>false</default>
+                    <label>Weather Restricted – Make sure to know the nearest alternative airport</label>
+                </value>
+                <value>
+                    <fullName>Vendor responsible for advising on customs hours/approval</fullName>
+                    <default>false</default>
+                    <label>Vendor responsible for advising on customs hours/approval</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Arrival_Airport__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Arrival Airport</label>
+        <referenceTo>Airport__c</referenceTo>
+        <relationshipLabel>Itinerary Solutions (Final Destination Airport)</relationshipLabel>
+        <relationshipName>Itineraries1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Back_Up_Recovery_Cost_Risk__c</fullName>
+        <externalId>false</externalId>
+        <label>Back-Up/Recovery Cost Risk</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Backup/recovery solution projected cost is 10-25% more than your original contract</fullName>
+                    <default>false</default>
+                    <label>Backup/recovery solution projected cost is 10-25% more than your original contract</label>
+                </value>
+                <value>
+                    <fullName>Backup/recovery solution projected cost is 25-50% more than your original contract</fullName>
+                    <default>false</default>
+                    <label>Backup/recovery solution projected cost is 25-50% more than your original contract</label>
+                </value>
+                <value>
+                    <fullName>Backup/recovery solution projected cost is 50-75% more than your original contract</fullName>
+                    <default>false</default>
+                    <label>Backup/recovery solution projected cost is 50-75% more than your original contract</label>
+                </value>
+                <value>
+                    <fullName>Backup/recovery solution projected cost is 75-100% more than your original contract</fullName>
+                    <default>false</default>
+                    <label>Backup/recovery solution projected cost is 75-100% more than your original contract</label>
+                </value>
+                <value>
+                    <fullName>Backup/recovery solution projected cost is 100-150% more than your original contract</fullName>
+                    <default>false</default>
+                    <label>Backup/recovery solution projected cost is 100-150% more than your original contract</label>
+                </value>
+                <value>
+                    <fullName>Backup/recovery solution projected cost is 150-200% more than your original contract</fullName>
+                    <default>false</default>
+                    <label>Backup/recovery solution projected cost is 150-200% more than your original contract</label>
+                </value>
+                <value>
+                    <fullName>If the aircraft has a mechanical after leg one, the recovery solution will likely be at least an additional 50%</fullName>
+                    <default>false</default>
+                    <label>If the aircraft has a mechanical after leg one, the recovery solution will likely be at least an additional 50%</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Backup_Recovery_Delay_Risk__c</fullName>
+        <externalId>false</externalId>
+        <label>Backup/Recovery Delay Risk</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Projected delay is 2 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</fullName>
+                    <default>false</default>
+                    <label>Projected delay is 2 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</label>
+                </value>
+                <value>
+                    <fullName>Projected delay is 3 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</fullName>
+                    <default>false</default>
+                    <label>Projected delay is 3 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</label>
+                </value>
+                <value>
+                    <fullName>Projected delay is 4 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</fullName>
+                    <default>false</default>
+                    <label>Projected delay is 4 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</label>
+                </value>
+                <value>
+                    <fullName>Projected delay is 5 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</fullName>
+                    <default>false</default>
+                    <label>Projected delay is 5 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</label>
+                </value>
+                <value>
+                    <fullName>Projected delay is 6 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</fullName>
+                    <default>false</default>
+                    <label>Projected delay is 6 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</label>
+                </value>
+                <value>
+                    <fullName>Projected delay is 24 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</fullName>
+                    <default>false</default>
+                    <label>Projected delay is 24 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</label>
+                </value>
+                <value>
+                    <fullName>Projected delay is 48 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</fullName>
+                    <default>false</default>
+                    <label>Projected delay is 48 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</label>
+                </value>
+                <value>
+                    <fullName>Projected delay is the NEXT day if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</fullName>
+                    <default>false</default>
+                    <label>Projected delay is the NEXT day if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Booked_Solution__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Booked Solution</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Booking_Risk__c</fullName>
+        <externalId>false</externalId>
+        <label>Booking Risk</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Solution is not confirmed until it has requested/received owner approval</fullName>
+                    <default>false</default>
+                    <label>Solution is not confirmed until it has requested/received owner approval</label>
+                </value>
+                <value>
+                    <fullName>Vendor requires a signed contract just to request owner approval</fullName>
+                    <default>false</default>
+                    <label>Vendor requires a signed contract just to request owner approval</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Broker_Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Broker Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipName>Itinerary_Options1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Broker_Fee__c</fullName>
+        <externalId>false</externalId>
+        <label>Broker Fee</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Broker__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Broker</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Broker</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipName>Itineraries</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Cabin_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Cabin Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CalendarTitle_Itinerary__c</fullName>
+        <description>This is the title used for CalendarAnywhere.</description>
+        <externalId>false</externalId>
+        <formula>TEXT(Trip_Start_Date__c) &amp; &quot; - &quot; &amp;
+Trip_Manager_Number__r.Account.Name &amp; &quot; - &quot; &amp;
+Departure_Airport__r.Name &amp; &quot;-&quot; &amp; Arrival_Airport__r.Name &amp; &quot; - &quot; &amp;
+Operator__r.Name &amp; &quot; - &quot; &amp;
+Calendar_Note__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Calendar Title - Itinerary</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Calendar_Note__c</fullName>
+        <externalId>false</externalId>
+        <label>Calendar Note</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cancellation_Change_Fee__c</fullName>
+        <externalId>false</externalId>
+        <label>Cancellation/Change Fee</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Cancellation_Change_Fees__c</fullName>
+        <externalId>false</externalId>
+        <label>Cancellation/Change Fees</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Departure times AND dates are considered firm and any changes are subject to vendor approval. You will be subject to the cancellation terms if you need to book another solution</fullName>
+                    <default>false</default>
+                    <label>Departure times AND dates are considered firm and any changes are subject to vendor approval. You will be subject to the cancellation terms if you need to book another solution</label>
+                </value>
+                <value>
+                    <fullName>Cancellation Terms are Not flexible within 3 business days</fullName>
+                    <default>false</default>
+                    <label>Cancellation Terms are Not flexible within 3 business days</label>
+                </value>
+                <value>
+                    <fullName>Cancellation Terms over the holidays are very inflexible</fullName>
+                    <default>false</default>
+                    <label>Cancellation Terms over the holidays are very inflexible</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Cancellation_Data__c</fullName>
+        <externalId>false</externalId>
+        <label>Cancellation Data</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Cancellation_Date_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Cancellation Date 1</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Cancellation_Date_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Cancellation Date 2</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Cancellation_Date_3__c</fullName>
+        <externalId>false</externalId>
+        <label>Cancellation Date 3</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Cancellation_Notification_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Cancellation Notification Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Cancellation_Perc_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Cancellation %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Cancellation_Perc_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Cancellation %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Cancellation_Perc_3__c</fullName>
+        <externalId>false</externalId>
+        <label>Cancellation %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Cancellation_Range_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Cancellation Range 1</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Cancellation_Range_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Cancellation Range 2</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Contact_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Trip_Manager_Number__r.Contact.FirstName &amp; &quot; &quot; &amp;  Trip_Manager_Number__r.Contact.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contact Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contingency_Plan_Activated__c</fullName>
+        <externalId>false</externalId>
+        <label>Contingency Plan Activated</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Contingency_Plan_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Contingency Plan Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Conversion_Rate__c</fullName>
+        <externalId>false</externalId>
+        <label>Conversion Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cost__c</fullName>
+        <externalId>false</externalId>
+        <label>Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Cost_of_Recovery_Aircraft__c</fullName>
+        <externalId>false</externalId>
+        <label>Cost of Recovery Aircraft</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Crew_Duty_Risk__c</fullName>
+        <externalId>false</externalId>
+        <label>Crew Duty Risk</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>TBD</fullName>
+                    <default>false</default>
+                    <label>TBD</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Current_Forecasted_Trend__c</fullName>
+        <externalId>false</externalId>
+        <label>Current Forecasted Trend</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Date_Booked__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Date the flight was confirmed as booked.</inlineHelpText>
+        <label>Date Booked</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date_Researched__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Researched</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Day_of_Contact__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Can be an email or phone number.</inlineHelpText>
+        <label>Day of Contact</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Departure_Airport_Risk__c</fullName>
+        <externalId>false</externalId>
+        <label>Departure Airport Risk</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Weather Restricted – Make sure to know the nearest alternative airport</fullName>
+                    <default>false</default>
+                    <label>Weather Restricted – Make sure to know the nearest alternative airport</label>
+                </value>
+                <value>
+                    <fullName>Often experiences ATC Delays – Make sure to know the nearest alternative airport</fullName>
+                    <default>false</default>
+                    <label>Often experiences ATC Delays – Make sure to know the nearest alternative airport</label>
+                </value>
+                <value>
+                    <fullName>May be unusable if wet conditions – Make sure to know the nearest alternative airport</fullName>
+                    <default>false</default>
+                    <label>May be unusable if wet conditions – Make sure to know the nearest alternative airport</label>
+                </value>
+                <value>
+                    <fullName>After-hours are subject to approval</fullName>
+                    <default>false</default>
+                    <label>After-hours are subject to approval</label>
+                </value>
+                <value>
+                    <fullName>Vendor responsible for advising on customs hours/approval</fullName>
+                    <default>false</default>
+                    <label>Vendor responsible for advising on customs hours/approval</label>
+                </value>
+                <value>
+                    <fullName>Hot temperatures at an elevated airport may result in a fuel stop (weight matters)</fullName>
+                    <default>false</default>
+                    <label>Hot temperatures at an elevated airport may result in a fuel stop (weight matters)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Departure_Airport__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Departure Airport</label>
+        <referenceTo>Airport__c</referenceTo>
+        <relationshipLabel>Itinerary Solutions (Starting Airport)</relationshipLabel>
+        <relationshipName>Itineraries</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Detailed_Cancellation_Policy__c</fullName>
+        <externalId>false</externalId>
+        <label>Detailed Cancellation Policy</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Diff_to_Prev_Flight_on_Same_Route__c</fullName>
+        <description>Cost Compared to Previous Flight on Same Route</description>
+        <externalId>false</externalId>
+        <label>Diff. to Prev. Flight on Same Route</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Estimated_Billable_Time_hours__c</fullName>
+        <externalId>false</externalId>
+        <label>Estimated Billable Time (hours)</label>
+        <precision>17</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Estimated_Cost__c</fullName>
+        <externalId>false</externalId>
+        <label>Estimated Operator Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Estimated_Days__c</fullName>
+        <externalId>false</externalId>
+        <label>Estimated Days</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Estimated_Flight_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>Estimated Flight Time</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Estimated_Flight_Time_hours__c</fullName>
+        <externalId>false</externalId>
+        <label>Estimated Flight Time (hours)</label>
+        <precision>17</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Estimated_Total_Cost_Charter__c</fullName>
+        <externalId>false</externalId>
+        <label>Estimated Total Cost (Charter)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Estimated_Total_Cost__c</fullName>
+        <externalId>false</externalId>
+        <formula>Estimated_Cost__c +  Broker_Fee__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Estimated Total Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>FET_Included__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Confirmed that FET is included in the Estimated Cost.</inlineHelpText>
+        <label>FET Included</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Fuel_Stop_Risk__c</fullName>
+        <externalId>false</externalId>
+        <label>Fuel Stop Risk</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Aircraft Type – Vendor says non-stop, but we think a tech-stop is possible</fullName>
+                    <default>false</default>
+                    <label>Aircraft Type – Vendor says non-stop, but we think a tech-stop is possible</label>
+                </value>
+                <value>
+                    <fullName>A fuel stop will add billable time and costs when compared to program trip sheet estimate</fullName>
+                    <default>false</default>
+                    <label>A fuel stop will add billable time and costs when compared to program trip sheet estimate</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Hourly_Rate__c</fullName>
+        <externalId>false</externalId>
+        <label>Hourly Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Hours_Savings__c</fullName>
+        <externalId>false</externalId>
+        <label>Hours Savings</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hours__c</fullName>
+        <externalId>false</externalId>
+        <label>Hours</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>If_Subcontracted_Operator__c</fullName>
+        <externalId>false</externalId>
+        <label>If Subcontracted, Operator</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Important_Solution_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Important Solution Notes</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>International_Cancellation_Terms__c</fullName>
+        <externalId>false</externalId>
+        <formula>Operator__r.International_Cancellation_Terms__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>International Cancellation Terms</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>International_Risk_Fees__c</fullName>
+        <externalId>false</externalId>
+        <label>International Risk or Fees</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>International fees on program flights US-Europe Program flights can often be $10-15k</fullName>
+                    <default>false</default>
+                    <label>International fees on program flights US-Europe Program flights can often be $10-15k</label>
+                </value>
+                <value>
+                    <fullName>International fees on program flights Europe-Europe Program flights can often be $1-$5k</fullName>
+                    <default>false</default>
+                    <label>International fees on program flights Europe-Europe Program flights can often be $1-$5k</label>
+                </value>
+                <value>
+                    <fullName>Restricted customs hours, permit/handling deadlines, pet restrictions, minors without both parents require a notarized form from the other parent</fullName>
+                    <default>false</default>
+                    <label>Restricted customs hours, permit/handling deadlines, pet restrictions, minors without both parents require a notarized form from the other parent</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Itinerary_Solution_Owner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Itinerary Solution Owner</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Itinerary_Solutions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Max_Seats__c</fullName>
+        <externalId>false</externalId>
+        <label>Max Seats</label>
+        <length>3</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Negotiated_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Negotiated Description</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Negotiated_Terms__c</fullName>
+        <externalId>false</externalId>
+        <label>Negotiated Terms</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Aircraft Positioning</fullName>
+                    <default>false</default>
+                    <label>Aircraft Positioning</label>
+                </value>
+                <value>
+                    <fullName>Aircraft Type</fullName>
+                    <default>false</default>
+                    <label>Aircraft Type</label>
+                </value>
+                <value>
+                    <fullName>Cancellation Terms</fullName>
+                    <default>false</default>
+                    <label>Cancellation Terms</label>
+                </value>
+                <value>
+                    <fullName>Cost</fullName>
+                    <default>false</default>
+                    <label>Cost</label>
+                </value>
+                <value>
+                    <fullName>Crewing</fullName>
+                    <default>false</default>
+                    <label>Crewing</label>
+                </value>
+                <value>
+                    <fullName>Payment Terms</fullName>
+                    <default>false</default>
+                    <label>Payment Terms</label>
+                </value>
+                <value>
+                    <fullName>Peak Day Restrictions</fullName>
+                    <default>false</default>
+                    <label>Peak Day Restrictions</label>
+                </value>
+                <value>
+                    <fullName>Sliding Departure</fullName>
+                    <default>false</default>
+                    <label>Sliding Departure</label>
+                </value>
+                <value>
+                    <fullName>WiFi Cost</fullName>
+                    <default>false</default>
+                    <label>WiFi Cost</label>
+                </value>
+                <value>
+                    <fullName>Other Legal</fullName>
+                    <default>false</default>
+                    <label>Other Legal</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>New_Forecasted_Trend__c</fullName>
+        <externalId>false</externalId>
+        <label>New Forecasted Trend</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Operating_Annual_Cost_Savings__c</fullName>
+        <externalId>false</externalId>
+        <label>Operating Annual Cost Savings</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Operating_Annual_Cost__c</fullName>
+        <externalId>false</externalId>
+        <label>Operating Annual Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Operator_Confirmed_Aircraft__c</fullName>
+        <externalId>false</externalId>
+        <label>Aircraft confirmed to use wet runway?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Operator_Confirmed_Nonstop__c</fullName>
+        <externalId>false</externalId>
+        <label>Operator Confirmed Nonstop</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Operator_Point_of_Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Operator Point of Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Itinerary Solutions (Contact Name)</relationshipLabel>
+        <relationshipName>Itinerary_Options</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Operator__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Operator</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Operator</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipName>Itineraries1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Overnights__c</fullName>
+        <externalId>false</externalId>
+        <formula>Trip_End_Date__c -Trip_Start_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label># of Overnights</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Payment_Terms__c</fullName>
+        <externalId>false</externalId>
+        <formula>Operator__r.Payment_Terms__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Payment Terms</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Peak_Cancellation_Terms__c</fullName>
+        <externalId>false</externalId>
+        <formula>Operator__r.Peak_Cancellation_Terms__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Peak Cancellation Terms</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Peak_High_Demand_Day_Risk__c</fullName>
+        <externalId>false</externalId>
+        <label>Peak/High Demand Day Risk</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Morning flights have far less issues (delays, crew duty, diversions) than flights later in the day</fullName>
+                    <default>false</default>
+                    <label>Morning flights have far less issues (delays, crew duty, diversions) than flights later in the day</label>
+                </value>
+                <value>
+                    <fullName>Backup/recovery solutions will be significantly longer than standard demand days</fullName>
+                    <default>false</default>
+                    <label>Backup/recovery solutions will be significantly longer than standard demand days</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Potential_Additional_Fees_Charter__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Does not include catering and ground</inlineHelpText>
+        <label>Potential Additional Fees (Charter)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Potential_Additional_Fees__c</fullName>
+        <externalId>false</externalId>
+        <label>Potential Additional Fees</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Additional Fees ADDED to the contracted cost include additional flight time, international fees, hangar, and de-icing fees due to inclement weather, catering WIFI and flight phone charges</fullName>
+                    <default>false</default>
+                    <label>Additional Fees ADDED to the contracted cost include additional flight time, international fees, hangar, and de-icing fees due to inclement weather, catering WIFI and flight phone charges</label>
+                </value>
+                <value>
+                    <fullName>WiFi fees can be as high as $5k-$25k</fullName>
+                    <default>false</default>
+                    <label>WiFi fees can be as high as $5k-$25k</label>
+                </value>
+                <value>
+                    <fullName>WiFi fees can be as high as $25k-$50k</fullName>
+                    <default>false</default>
+                    <label>WiFi fees can be as high as $25k-$50k</label>
+                </value>
+                <value>
+                    <fullName>WiFi fees can be as high as $50k-$100k</fullName>
+                    <default>false</default>
+                    <label>WiFi fees can be as high as $50k-$100k</label>
+                </value>
+                <value>
+                    <fullName>De-icing fees on light cabin planes can cost an additional $2k-$5k</fullName>
+                    <default>false</default>
+                    <label>De-icing fees on light cabin planes can cost an additional $2k-$5k</label>
+                </value>
+                <value>
+                    <fullName>De-icing fees on mid cabin planes can cost an additional $3k-$6k</fullName>
+                    <default>false</default>
+                    <label>De-icing fees on mid cabin planes can cost an additional $3k-$6k</label>
+                </value>
+                <value>
+                    <fullName>De-icing fees on super-mid cabin planes can cost an additional $4k-$8k</fullName>
+                    <default>false</default>
+                    <label>De-icing fees on super-mid cabin planes can cost an additional $4k-$8k</label>
+                </value>
+                <value>
+                    <fullName>De-icing fees on large cabin planes can cost an additional $5k-$20k</fullName>
+                    <default>false</default>
+                    <label>De-icing fees on large cabin planes can cost an additional $5k-$20k</label>
+                </value>
+                <value>
+                    <fullName>Pet cleaning fees are often $500-$1,500</fullName>
+                    <default>false</default>
+                    <label>Pet cleaning fees are often $500-$1,500</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Program_Period__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Program Period</label>
+        <referenceTo>Client_Program_Year__c</referenceTo>
+        <relationshipLabel>Itinerary Solutions</relationshipLabel>
+        <relationshipName>Itinerary_Solutions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Program__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Program</label>
+        <referenceTo>Client_Program__c</referenceTo>
+        <relationshipLabel>Itinerary Solutions</relationshipLabel>
+        <relationshipName>Itinerary_Solutions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Qualifying_Discounts__c</fullName>
+        <externalId>false</externalId>
+        <label>Qualifying Discounts</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quote__c</fullName>
+        <externalId>false</externalId>
+        <label>Quote #</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Recovery_Cost__c</fullName>
+        <externalId>false</externalId>
+        <label>Recovery Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Recovery_Percentage__c</fullName>
+        <externalId>false</externalId>
+        <label>Recovery %</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>10,20,30,40,50,60,70,80,90,100</fullName>
+                    <default>false</default>
+                    <label>10,20,30,40,50,60,70,80,90,100</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Risk_Data__c</fullName>
+        <externalId>false</externalId>
+        <label>Risk Data</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Salesforce_Update__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Salesforce Update?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Same_day_roundtrip__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( AND(ISPICKVAL(Solution_Trip_Type__c , &quot;Round Trip&quot;),  Trip_End_Date__c =  Trip_Start_Date__c ), &quot;Yes&quot; , &quot;No&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Same Day Roundtrip?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Solution_Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Solution Category</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Guaranteed</fullName>
+                    <default>false</default>
+                    <label>Guaranteed</label>
+                </value>
+                <value>
+                    <fullName>Non-Guaranteed/Charter</fullName>
+                    <default>false</default>
+                    <label>Non-Guaranteed/Charter</label>
+                </value>
+                <value>
+                    <fullName>Shuttle</fullName>
+                    <default>false</default>
+                    <label>Shuttle</label>
+                </value>
+                <value>
+                    <fullName>Empty Leg</fullName>
+                    <default>false</default>
+                    <label>Empty Leg</label>
+                </value>
+                <value>
+                    <fullName>Aircraft Owner</fullName>
+                    <default>false</default>
+                    <label>Aircraft Owner</label>
+                </value>
+                <value>
+                    <fullName>TBD</fullName>
+                    <default>false</default>
+                    <label>TBD</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Solution_Preference__c</fullName>
+        <externalId>false</externalId>
+        <label>Solution Preference</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Solution_Risk__c</fullName>
+        <externalId>false</externalId>
+        <label>Solution Risk</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Positioning on leg one may only be 60 minutes prior because floating fleet</fullName>
+                    <default>false</default>
+                    <label>Positioning on leg one may only be 60 minutes prior because floating fleet</label>
+                </value>
+                <value>
+                    <fullName>Positioning on leg one may only be 60 minutes prior because aircraft is based at another airport</fullName>
+                    <default>false</default>
+                    <label>Positioning on leg one may only be 60 minutes prior because aircraft is based at another airport</label>
+                </value>
+                <value>
+                    <fullName>Aircraft will not be staying with you for the duration of the trip so you may not be able to leave early</fullName>
+                    <default>false</default>
+                    <label>Aircraft will not be staying with you for the duration of the trip so you may not be able to leave early</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Solution_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Solution Status</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Available</fullName>
+                    <default>false</default>
+                    <label>Available</label>
+                </value>
+                <value>
+                    <fullName>Booked</fullName>
+                    <default>false</default>
+                    <label>Booked</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+                <value>
+                    <fullName>Owner Denied</fullName>
+                    <default>false</default>
+                    <label>Owner Denied</label>
+                </value>
+                <value>
+                    <fullName>On Hold for Non-AvP Client</fullName>
+                    <default>false</default>
+                    <label>On Hold for Non-AvP Client</label>
+                </value>
+                <value>
+                    <fullName>Pending Owner Approval</fullName>
+                    <default>false</default>
+                    <label>Pending Owner Approval</label>
+                </value>
+                <value>
+                    <fullName>Unavailable</fullName>
+                    <default>false</default>
+                    <label>Unavailable</label>
+                </value>
+                <value>
+                    <fullName>No Longer Available</fullName>
+                    <default>false</default>
+                    <label>No Longer Available</label>
+                </value>
+                <value>
+                    <fullName>Requested</fullName>
+                    <default>false</default>
+                    <label>Requested</label>
+                </value>
+                <value>
+                    <fullName>Recovery Available</fullName>
+                    <default>false</default>
+                    <label>Recovery Available</label>
+                </value>
+                <value>
+                    <fullName>Recovery Unavailable</fullName>
+                    <default>false</default>
+                    <label>Recovery Unavailable</label>
+                </value>
+                <value>
+                    <fullName>Recovery Booked</fullName>
+                    <default>false</default>
+                    <label>Recovery Booked</label>
+                </value>
+                <value>
+                    <fullName>Cancelled - Maintenance</fullName>
+                    <default>false</default>
+                    <label>Cancelled - Maintenance</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Solution_Trip_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Solution Trip Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>One-Way</fullName>
+                    <default>false</default>
+                    <label>One-Way</label>
+                </value>
+                <value>
+                    <fullName>Round Trip</fullName>
+                    <default>false</default>
+                    <label>Round Trip</label>
+                </value>
+                <value>
+                    <fullName>Same-Day Round Trip</fullName>
+                    <default>false</default>
+                    <label>Same-Day Round Trip</label>
+                </value>
+                <value>
+                    <fullName>Multi-Segment</fullName>
+                    <default>false</default>
+                    <label>Multi-Segment</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Standard_Cancellation_Terms__c</fullName>
+        <externalId>false</externalId>
+        <formula>Operator__r.Standard_Cancellation_Terms__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Standard Cancellation Terms</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Subcontracted__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub-Contracted?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Tail_Number__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Tail Number</label>
+        <referenceTo>Aircraft__c</referenceTo>
+        <relationshipLabel>Itinerary Solutions</relationshipLabel>
+        <relationshipName>Itinerary_Solutions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Trip_End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Trip End Date</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Trip_Manager_Number__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Trip Manager Number</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>Itinerary Solutions</relationshipLabel>
+        <relationshipName>Itineraries</relationshipName>
+        <required>true</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Trip_Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Trip Start Date</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Trip_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Trip_Manager_Number__r.Trip_Type__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Trip Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Upgrade_Downgrade__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Conversion_Rate__c &lt; 1, &quot;Downgrade&quot;, &quot;Upgrade&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Upgrade/Downgrade</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Value_for_Price_Difference__c</fullName>
+        <externalId>false</externalId>
+        <label>Value for Price Difference</label>
+        <length>5000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Value_of_Discounts__c</fullName>
+        <externalId>false</externalId>
+        <label>Value of Discounts</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Variable_Cost_Savings__c</fullName>
+        <externalId>false</externalId>
+        <label>Variable Cost Savings</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Variable_Cost__c</fullName>
+        <externalId>false</externalId>
+        <label>Variable Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Vendor_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor Name</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Why_was_this_solution_selected__c</fullName>
+        <externalId>false</externalId>
+        <label>Why was this solution selected?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Will_Crew_Pass_ARGUS_or_Wyvern__c</fullName>
+        <externalId>false</externalId>
+        <label>Will Crew Pass ARGUS or Wyvern?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Itinerary Solution</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Trip_Manager_Number__c</columns>
+        <columns>Quote__c</columns>
+        <columns>Operator_Point_of_Contact__c</columns>
+        <columns>Departure_Airport__c</columns>
+        <columns>Arrival_Airport__c</columns>
+        <columns>Operator__c</columns>
+        <columns>Booked_Solution__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>equals</operation>
+        </filters>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>IS-{000000}</displayFormat>
+        <label>Itinerary Solution ID</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Itinerary Solutions</pluralLabel>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Not_Visible</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>IS_Compact_Layout</compactLayoutAssignment>
+        <description>Itinerary Solutions not visible to Community Users</description>
+        <label>Not Visible</label>
+        <picklistValues>
+            <picklist>Added_as_Additionally_Insured__c</picklist>
+            <values>
+                <fullName>Not Required</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Aircraft_Owner_Approval_Received__c</picklist>
+            <values>
+                <fullName>Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N%2FA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested - Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Arrival_Airport_Risk__c</picklist>
+            <values>
+                <fullName>After-hours are subject to approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Arrival Airport - May be unusable if wet conditions %E2%80%93 Make sure to know the nearest alternative airport</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Often experiences ATC Delays %E2%80%93 Make sure to know the nearest alternative airport</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vendor responsible for advising on customs hours%2Fapproval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Weather Restricted %E2%80%93 Make sure to know the nearest alternative airport</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Back_Up_Recovery_Cost_Risk__c</picklist>
+            <values>
+                <fullName>Backup%2Frecovery solution projected cost is 10-25%25 more than your original contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Backup%2Frecovery solution projected cost is 100-150%25 more than your original contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Backup%2Frecovery solution projected cost is 150-200%25 more than your original contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Backup%2Frecovery solution projected cost is 25-50%25 more than your original contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Backup%2Frecovery solution projected cost is 50-75%25 more than your original contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Backup%2Frecovery solution projected cost is 75-100%25 more than your original contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>If the aircraft has a mechanical after leg one%2C the recovery solution will likely be at least an additional 50%25</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Backup_Recovery_Delay_Risk__c</picklist>
+            <values>
+                <fullName>Projected delay is 2 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Projected delay is 24 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Projected delay is 3 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Projected delay is 4 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Projected delay is 48 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Projected delay is 5 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Projected delay is 6 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Projected delay is the NEXT day if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Booking_Risk__c</picklist>
+            <values>
+                <fullName>Solution is not confirmed until it has requested%2Freceived owner approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vendor requires a signed contract just to request owner approval</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Cancellation_Change_Fees__c</picklist>
+            <values>
+                <fullName>Cancellation Terms are Not flexible within 3 business days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancellation Terms over the holidays are very inflexible</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Departure times AND dates are considered firm and any changes are subject to vendor approval%2E You will be subject to the cancellation terms if you need to book another solution</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Contingency_Plan_Activated__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Crew_Duty_Risk__c</picklist>
+            <values>
+                <fullName>TBD</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Departure_Airport_Risk__c</picklist>
+            <values>
+                <fullName>After-hours are subject to approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hot temperatures at an elevated airport may result in a fuel stop %28weight matters%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>May be unusable if wet conditions %E2%80%93 Make sure to know the nearest alternative airport</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Often experiences ATC Delays %E2%80%93 Make sure to know the nearest alternative airport</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vendor responsible for advising on customs hours%2Fapproval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Weather Restricted %E2%80%93 Make sure to know the nearest alternative airport</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Fuel_Stop_Risk__c</picklist>
+            <values>
+                <fullName>A fuel stop will add billable time and costs when compared to program trip sheet estimate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aircraft Type %E2%80%93 Vendor says non-stop%2C but we think a tech-stop is possible</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>International_Risk_Fees__c</picklist>
+            <values>
+                <fullName>International fees on program flights Europe-Europe Program flights can often be %241-%245k</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>International fees on program flights US-Europe Program flights can often be %2410-15k</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Restricted customs hours%2C permit%2Fhandling deadlines%2C pet restrictions%2C minors without both parents require a notarized form from the other parent</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Negotiated_Terms__c</picklist>
+            <values>
+                <fullName>Aircraft Positioning</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aircraft Type</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancellation Terms</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cost</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Crewing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other Legal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payment Terms</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Peak Day Restrictions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sliding Departure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WiFi Cost</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Operator_Confirmed_Aircraft__c</picklist>
+            <values>
+                <fullName>N%2FA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Operator_Confirmed_Nonstop__c</picklist>
+            <values>
+                <fullName>N%2FA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Peak_High_Demand_Day_Risk__c</picklist>
+            <values>
+                <fullName>Backup%2Frecovery solutions will be significantly longer than standard demand days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Morning flights have far less issues %28delays%2C crew duty%2C diversions%29 than flights later in the day</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Potential_Additional_Fees__c</picklist>
+            <values>
+                <fullName>Additional Fees ADDED to the contracted cost include additional flight time%2C international fees%2C hangar%2C and de-icing fees due to inclement weather%2C catering WIFI and flight phone charges</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>De-icing fees on large cabin planes can cost an additional %245k-%2420k</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>De-icing fees on light cabin planes can cost an additional %242k-%245k</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>De-icing fees on mid cabin planes can cost an additional %243k-%246k</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>De-icing fees on super-mid cabin planes can cost an additional %244k-%248k</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pet cleaning fees are often %24500-%241%2C500</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WiFi fees can be as high as %2425k-%2450k</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WiFi fees can be as high as %2450k-%24100k</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WiFi fees can be as high as %245k-%2425k</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Recovery_Percentage__c</picklist>
+            <values>
+                <fullName>10%2C20%2C30%2C40%2C50%2C60%2C70%2C80%2C90%2C100</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Solution_Category__c</picklist>
+            <values>
+                <fullName>Aircraft Owner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Empty Leg</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Guaranteed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-Guaranteed%2FCharter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shuttle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TBD</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Solution_Preference__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Solution_Risk__c</picklist>
+            <values>
+                <fullName>Aircraft will not be staying with you for the duration of the trip so you may not be able to leave early</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Positioning on leg one may only be 60 minutes prior because aircraft is based at another airport</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Positioning on leg one may only be 60 minutes prior because floating fleet</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Solution_Status__c</picklist>
+            <values>
+                <fullName>Available</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Booked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled - Maintenance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Longer Available</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>On Hold for Non-AvP Client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Owner Denied</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Owner Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recovery Available</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recovery Booked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recovery Unavailable</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unavailable</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Solution_Trip_Type__c</picklist>
+            <values>
+                <fullName>Multi-Segment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>One-Way</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Round Trip</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Same-Day Round Trip</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subcontracted__c</picklist>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Will_Crew_Pass_ARGUS_or_Wyvern__c</picklist>
+            <values>
+                <fullName>N%2FA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Visible</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>IS_Compact_Layout</compactLayoutAssignment>
+        <description>Itinerary Solutions that are visible to Community Users.</description>
+        <label>Visible</label>
+        <picklistValues>
+            <picklist>Added_as_Additionally_Insured__c</picklist>
+            <values>
+                <fullName>Not Required</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Aircraft_Owner_Approval_Received__c</picklist>
+            <values>
+                <fullName>Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N%2FA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested - Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Arrival_Airport_Risk__c</picklist>
+            <values>
+                <fullName>After-hours are subject to approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Arrival Airport - May be unusable if wet conditions %E2%80%93 Make sure to know the nearest alternative airport</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Often experiences ATC Delays %E2%80%93 Make sure to know the nearest alternative airport</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vendor responsible for advising on customs hours%2Fapproval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Weather Restricted %E2%80%93 Make sure to know the nearest alternative airport</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Back_Up_Recovery_Cost_Risk__c</picklist>
+            <values>
+                <fullName>Backup%2Frecovery solution projected cost is 10-25%25 more than your original contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Backup%2Frecovery solution projected cost is 100-150%25 more than your original contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Backup%2Frecovery solution projected cost is 150-200%25 more than your original contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Backup%2Frecovery solution projected cost is 25-50%25 more than your original contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Backup%2Frecovery solution projected cost is 50-75%25 more than your original contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Backup%2Frecovery solution projected cost is 75-100%25 more than your original contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>If the aircraft has a mechanical after leg one%2C the recovery solution will likely be at least an additional 50%25</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Backup_Recovery_Delay_Risk__c</picklist>
+            <values>
+                <fullName>Projected delay is 2 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Projected delay is 24 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Projected delay is 3 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Projected delay is 4 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Projected delay is 48 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Projected delay is 5 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Projected delay is 6 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Projected delay is the NEXT day if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Booking_Risk__c</picklist>
+            <values>
+                <fullName>Solution is not confirmed until it has requested%2Freceived owner approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vendor requires a signed contract just to request owner approval</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Cancellation_Change_Fees__c</picklist>
+            <values>
+                <fullName>Cancellation Terms are Not flexible within 3 business days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancellation Terms over the holidays are very inflexible</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Departure times AND dates are considered firm and any changes are subject to vendor approval%2E You will be subject to the cancellation terms if you need to book another solution</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Contingency_Plan_Activated__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Crew_Duty_Risk__c</picklist>
+            <values>
+                <fullName>TBD</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Departure_Airport_Risk__c</picklist>
+            <values>
+                <fullName>After-hours are subject to approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hot temperatures at an elevated airport may result in a fuel stop %28weight matters%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>May be unusable if wet conditions %E2%80%93 Make sure to know the nearest alternative airport</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Often experiences ATC Delays %E2%80%93 Make sure to know the nearest alternative airport</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vendor responsible for advising on customs hours%2Fapproval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Weather Restricted %E2%80%93 Make sure to know the nearest alternative airport</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Fuel_Stop_Risk__c</picklist>
+            <values>
+                <fullName>A fuel stop will add billable time and costs when compared to program trip sheet estimate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aircraft Type %E2%80%93 Vendor says non-stop%2C but we think a tech-stop is possible</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>International_Risk_Fees__c</picklist>
+            <values>
+                <fullName>International fees on program flights Europe-Europe Program flights can often be %241-%245k</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>International fees on program flights US-Europe Program flights can often be %2410-15k</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Restricted customs hours%2C permit%2Fhandling deadlines%2C pet restrictions%2C minors without both parents require a notarized form from the other parent</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Negotiated_Terms__c</picklist>
+            <values>
+                <fullName>Aircraft Positioning</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aircraft Type</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancellation Terms</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cost</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Crewing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other Legal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payment Terms</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Peak Day Restrictions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sliding Departure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WiFi Cost</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Operator_Confirmed_Aircraft__c</picklist>
+            <values>
+                <fullName>N%2FA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Operator_Confirmed_Nonstop__c</picklist>
+            <values>
+                <fullName>N%2FA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Peak_High_Demand_Day_Risk__c</picklist>
+            <values>
+                <fullName>Backup%2Frecovery solutions will be significantly longer than standard demand days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Morning flights have far less issues %28delays%2C crew duty%2C diversions%29 than flights later in the day</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Potential_Additional_Fees__c</picklist>
+            <values>
+                <fullName>Additional Fees ADDED to the contracted cost include additional flight time%2C international fees%2C hangar%2C and de-icing fees due to inclement weather%2C catering WIFI and flight phone charges</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>De-icing fees on large cabin planes can cost an additional %245k-%2420k</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>De-icing fees on light cabin planes can cost an additional %242k-%245k</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>De-icing fees on mid cabin planes can cost an additional %243k-%246k</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>De-icing fees on super-mid cabin planes can cost an additional %244k-%248k</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pet cleaning fees are often %24500-%241%2C500</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WiFi fees can be as high as %2425k-%2450k</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WiFi fees can be as high as %2450k-%24100k</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WiFi fees can be as high as %245k-%2425k</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Recovery_Percentage__c</picklist>
+            <values>
+                <fullName>10%2C20%2C30%2C40%2C50%2C60%2C70%2C80%2C90%2C100</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Solution_Category__c</picklist>
+            <values>
+                <fullName>Aircraft Owner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Empty Leg</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Guaranteed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-Guaranteed%2FCharter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shuttle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TBD</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Solution_Preference__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Solution_Risk__c</picklist>
+            <values>
+                <fullName>Aircraft will not be staying with you for the duration of the trip so you may not be able to leave early</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Positioning on leg one may only be 60 minutes prior because aircraft is based at another airport</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Positioning on leg one may only be 60 minutes prior because floating fleet</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Solution_Status__c</picklist>
+            <values>
+                <fullName>Available</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Booked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled - Maintenance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Longer Available</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>On Hold for Non-AvP Client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Owner Denied</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Owner Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recovery Available</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recovery Booked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recovery Unavailable</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unavailable</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Solution_Trip_Type__c</picklist>
+            <values>
+                <fullName>Multi-Segment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>One-Way</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Round Trip</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Same-Day Round Trip</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subcontracted__c</picklist>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Will_Crew_Pass_ARGUS_or_Wyvern__c</picklist>
+            <values>
+                <fullName>N%2FA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>Trip_Manager_Number__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Contact_Name__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Departure_Airport__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Arrival_Airport__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Operator__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Quote__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Estimated_Cost__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Booked_Solution__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Trip_Manager_Number__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Contact_Name__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Broker__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Operator__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Quote__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Departure_Airport__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Arrival_Airport__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Estimated_Cost__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Booked_Solution__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Trip_Manager_Number__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Quote__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Operator_Point_of_Contact__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Departure_Airport__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Arrival_Airport__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Operator__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Booked_Solution__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Trip_Manager_Number__c</searchFilterFields>
+        <searchFilterFields>Quote__c</searchFilterFields>
+        <searchFilterFields>Operator_Point_of_Contact__c</searchFilterFields>
+        <searchFilterFields>Departure_Airport__c</searchFilterFields>
+        <searchFilterFields>Arrival_Airport__c</searchFilterFields>
+        <searchFilterFields>Operator__c</searchFilterFields>
+        <searchFilterFields>Booked_Solution__c</searchFilterFields>
+        <searchResultsAdditionalFields>Trip_Manager_Number__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Quote__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Operator_Point_of_Contact__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Departure_Airport__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Arrival_Airport__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Operator__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Booked_Solution__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <fullName>Cannot_change_record_type</fullName>
+        <active>false</active>
+        <description>You cannot change the record type for this Solution Status.</description>
+        <errorConditionFormula>AND( RecordType.DeveloperName = &quot;Visible&quot;, 
+     OR(ISPICKVAL( Solution_Status__c , &quot;Available&quot;), 
+        ISPICKVAL( Solution_Status__c, &quot;Unavailable&quot;),
+        ISPICKVAL(Solution_Status__c, &quot;Requested&quot;),
+        ISPICKVAL(Solution_Status__c, &quot;On Hold for Non-AvP Client&quot;))
+)</errorConditionFormula>
+        <errorDisplayField>Solution_Status__c</errorDisplayField>
+        <errorMessage>You cannot change the record type for this Solution Status.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Enter_Aircraft_Confirmed_Wet_Runway</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( ISPICKVAL(  Solution_Status__c  , &quot;Available&quot;), ISPICKVAL ( Solution_Category__c , &quot;Non-Guaranteed/Charter&quot;),
+ISBLANK( TEXT( Operator_Confirmed_Aircraft__c  )))</errorConditionFormula>
+        <errorDisplayField>Operator_Confirmed_Aircraft__c</errorDisplayField>
+        <errorMessage>Please enter Operator Confirmed Aircraft Wet Runway</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Enter_Broker_Fee</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( ISPICKVAL(  Solution_Status__c  , &quot;Available&quot;), ISPICKVAL ( Solution_Category__c , &quot;Non-Guaranteed/Charter&quot;), NOT(ISBLANK( Broker__c )),
+ISBLANK(  Broker_Fee__c  ))</errorConditionFormula>
+        <errorDisplayField>Broker_Fee__c</errorDisplayField>
+        <errorMessage>Please enter Broker Fee</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Enter_Crew_Pass</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( ISPICKVAL(  Solution_Status__c  , &quot;Available&quot;), ISPICKVAL ( Solution_Category__c , &quot;Non-Guaranteed/Charter&quot;),
+ISBLANK(TEXT(  Will_Crew_Pass_ARGUS_or_Wyvern__c  )))</errorConditionFormula>
+        <errorDisplayField>Will_Crew_Pass_ARGUS_or_Wyvern__c</errorDisplayField>
+        <errorMessage>Please enter Will crew pass Argus or Wyvern</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Enter_Estimated_Billable_Time</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( ISPICKVAL(  Solution_Status__c  , &quot;Available&quot;), ISPICKVAL ( Solution_Category__c , &quot;Non-Guaranteed/Charter&quot;),
+ISBLANK(  Estimated_Billable_Time_hours__c  ))</errorConditionFormula>
+        <errorDisplayField>Estimated_Billable_Time_hours__c</errorDisplayField>
+        <errorMessage>Please enter estimated billable time</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Enter_Estimated_Cost</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( ISPICKVAL(  Solution_Status__c  , &quot;Available&quot;), ISPICKVAL ( Solution_Category__c , &quot;Non-Guaranteed/Charter&quot;),
+ISBLANK( Estimated_Cost__c ))</errorConditionFormula>
+        <errorDisplayField>Estimated_Cost__c</errorDisplayField>
+        <errorMessage>Please enter estimated operator cost</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Enter_Operator_Confirmed_Nonstop</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( ISPICKVAL(  Solution_Status__c  , &quot;Available&quot;), ISPICKVAL ( Solution_Category__c , &quot;Non-Guaranteed/Charter&quot;),
+ISBLANK( TEXT( Operator_Confirmed_Nonstop__c  )))</errorConditionFormula>
+        <errorDisplayField>Operator_Confirmed_Nonstop__c</errorDisplayField>
+        <errorMessage>Please enter Operator Confirmed Nonstop</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Enter_Selection_Reason</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( ISPICKVAL( Solution_Status__c , &quot;Booked&quot;), ISBLANK ( Why_was_this_solution_selected__c ))</errorConditionFormula>
+        <errorDisplayField>Why_was_this_solution_selected__c</errorDisplayField>
+        <errorMessage>Please enter reason for selecting this itinerary solution</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Itinerary_Full_View</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Itinerary Full View</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/00O0P000002yfGN?pv0={!Case.CaseNumber}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Related_Legs</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Related Legs</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/00OK0000000eHoQ?pv0={!Itinerary_Solution__c.Name}</url>
+    </webLinks>
+</CustomObject>

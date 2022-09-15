@@ -1,0 +1,1813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Trip Manager</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Trip Managers</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- CRMC Action Grid Defaults --></label>
+        <name>CRMC_PP__CRMC_Action_Grid_Defaults</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Auto Close --></label>
+        <name>FSTR__Auto_Close</name>
+    </fieldSets>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Access</value>
+        </caseValues>
+        <name>case_access</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Access Level</value>
+        </caseValues>
+        <name>case_access_level</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Account</value>
+        </caseValues>
+        <name>case_account</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Alert</value>
+        </caseValues>
+        <name>case_alert</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Article</value>
+        </caseValues>
+        <name>case_article</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Article ID</value>
+        </caseValues>
+        <name>case_article_id</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Asset</value>
+        </caseValues>
+        <name>case_asset</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Assignment Rule</value>
+        </caseValues>
+        <name>case_assignment_rule</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Capture</value>
+        </caseValues>
+        <name>case_capture</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Capture Information</value>
+        </caseValues>
+        <name>case_capture_information</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Capture Page</value>
+        </caseValues>
+        <name>case_capture_page</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Close</value>
+        </caseValues>
+        <name>case_close</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Closed</value>
+        </caseValues>
+        <name>case_closed</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Closure</value>
+        </caseValues>
+        <name>case_closure</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Comment</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Trip Manager Comments</value>
+        </caseValues>
+        <name>case_comment</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Comment ID</value>
+        </caseValues>
+        <name>case_comment_id</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Comment Information</value>
+        </caseValues>
+        <name>case_comment_information</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Company</value>
+        </caseValues>
+        <name>case_company</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Contact</value>
+        </caseValues>
+        <name>case_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Contact Role</value>
+        </caseValues>
+        <name>case_contact_role</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Created Date</value>
+        </caseValues>
+        <name>case_created_date</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Creator</value>
+        </caseValues>
+        <name>case_creator</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Currency</value>
+        </caseValues>
+        <name>case_currency</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Custom Field</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Trip Manager Custom Fields</value>
+        </caseValues>
+        <name>case_custom_field</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Itinerary/Date/Routing/Times</value>
+        </caseValues>
+        <name>case_description</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Detail</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Trip Manager Details</value>
+        </caseValues>
+        <name>case_detail</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Detail Link</value>
+        </caseValues>
+        <name>case_detail_link</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Division</value>
+        </caseValues>
+        <name>case_division</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Edit</value>
+        </caseValues>
+        <name>case_edit</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Email</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Trip Manager Emails</value>
+        </caseValues>
+        <name>case_email</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Field</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Trip Manager Fields</value>
+        </caseValues>
+        <name>case_field</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager History</value>
+        </caseValues>
+        <name>case_history</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager History ID</value>
+        </caseValues>
+        <name>case_history_id</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager History Info</value>
+        </caseValues>
+        <name>case_history_info</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager History Owner</value>
+        </caseValues>
+        <name>case_history_owner</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager History Report</value>
+        </caseValues>
+        <name>case_history_report</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager History Status</value>
+        </caseValues>
+        <name>case_history_status</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager ID</value>
+        </caseValues>
+        <name>case_id</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Information</value>
+        </caseValues>
+        <name>case_information</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Last Modified</value>
+        </caseValues>
+        <name>case_last_modified</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Lifecycle</value>
+        </caseValues>
+        <name>case_lifecycle</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Lifecycle Report</value>
+        </caseValues>
+        <name>case_lifecycle_report</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Milestone</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Trip Manager Milestones</value>
+        </caseValues>
+        <name>case_milestone</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Name</value>
+        </caseValues>
+        <name>case_name</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Number</value>
+        </caseValues>
+        <name>case_number</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Origin</value>
+        </caseValues>
+        <name>case_origin</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Owner</value>
+        </caseValues>
+        <name>case_owner</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Owner Alias</value>
+        </caseValues>
+        <name>case_owner_alias</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Owner Role</value>
+        </caseValues>
+        <name>case_owner_role</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Phone</value>
+        </caseValues>
+        <name>case_phone</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Picklist</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Trip Manager Picklists</value>
+        </caseValues>
+        <name>case_picklist</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Priority</value>
+        </caseValues>
+        <name>case_priority</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Queue</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Trip Manager Queues</value>
+        </caseValues>
+        <name>case_queue</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Reason</value>
+        </caseValues>
+        <name>case_reason</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Record Type</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Trip Manager Record Types</value>
+        </caseValues>
+        <name>case_record_type</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Record Type ID</value>
+        </caseValues>
+        <name>case_record_type_id</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Report</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Trip Manager Reports</value>
+        </caseValues>
+        <name>case_report</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Solution</value>
+        </caseValues>
+        <name>case_solution</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Solution ID</value>
+        </caseValues>
+        <name>case_solution_id</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Splash Page</value>
+        </caseValues>
+        <name>case_splash_page</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Stage ID</value>
+        </caseValues>
+        <name>case_stage_id</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Status</value>
+        </caseValues>
+        <name>case_status</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Trip Name</value>
+        </caseValues>
+        <name>case_subject</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Team</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Trip Manager Teams</value>
+        </caseValues>
+        <name>case_team</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Team Member</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Trip Manager Team Members</value>
+        </caseValues>
+        <name>case_team_member</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Team Member Role</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Trip Manager Team Member Roles</value>
+        </caseValues>
+        <name>case_team_member_role</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Team Record</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Trip Manager Team Records</value>
+        </caseValues>
+        <name>case_team_record</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Type</value>
+        </caseValues>
+        <name>case_type</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager View</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Trip Manager Views</value>
+        </caseValues>
+        <name>case_view</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Managers Detail Page</value>
+        </caseValues>
+        <name>cases_detail_page</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Managers Tab</value>
+        </caseValues>
+        <name>cases_tab</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Related Trip Manager</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Related Trip Managers</value>
+        </caseValues>
+        <name>child_case</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Itinerary/Dates/Routing/Times</value>
+        </caseValues>
+        <name>description_case</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Manager Note</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Trip Manager Notes</value>
+        </caseValues>
+        <name>feed_filter_case_note</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Parent Trip Manager</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Parent Trip Managers</value>
+        </caseValues>
+        <name>parent_case</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Parent Trip Manager ID</value>
+        </caseValues>
+        <name>parent_case_id</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Write Trip Manager Note</value>
+        </caseValues>
+        <name>publisher_private_answer</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>View Trip Manager Details</value>
+        </caseValues>
+        <name>publisher_view_details</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Trip Name</value>
+        </caseValues>
+        <name>subject_case</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <label><!-- ASAP Request --></label>
+        <name>ASAP_Request__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Trip Managers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Address Departing From --></label>
+        <name>Address_Departing_From__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aircraft 1 --></label>
+        <name>Aircraft_1__c</name>
+        <relationshipLabel><!-- Trip Managers (Aircraft 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Aircraft 2 --></label>
+        <name>Aircraft_2__c</name>
+        <relationshipLabel><!-- Trip Managers (Aircraft 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Aircraft 3 --></label>
+        <name>Aircraft_3__c</name>
+        <relationshipLabel><!-- Trip Managers (Aircraft 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Aircraft 4 --></label>
+        <name>Aircraft_4__c</name>
+        <relationshipLabel><!-- Trip Managers (Aircraft 4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Aircraft 5 --></label>
+        <name>Aircraft_5__c</name>
+        <relationshipLabel><!-- Trip Managers (Aircraft 5) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Type Requested --></label>
+        <name>Aircraft_Type_Requested__c</name>
+        <picklistValues>
+            <masterLabel>Helicopter</masterLabel>
+            <translation><!-- Helicopter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Large Cabin Jet</masterLabel>
+            <translation><!-- Large Cabin Jet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Light Cabin Jet</masterLabel>
+            <translation><!-- Light Cabin Jet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Midsize Cabin Jet</masterLabel>
+            <translation><!-- Midsize Cabin Jet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Super-Mid Cabin Jet</masterLabel>
+            <translation><!-- Super-Mid Cabin Jet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turboprop Aircraft</masterLabel>
+            <translation><!-- Turboprop Aircraft --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Airport Feasibility (Score) --></label>
+        <name>Airport_Feasibility_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Airport Feasibility (Weight) --></label>
+        <name>Airport_Feasibility_Weight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Airport Feasibility (Weighted Score) --></label>
+        <name>Airport_Feasibility_Weighted_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Airport Feasibility --></label>
+        <name>Airport_Feasibility__c</name>
+        <picklistValues>
+            <masterLabel>1 - Low volume flight activity; not limited by airport operating hours</masterLabel>
+            <translation><!-- 1 - Low volume flight activity; not limited by airport operating hours --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Medium volume flight activity or potential airport operating hours concerns</masterLabel>
+            <translation><!-- 2 - Medium volume flight activity or potential airport operating hours concerns --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - High volume flight activity and very real airport operating hours concerns</masterLabel>
+            <translation><!-- 3 - High volume flight activity and very real airport operating hours concerns --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Airport Weather History (Score) --></label>
+        <name>Airport_Weather_History_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Airport Weather History (Weight) --></label>
+        <name>Airport_Weather_History_Weight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Airport Weather History --></label>
+        <name>Airport_Weather_History__c</name>
+        <picklistValues>
+            <masterLabel>1 - Airport is not traditionally impacted by bad weather</masterLabel>
+            <translation><!-- 1 - Airport is not traditionally impacted by bad weather --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Airport is occasionally impacted by bad weather</masterLabel>
+            <translation><!-- 2 - Airport is occasionally impacted by bad weather --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Airport is highly sensitive and often impacted by poor weather</masterLabel>
+            <translation><!-- 3 - Airport is highly sensitive and often impacted by poor weather --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Airport Weather (Weighted Score) --></label>
+        <name>Airport_Weather_Weighted_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alternate Arriving Airport --></label>
+        <name>Alternate_Arriving_Airport__c</name>
+        <relationshipLabel><!-- Cases (Alternate Arriving Airport) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Alternate Departing Airport --></label>
+        <name>Alternate_Departing_Airport__c</name>
+        <relationshipLabel><!-- Cases (Alternate Departing Airport) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Arriving Airport --></label>
+        <name>Arriving_Airport__c</name>
+        <relationshipLabel><!-- Trips (Arriving Airport) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Backup &amp; Recovery (Score) --></label>
+        <name>Backup_Recovery_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Backup &amp; Recovery (Weight) --></label>
+        <name>Backup_Recovery_Weight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Backup &amp; Recovery --></label>
+        <name>Backup_Recovery__c</name>
+        <picklistValues>
+            <masterLabel>1 - Guaranteed Solution (NetJets/Flexjet/Sentient)</masterLabel>
+            <translation><!-- 1 - Guaranteed Solution (NetJets/Flexjet/Sentient) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - EJM/National Charter</masterLabel>
+            <translation><!-- 2 - EJM/National Charter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Non-Guaranteed Solution (Local Charter/Broker)</masterLabel>
+            <translation><!-- 3 - Non-Guaranteed Solution (Local Charter/Broker) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Backup (Weighted Score) --></label>
+        <name>Backup_Weighted_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Booked Itinerary Solution 1 --></label>
+        <name>Booked_Itinerary_Solution_1__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Booked Itinerary Solution 2 --></label>
+        <name>Booked_Itinerary_Solution_2__c</name>
+        <relationshipLabel><!-- Cases (Booked Itinerary Solution 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Booked Leg 1 --></label>
+        <name>Booked_Leg_1__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Booked Leg 2 --></label>
+        <name>Booked_Leg_2__c</name>
+        <relationshipLabel><!-- Cases (Booked Leg 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The time should be in increments of 15 minutes (.25). For example, 1.25 = 1 hour and 15 minutes. --></help>
+        <label><!-- Booking/Confirmation Stage Hours --></label>
+        <name>Booking_Confirmation_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Charter Option --></label>
+        <name>Charter_Option__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please provide details regarding the connecting Commercial Flight. --></help>
+        <label><!-- Commercial Flight Details --></label>
+        <name>Commercial_Flight_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Connecting To/From Commercial Flight --></label>
+        <name>Connecting_To_From_Commercial_Flight__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Date Closed --></label>
+        <name>Date_Closed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Requested --></label>
+        <name>Date_Requested__c</name>
+    </fields>
+    <fields>
+        <help><!-- What date was the original research delivered to the client? --></help>
+        <label><!-- Date research sent to client --></label>
+        <name>Date_Research_Delivered_to_Client__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Trip --></label>
+        <name>Date_of_Trip__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day of Travel (Score) --></label>
+        <name>Day_of_Travel_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day of Travel (Weight) --></label>
+        <name>Day_of_Travel_Weight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day of Travel (Weighted Score) --></label>
+        <name>Day_of_Travel_Weighted_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day of Travel --></label>
+        <name>Day_of_Travel__c</name>
+        <picklistValues>
+            <masterLabel>1 - No time sensitivity after landing</masterLabel>
+            <translation><!-- 1 - No time sensitivity after landing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Time sensitive event 5 hours + after landing</masterLabel>
+            <translation><!-- 2 - Time sensitive event 5 hours + after landing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Time sensitive event less than 5 hours after landing</masterLabel>
+            <translation><!-- 3 - Time sensitive event less than 5 hours after landing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Depart. Date [Service Impact] (Score) --></label>
+        <name>Depart_Date_Service_Impact_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Depart. Date [Service Impact] (Weight) --></label>
+        <name>Depart_Date_Service_Impact_Weight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Depart. Date [Service Impact] --></label>
+        <name>Depart_Date_Service_Impact__c</name>
+        <picklistValues>
+            <masterLabel>1 - Lowest Volume (~300 Days per Year)</masterLabel>
+            <translation><!-- 1 - Lowest Volume (~300 Days per Year) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Medium Volume Days</masterLabel>
+            <translation><!-- 2 - Medium Volume Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Highest Volume (Peak Days)</masterLabel>
+            <translation><!-- 3 - Highest Volume (Peak Days) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Depart. Date (Weighted Score) --></label>
+        <name>Depart_Date_Weighted_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Depart. Flex. &amp; Cancellation (Score) --></label>
+        <name>Depart_Flex_Cancellation_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Depart. Flex. &amp; Cancellation (Weight) --></label>
+        <name>Depart_Flex_Cancellation_Weight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Depart. Flex. &amp; Cancellation --></label>
+        <name>Depart_Flex_Cancellation__c</name>
+        <picklistValues>
+            <masterLabel>1 - Guaranteed Solution (NetJets/Flexjet/Sentient)</masterLabel>
+            <translation><!-- 1 - Guaranteed Solution (NetJets/Flexjet/Sentient) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - EJM/National Charter/Dedicated Aircraft</masterLabel>
+            <translation><!-- 2 - EJM/National Charter/Dedicated Aircraft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Non-Guaranteed Solution (Local Charter/Broker)</masterLabel>
+            <translation><!-- 3 - Non-Guaranteed Solution (Local Charter/Broker) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Depart. Flex. (Weighted Score) --></label>
+        <name>Depart_Flex_Weighted_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Departing Airport --></label>
+        <name>Departing_Airport__c</name>
+        <relationshipLabel><!-- Trips (Departing Airport) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Departure Time Requested (Locally) --></label>
+        <name>Departure_Time_Requested_Locally__c</name>
+        <picklistValues>
+            <masterLabel>0:00</masterLabel>
+            <translation><!-- 0:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10:00</masterLabel>
+            <translation><!-- 10:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11:00</masterLabel>
+            <translation><!-- 11:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12:00</masterLabel>
+            <translation><!-- 12:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13:00</masterLabel>
+            <translation><!-- 13:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14:00</masterLabel>
+            <translation><!-- 14:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15:00</masterLabel>
+            <translation><!-- 15:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16:00</masterLabel>
+            <translation><!-- 16:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17:00</masterLabel>
+            <translation><!-- 17:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18:00</masterLabel>
+            <translation><!-- 18:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>19:00</masterLabel>
+            <translation><!-- 19:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1:00</masterLabel>
+            <translation><!-- 1:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20:00</masterLabel>
+            <translation><!-- 20:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21:00</masterLabel>
+            <translation><!-- 21:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22:00</masterLabel>
+            <translation><!-- 22:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>23:00</masterLabel>
+            <translation><!-- 23:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2:00</masterLabel>
+            <translation><!-- 2:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3:00</masterLabel>
+            <translation><!-- 3:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4:00</masterLabel>
+            <translation><!-- 4:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5:00</masterLabel>
+            <translation><!-- 5:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6:00</masterLabel>
+            <translation><!-- 6:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7:00</masterLabel>
+            <translation><!-- 7:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8:00</masterLabel>
+            <translation><!-- 8:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9:00</masterLabel>
+            <translation><!-- 9:00 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Did you log your time spent? --></label>
+        <name>Did_you_log_your_time_spent__c</name>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Did you receive client feedback? --></label>
+        <name>Did_you_receive_client_feedback__c</name>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Domestic or International --></label>
+        <name>Domestic_or_International__c</name>
+        <picklistValues>
+            <masterLabel>Domestic</masterLabel>
+            <translation><!-- Domestic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>International</masterLabel>
+            <translation><!-- International --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Earliest Departure Date (for Date Range) --></label>
+        <name>Earliest_Departure_Date_for_Date_Range__c</name>
+    </fields>
+    <fields>
+        <label><!-- AlreadyGenerated --></label>
+        <name>FSTR__AlreadyGenerated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval --></label>
+        <name>FSTR__Approval__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This field is automatically updated by the Auto Close page with how many steps are being skipped by the auto close action. --></help>
+        <label><!-- Auto Close - Steps Not Created --></label>
+        <name>FSTR__Auto_Close_Steps_Not_Created__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auto Close --></label>
+        <name>FSTR__Auto_Close__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Business Process --></label>
+        <name>FSTR__Business_Process__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Process Completed By --></label>
+        <name>FSTR__Completed_By__c</name>
+        <relationshipLabel><!-- Trip Managers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Process Completed Date --></label>
+        <name>FSTR__Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Contract --></label>
+        <name>FSTR__Contract__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>FSTR__Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Queue Members --></label>
+        <name>FSTR__Email_Queue_Members__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Opportunity --></label>
+        <name>FSTR__Opportunity__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Definition --></label>
+        <name>FSTR__PCE_Definition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Event Id --></label>
+        <name>FSTR__Parent_Event_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Object Name --></label>
+        <name>FSTR__Parent_Object_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process Group --></label>
+        <name>FSTR__Process_Group__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Process Initiated --></label>
+        <name>FSTR__Process_Initiated__c</name>
+    </fields>
+    <fields>
+        <help><!-- If this case was created from a Recurring Business Process record this field links back to that record. --></help>
+        <label><!-- Recurring Business Process --></label>
+        <name>FSTR__Recurring_Business_Process__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Skipped Steps --></label>
+        <name>FSTR__Skipped_Steps__c</name>
+    </fields>
+    <fields>
+        <label><!-- Step Id --></label>
+        <name>FSTR__Step_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Step Stage Id --></label>
+        <name>FSTR__Step_Stage_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Link to the Definition that this object is executing on currently. --></help>
+        <label><!-- Definition --></label>
+        <name>FSTR__pce_definition_lookup__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Step --></label>
+        <name>FSTR__step_lookup__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Flight Budget --></label>
+        <name>Flight_Budget__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flight Range --></label>
+        <name>Flight_Range__c</name>
+        <picklistValues>
+            <masterLabel>Coast to Coast</masterLabel>
+            <translation><!-- Coast to Coast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mid Range</masterLabel>
+            <translation><!-- Mid Range --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regional</masterLabel>
+            <translation><!-- Regional --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Have all legs been reconciled? --></label>
+        <name>Have_all_legs_been_reconciled__c</name>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Have you confirmed final trips costs? --></label>
+        <name>Have_you_confirmed_final_trips_costs__c</name>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Latest Departure Date (for Date Range) --></label>
+        <name>Latest_Departure_Date_for_Date_Range__c</name>
+    </fields>
+    <fields>
+        <label><!-- Leg ID/Name --></label>
+        <name>Leg_ID_Name__c</name>
+        <relationshipLabel><!-- Trip Managers (Leg ID/Name) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Potential Max # of Seats Required? --></label>
+        <name>Max_of_Passengers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mission Feasibility (Score) --></label>
+        <name>Mission_Feasibility_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mission Feasibility (Weight) --></label>
+        <name>Mission_Feasibility_Weight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mission Feasibility (Weighted Score) --></label>
+        <name>Mission_Feasibility_Weighted_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mission Feasibility --></label>
+        <name>Mission_Feasibility__c</name>
+        <picklistValues>
+            <masterLabel>1 - No expected aircraft performance issues based on range/pax count</masterLabel>
+            <translation><!-- 1 - No expected aircraft performance issues based on range/pax count --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - There may be aircraft performance issues based on range/pax count</masterLabel>
+            <translation><!-- 2 - There may be aircraft performance issues based on range/pax count --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - There is a high probability of aircraft performance issues based on range/pax count</masterLabel>
+            <translation><!-- 3 - There is a high probability of aircraft performance issues based on range/pax count --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Non-Stop Required? --></label>
+        <name>Non_Stop_Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Flight --></label>
+        <name>Original_Flight__c</name>
+    </fields>
+    <fields>
+        <help><!-- The time should be in increments of 15 minutes (.25). For example, 1.25 = 1 hour and 15 minutes. --></help>
+        <label><!-- Post Flight Stage Hours --></label>
+        <name>Post_Flight_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Program Period 1 --></label>
+        <name>Program_Period_1__c</name>
+        <relationshipLabel><!-- Trip Managers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Program Period 2 --></label>
+        <name>Program_Period_2__c</name>
+        <relationshipLabel><!-- Trip Managers (Program Period 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Program Period 3 --></label>
+        <name>Program_Period_3__c</name>
+        <relationshipLabel><!-- Trip Managers (Program Period 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Program Period 4 --></label>
+        <name>Program_Period_4__c</name>
+        <relationshipLabel><!-- Trip Managers (Program Period 4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Program Period 5 --></label>
+        <name>Program_Period_5__c</name>
+        <relationshipLabel><!-- Trip Managers (Program Period 5) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Purpose of Trip --></label>
+        <name>Purpose_of_Trip__c</name>
+        <picklistValues>
+            <masterLabel>Business</masterLabel>
+            <translation><!-- Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business &amp; Personal</masterLabel>
+            <translation><!-- Business &amp; Personal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal</masterLabel>
+            <translation><!-- Personal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- You must populate a Purpose of Trip, if Other is selected. --></help>
+        <label><!-- Purpose of Trip, if Other --></label>
+        <name>Purpose_of_Trip_if_Other__c</name>
+    </fields>
+    <fields>
+        <help><!-- The time should be in increments of 15 minutes (.25). For example, 1.25 = 1 hour and 15 minutes. --></help>
+        <label><!-- QC Stage Hours --></label>
+        <name>QC_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Cancellation Description --></label>
+        <name>Request_Cancellation_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Cancellation Reason --></label>
+        <name>Request_Cancellation_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Commercial Flight Delay/Cancelled</masterLabel>
+            <translation><!-- Commercial Flight Delay/Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost</masterLabel>
+            <translation><!-- Cost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Driving</masterLabel>
+            <translation><!-- Driving --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate/Backup Booking</masterLabel>
+            <translation><!-- Duplicate/Backup Booking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flew Commercial</masterLabel>
+            <translation><!-- Flew Commercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flew Own/Company Aircraft</masterLabel>
+            <translation><!-- Flew Own/Company Aircraft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flew with Friend</masterLabel>
+            <translation><!-- Flew with Friend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Length of Delay</masterLabel>
+            <translation><!-- Length of Delay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meeting Cancelled</masterLabel>
+            <translation><!-- Meeting Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Passenger Emergency</masterLabel>
+            <translation><!-- Passenger Emergency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Passenger Illness</masterLabel>
+            <translation><!-- Passenger Illness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weather</masterLabel>
+            <translation><!-- Weather --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Request Cancelled? --></label>
+        <name>Request_Cancelled__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The time should be in increments of 15 minutes (.25). For example, 1.25 = 1 hour and 15 minutes. --></help>
+        <label><!-- Request Stage Hours --></label>
+        <name>Request_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Research Due Date --></label>
+        <name>Research_Due_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- The time should be in increments of 15 minutes (.25). For example, 1.25 = 1 hour and 15 minutes. --></help>
+        <label><!-- Research Stage Hours --></label>
+        <name>Research_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Risk Assessment --></label>
+        <name>Risk_Assessment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Risk Score --></label>
+        <name>Risk_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selected Aircraft 1 --></label>
+        <name>Selected_Aircraft_1__c</name>
+        <relationshipLabel><!-- Trip Managers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Selected Aircraft 2 --></label>
+        <name>Selected_Aircraft_2__c</name>
+        <relationshipLabel><!-- Trip Managers (Selected Aircraft 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Selected Aircraft 3 --></label>
+        <name>Selected_Aircraft_3__c</name>
+        <relationshipLabel><!-- Trip Managers (Selected Aircraft 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Selected Aircraft 4 --></label>
+        <name>Selected_Aircraft_4__c</name>
+        <relationshipLabel><!-- Trip Managers (Selected Aircraft 4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Selected Aircraft 5 --></label>
+        <name>Selected_Aircraft_5__c</name>
+        <relationshipLabel><!-- Trip Managers (Selected Aircraft 5) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Selected Aircraft --></label>
+        <name>Selected_Aircraft__c</name>
+        <relationshipLabel><!-- Trip Managers (Selected Aircraft) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Selected Program Period --></label>
+        <name>Selected_Program_Period__c</name>
+        <relationshipLabel><!-- Trip Managers (Selected Program Period) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Selected Program --></label>
+        <name>Selected_Program__c</name>
+        <relationshipLabel><!-- Trip Managers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Size of Pet(s) --></label>
+        <name>Size_of_Pet_s__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Luggage --></label>
+        <name>Special_Luggage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Trip Request Notes --></label>
+        <name>Special_Trip_Request_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Strategy Account Name --></label>
+        <name>Strategy_Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Strategy Arr Airport --></label>
+        <name>Strategy_Arr_Airport__c</name>
+    </fields>
+    <fields>
+        <label><!-- Strategy Cabin Type --></label>
+        <name>Strategy_Cabin_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Strategy Dep Airport --></label>
+        <name>Strategy_Dep_Airport__c</name>
+    </fields>
+    <fields>
+        <label><!-- Strategy Itin Type --></label>
+        <name>Strategy_Itin_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Strategy Peak High Vol --></label>
+        <name>Strategy_Peak_High_Vol__c</name>
+    </fields>
+    <fields>
+        <label><!-- Strategy Season --></label>
+        <name>Strategy_Season__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please provide details of your time sensitive event. --></help>
+        <label><!-- Time Sensitive Event Description --></label>
+        <name>Time_Sensitive_Event_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Time Invested --></label>
+        <name>Total_Time_Invested__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total # of Passengers --></label>
+        <name>Total_of_Passengers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Travel to/from a Time Sensitive Event? --></label>
+        <name>Travel_to_a_Time_Sensitive_Event__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Traveling on a High Volume Day? --></label>
+        <name>Traveling_on_a_High_Volume_Day__c</name>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Traveling on a Peak Day? --></label>
+        <name>Traveling_on_a_Peak_Day__c</name>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Trip Season --></label>
+        <name>Trip_Season__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trip Type --></label>
+        <name>Trip_Type__c</name>
+        <picklistValues>
+            <masterLabel>Multi-Segment</masterLabel>
+            <translation><!-- Multi-Segment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>One-Way</masterLabel>
+            <translation><!-- One-Way --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Round Trip</masterLabel>
+            <translation><!-- Round Trip --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Same-Day Round Trip</masterLabel>
+            <translation><!-- Same-Day Round Trip --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type of Pet(s) --></label>
+        <name>Type_of_Pet_s__c</name>
+    </fields>
+    <fields>
+        <label><!-- WiFi Required? --></label>
+        <name>WiFi_Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- # of Adult Passengers --></label>
+        <name>of_Adult_Passengers__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Child Passengers --></label>
+        <name>of_Child_Passengers__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Babies Under 24 Months --></label>
+        <name>of_Lap_Babies__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Potential Pets Traveling --></label>
+        <name>of_Pets__c</name>
+    </fields>
+    <quickActions>
+        <label><!-- NewChildCase --></label>
+        <name>NewChildCase</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please provide details regarding the connecting Commercial Flight. --></errorMessage>
+        <name>Commercial_Flight</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must populate a Purpose of Trip, if Other is selected. --></errorMessage>
+        <name>Purpose_of_Trip_if_Other</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Risk Score cannot be over 3. --></errorMessage>
+        <name>Risk_Score_must_not_be_greater_than_3</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide details of your time sensitive event. --></errorMessage>
+        <name>Time_Sensitive_Event</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Conga_Composer_OAuth --></label>
+        <name>APXTConga4__Conga_Composer_OAuth</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Mail_Merge --></label>
+        <name>APXTConga4__Conga_Mail_Merge</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Quote_Request --></label>
+        <name>Conga_Composer_Quote_Request</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Research3 --></label>
+        <name>Conga_Composer_Research3</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Close --></label>
+        <name>FSTR__Close</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Close_Case_and_Steps --></label>
+        <name>FSTR__Close_Case_and_Steps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Process_Details --></label>
+        <name>FSTR__Process_Details</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Process_Visual --></label>
+        <name>FSTR__Process_Visual</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Historical_Route_Pricing --></label>
+        <name>Historical_Route_Pricing</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Itinerary_Research_Full_View --></label>
+        <name>Itinerary_Research_Full_View</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Related_Itineraries --></label>
+        <name>Related_Itineraries</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Related_Legs --></label>
+        <name>Related_Legs</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Research --></label>
+        <name>Research</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Trip_Strategies --></label>
+        <name>Trip_Strategies</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_with_DocuSign --></label>
+        <name>dsfs__Send_with_DocuSign</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Find_Duplicates --></label>
+        <name>powerpack__Find_Duplicates</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Merge_Cases --></label>
+        <name>powerpack__Merge_Cases</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_to_Slack --></label>
+        <name>slackv2__Send_to_Slack</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Slack_Alerts --></label>
+        <name>slackv2__Slack_Alerts</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Start_Zoom_Meeting --></label>
+        <name>zoom_app__Start_Zoom_Meeting</name>
+    </webLinks>
+    <workflowTasks>
+        <name>New_Trip_Manager</name>
+        <subject><!-- New Trip Manager --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

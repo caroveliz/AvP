@@ -1,0 +1,2854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>Aircraft_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Aircraft_Compact_Layout</fullName>
+        <fields>Aircraft_Type__c</fields>
+        <fields>Operator__c</fields>
+        <fields>Year_of_Manufacture__c</fields>
+        <fields>Aircraft_Owner__c</fields>
+        <fields>Call_Sign__c</fields>
+        <fields>Aircraft_Homebase__c</fields>
+        <fields>Trackable__c</fields>
+        <fields>Aircraft_Status__c</fields>
+        <label>Aircraft Compact Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Access_Luggage_from_Cabin__c</fullName>
+        <externalId>false</externalId>
+        <label>Access Luggage from Cabin</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Additional_Fee_for_Pets__c</fullName>
+        <externalId>false</externalId>
+        <label>Additional Fee for Pets</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Aircraft_Age_Range__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(VALUE(Year_of_Manufacture__c) &lt;1980, &quot;1979 and Older&quot;,
+IF(AND(VALUE(Year_of_Manufacture__c)  &gt;= 1980, VALUE(Year_of_Manufacture__c) &lt; 1990), &quot;1980-1989&quot;,
+IF(AND(VALUE(Year_of_Manufacture__c)  &gt;= 1990, VALUE(Year_of_Manufacture__c) &lt; 2000), &quot;1990-1999&quot;,  
+IF(AND(VALUE(Year_of_Manufacture__c)  &gt;= 2000, VALUE(Year_of_Manufacture__c) &lt; 2010), &quot;2000-2009&quot;,
+IF(VALUE(Year_of_Manufacture__c)  &gt;=2010, &quot;2010 to Present&quot;,&quot;NA&quot;
+                    )
+                )
+            )
+        )
+    )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Aircraft Age Range</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Aircraft_Age__c</fullName>
+        <externalId>false</externalId>
+        <formula>YEAR(TODAY()) -  VALUE(Year_of_Manufacture__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Aircraft Age</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Aircraft_Homebase__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Aircraft Homebase</label>
+        <referenceTo>Airport__c</referenceTo>
+        <relationshipName>Aircrafts2</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Aircraft_Owner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Aircraft Owner</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Aircraft</relationshipLabel>
+        <relationshipName>Aircraft</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Aircraft_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Aircraft Status</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Active</fullName>
+                    <default>false</default>
+                    <label>Active</label>
+                </value>
+                <value>
+                    <fullName>Inactive</fullName>
+                    <default>false</default>
+                    <label>Inactive</label>
+                </value>
+                <value>
+                    <fullName>Blacklisted</fullName>
+                    <default>false</default>
+                    <label>Blacklisted</label>
+                </value>
+                <value>
+                    <fullName>Temp Inactive - Due to Incident</fullName>
+                    <default>false</default>
+                    <label>Temp Inactive - Due to Incident</label>
+                </value>
+                <value>
+                    <fullName>TBD</fullName>
+                    <default>false</default>
+                    <label>TBD</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Aircraft_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Aircraft Type</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Aircraft_Type</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Airport_Restrictions__c</fullName>
+        <externalId>false</externalId>
+        <label>Airport Restrictions</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Airshow__c</fullName>
+        <externalId>false</externalId>
+        <label>Airshow</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>AvP_Client_Plane__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>AvP Client Plane</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Belted_Lavatory__c</fullName>
+        <externalId>false</externalId>
+        <label>Belted Lavatory</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Cabin_Floor__c</fullName>
+        <externalId>false</externalId>
+        <label>Cabin Floor</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Flat Floor</fullName>
+                    <default>false</default>
+                    <label>Flat Floor</label>
+                </value>
+                <value>
+                    <fullName>Drop Floor</fullName>
+                    <default>false</default>
+                    <label>Drop Floor</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Cabin_Height_ft__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Numeric Only - one decimal point (e.g., 6.2, 5.4)</inlineHelpText>
+        <label>Cabin Height (ft)</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cabin_Length_ft__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Numeric Only - one decimal point (e.g., 50.2, 45.0)</inlineHelpText>
+        <label>Cabin Length (ft)</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cabin_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Cabin Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Cabin_Type</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Cabin_Volume_cu_ft__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Numeric Only - one decimal point (e.g., 324.5, 1450.0)</inlineHelpText>
+        <label>Cabin Volume (cu ft)</label>
+        <precision>17</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cabin_Width_ft__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Numeric Only - one decimal point (e.g., 7.3, 6.4)</inlineHelpText>
+        <label>Cabin Width (ft)</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Call_Sign__c</fullName>
+        <externalId>false</externalId>
+        <label>Call Sign</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Can_be_flown_with_one_pilot__c</fullName>
+        <externalId>false</externalId>
+        <label>Can be flown with one pilot?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Certified_Crew_Rest_Area__c</fullName>
+        <externalId>false</externalId>
+        <label>Certified Crew Rest Area</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Convection_Oven__c</fullName>
+        <externalId>false</externalId>
+        <label>Convection Oven</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DVD_Player__c</fullName>
+        <externalId>false</externalId>
+        <label>DVD Player</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Daily_Minimums_Required__c</fullName>
+        <externalId>false</externalId>
+        <label>Daily Minimums Required</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Details_of_Refurb__c</fullName>
+        <externalId>false</externalId>
+        <label>Details of Refurb</label>
+        <length>3000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Difficult_to_Receive_Owner_Approval__c</fullName>
+        <externalId>false</externalId>
+        <label>Difficult to Receive Owner Approval</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DirecTV__c</fullName>
+        <externalId>false</externalId>
+        <label>DirecTV</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Do_Pilots_Have_ATP__c</fullName>
+        <externalId>false</externalId>
+        <label>Do Pilots Have ATP?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Does_Aircraft_have_a_dedicated_crew__c</fullName>
+        <externalId>false</externalId>
+        <label>Does Aircraft have a dedicated crew?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Enclosed_Lavatory__c</fullName>
+        <externalId>false</externalId>
+        <label>Enclosed Lavatory</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Engine_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Engine Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Jet Engine</fullName>
+                    <default>false</default>
+                    <label>Jet Engine</label>
+                </value>
+                <value>
+                    <fullName>Turbo Prop</fullName>
+                    <default>false</default>
+                    <label>Turbo Prop</label>
+                </value>
+                <value>
+                    <fullName>Piston</fullName>
+                    <default>false</default>
+                    <label>Piston</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Equipped_with_TCAS1__c</fullName>
+        <externalId>false</externalId>
+        <label>Equipped with TCAS1</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Equipped_with_TCAS2__c</fullName>
+        <externalId>false</externalId>
+        <label>Equipped with TCAS2</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>External_Luggage_Storage_cu_ft__c</fullName>
+        <externalId>false</externalId>
+        <label>External Luggage Storage (cu ft)</label>
+        <precision>17</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Flight_Attendant_Jump_Seat_Certified__c</fullName>
+        <externalId>false</externalId>
+        <label>Flight Attendant Jump Seat Certified</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Flight_Attendant_Name__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Flight Attendant Name</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Aircraft (Flight Attendant)</relationshipLabel>
+        <relationshipName>Aircraft3</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Flight_Attendant_Onboard__c</fullName>
+        <externalId>false</externalId>
+        <label>Flight Attendant Onboard</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Flight_Attendant_Required__c</fullName>
+        <externalId>false</externalId>
+        <label>Flight Attendant Required</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Flight_Aware_Link__c</fullName>
+        <externalId>false</externalId>
+        <label>Flight Aware Link</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Flight_Range__c</fullName>
+        <externalId>false</externalId>
+        <label>Flight Range</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Regional</fullName>
+                    <default>false</default>
+                    <label>Regional</label>
+                </value>
+                <value>
+                    <fullName>Mid Range</fullName>
+                    <default>false</default>
+                    <label>Mid Range</label>
+                </value>
+                <value>
+                    <fullName>Coast to Coast</fullName>
+                    <default>false</default>
+                    <label>Coast to Coast</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Floating_Homebase__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Floating Homebase</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Fuel_Hourly_Rate__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Used for Market Intel; Is not in Formula above for Total Hourly Rate</inlineHelpText>
+        <label>Fuel Hourly Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Fuel_Surcharge__c</fullName>
+        <externalId>false</externalId>
+        <label>Fuel Surcharge</label>
+        <precision>8</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Galley_Location__c</fullName>
+        <externalId>false</externalId>
+        <label>Galley Location</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Forward Galley</fullName>
+                    <default>false</default>
+                    <label>Forward Galley</label>
+                </value>
+                <value>
+                    <fullName>Rear Galley</fullName>
+                    <default>false</default>
+                    <label>Rear Galley</label>
+                </value>
+                <value>
+                    <fullName>Forward &amp; Rear Galley</fullName>
+                    <default>false</default>
+                    <label>Forward &amp; Rear Galley</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Has_Aircraft_Failed_Safety_Audit__c</fullName>
+        <externalId>false</externalId>
+        <label>Has Aircraft Failed Safety Audit?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Has_Crew_Failed_Safety_Audit__c</fullName>
+        <externalId>false</externalId>
+        <label>Has Crew Failed Safety Audit</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>IMPORTANT_NOTES__c</fullName>
+        <externalId>false</externalId>
+        <label>IMPORTANT AIRCRAFT NOTES</label>
+        <length>131000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Incident_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Incident Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Incident_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Incident Description</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Internal_Luggage_Storage_cu_ft__c</fullName>
+        <externalId>false</externalId>
+        <label>Internal Luggage Storage (cu ft)</label>
+        <precision>17</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>International_Certified__c</fullName>
+        <externalId>false</externalId>
+        <label>International Certified</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>International_Overflight_Certified__c</fullName>
+        <externalId>false</externalId>
+        <label>International Overflight Certified</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Involved_in_Aircraft_Incident__c</fullName>
+        <externalId>false</externalId>
+        <label>Involved in Aircraft Incident</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Last_Exterior_Refurb__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Exterior Refurb</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Last_Interior_Refurb__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Interior Refurb</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Last_Maintenance_Check__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Maintenance Check</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Liability_Insurance_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Liability Insurance Amount</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>$10mm</fullName>
+                    <default>false</default>
+                    <label>$10mm</label>
+                </value>
+                <value>
+                    <fullName>$20mm</fullName>
+                    <default>false</default>
+                    <label>$20mm</label>
+                </value>
+                <value>
+                    <fullName>$25mm</fullName>
+                    <default>false</default>
+                    <label>$25mm</label>
+                </value>
+                <value>
+                    <fullName>$50mm</fullName>
+                    <default>false</default>
+                    <label>$50mm</label>
+                </value>
+                <value>
+                    <fullName>$60mm</fullName>
+                    <default>false</default>
+                    <label>$60mm</label>
+                </value>
+                <value>
+                    <fullName>$65mm</fullName>
+                    <default>false</default>
+                    <label>$65mm</label>
+                </value>
+                <value>
+                    <fullName>$75mm</fullName>
+                    <default>false</default>
+                    <label>$75mm</label>
+                </value>
+                <value>
+                    <fullName>$100mm</fullName>
+                    <default>false</default>
+                    <label>$100mm</label>
+                </value>
+                <value>
+                    <fullName>$105mm</fullName>
+                    <default>false</default>
+                    <label>$105mm</label>
+                </value>
+                <value>
+                    <fullName>$125mm</fullName>
+                    <default>false</default>
+                    <label>$125mm</label>
+                </value>
+                <value>
+                    <fullName>$135mm</fullName>
+                    <default>false</default>
+                    <label>$135mm</label>
+                </value>
+                <value>
+                    <fullName>$150mm</fullName>
+                    <default>false</default>
+                    <label>$150mm</label>
+                </value>
+                <value>
+                    <fullName>$175mm</fullName>
+                    <default>false</default>
+                    <label>$175mm</label>
+                </value>
+                <value>
+                    <fullName>$200mm</fullName>
+                    <default>false</default>
+                    <label>$200mm</label>
+                </value>
+                <value>
+                    <fullName>$225mm</fullName>
+                    <default>false</default>
+                    <label>$225mm</label>
+                </value>
+                <value>
+                    <fullName>$250mm</fullName>
+                    <default>false</default>
+                    <label>$250mm</label>
+                </value>
+                <value>
+                    <fullName>$275mm</fullName>
+                    <default>false</default>
+                    <label>$275mm</label>
+                </value>
+                <value>
+                    <fullName>$300mm</fullName>
+                    <default>false</default>
+                    <label>$300mm</label>
+                </value>
+                <value>
+                    <fullName>$325mm</fullName>
+                    <default>false</default>
+                    <label>$325mm</label>
+                </value>
+                <value>
+                    <fullName>$350mm</fullName>
+                    <default>false</default>
+                    <label>$350mm</label>
+                </value>
+                <value>
+                    <fullName>$375mm</fullName>
+                    <default>false</default>
+                    <label>$375mm</label>
+                </value>
+                <value>
+                    <fullName>$400mm</fullName>
+                    <default>false</default>
+                    <label>$400mm</label>
+                </value>
+                <value>
+                    <fullName>$425mm</fullName>
+                    <default>false</default>
+                    <label>$425mm</label>
+                </value>
+                <value>
+                    <fullName>$450mm</fullName>
+                    <default>false</default>
+                    <label>$450mm</label>
+                </value>
+                <value>
+                    <fullName>$475mm</fullName>
+                    <default>false</default>
+                    <label>$475mm</label>
+                </value>
+                <value>
+                    <fullName>$500mm</fullName>
+                    <default>false</default>
+                    <label>$500mm</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Liability_Insurance_Expiration__c</fullName>
+        <externalId>false</externalId>
+        <label>Liability Insurance Expiration</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Limited_Luggage_Storage__c</fullName>
+        <externalId>false</externalId>
+        <label>Limited Luggage Storage</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Limited_Range_in_High_Elev_Temps__c</fullName>
+        <externalId>false</externalId>
+        <label>Limited Range in High Elev. &amp; Temps</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Link_to_Photos__c</fullName>
+        <externalId>false</externalId>
+        <label>Link to Photos</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Max_Cruise_Altitude_ft__c</fullName>
+        <externalId>false</externalId>
+        <label>Max Cruise Altitude (ft)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Max_Cruise_Speed_mph__c</fullName>
+        <externalId>false</externalId>
+        <label>Max Cruise Speed (mph)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Max_Flight_Hours__c</fullName>
+        <externalId>false</externalId>
+        <label>Max Flight Hours</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Max_Pass_w_Flt_Attendant_No_Jump_Seat__c</fullName>
+        <externalId>false</externalId>
+        <label>Max Pass w/ Flt Attendant &amp; No Jump Seat</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Max_Passengers_with_Belted_Lavatory__c</fullName>
+        <externalId>false</externalId>
+        <label>Max Passengers with Belted Lavatory</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Max_Range_Full_Capacity_nm__c</fullName>
+        <externalId>false</externalId>
+        <label>Max Range Full Capacity (nm)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Max_Range_Minimal_Capacity_nm__c</fullName>
+        <externalId>false</externalId>
+        <label>Max Range Minimal Capacity (nm)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Max_of_Flat_Beds__c</fullName>
+        <externalId>false</externalId>
+        <label>Max # of Flat Beds</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Microwave__c</fullName>
+        <externalId>false</externalId>
+        <label>Microwave</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Onboard_Movie_Database__c</fullName>
+        <externalId>false</externalId>
+        <label>Onboard Movie Database</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Operator_Owned_Leased__c</fullName>
+        <externalId>false</externalId>
+        <label>Operator Owned/Leased</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Operator_Tail_Number__c</fullName>
+        <externalId>false</externalId>
+        <formula>Operator__r.Name &amp;&quot; - &quot;&amp;Name</formula>
+        <label>Operator &amp; Tail Number</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Operator__c</fullName>
+        <externalId>false</externalId>
+        <label>Operator</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Aircraft (Operator)</relationshipLabel>
+        <relationshipName>Aircraft</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Owner_Approval_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Owner Approval Notes</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Owner_Approval_Required__c</fullName>
+        <externalId>false</externalId>
+        <label>Owner Approval Required</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PIC_Name__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>PIC Name</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Aircraft (PIC)</relationshipLabel>
+        <relationshipName>Aircraft1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Part_91_Only__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Is this aircraft operated under 91 only and NOT charter 135?</inlineHelpText>
+        <label>Part 91 Only</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Passenger_Count_Restrictions__c</fullName>
+        <externalId>false</externalId>
+        <label>Passenger Count Restrictions</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Passenger_Seats__c</fullName>
+        <externalId>false</externalId>
+        <label>Passenger Seats</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pets_in_Cabin__c</fullName>
+        <externalId>false</externalId>
+        <label>Pets in Cabin</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Yes in Crate Only</fullName>
+                    <default>false</default>
+                    <label>Yes in Crate Only</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Rate_Type__c</fullName>
+        <description>Distinguish between published standard hourly rate vs. dynamic pricing model where we calculated an average rate based on our SF data</description>
+        <externalId>false</externalId>
+        <label>Rate Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Published</fullName>
+                    <default>false</default>
+                    <label>Published</label>
+                </value>
+                <value>
+                    <fullName>Calculated</fullName>
+                    <default>false</default>
+                    <label>Calculated</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Red_Wine__c</fullName>
+        <externalId>false</externalId>
+        <label>Red Wine</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Retail_Hourly_Rate__c</fullName>
+        <externalId>false</externalId>
+        <label>Retail Hourly Rate</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>SIC_Name__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>SIC Name</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Aircraft (SIC)</relationshipLabel>
+        <relationshipName>Aircraft2</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Satellite_Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Satellite Phone</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Satellite_TV__c</fullName>
+        <externalId>false</externalId>
+        <label>Satellite TV</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Seating_Configuration_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Seating Configuration Notes</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Seating_Configuration__c</fullName>
+        <externalId>false</externalId>
+        <label>Seating Configuration</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>10 captains chairs</fullName>
+                    <default>false</default>
+                    <label>10 captains chairs</label>
+                </value>
+                <value>
+                    <fullName>10 captains chairs + 2-person divan</fullName>
+                    <default>false</default>
+                    <label>10 captains chairs + 2-person divan</label>
+                </value>
+                <value>
+                    <fullName>10 captains chairs + 3-person divan</fullName>
+                    <default>false</default>
+                    <label>10 captains chairs + 3-person divan</label>
+                </value>
+                <value>
+                    <fullName>10 captains chairs + 3-person divan + 2-person divan</fullName>
+                    <default>false</default>
+                    <label>10 captains chairs + 3-person divan + 2-person divan</label>
+                </value>
+                <value>
+                    <fullName>10 captains chairs + 4-person divan</fullName>
+                    <default>false</default>
+                    <label>10 captains chairs + 4-person divan</label>
+                </value>
+                <value>
+                    <fullName>10 captains chairs + 4-person divan + 2-person divan</fullName>
+                    <default>false</default>
+                    <label>10 captains chairs + 4-person divan + 2-person divan</label>
+                </value>
+                <value>
+                    <fullName>10 captains chairs + two 2-person divans</fullName>
+                    <default>false</default>
+                    <label>10 captains chairs + two 2-person divans</label>
+                </value>
+                <value>
+                    <fullName>11 captains chairs</fullName>
+                    <default>false</default>
+                    <label>11 captains chairs</label>
+                </value>
+                <value>
+                    <fullName>11 captains chairs + 3-person divan</fullName>
+                    <default>false</default>
+                    <label>11 captains chairs + 3-person divan</label>
+                </value>
+                <value>
+                    <fullName>11 captains chairs + 3-person divan + 2-person divan</fullName>
+                    <default>false</default>
+                    <label>11 captains chairs + 3-person divan + 2-person divan</label>
+                </value>
+                <value>
+                    <fullName>11 captains chairs + 3-person divan + 4-person divan</fullName>
+                    <default>false</default>
+                    <label>11 captains chairs + 3-person divan + 4-person divan</label>
+                </value>
+                <value>
+                    <fullName>12 captains chairs</fullName>
+                    <default>false</default>
+                    <label>12 captains chairs</label>
+                </value>
+                <value>
+                    <fullName>12 captains chairs + 3-person divan</fullName>
+                    <default>false</default>
+                    <label>12 captains chairs + 3-person divan</label>
+                </value>
+                <value>
+                    <fullName>12 captains chairs + 4-person divan</fullName>
+                    <default>false</default>
+                    <label>12 captains chairs + 4-person divan</label>
+                </value>
+                <value>
+                    <fullName>13 captains chairs</fullName>
+                    <default>false</default>
+                    <label>13 captains chairs</label>
+                </value>
+                <value>
+                    <fullName>14 captains chairs</fullName>
+                    <default>false</default>
+                    <label>14 captains chairs</label>
+                </value>
+                <value>
+                    <fullName>15 captains chairs</fullName>
+                    <default>false</default>
+                    <label>15 captains chairs</label>
+                </value>
+                <value>
+                    <fullName>16 captains chairs</fullName>
+                    <default>false</default>
+                    <label>16 captains chairs</label>
+                </value>
+                <value>
+                    <fullName>4 captains chairs</fullName>
+                    <default>false</default>
+                    <label>4 captains chairs</label>
+                </value>
+                <value>
+                    <fullName>4 captains chairs + one-side facing seat</fullName>
+                    <default>false</default>
+                    <label>4 captains chairs + one-side facing seat</label>
+                </value>
+                <value>
+                    <fullName>4 captains chairs + 2-person divan</fullName>
+                    <default>false</default>
+                    <label>4 captains chairs + 2-person divan</label>
+                </value>
+                <value>
+                    <fullName>4 captains chairs + 3-person divan</fullName>
+                    <default>false</default>
+                    <label>4 captains chairs + 3-person divan</label>
+                </value>
+                <value>
+                    <fullName>5 captains chairs</fullName>
+                    <default>false</default>
+                    <label>5 captains chairs</label>
+                </value>
+                <value>
+                    <fullName>5 captains chairs + 2-person divan</fullName>
+                    <default>false</default>
+                    <label>5 captains chairs + 2-person divan</label>
+                </value>
+                <value>
+                    <fullName>5 captains chairs + 3-person divan</fullName>
+                    <default>false</default>
+                    <label>5 captains chairs + 3-person divan</label>
+                </value>
+                <value>
+                    <fullName>6 captains chairs</fullName>
+                    <default>false</default>
+                    <label>6 captains chairs</label>
+                </value>
+                <value>
+                    <fullName>6 captains chairs + 2-person divan</fullName>
+                    <default>false</default>
+                    <label>6 captains chairs + 2-person divan</label>
+                </value>
+                <value>
+                    <fullName>6 captains chairs + 3-person divan</fullName>
+                    <default>false</default>
+                    <label>6 captains chairs + 3-person divan</label>
+                </value>
+                <value>
+                    <fullName>6 captains chairs + 4-person divan</fullName>
+                    <default>false</default>
+                    <label>6 captains chairs + 4-person divan</label>
+                </value>
+                <value>
+                    <fullName>6 captains chairs + one 3-person divan + two 2-person divans</fullName>
+                    <default>false</default>
+                    <label>6 captains chairs + one 3-person divan + two 2-person divans</label>
+                </value>
+                <value>
+                    <fullName>6 captains chairs + one-side facing seat</fullName>
+                    <default>false</default>
+                    <label>6 captains chairs + one-side facing seat</label>
+                </value>
+                <value>
+                    <fullName>6 captains chairs + two 3-person divans</fullName>
+                    <default>false</default>
+                    <label>6 captains chairs + two 3-person divans</label>
+                </value>
+                <value>
+                    <fullName>6 captains chairs + two 4-person divans</fullName>
+                    <default>false</default>
+                    <label>6 captains chairs + two 4-person divans</label>
+                </value>
+                <value>
+                    <fullName>7 captains chairs</fullName>
+                    <default>false</default>
+                    <label>7 captains chairs</label>
+                </value>
+                <value>
+                    <fullName>7 captains chairs + two 3-person divans</fullName>
+                    <default>false</default>
+                    <label>7 captains chairs + two 3-person divans</label>
+                </value>
+                <value>
+                    <fullName>8 captains chairs</fullName>
+                    <default>false</default>
+                    <label>8 captains chairs</label>
+                </value>
+                <value>
+                    <fullName>8 captain chairs + 2 person divan</fullName>
+                    <default>false</default>
+                    <label>8 captain chairs + 2 person divan</label>
+                </value>
+                <value>
+                    <fullName>8 captains chairs + 3-person divan</fullName>
+                    <default>false</default>
+                    <label>8 captains chairs + 3-person divan</label>
+                </value>
+                <value>
+                    <fullName>8 captains chairs + 4-person divan</fullName>
+                    <default>false</default>
+                    <label>8 captains chairs + 4-person divan</label>
+                </value>
+                <value>
+                    <fullName>8 captains chairs + one 4-person divan + two 2-person divans</fullName>
+                    <default>false</default>
+                    <label>8 captains chairs + one 4-person divan + two 2-person divans</label>
+                </value>
+                <value>
+                    <fullName>8 captains chairs + one-side facing seat</fullName>
+                    <default>false</default>
+                    <label>8 captains chairs + one-side facing seat</label>
+                </value>
+                <value>
+                    <fullName>8 captains chairs + two 3-person divans</fullName>
+                    <default>false</default>
+                    <label>8 captains chairs + two 3-person divans</label>
+                </value>
+                <value>
+                    <fullName>8 captains chairs + two 4-person divans</fullName>
+                    <default>false</default>
+                    <label>8 captains chairs + two 4-person divans</label>
+                </value>
+                <value>
+                    <fullName>8 captains chairs + three 2-person divans</fullName>
+                    <default>false</default>
+                    <label>8 captains chairs + three 2-person divans</label>
+                </value>
+                <value>
+                    <fullName>8 captains chairs + two 4-person divans + one 2-person divan</fullName>
+                    <default>false</default>
+                    <label>8 captains chairs + two 4-person divans + one 2-person divan</label>
+                </value>
+                <value>
+                    <fullName>9 captains chairs</fullName>
+                    <default>false</default>
+                    <label>9 captains chairs</label>
+                </value>
+                <value>
+                    <fullName>9 captains chairs + 3-person divan</fullName>
+                    <default>false</default>
+                    <label>9 captains chairs + 3-person divan</label>
+                </value>
+                <value>
+                    <fullName>9 captains chairs + 3-person divan + 4-person divan</fullName>
+                    <default>false</default>
+                    <label>9 captains chairs + 3-person divan + 4-person divan</label>
+                </value>
+                <value>
+                    <fullName>9 captains chairs + 4-person divan</fullName>
+                    <default>false</default>
+                    <label>9 captains chairs + 4-person divan</label>
+                </value>
+                <value>
+                    <fullName>9 captains chairs + two 3-person divans</fullName>
+                    <default>false</default>
+                    <label>9 captains chairs + two 3-person divans</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Varies</fullName>
+                    <default>false</default>
+                    <label>Varies</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Shoes_in_Cabin__c</fullName>
+        <externalId>false</externalId>
+        <label>Shoes in Cabin</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Ski_Tube_Storage__c</fullName>
+        <externalId>false</externalId>
+        <label>Ski Tube Storage</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Smoking__c</fullName>
+        <externalId>false</externalId>
+        <label>Smoking</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Talk_Text__c</fullName>
+        <externalId>false</externalId>
+        <label>Talk &amp; Text</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Text_Talk_Cost__c</fullName>
+        <externalId>false</externalId>
+        <label>Text &amp; Talk Cost</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Free Text, Talk, &amp; Email</fullName>
+                    <default>false</default>
+                    <label>Free Text, Talk, &amp; Email</label>
+                </value>
+                <value>
+                    <fullName>Free Text &amp; Email; Talk $1.60/min Domestic &amp; International</fullName>
+                    <default>false</default>
+                    <label>Free Text &amp; Email; Talk $1.60/min Domestic &amp; International</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Total_Hourly_Rate__c</fullName>
+        <externalId>false</externalId>
+        <formula>(Retail_Hourly_Rate__c) + (Fuel_Surcharge__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Hourly Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Trackable__c</fullName>
+        <externalId>false</externalId>
+        <label>Trackable</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Twin_Engine__c</fullName>
+        <externalId>false</externalId>
+        <label>Twin Engine</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Two_Pilots__c</fullName>
+        <externalId>false</externalId>
+        <label>Two Pilots</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Video_Monitors__c</fullName>
+        <externalId>false</externalId>
+        <label>Video Monitors</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Wet_Runway_Restricted__c</fullName>
+        <externalId>false</externalId>
+        <label>Wet Runway Restricted</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>WiFi_Cost__c</fullName>
+        <externalId>false</externalId>
+        <label>WiFi Cost</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Domestic FREE &amp; NO International</fullName>
+                    <default>false</default>
+                    <label>Domestic FREE &amp; NO International</label>
+                </value>
+                <value>
+                    <fullName>Domestic $3.00/MB &amp; NO International</fullName>
+                    <default>false</default>
+                    <label>Domestic $3.00/MB &amp; NO International</label>
+                </value>
+                <value>
+                    <fullName>Domestic $7.00/MB &amp; NO International</fullName>
+                    <default>false</default>
+                    <label>Domestic $7.00/MB &amp; NO International</label>
+                </value>
+                <value>
+                    <fullName>Domestic $7.50/MB &amp; NO International</fullName>
+                    <default>false</default>
+                    <label>Domestic $7.50/MB &amp; NO International</label>
+                </value>
+                <value>
+                    <fullName>Domestic $7.95/MB &amp; NO International</fullName>
+                    <default>false</default>
+                    <label>Domestic $7.95/MB &amp; NO International</label>
+                </value>
+                <value>
+                    <fullName>Domestic $7.99/MB &amp; NO International</fullName>
+                    <default>false</default>
+                    <label>Domestic $7.99/MB &amp; NO International</label>
+                </value>
+                <value>
+                    <fullName>Domestic $8.95/MB &amp; NO International</fullName>
+                    <default>false</default>
+                    <label>Domestic $8.95/MB &amp; NO International</label>
+                </value>
+                <value>
+                    <fullName>Domestic &amp; International $10/MB</fullName>
+                    <default>false</default>
+                    <label>Domestic &amp; International $10/MB</label>
+                </value>
+                <value>
+                    <fullName>Domestic &amp; International $12/MB</fullName>
+                    <default>false</default>
+                    <label>Domestic &amp; International $12/MB</label>
+                </value>
+                <value>
+                    <fullName>Domestic &amp; International $7.00/MB</fullName>
+                    <default>false</default>
+                    <label>Domestic &amp; International $7.00/MB</label>
+                </value>
+                <value>
+                    <fullName>Domestic &amp; International $7.50/MB</fullName>
+                    <default>false</default>
+                    <label>Domestic &amp; International $7.50/MB</label>
+                </value>
+                <value>
+                    <fullName>Domestic &amp; International $7.95/MB</fullName>
+                    <default>false</default>
+                    <label>Domestic &amp; International $7.95/MB</label>
+                </value>
+                <value>
+                    <fullName>Domestic &amp; International $8.00/MB</fullName>
+                    <default>false</default>
+                    <label>Domestic &amp; International $8.00/MB</label>
+                </value>
+                <value>
+                    <fullName>Domestic &amp; International $8.95/MB per device</fullName>
+                    <default>false</default>
+                    <label>Domestic &amp; International $8.95/MB per device</label>
+                </value>
+                <value>
+                    <fullName>Domestic &amp; International $10.95/MB</fullName>
+                    <default>false</default>
+                    <label>Domestic &amp; International $10.95/MB</label>
+                </value>
+                <value>
+                    <fullName>Domestic &amp; International FREE</fullName>
+                    <default>false</default>
+                    <label>Domestic &amp; International FREE</label>
+                </value>
+                <value>
+                    <fullName>Domestic FREE &amp; International $2.00/MB</fullName>
+                    <default>false</default>
+                    <label>Domestic FREE &amp; International $2.00/MB</label>
+                </value>
+                <value>
+                    <fullName>Domestic FREE &amp; International $5.00/MB</fullName>
+                    <default>false</default>
+                    <label>Domestic FREE &amp; International $5.00/MB</label>
+                </value>
+                <value>
+                    <fullName>Domestic FREE &amp; International $7.50/minute</fullName>
+                    <default>false</default>
+                    <label>Domestic FREE &amp; International $7.50/minute</label>
+                </value>
+                <value>
+                    <fullName>Domestic FREE &amp; International $7.95/MB</fullName>
+                    <default>false</default>
+                    <label>Domestic FREE &amp; International $7.95/MB</label>
+                </value>
+                <value>
+                    <fullName>Domestic FREE &amp; International $8.95/MB</fullName>
+                    <default>false</default>
+                    <label>Domestic FREE &amp; International $8.95/MB</label>
+                </value>
+                <value>
+                    <fullName>Domestic FREE &amp; International $9.95/MB</fullName>
+                    <default>false</default>
+                    <label>Domestic FREE &amp; International $9.95/MB</label>
+                </value>
+                <value>
+                    <fullName>Domestic FREE &amp; International $10.00/MB</fullName>
+                    <default>false</default>
+                    <label>Domestic FREE &amp; International $10.00/MB</label>
+                </value>
+                <value>
+                    <fullName>Domestic FREE &amp; International $10.50/MB</fullName>
+                    <default>false</default>
+                    <label>Domestic FREE &amp; International $10.50/MB</label>
+                </value>
+                <value>
+                    <fullName>$200 per flight hour (Pre-Paid)</fullName>
+                    <default>false</default>
+                    <label>$200 per flight hour (Pre-Paid)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>WiFi_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>WiFi Notes</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>WiFi__c</fullName>
+        <externalId>false</externalId>
+        <label>WiFi</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>XM_Radio__c</fullName>
+        <externalId>false</externalId>
+        <label>XM Radio</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Year_of_Delivery_YOD__c</fullName>
+        <externalId>false</externalId>
+        <label>Year of Delivery (YOD)</label>
+        <length>4</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Year_of_Manufacture__c</fullName>
+        <externalId>false</externalId>
+        <label>Year of Manufacture (YOM)</label>
+        <length>4</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>iPod_Docking_Station__c</fullName>
+        <externalId>false</externalId>
+        <label>iPod Docking Station</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>of_Lavs_Onboard__c</fullName>
+        <externalId>false</externalId>
+        <label># of Lavs Onboard</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>of_Oxygen_Masks_Available__c</fullName>
+        <externalId>false</externalId>
+        <label># of Oxygen Masks Available</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Aircraft</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Operator__c</columns>
+        <columns>Aircraft_Owner__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>All_Active_Aircraft</fullName>
+        <columns>NAME</columns>
+        <columns>Operator__c</columns>
+        <columns>Aircraft_Owner__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Aircraft_Status__c</field>
+            <operation>equals</operation>
+            <value>Active</value>
+        </filters>
+        <label>All Active Aircraft</label>
+    </listViews>
+    <listViews>
+        <fullName>EJM_Aircraft</fullName>
+        <columns>OBJECT_ID</columns>
+        <columns>NAME</columns>
+        <columns>Aircraft_Type__c</columns>
+        <columns>Year_of_Manufacture__c</columns>
+        <columns>Passenger_Seats__c</columns>
+        <columns>Internal_Luggage_Storage_cu_ft__c</columns>
+        <columns>WiFi__c</columns>
+        <columns>Smoking__c</columns>
+        <columns>Pets_in_Cabin__c</columns>
+        <columns>Retail_Hourly_Rate__c</columns>
+        <columns>Fuel_Surcharge__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Operator__c</field>
+            <operation>equals</operation>
+            <value>executive jet management</value>
+        </filters>
+        <label>EJM Aircraft</label>
+        <sharedTo>
+            <group>Current_AP_Employees</group>
+        </sharedTo>
+    </listViews>
+    <nameField>
+        <label>Tail Number</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Aircraft</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Aircraft_Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Operator__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Aircraft_Type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Aircraft_Homebase__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Floating_Homebase__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Total_Hourly_Rate__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Aircraft_Owner__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Aircraft_Status__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Operator__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Aircraft_Type__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Aircraft_Homebase__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Floating_Homebase__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Total_Hourly_Rate__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Aircraft_Status__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Operator__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Aircraft_Type__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Aircraft_Homebase__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Total_Hourly_Rate__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Aircraft_Status__c</searchFilterFields>
+        <searchFilterFields>Operator__c</searchFilterFields>
+        <searchFilterFields>Aircraft_Type__c</searchFilterFields>
+        <searchFilterFields>Aircraft_Homebase__c</searchFilterFields>
+        <searchFilterFields>Floating_Homebase__c</searchFilterFields>
+        <searchFilterFields>Total_Hourly_Rate__c</searchFilterFields>
+        <searchResultsAdditionalFields>Aircraft_Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Operator__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Aircraft_Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Aircraft_Homebase__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Floating_Homebase__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Total_Hourly_Rate__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <fullName>Other_Layout_Notes</fullName>
+        <active>true</active>
+        <description>If Other Layout is selected you must provide notes.</description>
+        <errorConditionFormula>AND( ISPICKVAL(Seating_Configuration__c, &quot;Other&quot;) , ISBLANK(Seating_Configuration_Notes__c))</errorConditionFormula>
+        <errorDisplayField>Seating_Configuration_Notes__c</errorDisplayField>
+        <errorMessage>If Other Layout is selected you must provide notes.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Feedback_Report</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Feedback Report</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/00OU0000003I063?pv0={!Aircraft__c.Name}</url>
+    </webLinks>
+</CustomObject>

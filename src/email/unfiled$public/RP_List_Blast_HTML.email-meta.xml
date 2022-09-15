@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>RP List Blast HTML</name>
+    <style>none</style>
+    <subject>Introducing Aviation Portfolio</subject>
+    <textOnly>Dear {!Contact.FirstName},  
+
+Are your private aviation needs being met in the most efficient manner?  
+
+Aviation Portfolio, an independent, private aviation intelligence company, was created to tackle this challenge.  
+
+And to illustrate how valuable our service is, we are offering a COMPLIMENTARY historical audit during the month of October.  
+
+Craig Ross, the former COO of Marquis Jet, founded Aviation Portfolio in 2011.  The company currently employs a staff of five and has offices in California and New York.  Can we schedule five minutes to discuss?  
+
+Best Regards,  
+Luke Hatfield 
+Aviation Portfolio, LLC 
+www.aviationportfolio.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

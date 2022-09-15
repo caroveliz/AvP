@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>AP</fullName>
+        <categories>Used in Home Page Component page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AP</shortDescription>
+        <value>Aviation Portfolio</value>
+    </labels>
+    <labels>
+        <fullName>Annual_Report</fullName>
+        <categories>Used in Home Page Component page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Annual Report</shortDescription>
+        <value>AVIATION PORTFOLIO REPORT:</value>
+    </labels>
+    <labels>
+        <fullName>Annual_fees</fullName>
+        <categories>Used in Home Page Component page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Annual fees</shortDescription>
+        <value>Aviation Portfolio Annual Fee</value>
+    </labels>
+    <labels>
+        <fullName>Areas_Focus</fullName>
+        <categories>Used in AviationHomePage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Areas Focus</shortDescription>
+        <value>Areas of AvP Focus</value>
+    </labels>
+    <labels>
+        <fullName>Areas_of_AVP</fullName>
+        <categories>Used in AviationHomePage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Areas of AVP</shortDescription>
+        <value>Areas of AvP Impact to Client</value>
+    </labels>
+    <labels>
+        <fullName>Av_renewal</fullName>
+        <categories>Used in Home Page Component page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Av renewal</shortDescription>
+        <value>Aviation Portfolio Contract Renewal Date</value>
+    </labels>
+    <labels>
+        <fullName>Aviation_Start_Date</fullName>
+        <categories>Used in AviationHomePage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Aviation Start Date</shortDescription>
+        <value>Aviation Portfolio Relationship Start Date</value>
+    </labels>
+    <labels>
+        <fullName>Billed_Hours</fullName>
+        <categories>Used in Home Page Component page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Billed Hours</shortDescription>
+        <value>Flown Hours</value>
+    </labels>
+    <labels>
+        <fullName>Charter</fullName>
+        <categories>Used in Home Page Component page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Charter</shortDescription>
+        <value>Charter</value>
+    </labels>
+    <labels>
+        <fullName>Client_ROI</fullName>
+        <categories>Used in Home Page Component page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Client ROI</shortDescription>
+        <value>Client ROI</value>
+    </labels>
+    <labels>
+        <fullName>Closed_Won</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Closed Won</shortDescription>
+        <value>Closed Won</value>
+    </labels>
+    <labels>
+        <fullName>Dollar_Spend</fullName>
+        <categories>Used in Home Page Component page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Dollar Spend</shortDescription>
+        <value>Dollar Spend</value>
+    </labels>
+    <labels>
+        <fullName>Hours_Spent_Acc</fullName>
+        <categories>Used in Home Page Component page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Hours Spent Acc</shortDescription>
+        <value>Hours Spent on account</value>
+    </labels>
+    <labels>
+        <fullName>Label_Cancelled</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label_Cancelled</shortDescription>
+        <value>Cancelled</value>
+    </labels>
+    <labels>
+        <fullName>Label_Expense</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label_Expense</shortDescription>
+        <value>Expense</value>
+    </labels>
+    <labels>
+        <fullName>Label_Leg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label_Leg</shortDescription>
+        <value>Leg</value>
+    </labels>
+    <labels>
+        <fullName>Label_Reconciled</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label_Reconciled</shortDescription>
+        <value>reconciled</value>
+    </labels>
+    <labels>
+        <fullName>Non_Guaranteed_Charter</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Non-Guaranteed/Charter</shortDescription>
+        <value>Non-Guaranteed/Charter</value>
+    </labels>
+    <labels>
+        <fullName>Perf_Summary</fullName>
+        <categories>Used in Home Page Component page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Perf Summary</shortDescription>
+        <value>2017 Summary</value>
+    </labels>
+    <labels>
+        <fullName>Quick_view</fullName>
+        <categories>Used in Home Page Component page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quick view</shortDescription>
+        <value>Quick View Client Activity</value>
+    </labels>
+    <labels>
+        <fullName>Relationship_Date</fullName>
+        <categories>Used in Home Page Component page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Relationship Date</shortDescription>
+        <value>Relationship-to-date</value>
+    </labels>
+    <labels>
+        <fullName>Relationship_Summary</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Relationship Summary</shortDescription>
+        <value>Aviation Portfolio Relationship Summary</value>
+    </labels>
+    <labels>
+        <fullName>Relationship_to_date</fullName>
+        <categories>Used in Home Page Component page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Relationship to date</shortDescription>
+        <value>$ Saved for Client Relationship-to-Date</value>
+    </labels>
+    <labels>
+        <fullName>TOTAL</fullName>
+        <categories>Used in Home Page Component page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TOTAL</shortDescription>
+        <value>TOTAL</value>
+    </labels>
+    <labels>
+        <fullName>Total_Hours</fullName>
+        <categories>Used in Home Page Component page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Total Hours</shortDescription>
+        <value>Total Hours</value>
+    </labels>
+    <labels>
+        <fullName>Total_Spend</fullName>
+        <categories>Used in Home Page Component page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Total Spend</shortDescription>
+        <value>Total Spend</value>
+    </labels>
+    <labels>
+        <fullName>Upgrade_Calculator_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Upgrade Calculator Error</shortDescription>
+        <value>Contracted Aircraft Type on Program not found in Exchange Rate table data.</value>
+    </labels>
+    <labels>
+        <fullName>YTD_Hours</fullName>
+        <categories>Used in Home Page Component page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>YTD Hours</shortDescription>
+        <value>YTD Hours</value>
+    </labels>
+    <labels>
+        <fullName>YTD_Spend</fullName>
+        <categories>Used in Home Page Component page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>YTD Spend</shortDescription>
+        <value>YTD Spend</value>
+    </labels>
+    <labels>
+        <fullName>welcomeLabel</fullName>
+        <categories>Used in AviationHomePage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>welcomeLabel</shortDescription>
+        <value>Welcome To Aviation Community Portfolio</value>
+    </labels>
+</CustomLabels>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Contact$Account</field>
+    </columns>
+    <columns>
+        <field>Contact$Name</field>
+    </columns>
+    <columns>
+        <field>Contact.FeedItems$Body</field>
+    </columns>
+    <columns>
+        <field>Contact.FeedItems$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>Contact.FeedItems$CreatedBy</field>
+    </columns>
+    <columns>
+        <field>Contact.FeedItems.Comments$CommentBody</field>
+    </columns>
+    <columns>
+        <field>Contact.FeedItems.Comments$CreatedBy</field>
+    </columns>
+    <columns>
+        <field>Contact.FeedItems.Comments$CreatedDate</field>
+    </columns>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Contact$Contact_Type__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Contacts with Chatter Feed</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Contacts_with_Feed__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Contact.FeedItems$CreatedDate</dateColumn>
+        <interval>INTERVAL_CURFY</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Meeting Request</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Meeting Request</name>
+    <style>none</style>
+    <subject>Aviation Portfolio | Craig Ross</subject>
+    <textOnly>Dear XXX,  
+
+We would like to set up a meeting with {!Contact.FirstName} and our CEO Craig Ross.  
+
+The meeting should not take longer than 10 minutes.  
+
+Craig Ross, the former COO of Marquis Jet (acquired by NetJets), founded Aviation Portfolio in 2011. 
+
+Will you please let us know a good time to meet?  
+
+Alternatively, you may click below to schedule at your convenience.  
+
+SCHEDULE ONLINE (In-Person Meeting)  
+
+Warmest Regards,  
+
+Daniel Harris 
+Senior Analyst 
+Aviation Portfolio, LLC 
+3435 Ocean Park Blvd, 107B 
+Santa Monica, CA 90405 
+310-788-9780 (Office)</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

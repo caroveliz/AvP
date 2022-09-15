@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Action the step will take using RPA. Could be starting a job or queuing data. --></help>
+        <label><!-- Action --></label>
+        <name>FSTR__RPA_Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Input Arguments --></label>
+        <name>FSTR__RPA_Input_Arguments__c</name>
+    </fields>
+    <fields>
+        <help><!-- the specific process a robot should run --></help>
+        <label><!-- Process --></label>
+        <name>FSTR__RPA_Process__c</name>
+    </fields>
+    <fields>
+        <label><!-- Automation Provider --></label>
+        <name>FSTR__RPA_Provider__c</name>
+    </fields>
+    <fields>
+        <help><!-- data for adding to an RPA queue --></help>
+        <label><!-- Queue Data --></label>
+        <name>FSTR__RPA_Queue_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Queue Priority --></label>
+        <name>FSTR__RPA_Queue_Priority__c</name>
+    </fields>
+    <fields>
+        <help><!-- the RPA queue data should be inserted into --></help>
+        <label><!-- Queue --></label>
+        <name>FSTR__RPA_Queue__c</name>
+    </fields>
+    <fields>
+        <help><!-- robots to be used when triggering a RPA job --></help>
+        <label><!-- Robots --></label>
+        <name>FSTR__RPA_Robots__c</name>
+    </fields>
+    <fields>
+        <help><!-- Step that the RPA data is associated with --></help>
+        <label><!-- Step --></label>
+        <name>FSTR__Step__c</name>
+        <relationshipLabel><!-- RPA Step Data --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

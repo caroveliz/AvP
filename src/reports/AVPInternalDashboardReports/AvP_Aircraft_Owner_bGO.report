@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Aircraft__c$Name</field>
+    </columns>
+    <columns>
+        <field>Aircraft__c$Aircraft_Owner__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Aircraft__c$AvP_Client_Plane__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>AvP Aircraft Owner</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Aircrafts__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Aircraft__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

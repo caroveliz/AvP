@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_75034411</developerName>
+        <masterLabel>Program Bucket</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>Account.Client_Programs__r$Operator_Program__c</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>25-Hour QS Executive Card</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Marquis 36-month Card</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Marquis Elite Card</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Marquis Cross Country Card</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Marquis Elite Card (2016 Contract)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Marquis Gateway Card</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Marquis Miscellaneous</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Marquis Standard Card</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>NetJets Europe Standard Card</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>NetJets Fractional Lease</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>NetJets Fractional Share</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>NetJets Mission Capable Card</sourceValue>
+            </sourceValues>
+            <value>NetJets-Marquis</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Flexjet 100k Debit Card</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Flexjet 25-Hour Card</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Flexjet Fractional Lease</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Flexjet Fractional Share</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Flight Options JetPASS Card</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Flight Options Membership</sourceValue>
+            </sourceValues>
+            <value>FlexJet</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Planesense Fractional Share</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Planesense LONG Fractional Share</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Planesense SHORT Fractional Share</sourceValue>
+            </sourceValues>
+            <value>PlaneSense</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Wheels Up Standard Member</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Wheels Up Funds - $50k</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Wheels Up Funds - $400k</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Wheels Up Funds - $200k Corporate</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Wheels Up Funds - $200k</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Wheels Up Funds - $100k</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Wheels Up Corporate No Fund Program</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Wheels Up - 50 Hours</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Wheels Up - 25 Hours</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Delta Private Jets $100k Card</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Delta Private Jets $250k Card</sourceValue>
+            </sourceValues>
+            <value>Wheels Up</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>Account.Client_Programs__r$Contracted_Aircraft_Type__c</field>
+    </columns>
+    <columns>
+        <field>BucketField_75034411</field>
+    </columns>
+    <columns>
+        <field>Account.Client_Programs__r$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Client_Programs__r$Contract_Start__c</field>
+    </columns>
+    <columns>
+        <field>Account.Client_Programs__r$Contract_Expiration__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Account.Client_Programs__r$Client_Program_Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Active</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account$Name</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Mickey Mouse</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>BucketField_75034411</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>NetJets-Marquis,FlexJet</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <aggregateType>RowCount</aggregateType>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account$Name</field>
+        <sortByName>RowCount</sortByName>
+        <sortOrder>Desc</sortOrder>
+        <sortType>Aggregate</sortType>
+    </groupingsDown>
+    <name>Accounts with Multiple Programs</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Accounts_with_Programs__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Account$Client_End_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

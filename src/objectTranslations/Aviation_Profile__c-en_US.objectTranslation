@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Aviation Profile</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Aviation Profiles</value>
+    </caseValues>
+    <fields>
+        <label><!-- Access to Personalized Industry Referral --></label>
+        <name>Access_to_Personalized_Industry_Referral__c</name>
+    </fields>
+    <fields>
+        <label><!-- Age of Aircraft --></label>
+        <name>Age_of_Aircraft__c</name>
+        <picklistValues>
+            <masterLabel>TBD</masterLabel>
+            <translation><!-- TBD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Aviation Type Usage --></label>
+        <name>Aviation__c</name>
+        <picklistValues>
+            <masterLabel>Charter</masterLabel>
+            <translation><!-- Charter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fractional Owner</masterLabel>
+            <translation><!-- Fractional Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Restricted Access to Family/Company A/C</masterLabel>
+            <translation><!-- Restricted Access to Family/Company A/C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Simultaneous Usage</masterLabel>
+            <translation><!-- Simultaneous Usage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplemental Lift</masterLabel>
+            <translation><!-- Supplemental Lift --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Whole A/C Owner - Listed for Sale</masterLabel>
+            <translation><!-- Whole A/C Owner - Listed for Sale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Whole A/C Owner - Not for Sale</masterLabel>
+            <translation><!-- Whole A/C Owner - Not for Sale --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Biggest Pet Peeves --></label>
+        <name>Biggest_Pet_Peeves__c</name>
+    </fields>
+    <fields>
+        <label><!-- Budget Updates --></label>
+        <name>Budget_Updates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Buying Criteria #1 --></label>
+        <name>Buying_Criteria_1__c</name>
+        <picklistValues>
+            <masterLabel>Best Value</masterLabel>
+            <translation><!-- Best Value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consistency</masterLabel>
+            <translation><!-- Consistency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Service</masterLabel>
+            <translation><!-- Customer Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DirectTV</masterLabel>
+            <translation><!-- DirectTV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guaranteed Availability</masterLabel>
+            <translation><!-- Guaranteed Availability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>International Expertise</masterLabel>
+            <translation><!-- International Expertise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lowest Price</masterLabel>
+            <translation><!-- Lowest Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Time Departures</masterLabel>
+            <translation><!-- On-Time Departures --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pilot Training</masterLabel>
+            <translation><!-- Pilot Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Safety</masterLabel>
+            <translation><!-- Safety --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wi-Fi</masterLabel>
+            <translation><!-- Wi-Fi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Buying Criteria #2 --></label>
+        <name>Buying_Criteria_2__c</name>
+        <picklistValues>
+            <masterLabel>Best Value</masterLabel>
+            <translation><!-- Best Value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consistency</masterLabel>
+            <translation><!-- Consistency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Service</masterLabel>
+            <translation><!-- Customer Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DirectTV</masterLabel>
+            <translation><!-- DirectTV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guaranteed Availability</masterLabel>
+            <translation><!-- Guaranteed Availability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>International Expertise</masterLabel>
+            <translation><!-- International Expertise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lowest Price</masterLabel>
+            <translation><!-- Lowest Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Time Departures</masterLabel>
+            <translation><!-- On-Time Departures --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pilot Training</masterLabel>
+            <translation><!-- Pilot Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Safety</masterLabel>
+            <translation><!-- Safety --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wi-Fi</masterLabel>
+            <translation><!-- Wi-Fi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Buying Criteria #3 --></label>
+        <name>Buying_Criteria_3__c</name>
+        <picklistValues>
+            <masterLabel>Best Value</masterLabel>
+            <translation><!-- Best Value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consistency</masterLabel>
+            <translation><!-- Consistency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Service</masterLabel>
+            <translation><!-- Customer Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DirectTV</masterLabel>
+            <translation><!-- DirectTV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guaranteed Availability</masterLabel>
+            <translation><!-- Guaranteed Availability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>International Expertise</masterLabel>
+            <translation><!-- International Expertise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lowest Price</masterLabel>
+            <translation><!-- Lowest Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Time Departures</masterLabel>
+            <translation><!-- On-Time Departures --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pilot Training</masterLabel>
+            <translation><!-- Pilot Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Safety</masterLabel>
+            <translation><!-- Safety --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wi-Fi</masterLabel>
+            <translation><!-- Wi-Fi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CPA-Ready Flight Data --></label>
+        <name>CPA_Ready_Flight_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Car Rental Favorite --></label>
+        <name>Car_Rental_Favorite__c</name>
+        <picklistValues>
+            <masterLabel>TBD</masterLabel>
+            <translation><!-- TBD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Aviation Profile --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contract Interpretations &amp; Summaries --></label>
+        <name>Contract_Interpretations_Summaries__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Card Type --></label>
+        <name>Credit_Card_Type__c</name>
+        <picklistValues>
+            <masterLabel>TBD</masterLabel>
+            <translation><!-- TBD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- DL &amp; Passport Copy --></label>
+        <name>DL_Passport_Copy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destination #1 --></label>
+        <name>Destination_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Family Food Allergies --></label>
+        <name>Family_Food_Allergies__c</name>
+    </fields>
+    <fields>
+        <label><!-- Family Food Allergy Details --></label>
+        <name>Family_Food_Allergy_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Favorite Coffee --></label>
+        <name>Favorite_Coffee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Favorite Jet --></label>
+        <name>Favorite_Jet_1__c</name>
+        <picklistValues>
+            <masterLabel>TBD</masterLabel>
+            <translation><!-- TBD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Flat Floor / Step Up --></label>
+        <name>Flat_Floor_Step_Up__c</name>
+        <picklistValues>
+            <masterLabel>Flat Floor</masterLabel>
+            <translation><!-- Flat Floor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Step Up</masterLabel>
+            <translation><!-- Step Up --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Flight Attendant --></label>
+        <name>Flight_Attendant__c</name>
+        <picklistValues>
+            <masterLabel>Indifferent</masterLabel>
+            <translation><!-- Indifferent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Flight &amp; Crew Audits --></label>
+        <name>Flight_Crew_Audits__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flight Segments / Year --></label>
+        <name>Flight_Segments_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fractional Status --></label>
+        <name>Fractional_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Home Airport #1 --></label>
+        <name>Home_Airport_1__c</name>
+        <picklistValues>
+            <masterLabel>TBD</masterLabel>
+            <translation><!-- TBD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Home Airport #2 --></label>
+        <name>Home_Airport_2__c</name>
+        <picklistValues>
+            <masterLabel>TBD</masterLabel>
+            <translation><!-- TBD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Hours / Year --></label>
+        <name>Hours_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importance Operator/Broker Experience --></label>
+        <name>Importance_Operator_Broker_Experience__c</name>
+        <picklistValues>
+            <masterLabel>TBD</masterLabel>
+            <translation><!-- TBD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Importance Operator/Broker References --></label>
+        <name>Importance_Operator_Broker__c</name>
+        <picklistValues>
+            <masterLabel>TBD</masterLabel>
+            <translation><!-- TBD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Importance Operator Financial Strength --></label>
+        <name>Importance__c</name>
+        <picklistValues>
+            <masterLabel>TBD</masterLabel>
+            <translation><!-- TBD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- To owner/CEO/President of Operator/Brokerage --></help>
+        <label><!-- Importance of Direct Access --></label>
+        <name>Importance_of_Direct_Access__c</name>
+        <picklistValues>
+            <masterLabel>TBD</masterLabel>
+            <translation><!-- TBD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Invoice Audits --></label>
+        <name>Invoice_Audits__c</name>
+    </fields>
+    <fields>
+        <label><!-- Least Favorite Jet --></label>
+        <name>Least_Favorite_Jet_1__c</name>
+        <picklistValues>
+            <masterLabel>TBD</masterLabel>
+            <translation><!-- TBD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Limo Company Favorite --></label>
+        <name>Limo_Company_Favorite__c</name>
+    </fields>
+    <fields>
+        <label><!-- Needs Analysis --></label>
+        <name>Needs_Analysis__c</name>
+    </fields>
+    <fields>
+        <label><!-- Negotiation of Purchases &amp; Credits --></label>
+        <name>Negotiation_of_Purchases_Credits__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nervous Flyer --></label>
+        <name>Nervous_Flyer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overflight --></label>
+        <name>Overflight__c</name>
+        <picklistValues>
+            <masterLabel>Indifferent</masterLabel>
+            <translation><!-- Indifferent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- # Passengers --></label>
+        <name>Passengers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Method --></label>
+        <name>Payment_Method__c</name>
+        <picklistValues>
+            <masterLabel>Check</masterLabel>
+            <translation><!-- Check --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Card</masterLabel>
+            <translation><!-- Credit Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wire</masterLabel>
+            <translation><!-- Wire --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pets --></label>
+        <name>Pets__c</name>
+        <picklistValues>
+            <masterLabel>Cat</masterLabel>
+            <translation><!-- Cat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dog</masterLabel>
+            <translation><!-- Dog --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indifferent</masterLabel>
+            <translation><!-- Indifferent --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pilot Preference --></label>
+        <name>Pilot_Preference__c</name>
+        <picklistValues>
+            <masterLabel>2 Captains</masterLabel>
+            <translation><!-- 2 Captains --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exclusive to Operator</masterLabel>
+            <translation><!-- Exclusive to Operator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flies Only 1 Cockpit</masterLabel>
+            <translation><!-- Flies Only 1 Cockpit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flight Safety Twice</masterLabel>
+            <translation><!-- Flight Safety Twice --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Porfolio Planning --></label>
+        <name>Porfolio_Planning__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product End Date --></label>
+        <name>Product_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Start Date --></label>
+        <name>Product_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Program Commitment --></label>
+        <name>Program_Commitment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Program Details --></label>
+        <name>Program_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Program Expiration Date --></label>
+        <name>Program_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Program Incentives --></label>
+        <name>Program_Incentives__c</name>
+    </fields>
+    <fields>
+        <label><!-- Program Name --></label>
+        <name>Program_Name__c</name>
+        <picklistValues>
+            <masterLabel>TBD</masterLabel>
+            <translation><!-- TBD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Program Start Date --></label>
+        <name>Program_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Program Type --></label>
+        <name>Program_Type__c</name>
+        <picklistValues>
+            <masterLabel>Ad-Hoc Charter</masterLabel>
+            <translation><!-- Ad-Hoc Charter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Card</masterLabel>
+            <translation><!-- Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fractional</masterLabel>
+            <translation><!-- Fractional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lease</masterLabel>
+            <translation><!-- Lease --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Membership/Debit/BlockCharter</masterLabel>
+            <translation><!-- Membership/Debit/BlockCharter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Whole Aircraft</masterLabel>
+            <translation><!-- Whole Aircraft --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Research &amp; Aviation Intelligence --></label>
+        <name>Research_Aviation_Intelligence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Smokers --></label>
+        <name>Smokers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Term Length --></label>
+        <name>Term_Length__c</name>
+        <picklistValues>
+            <masterLabel>12 Months</masterLabel>
+            <translation><!-- 12 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15 Months</masterLabel>
+            <translation><!-- 15 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18 Months</masterLabel>
+            <translation><!-- 18 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21 Months</masterLabel>
+            <translation><!-- 21 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>24 Months</masterLabel>
+            <translation><!-- 24 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 Months</masterLabel>
+            <translation><!-- 6 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9 Months</masterLabel>
+            <translation><!-- 9 Months --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

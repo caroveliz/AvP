@@ -1,0 +1,1328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Aircraft</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Aircraft</value>
+    </caseValues>
+    <fields>
+        <label><!-- Access Luggage from Cabin --></label>
+        <name>Access_Luggage_from_Cabin__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Additional Fee for Pets --></label>
+        <name>Additional_Fee_for_Pets__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Age Range --></label>
+        <name>Aircraft_Age_Range__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Age --></label>
+        <name>Aircraft_Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Homebase --></label>
+        <name>Aircraft_Homebase__c</name>
+        <relationshipLabel><!-- Aircraft --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Owner --></label>
+        <name>Aircraft_Owner__c</name>
+        <relationshipLabel><!-- Aircraft --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Status --></label>
+        <name>Aircraft_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blacklisted</masterLabel>
+            <translation><!-- Blacklisted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TBD</masterLabel>
+            <translation><!-- TBD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temp Inactive - Due to Incident</masterLabel>
+            <translation><!-- Temp Inactive - Due to Incident --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Type --></label>
+        <name>Aircraft_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Airport Restrictions --></label>
+        <name>Airport_Restrictions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Airshow --></label>
+        <name>Airshow__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AvP Client Plane --></label>
+        <name>AvP_Client_Plane__c</name>
+    </fields>
+    <fields>
+        <label><!-- Belted Lavatory --></label>
+        <name>Belted_Lavatory__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Cabin Floor --></label>
+        <name>Cabin_Floor__c</name>
+        <picklistValues>
+            <masterLabel>Drop Floor</masterLabel>
+            <translation><!-- Drop Floor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flat Floor</masterLabel>
+            <translation><!-- Flat Floor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Numeric Only - one decimal point (e.g., 6.2, 5.4) --></help>
+        <label><!-- Cabin Height (ft) --></label>
+        <name>Cabin_Height_ft__c</name>
+    </fields>
+    <fields>
+        <help><!-- Numeric Only - one decimal point (e.g., 50.2, 45.0) --></help>
+        <label><!-- Cabin Length (ft) --></label>
+        <name>Cabin_Length_ft__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cabin Type --></label>
+        <name>Cabin_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- Numeric Only - one decimal point (e.g., 324.5, 1450.0) --></help>
+        <label><!-- Cabin Volume (cu ft) --></label>
+        <name>Cabin_Volume_cu_ft__c</name>
+    </fields>
+    <fields>
+        <help><!-- Numeric Only - one decimal point (e.g., 7.3, 6.4) --></help>
+        <label><!-- Cabin Width (ft) --></label>
+        <name>Cabin_Width_ft__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call Sign --></label>
+        <name>Call_Sign__c</name>
+    </fields>
+    <fields>
+        <label><!-- Can be flown with one pilot? --></label>
+        <name>Can_be_flown_with_one_pilot__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Certified Crew Rest Area --></label>
+        <name>Certified_Crew_Rest_Area__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Convection Oven --></label>
+        <name>Convection_Oven__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- DVD Player --></label>
+        <name>DVD_Player__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Daily Minimums Required --></label>
+        <name>Daily_Minimums_Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Details of Refurb --></label>
+        <name>Details_of_Refurb__c</name>
+    </fields>
+    <fields>
+        <label><!-- Difficult to Receive Owner Approval --></label>
+        <name>Difficult_to_Receive_Owner_Approval__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- DirecTV --></label>
+        <name>DirecTV__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Do Pilots Have ATP? --></label>
+        <name>Do_Pilots_Have_ATP__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Does Aircraft have a dedicated crew? --></label>
+        <name>Does_Aircraft_have_a_dedicated_crew__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Enclosed Lavatory --></label>
+        <name>Enclosed_Lavatory__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Engine Type --></label>
+        <name>Engine_Type__c</name>
+        <picklistValues>
+            <masterLabel>Jet Engine</masterLabel>
+            <translation><!-- Jet Engine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Piston</masterLabel>
+            <translation><!-- Piston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turbo Prop</masterLabel>
+            <translation><!-- Turbo Prop --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Equipped with TCAS1 --></label>
+        <name>Equipped_with_TCAS1__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Equipped with TCAS2 --></label>
+        <name>Equipped_with_TCAS2__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- External Luggage Storage (cu ft) --></label>
+        <name>External_Luggage_Storage_cu_ft__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flight Attendant Jump Seat Certified --></label>
+        <name>Flight_Attendant_Jump_Seat_Certified__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Flight Attendant Name --></label>
+        <name>Flight_Attendant_Name__c</name>
+        <relationshipLabel><!-- Aircraft (Flight Attendant) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Flight Attendant Onboard --></label>
+        <name>Flight_Attendant_Onboard__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Flight Attendant Required --></label>
+        <name>Flight_Attendant_Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Flight Aware Link --></label>
+        <name>Flight_Aware_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flight Range --></label>
+        <name>Flight_Range__c</name>
+        <picklistValues>
+            <masterLabel>Coast to Coast</masterLabel>
+            <translation><!-- Coast to Coast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mid Range</masterLabel>
+            <translation><!-- Mid Range --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regional</masterLabel>
+            <translation><!-- Regional --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Floating Homebase --></label>
+        <name>Floating_Homebase__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used for Market Intel; Is not in Formula above for Total Hourly Rate --></help>
+        <label><!-- Fuel Hourly Rate --></label>
+        <name>Fuel_Hourly_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fuel Surcharge --></label>
+        <name>Fuel_Surcharge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Galley Location --></label>
+        <name>Galley_Location__c</name>
+        <picklistValues>
+            <masterLabel>Forward &amp; Rear Galley</masterLabel>
+            <translation><!-- Forward &amp; Rear Galley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Forward Galley</masterLabel>
+            <translation><!-- Forward Galley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rear Galley</masterLabel>
+            <translation><!-- Rear Galley --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Has Aircraft Failed Safety Audit? --></label>
+        <name>Has_Aircraft_Failed_Safety_Audit__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Has Crew Failed Safety Audit --></label>
+        <name>Has_Crew_Failed_Safety_Audit__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- IMPORTANT AIRCRAFT NOTES --></label>
+        <name>IMPORTANT_NOTES__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incident Date --></label>
+        <name>Incident_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incident Description --></label>
+        <name>Incident_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Luggage Storage (cu ft) --></label>
+        <name>Internal_Luggage_Storage_cu_ft__c</name>
+    </fields>
+    <fields>
+        <label><!-- International Certified --></label>
+        <name>International_Certified__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- International Overflight Certified --></label>
+        <name>International_Overflight_Certified__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Involved in Aircraft Incident --></label>
+        <name>Involved_in_Aircraft_Incident__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last Exterior Refurb --></label>
+        <name>Last_Exterior_Refurb__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Interior Refurb --></label>
+        <name>Last_Interior_Refurb__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Maintenance Check --></label>
+        <name>Last_Maintenance_Check__c</name>
+    </fields>
+    <fields>
+        <label><!-- Liability Insurance Amount --></label>
+        <name>Liability_Insurance_Amount__c</name>
+        <picklistValues>
+            <masterLabel>$100mm</masterLabel>
+            <translation><!-- $100mm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$105mm</masterLabel>
+            <translation><!-- $105mm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$10mm</masterLabel>
+            <translation><!-- $10mm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$125mm</masterLabel>
+            <translation><!-- $125mm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$135mm</masterLabel>
+            <translation><!-- $135mm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$150mm</masterLabel>
+            <translation><!-- $150mm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$175mm</masterLabel>
+            <translation><!-- $175mm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$200mm</masterLabel>
+            <translation><!-- $200mm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$20mm</masterLabel>
+            <translation><!-- $20mm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$225mm</masterLabel>
+            <translation><!-- $225mm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$250mm</masterLabel>
+            <translation><!-- $250mm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$25mm</masterLabel>
+            <translation><!-- $25mm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$275mm</masterLabel>
+            <translation><!-- $275mm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$300mm</masterLabel>
+            <translation><!-- $300mm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$325mm</masterLabel>
+            <translation><!-- $325mm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$350mm</masterLabel>
+            <translation><!-- $350mm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$375mm</masterLabel>
+            <translation><!-- $375mm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$400mm</masterLabel>
+            <translation><!-- $400mm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$425mm</masterLabel>
+            <translation><!-- $425mm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$450mm</masterLabel>
+            <translation><!-- $450mm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$475mm</masterLabel>
+            <translation><!-- $475mm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$500mm</masterLabel>
+            <translation><!-- $500mm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$50mm</masterLabel>
+            <translation><!-- $50mm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$60mm</masterLabel>
+            <translation><!-- $60mm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$65mm</masterLabel>
+            <translation><!-- $65mm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$75mm</masterLabel>
+            <translation><!-- $75mm --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Liability Insurance Expiration --></label>
+        <name>Liability_Insurance_Expiration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Limited Luggage Storage --></label>
+        <name>Limited_Luggage_Storage__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Limited Range in High Elev. &amp; Temps --></label>
+        <name>Limited_Range_in_High_Elev_Temps__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Link to Photos --></label>
+        <name>Link_to_Photos__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max Cruise Altitude (ft) --></label>
+        <name>Max_Cruise_Altitude_ft__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max Cruise Speed (mph) --></label>
+        <name>Max_Cruise_Speed_mph__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max Flight Hours --></label>
+        <name>Max_Flight_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max Pass w/ Flt Attendant &amp; No Jump Seat --></label>
+        <name>Max_Pass_w_Flt_Attendant_No_Jump_Seat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max Passengers with Belted Lavatory --></label>
+        <name>Max_Passengers_with_Belted_Lavatory__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max Range Full Capacity (nm) --></label>
+        <name>Max_Range_Full_Capacity_nm__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max Range Minimal Capacity (nm) --></label>
+        <name>Max_Range_Minimal_Capacity_nm__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max # of Flat Beds --></label>
+        <name>Max_of_Flat_Beds__c</name>
+    </fields>
+    <fields>
+        <label><!-- Microwave --></label>
+        <name>Microwave__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Onboard Movie Database --></label>
+        <name>Onboard_Movie_Database__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Operator Owned/Leased --></label>
+        <name>Operator_Owned_Leased__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Operator &amp; Tail Number --></label>
+        <name>Operator_Tail_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operator --></label>
+        <name>Operator__c</name>
+        <relationshipLabel><!-- Aircraft (Operator) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Owner Approval Notes --></label>
+        <name>Owner_Approval_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Approval Required --></label>
+        <name>Owner_Approval_Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- PIC Name --></label>
+        <name>PIC_Name__c</name>
+        <relationshipLabel><!-- Aircraft (PIC) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Is this aircraft operated under 91 only and NOT charter 135? --></help>
+        <label><!-- Part 91 Only --></label>
+        <name>Part_91_Only__c</name>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Passenger Count Restrictions --></label>
+        <name>Passenger_Count_Restrictions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Passenger Seats --></label>
+        <name>Passenger_Seats__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pets in Cabin --></label>
+        <name>Pets_in_Cabin__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes in Crate Only</masterLabel>
+            <translation><!-- Yes in Crate Only --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Rate Type --></label>
+        <name>Rate_Type__c</name>
+        <picklistValues>
+            <masterLabel>Calculated</masterLabel>
+            <translation><!-- Calculated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Published</masterLabel>
+            <translation><!-- Published --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Red Wine --></label>
+        <name>Red_Wine__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Retail Hourly Rate --></label>
+        <name>Retail_Hourly_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- SIC Name --></label>
+        <name>SIC_Name__c</name>
+        <relationshipLabel><!-- Aircraft (SIC) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Satellite Phone --></label>
+        <name>Satellite_Phone__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Satellite TV --></label>
+        <name>Satellite_TV__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Seating Configuration Notes --></label>
+        <name>Seating_Configuration_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Seating Configuration --></label>
+        <name>Seating_Configuration__c</name>
+        <picklistValues>
+            <masterLabel>10 captains chairs</masterLabel>
+            <translation><!-- 10 captains chairs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 captains chairs + 2-person divan</masterLabel>
+            <translation><!-- 10 captains chairs + 2-person divan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 captains chairs + 3-person divan</masterLabel>
+            <translation><!-- 10 captains chairs + 3-person divan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 captains chairs + 3-person divan + 2-person divan</masterLabel>
+            <translation><!-- 10 captains chairs + 3-person divan + 2-person divan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 captains chairs + 4-person divan</masterLabel>
+            <translation><!-- 10 captains chairs + 4-person divan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 captains chairs + 4-person divan + 2-person divan</masterLabel>
+            <translation><!-- 10 captains chairs + 4-person divan + 2-person divan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 captains chairs + two 2-person divans</masterLabel>
+            <translation><!-- 10 captains chairs + two 2-person divans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11 captains chairs</masterLabel>
+            <translation><!-- 11 captains chairs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11 captains chairs + 3-person divan</masterLabel>
+            <translation><!-- 11 captains chairs + 3-person divan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11 captains chairs + 3-person divan + 2-person divan</masterLabel>
+            <translation><!-- 11 captains chairs + 3-person divan + 2-person divan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11 captains chairs + 3-person divan + 4-person divan</masterLabel>
+            <translation><!-- 11 captains chairs + 3-person divan + 4-person divan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12 captains chairs</masterLabel>
+            <translation><!-- 12 captains chairs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12 captains chairs + 3-person divan</masterLabel>
+            <translation><!-- 12 captains chairs + 3-person divan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12 captains chairs + 4-person divan</masterLabel>
+            <translation><!-- 12 captains chairs + 4-person divan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13 captains chairs</masterLabel>
+            <translation><!-- 13 captains chairs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14 captains chairs</masterLabel>
+            <translation><!-- 14 captains chairs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15 captains chairs</masterLabel>
+            <translation><!-- 15 captains chairs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16 captains chairs</masterLabel>
+            <translation><!-- 16 captains chairs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 captains chairs</masterLabel>
+            <translation><!-- 4 captains chairs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 captains chairs + 2-person divan</masterLabel>
+            <translation><!-- 4 captains chairs + 2-person divan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 captains chairs + 3-person divan</masterLabel>
+            <translation><!-- 4 captains chairs + 3-person divan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 captains chairs + one-side facing seat</masterLabel>
+            <translation><!-- 4 captains chairs + one-side facing seat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 captains chairs</masterLabel>
+            <translation><!-- 5 captains chairs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 captains chairs + 2-person divan</masterLabel>
+            <translation><!-- 5 captains chairs + 2-person divan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 captains chairs + 3-person divan</masterLabel>
+            <translation><!-- 5 captains chairs + 3-person divan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 captains chairs</masterLabel>
+            <translation><!-- 6 captains chairs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 captains chairs + 2-person divan</masterLabel>
+            <translation><!-- 6 captains chairs + 2-person divan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 captains chairs + 3-person divan</masterLabel>
+            <translation><!-- 6 captains chairs + 3-person divan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 captains chairs + 4-person divan</masterLabel>
+            <translation><!-- 6 captains chairs + 4-person divan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 captains chairs + one 3-person divan + two 2-person divans</masterLabel>
+            <translation><!-- 6 captains chairs + one 3-person divan + two 2-person divans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 captains chairs + one-side facing seat</masterLabel>
+            <translation><!-- 6 captains chairs + one-side facing seat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 captains chairs + two 3-person divans</masterLabel>
+            <translation><!-- 6 captains chairs + two 3-person divans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 captains chairs + two 4-person divans</masterLabel>
+            <translation><!-- 6 captains chairs + two 4-person divans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 captains chairs</masterLabel>
+            <translation><!-- 7 captains chairs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 captains chairs + two 3-person divans</masterLabel>
+            <translation><!-- 7 captains chairs + two 3-person divans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8 captain chairs + 2 person divan</masterLabel>
+            <translation><!-- 8 captain chairs + 2 person divan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8 captains chairs</masterLabel>
+            <translation><!-- 8 captains chairs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8 captains chairs + 3-person divan</masterLabel>
+            <translation><!-- 8 captains chairs + 3-person divan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8 captains chairs + 4-person divan</masterLabel>
+            <translation><!-- 8 captains chairs + 4-person divan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8 captains chairs + one 4-person divan + two 2-person divans</masterLabel>
+            <translation><!-- 8 captains chairs + one 4-person divan + two 2-person divans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8 captains chairs + one-side facing seat</masterLabel>
+            <translation><!-- 8 captains chairs + one-side facing seat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8 captains chairs + three 2-person divans</masterLabel>
+            <translation><!-- 8 captains chairs + three 2-person divans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8 captains chairs + two 3-person divans</masterLabel>
+            <translation><!-- 8 captains chairs + two 3-person divans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8 captains chairs + two 4-person divans</masterLabel>
+            <translation><!-- 8 captains chairs + two 4-person divans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8 captains chairs + two 4-person divans + one 2-person divan</masterLabel>
+            <translation><!-- 8 captains chairs + two 4-person divans + one 2-person divan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9 captains chairs</masterLabel>
+            <translation><!-- 9 captains chairs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9 captains chairs + 3-person divan</masterLabel>
+            <translation><!-- 9 captains chairs + 3-person divan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9 captains chairs + 3-person divan + 4-person divan</masterLabel>
+            <translation><!-- 9 captains chairs + 3-person divan + 4-person divan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9 captains chairs + 4-person divan</masterLabel>
+            <translation><!-- 9 captains chairs + 4-person divan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9 captains chairs + two 3-person divans</masterLabel>
+            <translation><!-- 9 captains chairs + two 3-person divans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Varies</masterLabel>
+            <translation><!-- Varies --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Shoes in Cabin --></label>
+        <name>Shoes_in_Cabin__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Ski Tube Storage --></label>
+        <name>Ski_Tube_Storage__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Smoking --></label>
+        <name>Smoking__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Talk &amp; Text --></label>
+        <name>Talk_Text__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Text &amp; Talk Cost --></label>
+        <name>Text_Talk_Cost__c</name>
+        <picklistValues>
+            <masterLabel>Free Text &amp; Email; Talk $1.60/min Domestic &amp; International</masterLabel>
+            <translation><!-- Free Text &amp; Email; Talk $1.60/min Domestic &amp; International --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Free Text, Talk, &amp; Email</masterLabel>
+            <translation><!-- Free Text, Talk, &amp; Email --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Hourly Rate --></label>
+        <name>Total_Hourly_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trackable --></label>
+        <name>Trackable__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Twin Engine --></label>
+        <name>Twin_Engine__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Two Pilots --></label>
+        <name>Two_Pilots__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Video Monitors --></label>
+        <name>Video_Monitors__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Wet Runway Restricted --></label>
+        <name>Wet_Runway_Restricted__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- WiFi Cost --></label>
+        <name>WiFi_Cost__c</name>
+        <picklistValues>
+            <masterLabel>$200 per flight hour (Pre-Paid)</masterLabel>
+            <translation><!-- $200 per flight hour (Pre-Paid) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic $3.00/MB &amp; NO International</masterLabel>
+            <translation><!-- Domestic $3.00/MB &amp; NO International --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic $7.00/MB &amp; NO International</masterLabel>
+            <translation><!-- Domestic $7.00/MB &amp; NO International --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic $7.50/MB &amp; NO International</masterLabel>
+            <translation><!-- Domestic $7.50/MB &amp; NO International --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic $7.95/MB &amp; NO International</masterLabel>
+            <translation><!-- Domestic $7.95/MB &amp; NO International --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic $7.99/MB &amp; NO International</masterLabel>
+            <translation><!-- Domestic $7.99/MB &amp; NO International --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic $8.95/MB &amp; NO International</masterLabel>
+            <translation><!-- Domestic $8.95/MB &amp; NO International --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic &amp; International $10.95/MB</masterLabel>
+            <translation><!-- Domestic &amp; International $10.95/MB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic &amp; International $10/MB</masterLabel>
+            <translation><!-- Domestic &amp; International $10/MB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic &amp; International $12/MB</masterLabel>
+            <translation><!-- Domestic &amp; International $12/MB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic &amp; International $7.00/MB</masterLabel>
+            <translation><!-- Domestic &amp; International $7.00/MB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic &amp; International $7.50/MB</masterLabel>
+            <translation><!-- Domestic &amp; International $7.50/MB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic &amp; International $7.95/MB</masterLabel>
+            <translation><!-- Domestic &amp; International $7.95/MB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic &amp; International $8.00/MB</masterLabel>
+            <translation><!-- Domestic &amp; International $8.00/MB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic &amp; International $8.95/MB per device</masterLabel>
+            <translation><!-- Domestic &amp; International $8.95/MB per device --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic &amp; International FREE</masterLabel>
+            <translation><!-- Domestic &amp; International FREE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic FREE &amp; International $10.00/MB</masterLabel>
+            <translation><!-- Domestic FREE &amp; International $10.00/MB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic FREE &amp; International $10.50/MB</masterLabel>
+            <translation><!-- Domestic FREE &amp; International $10.50/MB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic FREE &amp; International $2.00/MB</masterLabel>
+            <translation><!-- Domestic FREE &amp; International $2.00/MB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic FREE &amp; International $5.00/MB</masterLabel>
+            <translation><!-- Domestic FREE &amp; International $5.00/MB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic FREE &amp; International $7.50/minute</masterLabel>
+            <translation><!-- Domestic FREE &amp; International $7.50/minute --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic FREE &amp; International $7.95/MB</masterLabel>
+            <translation><!-- Domestic FREE &amp; International $7.95/MB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic FREE &amp; International $8.95/MB</masterLabel>
+            <translation><!-- Domestic FREE &amp; International $8.95/MB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic FREE &amp; International $9.95/MB</masterLabel>
+            <translation><!-- Domestic FREE &amp; International $9.95/MB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic FREE &amp; NO International</masterLabel>
+            <translation><!-- Domestic FREE &amp; NO International --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- WiFi Notes --></label>
+        <name>WiFi_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- WiFi --></label>
+        <name>WiFi__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- XM Radio --></label>
+        <name>XM_Radio__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Year of Delivery (YOD) --></label>
+        <name>Year_of_Delivery_YOD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year of Manufacture (YOM) --></label>
+        <name>Year_of_Manufacture__c</name>
+    </fields>
+    <fields>
+        <label><!-- iPod Docking Station --></label>
+        <name>iPod_Docking_Station__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- # of Lavs Onboard --></label>
+        <name>of_Lavs_Onboard__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Oxygen Masks Available --></label>
+        <name>of_Oxygen_Masks_Available__c</name>
+    </fields>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- If Other Layout is selected you must provide notes. --></errorMessage>
+        <name>Other_Layout_Notes</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Feedback_Report --></label>
+        <name>Feedback_Report</name>
+    </webLinks>
+</CustomObjectTranslation>

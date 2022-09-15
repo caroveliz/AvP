@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Lookup to account --></help>
+        <label><!-- Account --></label>
+        <name>FSTR__Account__c</name>
+        <relationshipLabel><!-- Process Archive --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Completion Date Type --></label>
+        <name>FSTR__Completion_Date_Type__c</name>
+        <picklistValues>
+            <masterLabel>Actual</masterLabel>
+            <translation><!-- Actual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estimated</masterLabel>
+            <translation><!-- Estimated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Completion Date --></label>
+        <name>FSTR__Completion_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data --></label>
+        <name>FSTR__Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>FSTR__Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link --></label>
+        <name>FSTR__Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Type --></label>
+        <name>FSTR__Object_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percent Complete --></label>
+        <name>FSTR__Percent_Complete__c</name>
+    </fields>
+    <fields>
+        <help><!-- Salesforce record id. --></help>
+        <label><!-- RecordId --></label>
+        <name>FSTR__RecordId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>FSTR__Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Completion Date --></label>
+        <name>FSTR__Target_Completion_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>FSTR__Type__c</name>
+        <picklistValues>
+            <masterLabel>Group</masterLabel>
+            <translation><!-- Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single Process</masterLabel>
+            <translation><!-- Single Process --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

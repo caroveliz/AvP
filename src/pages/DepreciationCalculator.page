@@ -1,0 +1,81 @@
+<apex:page standardController="Client_Program__c" extensions="DepreciationCalculator">
+    <apex:form >
+        <table style="width: 100%;">
+            <tr>
+            	<td>
+                    <apex:pageBlock title="Depreciation Calculator">
+        				<apex:pageBlockSection columns="1">
+                            <apex:outputField value="{!currentPeriod.Name}" />
+                            <apex:outputField value="{!currentPeriod.Program_Year__c}" />
+                            <apex:outputField value="{!program.Initial_Asset_Value__c}" />
+                            <apex:outputField value="{!program.Current_Fair_Market_Value__c}" />
+                            <apex:outputField value="{!program.Depreciated_Value__c}" />
+                            <apex:outputField value="{!currentPeriod.Annual_Hours_Allotted__c}" />
+                            <apex:outputField value="{!program.Total_Flown_Hours__c}" />
+                            <apex:outputField value="{!program.Estimated_Depreciation__c}" />
+                            <apex:outputField value="{!program.Opportunity_Cost__c}" />
+                            <apex:pageBlockSectionItem >
+                            	Days into Program Year
+                                <apex:outputText value="{!daysIntoProgramYear}" />
+                            </apex:pageBlockSectionItem>
+                            <apex:pageBlockSectionItem >
+                            	Percentage into Program Period
+                                <apex:outputText value="{0, number, $#,##0.00}">
+                                    <apex:param value="{!percentageIntoProgramPeriod}" />
+                                </apex:outputText>
+                            </apex:pageBlockSectionItem>
+                            
+                            <apex:pageBlockSectionItem >
+                            	Depreciation/hour - {!program.Estimated_Depreciation__c}% per year
+                                <apex:outputText value="{0, number, $#,##0.00}">
+                                    <apex:param value="{!depreciationPerHour1}" />
+                                </apex:outputText>
+                            </apex:pageBlockSectionItem>
+                            <apex:pageBlockSectionItem >
+                            	Depreciation/hour - actual loss
+                                <apex:outputText value="{0, number, $#,##0.00}">
+                                    <apex:param value="{!depreciationPerHour2}" />
+                                </apex:outputText>
+                            </apex:pageBlockSectionItem>
+                            <apex:pageBlockSectionItem >
+                            	Opportunity Cost of Capital - stagnant
+                                <apex:outputText value="{0, number, $#,##0.00}">
+                                    <apex:param value="{!costOfCapital1}" />
+                                </apex:outputText>
+                            </apex:pageBlockSectionItem>
+                            <apex:pageBlockSectionItem >
+                            	Opportunity Cost of Capital - as of today
+                                <apex:outputText value="{0, number, $#,##0.00}">
+                                    <apex:param value="{!costOfCapital2}" />
+                                </apex:outputText>
+                            </apex:pageBlockSectionItem>
+
+                        </apex:pageBlockSection>
+                    </apex:pageBlock>
+                </td>
+            	<td>
+                    <apex:pageBlock >
+                        <apex:pageBlockTable value="{!years}" var="year">
+                            <apex:column headerValue="Total">
+                                <apex:outputText value="{0, number, $#,##0.00}">
+                                    <apex:param value="{!year.total}" />
+                                </apex:outputText>
+                            </apex:column>
+                            <apex:column headerValue="Per hour">
+                                <apex:outputText value="{0, number, $#,##0.00}">
+                                    <apex:param value="{!year.perHour}" />
+                                </apex:outputText>
+                            </apex:column>
+                            <apex:column headerValue="Per day">
+                                <apex:outputText value="{0, number, $#,##0.00}">
+                                    <apex:param value="{!year.perDay}" />
+                                </apex:outputText>
+                            </apex:column>
+                        </apex:pageBlockTable>
+                    </apex:pageBlock>
+                </td>
+            </tr>
+        </table>
+        
+    </apex:form>
+</apex:page>

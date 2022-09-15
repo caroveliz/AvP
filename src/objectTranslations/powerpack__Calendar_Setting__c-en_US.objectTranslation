@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Color Field --></label>
+        <name>powerpack__Color_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Color --></label>
+        <name>powerpack__Color__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Field Name --></label>
+        <name>powerpack__End_Field_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Filter JSON --></label>
+        <name>powerpack__Filter_JSON__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hover Fields --></label>
+        <name>powerpack__Hover_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Field Name --></label>
+        <name>powerpack__Owner_Field_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Public --></label>
+        <name>powerpack__Public__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Field Name --></label>
+        <name>powerpack__Start_Field_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Object Type --></label>
+        <name>powerpack__Target_Object_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Title Field Name --></label>
+        <name>powerpack__Title_Field_Name__c</name>
+    </fields>
+</CustomObjectTranslation>

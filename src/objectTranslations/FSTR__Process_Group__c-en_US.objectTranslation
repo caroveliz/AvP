@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Date this group of processes is expected to be completed/closed. --></help>
+        <label><!-- Expected Completion Date --></label>
+        <name>FSTR__Expected_Completion_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>FSTR__Start_Date__c</name>
+    </fields>
+    <webLinks>
+        <label><!-- Dashboard_BP_Group --></label>
+        <name>FSTR__Dashboard_BP_Group</name>
+    </webLinks>
+</CustomObjectTranslation>

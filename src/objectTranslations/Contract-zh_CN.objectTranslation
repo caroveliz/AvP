@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Auto Close --></label>
+        <name>FSTR__Auto_Close__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process Completed By --></label>
+        <name>FSTR__Completed_By__c</name>
+        <relationshipLabel><!-- Contracts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Process Completed Date --></label>
+        <name>FSTR__Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>FSTR__Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Definition --></label>
+        <name>FSTR__PCE_Definition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process Initiated --></label>
+        <name>FSTR__Process_Initiated__c</name>
+    </fields>
+    <fields>
+        <help><!-- If this case was created from a Recurring Business Process record this field links back to that record. --></help>
+        <label><!-- Recurring Business Process --></label>
+        <name>FSTR__Recurring_Business_Process__c</name>
+        <relationshipLabel><!-- Contracts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Skipped Steps --></label>
+        <name>FSTR__Skipped_Steps__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subject --></label>
+        <name>FSTR__Subject__c</name>
+    </fields>
+    <fields>
+        <help><!-- Link to the Definition that this object is executing on currently. --></help>
+        <label><!-- Definition --></label>
+        <name>FSTR__pce_definition_lookup__c</name>
+        <relationshipLabel><!-- Contracts --></relationshipLabel>
+    </fields>
+    <webLinks>
+        <label><!-- Conga_Composer_OAuth --></label>
+        <name>APXTConga4__Conga_Composer_OAuth</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Mail_Merge --></label>
+        <name>APXTConga4__Conga_Mail_Merge</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Merge --></label>
+        <name>APXTConga4__Conga_Merge</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Process_Details --></label>
+        <name>FSTR__Process_Details</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Process_Visual --></label>
+        <name>FSTR__Process_Visual</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_with_DocuSign --></label>
+        <name>dsfs__Send_with_DocuSign</name>
+    </webLinks>
+</CustomObjectTranslation>

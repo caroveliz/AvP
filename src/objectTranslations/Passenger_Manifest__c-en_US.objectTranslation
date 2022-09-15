@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Passenger Manifest</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Passenger Manifests</value>
+    </caseValues>
+    <fields>
+        <help><!-- Which itinerary will these people be flying in? --></help>
+        <label><!-- Itinerary --></label>
+        <name>Itinerary__c</name>
+        <relationshipLabel><!-- Passenger Manifests WIP --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Which leg of the flight will they be on board? --></help>
+        <label><!-- Leg --></label>
+        <name>Leg__c</name>
+        <relationshipLabel><!-- Passenger Manifest --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Trip --></label>
+        <name>Trip__c</name>
+        <relationshipLabel><!-- Passenger Manifests WIP --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

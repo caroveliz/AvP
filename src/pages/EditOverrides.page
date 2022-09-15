@@ -1,0 +1,63 @@
+<apex:page standardController="Client_Program_Conversion_Override__c" extensions="EditOverrides">
+
+    <apex:slds />
+
+    <apex:form >
+
+        <div style="margin:30px;">
+
+            <apex:outputPanel rendered="{!NOT(hasError)}" layout="none">
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="form-element-01">{!$ObjectType.Client_Program_Conversion_Override__c.fields.Program__c.Label}</label>
+                    <div class="slds-form-element__control">
+                        <apex:outputField value="{!Client_Program_Conversion_Override__c.Program__c}" styleClass="slds-input" />
+                    </div>
+                </div>
+                <br />
+
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="form-element-01">From Plane</label>
+                    <div class="slds-form-element__control">
+                        <apex:outputText value="{!fromPlane}" />
+                    </div>
+                </div>
+                <br />
+
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="form-element-01">{!$ObjectType.Client_Program_Conversion_Override__c.fields.To_Plane__c.Label}</label>
+                    <div class="slds-form-element__control">
+                        <apex:selectList size="1" multiselect="false" value="{!Client_Program_Conversion_Override__c.To_Plane__c}" styleClass="slds-input">
+                            <apex:selectOptions value="{!options}" />
+                        </apex:selectList>
+                    </div>
+                </div>
+                <br />
+
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="form-element-01">{!$ObjectType.Client_Program_Conversion_Override__c.fields.Exchange_Rate__c.Label}</label>
+                    <div class="slds-form-element__control">
+                        <apex:inputField value="{!Client_Program_Conversion_Override__c.Exchange_Rate__c}" styleClass="slds-input" />
+                    </div>
+                </div>
+                <br />
+
+                <div class="slds-form-element">
+                    <apex:inputField value="{!Client_Program_Conversion_Override__c.Do_Not_Combine__c}" />
+                    Don't combine this aircraft with other aircrafts with similar rates in the Upgrade / Downgrade Calculator
+                </div>
+                <br />
+
+                <apex:commandButton value="Save" action="{!Save}" styleClass="slds-button slds-button_brand" />
+                <apex:commandButton value="Cancel" action="{!Cancel}" styleClass="slds-button slds-button_neutral" />
+            </apex:outputPanel>
+
+            <apex:outputPanel rendered="{!hasError}" layout="none">
+                <apex:pageMessage severity="error" summary="You can only create an override from a program page" title="Error" />
+                <apex:commandButton value="Back" action="{!Cancel}" styleClass="slds-button slds-button_neutral" />
+            </apex:outputPanel>
+        
+        </div>
+
+    </apex:form>
+
+</apex:page>

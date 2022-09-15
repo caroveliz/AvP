@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>SMS Incoming</name>
+    <queueMembers>
+        <users>
+            <user>craig@aviationportfolio.com</user>
+            <user>dancohen@aviationportfolio.com</user>
+            <user>danielle@aviationportfolio.com</user>
+            <user>luke@aviationportfolio.com</user>
+        </users>
+    </queueMembers>
+</Queue>

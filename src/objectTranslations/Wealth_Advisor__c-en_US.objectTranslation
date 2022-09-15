@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Wealth Advisor</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Wealth Advisors</value>
+    </caseValues>
+    <fields>
+        <label><!-- Customer End Date --></label>
+        <name>Customer_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Start Date --></label>
+        <name>Customer_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Wealth Advisor --></label>
+        <name>Primary_Wealth_Advisor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wealth Advisor Client --></label>
+        <name>Wealth_Advisor_Client__c</name>
+        <relationshipLabel><!-- Wealth Advisors --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Wealth Advisor Firm Name --></label>
+        <name>Wealth_Advisor_Firm_Name__c</name>
+        <relationshipLabel><!-- Wealth Advisor Clients --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Wealth Advisor Name --></label>
+        <name>Wealth_Advisor_Name__c</name>
+        <relationshipLabel><!-- Wealth Advisory Clients --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

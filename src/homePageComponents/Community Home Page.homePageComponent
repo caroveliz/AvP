@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <body>&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color: #000080;&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Welcome to the Aviation Portfolio Community&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;br&gt; &lt;/div&gt;
+
+&lt;div&gt;&lt;span style=&quot;font-family: verdana,geneva,sans-serif;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Aviation Portfolio is celebrating their FIVE YEAR Anniversary!  We are growing with a team of 10 located in both Los Angeles and New York.&lt;br&gt;&lt;br&gt;We have launched the new Aviation Portfolio Community Portal for you and/or your team to manage and receive trip request updates and research, review account reports and dashboards, and have access to shared aviation industry knowledge, news, and announcements.  We are currently launching the Community Portal in Phase 1.0 and will be making changes and releasing additional user capabilities and resources throughout 2016.  Your feedback is welcomed!&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt; &lt;/div&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt; &lt;/div&gt;
+
+&lt;div&gt;&lt;br&gt; &lt;/div&gt;</body>
+    <pageComponentType>htmlArea</pageComponentType>
+    <width>wide</width>
+</HomePageComponent>

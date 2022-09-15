@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Helicopter</fullName>
+        <default>false</default>
+        <label>Helicopter</label>
+    </customValue>
+    <customValue>
+        <fullName>Piston</fullName>
+        <default>false</default>
+        <label>Piston</label>
+    </customValue>
+    <customValue>
+        <fullName>Turboprop</fullName>
+        <default>false</default>
+        <label>Turboprop</label>
+    </customValue>
+    <customValue>
+        <fullName>Very Light Jet (VLJ)</fullName>
+        <default>false</default>
+        <label>Very Light Jet (VLJ)</label>
+    </customValue>
+    <customValue>
+        <fullName>Light Jet</fullName>
+        <default>false</default>
+        <label>Light Jet</label>
+    </customValue>
+    <customValue>
+        <fullName>Mid Cabin</fullName>
+        <default>false</default>
+        <label>Mid Cabin</label>
+    </customValue>
+    <customValue>
+        <fullName>Super Mid Cabin</fullName>
+        <default>false</default>
+        <label>Super Mid Cabin</label>
+    </customValue>
+    <customValue>
+        <fullName>Large Cabin</fullName>
+        <default>false</default>
+        <label>Large Cabin</label>
+    </customValue>
+    <customValue>
+        <fullName>Long Range Large Cabin</fullName>
+        <default>false</default>
+        <label>Long Range Large Cabin</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial Airliner</fullName>
+        <default>false</default>
+        <label>Commercial Airliner</label>
+    </customValue>
+    <masterLabel>Cabin Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

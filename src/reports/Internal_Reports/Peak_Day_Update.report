@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Operator_Program__c.Peak_Days__r$Id</field>
+    </columns>
+    <columns>
+        <field>Operator_Program__c$Name</field>
+    </columns>
+    <columns>
+        <field>Operator_Program__c.Peak_Days__r$Name</field>
+    </columns>
+    <columns>
+        <field>Operator_Program__c.Peak_Days__r$Type_of_Peak_Day__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Operator_Program__c.Peak_Days__r$Type_of_Peak_Day__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>PEAK DAY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Operator_Program__c$Program_Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Available</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Peak Day Update</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Peak_Days_with_Operator_Program__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Operator_Program__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

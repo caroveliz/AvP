@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Leg__c.Reservation__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Leg__c.Operator_Name__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>NetJets Aviation</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Leg__c.Flight_Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Brutal Recovery – Flew Commercial,Cancelled,In Review - Alana,In Review - Amy,In Review - Andrew,In Review - Bill,In Review - Craig,In Review - Jaime,In Review - Jeff,In Review - Luke,In Review - Mark,Reconciled,Tentative</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Leg__c.Account_Name__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Mickey Mouse,SCOTT BORAS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Leg__c.Account_Name__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Becker Holdings 1 Corp</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <aggregateType>RowCount</aggregateType>
+        <dateGranularity>Day</dateGranularity>
+        <field>Leg__c.Account_Name__c</field>
+        <sortByName>RowCount</sortByName>
+        <sortOrder>Asc</sortOrder>
+        <sortType>Aggregate</sortType>
+    </groupingsDown>
+    <name>NetJets -NOT RECONCILED</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Leg__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Leg__c.Departure_Date__c</dateColumn>
+        <interval>INTERVAL_LASTMONTH</interval>
+    </timeFrameFilter>
+</Report>

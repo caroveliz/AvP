@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>This setting stores values used by Conga Orchestrate.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>FSTR__Account_Match_Field__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Do not use this field unless instructed by Conga Support to do so. This field allows additional matching to occur when searching for Process Team Members based on this account field.</inlineHelpText>
+        <label>Account Match Field</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__Allow_Case_Close_From_Process_Completion__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Allow Conga Orchestrate to Close a Case when the process it is executing is completed.</inlineHelpText>
+        <label>Allow Case Close From Process Completion</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Allowed_Assignee_Types__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Only the values entered will display in the Assignee Type picklist when defining a Step. If there are no selected values, all values will display in the Assignee Type picklist.</inlineHelpText>
+        <label>Allowed Assignee Types</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Allowed_Namespaces__c</fullName>
+        <defaultValue>&quot;FSTR&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This field holds a list of allowable namespaces for ProcessComposer.  This setting tells ProcessComposer the namespaces to look in when checking for allowable process objects.  Namespaces should be separated by semi-colons.  The FSTR namespace is already included.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field holds a list of allowable namespaces for Conga Orchestrate.  This setting tells Conga Orchestrate the namespaces to look in when checking for allowable process objects.</inlineHelpText>
+        <label>Allowed Namespaces</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Automatic_Chatter_Posting__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Check this box if you want Conga Orchestrate to automatically post updates to Chatter.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this box if you want Conga Orchestrate to automatically post updates to Chatter.</inlineHelpText>
+        <label>Automatic Chatter Posting</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Chatter_Post_Name_Field__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>This lists the field that you want the automatic Chatter posting to put into the post. It defaults to name but can be any field on the process object.</inlineHelpText>
+        <label>Chatter Post Name Field</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__Chatter_Team_Selection__c</fullName>
+        <defaultValue>&quot;PCE&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>This field indicates if Salesforce Account Team Members or Team Members will be used to @ mention in Chatter posts.  Enter SFDC for Salesforce Account Team and CO for Team Members</inlineHelpText>
+        <label>Chatter Team Selection</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__Closed_Color_Code__c</fullName>
+        <defaultValue>&quot;#F95922&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Closed Color Code</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__Closed_Status_Values__c</fullName>
+        <defaultValue>&quot;Completed;Canceled&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This value defaults to Completed and Canceled. Add any other status value that should count as closed. Used to indicate Closed Status values for custom step objects.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This value defaults to Completed and Canceled. Add any other status value that should count as closed. Used to indicate Closed Status values for custom step objects.</inlineHelpText>
+        <label>Closed Status Values</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Color_Code_External_Step__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Hex value for External step color displayed with step information on Process Summary page.</description>
+        <externalId>false</externalId>
+        <label>Process Summary: Color Code External</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__Color_Code_Internal_Step__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Hex value for Internal step color displayed with step information on Process Summary page.</description>
+        <externalId>false</externalId>
+        <label>Process Summary: Color Code - Internal</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__Color_Code_Overdue_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Hex value for overdue color displayed with step information on Process Summary page.</description>
+        <externalId>false</externalId>
+        <label>Process Summary: Color Code - Overdue</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__Composer_Certificate_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Defines the name of the certificate used to authenticate with Composer using an API user.</inlineHelpText>
+        <label>Composer Certificate Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__Composer_Endpoint__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Defines the endpoint used for Composer merges.</inlineHelpText>
+        <label>Composer Endpoint</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__Custom_Process_Group_Account_Field__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>If using a custom process group object and the grouping object contains an Account lookup field, add the Account lookup field&apos;s API name here to display the associated Account&apos;s Name on the Gantt chart. Optional.</inlineHelpText>
+        <label>Custom Process Group - Account Lookup</label>
+        <length>40</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__Custom_Process_Group_End_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Field for estimated completion date</inlineHelpText>
+        <label>Custom Process Group - End Date Field</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__Custom_Process_Group_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Custom Process Group Object Name</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Defines the process object for the process group.</inlineHelpText>
+        <label>Custom Process Group - Name</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__Custom_Process_Group_Start_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Field for estimated start date</inlineHelpText>
+        <label>Custom Process Group - Start Date Field</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__Custom_Sharing_Method__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>You should only populate this field if instructed to do so by Conga Support. The text entered here will dictate which custom sharing operations are used.</inlineHelpText>
+        <label>Custom Sharing Method</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__Deactivated_Step_Color_Code__c</fullName>
+        <defaultValue>&quot;#FFFFFF&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Deactivated Step Color Code</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__Default_Composer_URL__c</fullName>
+        <defaultValue>&apos;old&apos;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Valid values are &apos;new&apos;, &apos;old&apos;, &apos;other&apos;</description>
+        <externalId>false</externalId>
+        <label>Default Composer URL</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__Default_Step_Assignee_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the default step Assignee Type option here. If nothing is selected User will be the default assignee type.</inlineHelpText>
+        <label>Default Step Assignee Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__Default_Step_Assignee_User__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>User Id for Default Step Assignee</inlineHelpText>
+        <label>Default Step Assignee User</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__Default_Step_Object__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the API name of the object that should be defaulted when creating new steps within Definitions.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the object that should be defaulted when creating new steps within Definitions. If no objects are selected, the Salesforce Task object will be defaulted.</inlineHelpText>
+        <label>Default Step Object</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__Delayed_Color_Code__c</fullName>
+        <defaultValue>&quot;#22c2f9&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Delayed Color Code</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__DisableSetAccountLookup__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Disables setting the Account lookup field on process objects and steps.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Normally, Conga Orchestrate sets the Account object lookup field if a Contact is associated with a process. Enable this setting to prevent this behavior on process objects and steps. This is commonly disabled when default Activity History roll-up is off.</inlineHelpText>
+        <label>Disable Setting Account Lookup</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Disable_Account_Trigger__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enable this to disable the Conga Orchestrate trigger on the Account object.  This should only be done if there are conflicts with other triggers or if directed by Conga support.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable this to disable the Conga Orchestrate trigger on the Account object.  This should only be done if there are conflicts with other triggers or if directed by Conga support.</inlineHelpText>
+        <label>Disable Account Trigger</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Disable_Business_Process_Trigger__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enable this to disable the Conga Orchestrate trigger on the Business Process object. This should only be done if there are conflicts with other triggers or if directed by Conga support.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable this to disable the Conga Orchestrate trigger on the Business Process object. This should only be done if there are conflicts with other triggers or if directed by Conga support.</inlineHelpText>
+        <label>Disable Business Process Trigger</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Disable_Campaign_Trigger__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enable this to disable the Conga Orchestrate trigger on the Campaign object.  This should only be done if there are conflicts with other triggers or if directed by Conga support.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable this to disable the Conga Orchestrate trigger on the Campaign object.  This should only be done if there are conflicts with other triggers or if directed by Conga support.</inlineHelpText>
+        <label>Disable Campaign Trigger</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Disable_Case_Trigger__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enable this to disable the Conga Orchestrate trigger on the Case object.  This should only be done if there are conflicts with other triggers or if directed by Conga support.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable this to disable the Conga Orchestrate trigger on the Case object.  This should only be done if there are conflicts with other triggers or if directed by Conga support.</inlineHelpText>
+        <label>Disable Case Trigger</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Disable_Contact_Trigger__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enable this to disable the Conga Orchestrate trigger on the Contact object.  This should only be done if there are conflicts with other triggers or if directed by Conga support.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable this to disable the Conga Orchestrate trigger on the Contact object.  This should only be done if there are conflicts with other triggers or if directed by Conga support.</inlineHelpText>
+        <label>Disable Contact Trigger</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Disable_Contract_Trigger__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enable this to disable the Conga Orchestrate trigger on the Contract object. This should only be done if there are conflicts with other triggers or if directed by Conga support.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable this to disable the Conga Orchestrate trigger on the Contract object. This should only be done if there are conflicts with other triggers or if directed by Conga support.</inlineHelpText>
+        <label>Disable Contract Trigger</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Disable_Edit_Delete_of_Closed_Steps__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable this if you would like to prevent users from editing or deleting closed steps generated by Conga Orchestrate. Typically this setting would be turned on for compliance reasons.</inlineHelpText>
+        <label>Disable Edit/Delete of Closed Steps</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Disable_Event_Trigger__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enable this to disable the Conga Orchestrate trigger on the Event object. This should only be done if there are conflicts with other triggers or if directed by Conga support.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable this to disable the Conga Orchestrate trigger on the Event object. This should only be done if there are conflicts with other triggers or if directed by Conga support.</inlineHelpText>
+        <label>Disable Event Trigger</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Disable_Export__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enable this if you would like to disable the export button on the Definition screen.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable this if you would like to disable the export button on the Definition screen.</inlineHelpText>
+        <label>Disable Export</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Disable_Lead_Trigger__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enable this to disable the Conga Orchestrate trigger on the Lead object. This should only be done if there are conflicts with other triggers or if directed by Conga support.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable this to disable the Conga Orchestrate trigger on the Lead object. This should only be done if there are conflicts with other triggers or if directed by Conga support.</inlineHelpText>
+        <label>Disable Lead Trigger</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Disable_Non_Task_Step_Assignee_Options__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable this if you utilize non task steps and manual sharing functionality on those objects. This will remove assignee type options that don&apos;t apply when defining steps. This should only be checked if instructed to do so by Conga Support.</inlineHelpText>
+        <label>Disable Non Task Step Assignee Options</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Disable_Opportunity_Trigger__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enable this to disable the Conga Orchestrate trigger on the Opportunity object.  This should only be done if there are conflicts with other triggers or if directed by Conga support.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable this to disable the Conga Orchestrate trigger on the Opportunity object.  This should only be done if there are conflicts with other triggers or if directed by Conga support.</inlineHelpText>
+        <label>Disable Opportunity Trigger</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Disable_Process_Task_Trigger__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enable this to disable the Conga Orchestrate trigger on the Process Task object. This should only be done if there are conflicts with other triggers or if directed by Conga support.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable this to disable the Conga Orchestrate trigger on the Process Task object. This should only be done if there are conflicts with other triggers or if directed by Conga support.</inlineHelpText>
+        <label>Disable Process Task Trigger</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Disable_Process_Team_Duplicate_Check__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable this if you DO NOT want the Process Team Duplicate checking turned on.  This should only be checked if instructed to do so by Conga Support.</inlineHelpText>
+        <label>Disable Process Team Duplicate Check</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Disable_Record_Matches_Initiator_Option__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable this to disable Record Match Definition Initiators and hide them as options.</inlineHelpText>
+        <label>Disable Record Matches Initiator Option</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Disable_Task_Trigger__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enable this to disable the Conga Orchestrate trigger on the Task object.  This should only be done if there are conflicts with other triggers or if directed by Conga support.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable this to disable the Conga Orchestrate trigger on the Task object.  This should only be done if there are conflicts with other triggers or if directed by Conga support.</inlineHelpText>
+        <label>Disable Task Trigger</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Disable_User_Deactivation_Checks__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>If this is enabled, deactivating a user in Salesforce will not execute User participation checks. Only enable this feature if instructed to do so by Conga Support.</inlineHelpText>
+        <label>Disable User Deactivation Checks</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Disable_Web_Service_Callout__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enable this if you would like to disable the ability to create a step that is a web service callout.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable this if you would like to disable the ability to create a step that is a web service callout.</inlineHelpText>
+        <label>Disable Web Service Callout</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Document_Merge_Use_QA__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Document Merge - Use QA</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Due_Date_Skip_Non_Working_Days__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>If you want Conga Orchestrate to skip non working days (typically weekends and holidays) when calculating due dates select this option.  It also requires a Business Hours record called Conga Orchestrate that specifies your working hours.</inlineHelpText>
+        <label>Due Date - Skip Non Working Days</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Enable_Delete_Override__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this box to show the delete button on Visualforce pages where users don&apos;t have delete access but have edit access.  Enabling this feature requires a delete button override for the associated object so that sharing rules will be ignored on delete.</inlineHelpText>
+        <label>Enable Delete Override</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Enable_Doc_Merge_Logging__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enable this to log document merge urls to the Callout Error Queue.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable this to log document merge urls to the Callout Error Queue.</inlineHelpText>
+        <label>Enable Document Merge Logging</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Enable_Orchestrate_Debug_Logs__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enable this setting to have Orchestrate generate custom logs to help debug issues with Creation Conditions on Steps.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable this setting to have Orchestrate generate custom logs to help debug issues with Creation Conditions on Steps.</inlineHelpText>
+        <label>Enable Orchestrate Debug Logs</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Enable_Platform_Event_Logging__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enable this to log Platform Events.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable this to log Platform Events.</inlineHelpText>
+        <label>Enable Platform Event Logging</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Enable_RPA_Logging__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enable this to log RPA requests to the Callout Error Queue.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable this to log RPA requests to the Callout Error Queue.</inlineHelpText>
+        <label>Enable RPA Logging</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Event_On_Calendar_Color_Code__c</fullName>
+        <defaultValue>&quot;#CC6600&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Event On Calendar Color Code</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__External_Step_Label__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Label for external steps.</inlineHelpText>
+        <label>Process Summary: External Step Label</label>
+        <length>150</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__Has_Dependent_Fields_Color_Code__c</fullName>
+        <defaultValue>&quot;#F95922&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Has Dependent Fields Color Code</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__Has_Gone_Through_Setup__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This will determine if our Getting Started page needs to be shown (unchecked) or not (checked). In new orgs this will be unchecked and automatically checked when users finish the Getting Started page.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This will determine if our Getting Started page needs to be shown (unchecked) or not (checked). In new orgs this will be unchecked and automatically checked when users finish the Getting Started page.</inlineHelpText>
+        <label>Has Gone Through New User Setup</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__In_Process_Color_Code__c</fullName>
+        <defaultValue>&quot;#5AABCD&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>In Process Color Code</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__Include_Non_Closed_Statuses__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>To include non-closed statuses in &apos;Create if Parent&apos; values for Salesforce Tasks.</inlineHelpText>
+        <label>Include Non-Closed Statuses</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Initiator_Custom_Object_Account_Field__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>List of Account fields for each Initiator Custom Object. Used to indicate if a Account lookup field exists on each object.</inlineHelpText>
+        <label>Initiator Object - Account Field</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Initiator_Custom_Object_Contact_Field__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>List of Contact fields for each Initiator Custom Object. Used to indicate if a Contact lookup field exists on each object.</inlineHelpText>
+        <label>Initiator Object - Contact Field</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Initiator_Custom_Object_Overflow_Acct__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Used to hold anything over 255 characters in the Initiator Custom Object - Account Field field.</description>
+        <externalId>false</externalId>
+        <label>Initiator Object Overflow - Acct</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Initiator_Custom_Object_Overflow_Cont__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Used to hold anything over 255 characters in the Initiator Custom Object - Contact Field field.</description>
+        <externalId>false</externalId>
+        <label>Initiator Object Overflow - Cont</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Initiator_Custom_Objects_Overflow__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Field to catch anything beyond 255 characters in Initiator Objects field.</description>
+        <externalId>false</externalId>
+        <label>Initiator Objects Overflow</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Initiator_Custom_Objects__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>List of custom objects that have been configured to work with initiators. This requires a trigger to be set up for that object.</inlineHelpText>
+        <label>Initiator Objects</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Internal_Step_Label__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Label for internal steps.</inlineHelpText>
+        <label>Process Summary: Internal Step Label</label>
+        <length>150</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__Not_Yet_Created_Color_Code__c</fullName>
+        <defaultValue>&quot;#A6B8CE&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Not Yet Created Color Code</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__Notification_Email_Address__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Error Notifications from Conga Orchestrate will be sent to this Address.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Error Notifications from Conga Orchestrate will be sent to this Address.</inlineHelpText>
+        <label>Notification Email Address</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__ProcessRecordMatchInitiators_Batch_Size__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>ProcessRecordMatchInitiators Batch Size</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__ProcessSummary_ShowTasks__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Select to show the step list separated by Internal and External steps along with the Gantt chart. Adds a &apos;Classification&apos; picklist to the Step page.</inlineHelpText>
+        <label>Process Summary: Step Classifications</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Process_Archive_Objects__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Used to configure Process Archive objects. Separate parameters with dashes, object data with semi-colons.
+
+Signature: object_api_name__c-IsGroupingObject-account_lookup_field__c
+
+Ex: fstr__process_group__c-true-fstr__business_account__c;</inlineHelpText>
+        <label>Process Archive Objects</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Process_Objects__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Semi-colon separated list of object names that are supported as process objects.  This is used in the case that an org has too many custom objects defined and the discovery process will exceed governor limits.  Use the api name of the object (i.e. business_process__c)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Semi-colon separated list of object names that are supported as process objects.  This is used in the case that an org has too many custom objects defined and the discovery process will exceed governor limits.  Use the api name (i.e. business_process__c)</inlineHelpText>
+        <label>Process Objects</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Process_Team_Member_Match_Field__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Do not use this field unless instructed by Conga Support to do so. This field allows additional matching to occur when searching for Process Team Members.</inlineHelpText>
+        <label>Process Team Member Match Field</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__Public_Notes_Field__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Configuration for public notes displayed with step information on Process Summary page.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Use the following format: StepObjectName-FieldName. Separate multiple process object/fields with semi-colons.</inlineHelpText>
+        <label>Public Notes Field(s)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Recurring_BP_Show_All_Record_Types__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, will show all record types, not just those with Active Definitions, as choices for Recurring Business Processes.</inlineHelpText>
+        <label>Recurring Bps: Show All Record Types</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Roles_to_Mention_in_Chatter_Post__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>List out the roles that you would like @ mentioned in Chatter posts by Conga Orchestrate. If this field is blank all roles will be mentioned.</inlineHelpText>
+        <label>Roles to Mention in Chatter Post</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__SMS_Notifications_Enabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this box if you would like to notify users via SMS that they have been assigned a step by Conga Orchestrate.</inlineHelpText>
+        <label>SMS Notifications Enabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Send_Recurring_Batch_Job_Emails__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>If this field is checked an email will be sent to whoever scheduled the batch job to process Recurring Business Processes with information about the execution.  If it is unchecked an email will only be sent when errors occur.</inlineHelpText>
+        <label>Send Recurring Batch Job Emails</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Show_Advanced_Step_Settings__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Show Advanced Step Settings</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Show_Notes_and_Attachments_on_Step_Page__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this box if you would like to have the Notes and Attachments related list show up on the Step page.</inlineHelpText>
+        <label>Show Notes and Attachments on Step Page</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Step_Objects__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A semi-colon separated list of objects that can be used as steps within a process.  This is used for orgs that have too many custom objects and fail the discovery process.  Use the api name of the object (i.e. client_service_trade__c)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A semi-colon separated list of objects that can be used as steps within a process.  This is used for orgs that have too many custom objects and fail the discovery process.  Use the api name of the object (i.e. client_service_trade__c)</inlineHelpText>
+        <label>Step Objects</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__TaskCustomLookupRelatedToPassthrough__c</fullName>
+        <deprecated>false</deprecated>
+        <description>When a custom lookup field is used for related process objects, optionally set this field to pass through a custom value from the process object to the Related To (WhatId) field on Tasks generated as part of the process.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When a custom lookup field is used for related process objects (&apos;Task Steps: Custom Process Object&apos; is required), optionally set this field to pass through a custom value from the process object to the Related To (WhatId) field on generated Tasks.</inlineHelpText>
+        <label>Task Steps: Related To Passthrough Field</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__TaskCustomProcessObjectLookup__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Custom business process lookup field. If set, ProcessComposer will set this field rather than the Related To field. It will also pass through the Account field from the process object into the Related To field.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>To use a custom process object lookup field in place of &apos;Related To&apos; for Task steps. When using a custom lookup field, the related Account will be passed into the Related To field automatically.</inlineHelpText>
+        <label>Task Steps: Custom Process Object Lookup</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Text_Link_URL__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>URL that is to be used in text messages sent for task notification reminders</inlineHelpText>
+        <label>Text Link URL</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Text_Notification_Message__c</fullName>
+        <defaultValue>&quot;You have been assigned the following task.  Click the link for more detailed information.&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>This is the message that will be inserted into text messages notifying the assigned user</inlineHelpText>
+        <label>Text Notification Message</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__Text_Reassignment_Message__c</fullName>
+        <defaultValue>&quot;The following task has been assigned to someone else. Please disregard. Click the link for details&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>This is the message that is inserted into the text message when a step is assigned to another user.</inlineHelpText>
+        <label>Text Reassignment Message</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__TwilioAccountSid__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Defines the Twilio Account Id for use in the integration.</inlineHelpText>
+        <label>Twilio AccountSid</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__TwilioApplicationSid__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Defines the Twilio Application Id for use in the integration.</inlineHelpText>
+        <label>Twilio ApplicationSid</label>
+        <length>150</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__TwilioAuthToken__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Defines the Twilio AuthToken for use in the integration.</inlineHelpText>
+        <label>Twilio AuthToken</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__TwilioFromNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Twilio From Number</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__Use_QA__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Use QA slot to perform backend testing.</description>
+        <externalId>false</externalId>
+        <label>Use QA</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Version__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The current Conga Orchestrate product version.</inlineHelpText>
+        <label>Version</label>
+        <length>1</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__Virtual_Step_Objects2__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Overflow field. Use only when &apos;Virtual Steps: Objects&apos; field is reaching character limits. Used to configure Virtual Steps to create/update.</inlineHelpText>
+        <label>Virtual Steps: Objects (2)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Virtual_Step_Objects__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Used to configure Virtual Steps to create/update.</inlineHelpText>
+        <label>Virtual Steps: Objects</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Virtual_Steps_Recalculate__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>For Virtual Steps functionality. If Virtual Step Objects are configured, check to auto-calculate changes to Virtual Steps when a step record related to a process record is updated.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If Virtual Step Objects are configured, check to auto-calculate changes to Virtual Steps when a step record related to a process record is updated.</inlineHelpText>
+        <label>Virtual Steps: Recalculate</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__isProcessSummaryEnabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Process Summary Enabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Conga Orchestrate Settings</label>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,10 @@
+Good Day {!Receiving_User.FirstName},
+
+Welcome! We have launched the new Aviation Portfolio Community Portal for you and/or your team to manage and receive trip request updates, review account reports and dashboards, and have access to shared aviation industry knowledge, news, and announcements.  We will be making continual updates and releasing additional user capabilities and resources throughout 2015.  Your feedback is welcomed!
+
+To get started, go to {!Community_Url}
+
+Username: {!Receiving_User.Username}
+            
+Kind Regards,
+{!Organization.Name}

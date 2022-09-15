@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Itinerary_Solution__c$Name</field>
+    </columns>
+    <columns>
+        <field>Itinerary_Solution__c$Trip_Manager_Number__c</field>
+    </columns>
+    <columns>
+        <field>Itinerary_Solution__c$Operator__c</field>
+    </columns>
+    <columns>
+        <field>Itinerary_Solution__c$Departure_Airport__c</field>
+    </columns>
+    <columns>
+        <field>Itinerary_Solution__c$Arrival_Airport__c</field>
+    </columns>
+    <columns>
+        <field>Itinerary_Solution__c$Broker__c</field>
+    </columns>
+    <columns>
+        <field>Itinerary_Solution__c$Trip_Start_Date__c</field>
+    </columns>
+    <columns>
+        <field>Itinerary_Solution__c$Trip_End_Date__c</field>
+    </columns>
+    <columns>
+        <field>Itinerary_Solution__c$Booked_Solution__c</field>
+    </columns>
+    <format>Tabular</format>
+    <name>Itineraries Next 7 Days</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Itinerary_Solutions__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Itinerary_Solution__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_NEXT7</interval>
+    </timeFrameFilter>
+</Report>

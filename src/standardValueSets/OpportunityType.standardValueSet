@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Existing Business - Collection</fullName>
+        <default>false</default>
+        <label>Existing Business - Collection</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Existing Business - Renewal</fullName>
+        <default>false</default>
+        <label>Existing Business - Renewal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New Business - Referral</fullName>
+        <default>false</default>
+        <label>New Business - Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New Business - Cold</fullName>
+        <default>false</default>
+        <label>New Business - Cold</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New Business - PR</fullName>
+        <default>false</default>
+        <label>New Business - PR</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New Business - Seminar</fullName>
+        <default>false</default>
+        <label>New Business - Seminar</label>
+    </standardValue>
+</StandardValueSet>

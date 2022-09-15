@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NetworkBranding xmlns="http://soap.sforce.com/2006/04/metadata">
+    <loginFooterText>aviationportfolio.com</loginFooterText>
+    <loginLogo>Communities_Shared_Document_Folder/Logo_sRGB_White_250x94_png.png</loginLogo>
+    <loginLogoName>Logo_sRGB_White_250x94.png</loginLogoName>
+    <network>Aviation Portfolio Community</network>
+    <pageHeader>SharedDocuments/X2017_Logo.png</pageHeader>
+    <primaryColor>#DCE8F6</primaryColor>
+    <primaryComplementColor>#222222</primaryComplementColor>
+    <quaternaryColor>#103665</quaternaryColor>
+    <quaternaryComplementColor>#FFFFFF</quaternaryComplementColor>
+    <secondaryColor>#FFFFFF</secondaryColor>
+    <tertiaryColor>#FFFFFF</tertiaryColor>
+    <tertiaryComplementColor>#222222</tertiaryComplementColor>
+    <zeronaryColor>#103665</zeronaryColor>
+    <zeronaryComplementColor>#FFFFFF</zeronaryComplementColor>
+</NetworkBranding>

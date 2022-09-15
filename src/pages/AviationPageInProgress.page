@@ -1,0 +1,553 @@
+<apex:page showHeader="false" standardStylesheets="false" sidebar="false" applyHtmlTag="false" applyBodyTag="false" docType="html-5.0" controller="AviationHomePageController">
+<!--<script>
+function myFunction(){
+var h=window.outerWidth;
+if(h < '512'){
+//alert('h*****'+h);
+}
+}
+</script>-->
+    <style>
+        .tableBorderColor{
+        border: 1px #2F75B5 solid !important;
+       
+        }
+        .paddingHeader{
+             padding: 0.5px !important;
+        }
+        .bgColor{
+        background-color: #DDEBF7 !important;
+        width: 368px !important;
+        }.
+        .slds-text-heading--small{
+        font-weight: bold !important;
+        }
+        .noBorder{
+        border-top: 1px white solid !important;
+        border-left: 1px white solid !important;
+        }
+        .bgDollarColor{
+        background-color: #E2EFDA !important;
+        }
+        .@media only screen and (min-device-width: 412px) and (max-device-width: 511px){
+             
+        }
+        .clsCenter{
+        text-align:center !important;
+        }
+        .slds-table td, .slds-table th {
+            white-space: inherit;
+        }
+    </style>
+    
+    <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" lang="en">
+        <head>
+            <meta charset="utf-8" />
+            <title>Home Page Component</title>
+            
+            <meta http-equiv="x-ua-compatible" content="ie=edge" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <apex:stylesheet value="{!URLFOR($Resource.HomePageLightning, 'assets/styles/salesforce-lightning-design-system.min.css')}"/>
+            
+        </head>
+        <body >
+            <!-- REQUIRED SLDS WRAPPER -->
+            <div class="slds"><apex:form >
+            <apex:outputText value="{!$Label.welcomeLabel}"/></apex:form>
+            <br/>
+                <div class="slds-grid--frame">
+                    <div class="slds-grid slds-wrap">
+                        <div class="slds-col slds-size--5-of-6">
+                            <p class="slds-text-heading--medium ">
+                                {!$Label.Annual_Report} {!strCurrentQtr}
+                            </p>
+                            <br/>
+                            <br/>
+                            <p class="slds-text-heading--small">
+                                {!$Label.Relationship_Summary}
+                            </p>
+                            <br/>
+                            <div style="overflow:auto">
+                                <table class="slds-table slds-table--bordered tableBorderColor"> 
+                                    <thead>
+                                    <tr class="tableBorderColor"> 
+                                            <td class="slds-is-sortable tableBorderColor bgColor"> 
+                                               <div>
+                                                    {!$Label.Aviation_Start_Date}
+                                                </div> 
+                                            </td>
+                                            <td class="slds-is-sortable tableBorderColor" scope="col"> 
+                                                <div> 
+                                                    <apex:outputText value="{0,date,MM/dd/yy}">
+                                                        <apex:param value="{!dateAvStartDate}" /> 
+                                                    </apex:outputText>
+                                                </div>
+                                            </td>
+                                        </tr>
+<!--                                         <tr class="tableBorderColor">  -->
+<!--                                             <td class="slds-is-sortable tableBorderColor bgColor" scope="col">  -->
+<!--                                                 <div class="slds-truncate">  -->
+<!--                                                     {!$Label.Annual_fees} -->
+<!--                                                 </div>  -->
+<!--                                             </td> -->
+<!--                                             <td class="slds-is-sortable tableBorderColor" scope="col">  -->
+<!--                                                 <div class="slds-truncate">  -->
+<!--                                                     <apex:outputText value="{0, Number, Currency}"> -->
+<!--                                                         <apex:param value="{!dblAVAnnualFee}" />  -->
+<!--                                                     </apex:outputText> -->
+<!--                                                 </div> -->
+<!--                                             </td> -->
+<!--                                         </tr> -->
+<!--                                         <tr> -->
+<!--                                             <td class="slds-is-sortable tableBorderColor bgColor" scope="col">  -->
+<!--                                                 <div class="slds-large">  -->
+<!--                                                    {!$Label.Av_renewal} -->
+<!--                                                 </div>  -->
+<!--                                             </td> -->
+<!--                                             <td class="slds-is-sortable tableBorderColor" scope="col">  -->
+<!--                                                 <div class=" slds-truncate">  -->
+<!--                                                     <apex:outputText value="{0,date,MM/dd/yy}">  -->
+<!--                                                         <apex:param value="{!dateContractRenewelDate}" /> -->
+<!--                                                     </apex:outputText> -->
+                                                    
+<!--                                                 </div> -->
+<!--                                             </td> -->
+<!--                                         </tr> -->
+                                        <tr>
+                                            <td class="slds-is-sortable tableBorderColor bgColor" scope="col"> 
+                                                <div> 
+                                                    {!$Label.Relationship_to_date}
+                                                </div> 
+                                            </td>
+                                            
+                                            <td class="slds-is-sortable tableBorderColor " scope="col"> 
+                                                <div> 
+                                                   <apex:outputText value="{0, Number, Currency}">
+                                                        <apex:param value="{!dblSavedForClient}" /> 
+                                                    </apex:outputText>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="slds-is-sortable tableBorderColor bgColor" scope="col"> 
+                                                <div> 
+                                                    {!$Label.Client_ROI}
+                                                </div> 
+                                            </td>
+                                            
+                                            <td class="slds-is-sortable tableBorderColor" scope="col"> 
+                                                <div > 
+                                                   <apex:outputText value="{0,number,0.00}"> 
+                                                        <apex:param value="{!dblClientROI}" />
+                                                    </apex:outputText>%
+                                                   <!--  <apex:outputText value="{!dblClientROI}" />% -->  
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="tableBorderColor"> 
+                                            <td class="slds-is-sortable tableBorderColor bgColor" scope="col"> 
+                                                <div > 
+                                                    {!$Label.Areas_of_AVP}
+                                                </div> 
+                                            </td>
+                                            <td class="slds-is-sortable tableBorderColor" scope="col"> 
+                                                <div > 
+                                                    {!strMainAreaOfAVPImpact}
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="slds-is-sortable tableBorderColor bgColor" scope="col"> 
+                                                <div> 
+                                                    {!$ObjectType.Quarterly_Summary__c.fields.Aviation_Portfolio_Relationship_Status__c.Label}
+                                                </div> 
+                                            </td>
+                                            
+                                            <td class="slds-is-sortable tableBorderColor" scope="col"> 
+                                                <div > 
+                                                    {!strAviationPortfolioRelationStatus}
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </thead>
+                                </table> 
+                            </div>
+                            <br/>
+                        </div>     
+                        <div class="slds-col slds-size--1-of-6"></div>
+                        <div class="slds-col slds-size--1-of-6">
+                            
+                        </div>
+                    </div>
+                    <div class="slds-grid slds-wrap">
+                        <div class="slds-col slds-size--5-of-6">
+                            <p class="slds-text-heading--small">
+                                {!$Label.AP} {!intCurrentyear} {!$Label.Perf_Summary}
+                            </p>
+                            <br/>
+                            
+                            <div style="overflow:auto">
+                                <table class="slds-table slds-table--bordered tableBorderColor"> 
+                                    <thead>
+                                    <tr class="tableBorderColor"> 
+                                            <td class="slds-is-sortable tableBorderColor bgColor" scope="col"> 
+                                                <div > 
+                                                    {!$Label.Areas_Focus}
+                                                </div> 
+                                            </td>
+                                            <td class="slds-is-sortable tableBorderColor" scope="col"> 
+                                                <div > 
+                                                    {!strMainAreasOfAvPFocus} </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="slds-is-sortable tableBorderColor bgColor" scope="col"> 
+                                                <div > 
+                                                    {!$ObjectType.Quarterly_Summary__c.fields.Portfolio_Optimization_Opportunities__c.Label}
+                                                    </div> 
+                                            </td>
+                                            <td class="slds-is-sortable tableBorderColor " scope="col"> 
+                                                <div > 
+                                                    {!strPortfolioOptimizationOpportunities}
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="slds-is-sortable tableBorderColor bgColor" scope="col"> 
+                                                <div class="slds-truncate"> 
+                                                    {!$Label.Hours_Spent_Acc}
+                                                    </div> 
+                                            </td>
+                                            <td class="slds-is-sortable tableBorderColor " scope="col"> 
+                                                <div class="slds-truncate"> 
+                                                    {!dblAccHours}
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </thead>
+                                </table> 
+                            </div> </div>
+                       <div class="slds-col slds-size--1-of-6"></div>
+                        <div class="slds-col slds-size--1-of-6"></div></div>
+                    <br/>
+                    <div class="slds-grid slds-wrap">
+                        <div class="slds-col slds-size--5-of-6">
+                         
+                        </div>
+                        <div class="slds-col slds-size--1-of-6"></div>
+                        <div class="slds-col slds-size--1-of-6"></div>
+                    </div>
+                    <br/>
+                    <div class="slds-grid slds-wrap">
+                        <div class="slds-col slds-size--2.5-of-6 slds-col--padded">
+                            <p class="slds-text-heading--small">
+                                {!$Label.Quick_view}
+                            </p>
+                            <br/>
+                            <p class="slds-text-heading--small ">
+                                 {!$Label.Dollar_Spend}
+                            </p><br/>
+                            <table class="slds-table slds-table--bordered tableBorderColor">
+                                <thead> 
+                                    <tr > 
+                                        <th class="tableBorderColor noBorder" scope="col"> 
+                                            <div class="slds-small"> 
+                                                
+                                            </div> 
+                                        </th>
+                                        <th class="tableBorderColor bgDollarColor paddingHeader" scope="col"> 
+                                            <div class="slds-small clsCenter"> 
+                                                {!$Label.Charter}
+                                            </div> 
+                                        </th>
+                                        <apex:repeat value="{!setPrName}" var="PrName">
+                                        <th class="tableBorderColor bgDollarColor paddingHeader" scope="col"> 
+                                            <div class="slds-small clsCenter"> 
+                                                {!PrName}
+                                            </div> 
+                                        </th>
+                                        </apex:repeat>
+                                        
+                                        <th class="paddingHeader tableBorderColor bgDollarColor" scope="col"> 
+                                            <div class="slds-small clsCenter"> 
+                                                {!$Label.TOTAL}
+                                            </div> 
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td class="tableBorderColor bgDollarColor">
+                                            {!$Label.Relationship_Date}
+                                        </td>
+                                        <td class="tableBorderColor clsCenter">
+                                            <apex:outputText value="{0, Number, Currency}">
+                                                <apex:param value="{!dblSumRelDollar}" /> 
+                                            </apex:outputText>
+                                            
+                                        </td>
+                                        <apex:outputPanel rendered="{!IF(intMapSizeRel > 0,true,false)}">
+                                        <apex:variable var="c" value="{!$Label.Relationship_Date}" />
+                                        <!--  <apex:repeat value="{!mapProg_Data[c]}" var="bt">-->
+                                         <apex:repeat value="{!setPrName}" var="PrName">
+                                        <td class="tableBorderColor clsCenter">
+                                        
+                                            <apex:outputText value="{0, Number, Currency}">
+                                              <apex:param value="{!mapProg_Data[c][PrName]}" /> 
+                                              </apex:outputText>
+                                        </td>
+                                        </apex:repeat>
+                                        </apex:outputPanel>
+
+                                        <apex:outputPanel rendered="{!IF(intMapSizeRel == 0,true,false)}">
+<!--                                            <apex:repeat value="{!mapProg_Data[c]}" var="bt"> -->
+                                            <apex:repeat value="{!setPrName}" var="PrName">
+                                            <td class="tableBorderColor clsCenter">
+                                            $0.00
+                                        </td>
+                                        </apex:repeat>
+                                         </apex:outputPanel>
+
+                                         <td class="tableBorderColor clsCenter">
+                                            <apex:outputText value="{0, Number, Currency}">
+                                                <apex:param value="{!dblTotalRelCal}" /> 
+                                            </apex:outputText>
+                                           
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                    <td class="tableBorderColor bgDollarColor">
+                                         {!intPreviousyear} {!$Label.Total_Spend}
+                                        </td>
+                                        <td class="tableBorderColor clsCenter">
+                                             <apex:outputText value="{0, Number, Currency}">
+                                                <apex:param value="{!dblCharterTotalSpend}" /> 
+                                            </apex:outputText>
+                                        </td>
+
+                                        <apex:outputPanel rendered="{!IF(intMapSizePre > 0,true,false)}">
+                                         <apex:variable var="c" value="{!strPrev}" />
+<!--                                            <apex:repeat value="{!mapProg_Data[c]}" var="bt"> -->
+                                            <apex:repeat value="{!setPrName}" var="PrName">
+                                            <td class="tableBorderColor clsCenter">
+                                            <apex:outputText value="{0, Number, Currency}">
+                                            <apex:param value="{!mapProg_Data[c][PrName]}" /> 
+                                            </apex:outputText>
+                                        </td>
+                                        </apex:repeat>
+                                         </apex:outputPanel>
+
+                                         <apex:outputPanel rendered="{!IF(intMapSizePre == 0,true,false)}">
+<!--                                            <apex:repeat value="{!mapProg_Data[c]}" var="bt"> -->
+                                            <apex:repeat value="{!setPrName}" var="PrName">
+                                            <td class="tableBorderColor clsCenter">
+                                            $0.00
+                                        </td>
+                                        </apex:repeat>
+                                         </apex:outputPanel>
+
+                                        <td class="tableBorderColor clsCenter">
+                                            <apex:outputText value="{0, Number, Currency}">
+                                                <apex:param value="{!dblTotalSpentPriorYear}" /> 
+                                            </apex:outputText>
+                                        </td>
+                                    </tr>
+
+                                    <tr><td class="tableBorderColor bgDollarColor">
+                                        {!intCurrentyear} {!$Label.YTD_Spend}
+                                        </td>
+                                        <td class="tableBorderColor clsCenter">
+                                         <apex:outputText value="{0, Number, Currency}">
+                                                <apex:param value="{!dblCharterYTDSpend}" /> 
+                                            </apex:outputText>
+                                        </td>
+                                        
+                                        <apex:outputPanel rendered="{!IF(intMapSizeCur > 0,true,false)}">
+                                        <apex:variable var="c" value="{!strCur}" />
+<!--                                            <apex:repeat value="{!mapProg_Data[c]}" var="bt"> -->
+                                        <apex:repeat value="{!setPrName}" var="PrName">
+                                        <td class="tableBorderColor clsCenter">
+                                        
+                                            <apex:outputText value="{0, Number, Currency}">
+                                              <apex:param value="{!mapProg_Data[c][PrName]}" /> 
+                                              </apex:outputText>
+
+                                            
+                                        </td>
+                                        </apex:repeat>
+                                      </apex:outputPanel>
+                                       
+                                        <apex:outputPanel rendered="{!IF(intMapSizeCur == 0,true,false)}">
+<!--                                            <apex:repeat value="{!mapProg_Data[c]}" var="bt"> -->
+                                            <apex:repeat value="{!setPrName}" var="PrName">
+                                            <td class="tableBorderColor clsCenter">
+                                            $0.00
+                                        </td>
+                                        </apex:repeat>
+                                         </apex:outputPanel>
+
+                                        <td class="tableBorderColor clsCenter">
+                                            <apex:outputText value="{0, Number, Currency}">
+                                                <apex:param value="{!dblTotalSpentCurrentYear}" /> 
+                                            </apex:outputText>
+                                        </td>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div> 
+                        <div class="slds-col slds-size--2.5-of-6 slds-col--padded">
+                            <br/><br/>
+                            <p class="slds-text-heading--small ">
+                                 {!$Label.Billed_Hours}
+                            </p><br/>
+                            <table class="slds-table slds-table--bordered tableBorderColor">
+                                <thead> 
+                                    <tr > 
+                                        <th class="paddingHeader tableBorderColor noBorder" scope="col"> 
+                                            <div class="slds-small"> 
+                                                
+                                            </div> 
+                                        </th>
+                                        <th class="paddingHeader tableBorderColor bgDollarColor" scope="col"> 
+                                            <div class="slds-small clsCenter"> 
+                                                 {!$Label.Charter}
+                                            </div> 
+                                        </th>
+                                        
+                                        <apex:repeat value="{!setPrName}" var="PrName">
+                                        <th class="paddingHeader tableBorderColor bgDollarColor" scope="col"> 
+                                            <div class="slds-small clsCenter"> 
+                                                {!PrName}
+                                            </div> 
+                                        </th>
+                                        </apex:repeat>
+                                        <th class=" paddingHeader tableBorderColor bgDollarColor" scope="col"> 
+                                            <div class="slds-small clsCenter"> 
+                                                 {!$Label.TOTAL}
+                                            </div> 
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td class="tableBorderColor bgDollarColor">
+                                            {!$Label.Relationship_Date}
+                                        </td>
+                                        <td class="tableBorderColor clsCenter">
+                                            <apex:outputText value="{0,number,0}">
+                                              <apex:param value="{!dblSumRelHour}"/>
+                                           </apex:outputText>   
+                                        </td>
+                                        
+                                       <apex:outputPanel rendered="{!IF(intMapSizeRel_HR > 0,true,false)}">
+                                        <apex:variable var="c" value="{!$Label.Relationship_Date}" />
+                                        <!--  <apex:repeat value="{!mapProg_Data[c]}" var="bt">-->
+                                         <apex:repeat value="{!setPrName}" var="PrName">
+                                        <td class="tableBorderColor clsCenter">
+                                             <apex:outputText value="{0,number,0}">
+                                               <apex:param value="{!mapProg_Data_HR[c][PrName]}"/>
+                                            </apex:outputText>
+                                        </td>
+                                        </apex:repeat>
+                                        </apex:outputPanel>
+
+                                        <apex:outputPanel rendered="{!IF(intMapSizeRel_HR == 0,true,false)}">
+<!--                                            <apex:repeat value="{!mapProg_Data[c]}" var="bt"> -->
+                                            <apex:repeat value="{!setPrName}" var="PrName">
+                                            <td class="tableBorderColor clsCenter">
+                                            0
+                                        </td>
+                                        </apex:repeat>
+                                         </apex:outputPanel>
+                                         
+                                        <td class="tableBorderColor clsCenter">
+                                           <apex:outputText value="{0,number,0}">
+                                              <apex:param value="{!dblTotalSumRelHour}"/>
+                                           </apex:outputText> 
+                                        </td>
+                                    </tr>
+
+                                    <tr><td class="tableBorderColor bgDollarColor">
+                                        {!intPreviousyear}  {!$Label.Total_Hours}
+                                        </td>
+                                        <td class="tableBorderColor clsCenter">
+                                           <apex:outputText value="{0,number,0}">
+                                              <apex:param value="{!dblMaxBillCharterPrevious}"/>
+                                           </apex:outputText>
+                                           
+                                        </td>
+                                        <apex:outputPanel rendered="{!IF(intMapSizePre_HR > 0,true,false)}">
+                                         <apex:variable var="c" value="{!strPrev}" />
+<!--                                            <apex:repeat value="{!mapProg_Data[c]}" var="bt"> -->
+                                            <apex:repeat value="{!setPrName}" var="PrName">
+                                            <td class="tableBorderColor clsCenter">
+                                            <apex:outputText value="{0,number,0}">
+                                               <apex:param value="{!mapProg_Data_HR[c][PrName]}"/>
+                                            </apex:outputText> 
+                                        </td>
+                                        </apex:repeat>
+                                         </apex:outputPanel>
+
+                                         <apex:outputPanel rendered="{!IF(intMapSizePre_HR == 0,true,false)}">
+<!--                                            <apex:repeat value="{!mapProg_Data[c]}" var="bt"> -->
+                                            <apex:repeat value="{!setPrName}" var="PrName">
+                                            <td class="tableBorderColor clsCenter">
+                                            0
+                                        </td>
+                                        </apex:repeat>
+                                         </apex:outputPanel>
+                                         
+                                        <td class="tableBorderColor clsCenter">
+                                           <apex:outputText value="{0,number,0}">
+                                              <apex:param value="{!dblTotalBillHourPrevios}"/>
+                                           </apex:outputText>
+                                           
+                                        </td>
+                                    </tr>
+
+                                    <tr><td class="tableBorderColor bgDollarColor">
+                                        {!intCurrentyear} {!$Label.YTD_Hours}
+                                        </td>
+                                        <td class="tableBorderColor clsCenter">
+                                           <apex:outputText value="{0,number,0}">
+                                              <apex:param value="{!dblMaxBillCharterCurrent}"/>
+                                           </apex:outputText>
+                                        </td>
+                                        
+                                        <apex:outputPanel rendered="{!IF(intMapSizeCur_HR > 0,true,false)}">
+                                        <apex:variable var="c" value="{!strCur}" />
+<!--                                            <apex:repeat value="{!mapProg_Data[c]}" var="bt"> -->
+                                        <apex:repeat value="{!setPrName}" var="PrName">
+                                        <td class="tableBorderColor clsCenter">
+                                        
+                                           <apex:outputText value="{0,number,0}">
+                                                <apex:param value="{!mapProg_Data_HR[c][PrName]}"/>
+                                            </apex:outputText> 
+                                           
+                                           
+                                            
+                                        </td>
+                                        </apex:repeat>
+                                      </apex:outputPanel>
+                                       
+                                        <apex:outputPanel rendered="{!IF(intMapSizeCur_HR == 0,true,false)}">
+<!--                                            <apex:repeat value="{!mapProg_Data[c]}" var="bt"> -->
+                                            <apex:repeat value="{!setPrName}" var="PrName">
+                                            <td class="tableBorderColor clsCenter">
+                                            0
+                                        </td>
+                                        </apex:repeat>
+                                         </apex:outputPanel>
+                                         
+                                        <td class="tableBorderColor clsCenter">
+                                            <apex:outputText value="{0,number,0}">
+                                                <apex:param value="{!dblTotalBillHourCurrent}"/>
+                                            </apex:outputText>    
+                                        </td>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </html>
+</apex:page>

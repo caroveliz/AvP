@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Itinerary_Solution__c$Name</field>
+    </columns>
+    <columns>
+        <field>Itinerary_Solution__c$CreatedDate</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Itinerary_Solution__c$CreatedBy</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Shy,Arlene</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Itinerary_Solution__c$CreatedBy</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Last 7 Days - IS Created Only</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Itinerary_Solutions__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Itinerary_Solution__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_LAST7</interval>
+    </timeFrameFilter>
+</Report>

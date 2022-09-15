@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Cost</fullName>
+        <default>false</default>
+        <label>Cost</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer Service / Personal Relationship</fullName>
+        <default>false</default>
+        <label>Customer Service / Personal Relationship</label>
+    </customValue>
+    <customValue>
+        <fullName>Booking/Cancellation Notice</fullName>
+        <default>false</default>
+        <label>Booking/Cancellation Notice</label>
+    </customValue>
+    <customValue>
+        <fullName>Guaranteed Recovery</fullName>
+        <default>false</default>
+        <label>Guaranteed Recovery</label>
+    </customValue>
+    <customValue>
+        <fullName>Regional Expertise</fullName>
+        <default>false</default>
+        <label>Regional Expertise</label>
+    </customValue>
+    <customValue>
+        <fullName>Program Loyalty</fullName>
+        <default>false</default>
+        <label>Program Loyalty</label>
+    </customValue>
+    <customValue>
+        <fullName>Specific Aircraft Preference</fullName>
+        <default>false</default>
+        <label>Specific Aircraft Preference</label>
+    </customValue>
+    <masterLabel>Client Preference</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

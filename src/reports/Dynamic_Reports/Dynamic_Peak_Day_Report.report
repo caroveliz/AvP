@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Operator_Program__c$Name</field>
+    </columns>
+    <columns>
+        <field>Operator_Program__c.Peak_Days__r$Name</field>
+    </columns>
+    <columns>
+        <field>Operator_Program__c.Peak_Days__r$Date__c</field>
+    </columns>
+    <columns>
+        <field>Operator_Program__c.Peak_Days__r$Type_of_Peak_Day__c</field>
+    </columns>
+    <columns>
+        <field>Operator_Program__c.Peak_Days__r$Peak_Cancellation__c</field>
+    </columns>
+    <columns>
+        <field>Operator_Program__c$Domestic_Booking_Notice__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Operator_Program__c$Id</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value></value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Dynamic Peak Day Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Peak_Days_with_Operator_Program__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Operator_Program__c.Peak_Days__r$Date__c</dateColumn>
+        <interval>INTERVAL_CURFY</interval>
+    </timeFrameFilter>
+</Report>

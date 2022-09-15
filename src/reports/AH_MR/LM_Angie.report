@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Itinerary_Solution__c$Name</field>
+    </columns>
+    <columns>
+        <field>Itinerary_Solution__c.Legs__r$Name</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Itinerary_Solution__c.Legs__r$LastModifiedBy</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Angie Abbate</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>LM Angie</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Transactions_with_Itinerary_Solution_Information__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Itinerary_Solution__c.Legs__r$LastModifiedDate</dateColumn>
+        <interval>INTERVAL_TODAY</interval>
+    </timeFrameFilter>
+</Report>

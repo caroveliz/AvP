@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Itinerary Solution</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Itinerary Solutions</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Added as Additionally Insured --></label>
+        <name>Added_as_Additionally_Insured__c</name>
+        <picklistValues>
+            <masterLabel>Not Required</masterLabel>
+            <translation><!-- Not Required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Calculator --></label>
+        <name>Aircraft_Calculator__c</name>
+        <relationshipLabel><!-- Itinerary Solutions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Owner Approval Received --></label>
+        <name>Aircraft_Owner_Approval_Received__c</name>
+        <picklistValues>
+            <masterLabel>Declined</masterLabel>
+            <translation><!-- Declined --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requested - Pending</masterLabel>
+            <translation><!-- Requested - Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Type --></label>
+        <name>Aircraft_Type_Charter__c</name>
+        <relationshipLabel><!-- Itinerary Solutions (Aircraft Type) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Type --></label>
+        <name>Aircraft_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aircraft --></label>
+        <name>Aircraft__c</name>
+        <relationshipLabel><!-- Itinerary Solutions (Aircraft) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- All-In Cost Savings --></label>
+        <name>All_In_Cost_Savings__c</name>
+    </fields>
+    <fields>
+        <label><!-- All-In Cost --></label>
+        <name>All_In_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Arrival Airport Risk --></label>
+        <name>Arrival_Airport_Risk__c</name>
+        <picklistValues>
+            <masterLabel>After-hours are subject to approval</masterLabel>
+            <translation><!-- After-hours are subject to approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arrival Airport - May be unusable if wet conditions – Make sure to know the nearest alternative airport</masterLabel>
+            <translation><!-- Arrival Airport - May be unusable if wet conditions – Make sure to know the nearest alternative airport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Often experiences ATC Delays – Make sure to know the nearest alternative airport</masterLabel>
+            <translation><!-- Often experiences ATC Delays – Make sure to know the nearest alternative airport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor responsible for advising on customs hours/approval</masterLabel>
+            <translation><!-- Vendor responsible for advising on customs hours/approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weather Restricted – Make sure to know the nearest alternative airport</masterLabel>
+            <translation><!-- Weather Restricted – Make sure to know the nearest alternative airport --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Arrival Airport --></label>
+        <name>Arrival_Airport__c</name>
+        <relationshipLabel><!-- Itinerary Solutions (Final Destination Airport) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Back-Up/Recovery Cost Risk --></label>
+        <name>Back_Up_Recovery_Cost_Risk__c</name>
+        <picklistValues>
+            <masterLabel>Backup/recovery solution projected cost is 10-25% more than your original contract</masterLabel>
+            <translation><!-- Backup/recovery solution projected cost is 10-25% more than your original contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Backup/recovery solution projected cost is 100-150% more than your original contract</masterLabel>
+            <translation><!-- Backup/recovery solution projected cost is 100-150% more than your original contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Backup/recovery solution projected cost is 150-200% more than your original contract</masterLabel>
+            <translation><!-- Backup/recovery solution projected cost is 150-200% more than your original contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Backup/recovery solution projected cost is 25-50% more than your original contract</masterLabel>
+            <translation><!-- Backup/recovery solution projected cost is 25-50% more than your original contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Backup/recovery solution projected cost is 50-75% more than your original contract</masterLabel>
+            <translation><!-- Backup/recovery solution projected cost is 50-75% more than your original contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Backup/recovery solution projected cost is 75-100% more than your original contract</masterLabel>
+            <translation><!-- Backup/recovery solution projected cost is 75-100% more than your original contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>If the aircraft has a mechanical after leg one, the recovery solution will likely be at least an additional 50%</masterLabel>
+            <translation><!-- If the aircraft has a mechanical after leg one, the recovery solution will likely be at least an additional 50% --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Backup/Recovery Delay Risk --></label>
+        <name>Backup_Recovery_Delay_Risk__c</name>
+        <picklistValues>
+            <masterLabel>Projected delay is 2 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</masterLabel>
+            <translation><!-- Projected delay is 2 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Projected delay is 24 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</masterLabel>
+            <translation><!-- Projected delay is 24 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Projected delay is 3 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</masterLabel>
+            <translation><!-- Projected delay is 3 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Projected delay is 4 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</masterLabel>
+            <translation><!-- Projected delay is 4 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Projected delay is 48 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</masterLabel>
+            <translation><!-- Projected delay is 48 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Projected delay is 5 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</masterLabel>
+            <translation><!-- Projected delay is 5 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Projected delay is 6 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</masterLabel>
+            <translation><!-- Projected delay is 6 hours if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Projected delay is the NEXT day if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight</masterLabel>
+            <translation><!-- Projected delay is the NEXT day if your aircraft becomes unavailable due to unexpected circumstances day-of or evening before a morning flight --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Booked Solution --></label>
+        <name>Booked_Solution__c</name>
+    </fields>
+    <fields>
+        <label><!-- Booking Risk --></label>
+        <name>Booking_Risk__c</name>
+        <picklistValues>
+            <masterLabel>Solution is not confirmed until it has requested/received owner approval</masterLabel>
+            <translation><!-- Solution is not confirmed until it has requested/received owner approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor requires a signed contract just to request owner approval</masterLabel>
+            <translation><!-- Vendor requires a signed contract just to request owner approval --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Broker Contact --></label>
+        <name>Broker_Contact__c</name>
+        <relationshipLabel><!-- Itinerary Solutions (Broker Contact) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Broker Fee --></label>
+        <name>Broker_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Broker --></label>
+        <name>Broker__c</name>
+        <relationshipLabel><!-- Itinerary Solutions (Broker) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cabin Type --></label>
+        <name>Cabin_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calendar Title - Itinerary --></label>
+        <name>CalendarTitle_Itinerary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calendar Note --></label>
+        <name>Calendar_Note__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cancellation/Change Fee --></label>
+        <name>Cancellation_Change_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cancellation/Change Fees --></label>
+        <name>Cancellation_Change_Fees__c</name>
+        <picklistValues>
+            <masterLabel>Cancellation Terms are Not flexible within 3 business days</masterLabel>
+            <translation><!-- Cancellation Terms are Not flexible within 3 business days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancellation Terms over the holidays are very inflexible</masterLabel>
+            <translation><!-- Cancellation Terms over the holidays are very inflexible --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Departure times AND dates are considered firm and any changes are subject to vendor approval. You will be subject to the cancellation terms if you need to book another solution</masterLabel>
+            <translation><!-- Departure times AND dates are considered firm and any changes are subject to vendor approval. You will be subject to the cancellation terms if you need to book another solution --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Cancellation Data --></label>
+        <name>Cancellation_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cancellation Date 1 --></label>
+        <name>Cancellation_Date_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cancellation Date 2 --></label>
+        <name>Cancellation_Date_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cancellation Date 3 --></label>
+        <name>Cancellation_Date_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cancellation Notification Date --></label>
+        <name>Cancellation_Notification_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cancellation % --></label>
+        <name>Cancellation_Perc_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cancellation % --></label>
+        <name>Cancellation_Perc_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cancellation % --></label>
+        <name>Cancellation_Perc_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cancellation Range 1 --></label>
+        <name>Cancellation_Range_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cancellation Range 2 --></label>
+        <name>Cancellation_Range_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Name --></label>
+        <name>Contact_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contingency Plan Activated --></label>
+        <name>Contingency_Plan_Activated__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contingency Plan Description --></label>
+        <name>Contingency_Plan_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conversion Rate --></label>
+        <name>Conversion_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost --></label>
+        <name>Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost of Recovery Aircraft --></label>
+        <name>Cost_of_Recovery_Aircraft__c</name>
+    </fields>
+    <fields>
+        <label><!-- Crew Duty Risk --></label>
+        <name>Crew_Duty_Risk__c</name>
+        <picklistValues>
+            <masterLabel>TBD</masterLabel>
+            <translation><!-- TBD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Current Forecasted Trend --></label>
+        <name>Current_Forecasted_Trend__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date the flight was confirmed as booked. --></help>
+        <label><!-- Date Booked --></label>
+        <name>Date_Booked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Researched --></label>
+        <name>Date_Researched__c</name>
+    </fields>
+    <fields>
+        <help><!-- Can be an email or phone number. --></help>
+        <label><!-- Day of Contact --></label>
+        <name>Day_of_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Departure Airport Risk --></label>
+        <name>Departure_Airport_Risk__c</name>
+        <picklistValues>
+            <masterLabel>After-hours are subject to approval</masterLabel>
+            <translation><!-- After-hours are subject to approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hot temperatures at an elevated airport may result in a fuel stop (weight matters)</masterLabel>
+            <translation><!-- Hot temperatures at an elevated airport may result in a fuel stop (weight matters) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>May be unusable if wet conditions – Make sure to know the nearest alternative airport</masterLabel>
+            <translation><!-- May be unusable if wet conditions – Make sure to know the nearest alternative airport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Often experiences ATC Delays – Make sure to know the nearest alternative airport</masterLabel>
+            <translation><!-- Often experiences ATC Delays – Make sure to know the nearest alternative airport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor responsible for advising on customs hours/approval</masterLabel>
+            <translation><!-- Vendor responsible for advising on customs hours/approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weather Restricted – Make sure to know the nearest alternative airport</masterLabel>
+            <translation><!-- Weather Restricted – Make sure to know the nearest alternative airport --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Departure Airport --></label>
+        <name>Departure_Airport__c</name>
+        <relationshipLabel><!-- Itinerary Solutions (Starting Airport) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Detailed Cancellation Policy --></label>
+        <name>Detailed_Cancellation_Policy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Diff. to Prev. Flight on Same Route --></label>
+        <name>Diff_to_Prev_Flight_on_Same_Route__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Billable Time (hours) --></label>
+        <name>Estimated_Billable_Time_hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Operator Cost --></label>
+        <name>Estimated_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Days --></label>
+        <name>Estimated_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Flight Time --></label>
+        <name>Estimated_Flight_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Flight Time (hours) --></label>
+        <name>Estimated_Flight_Time_hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Total Cost (Charter) --></label>
+        <name>Estimated_Total_Cost_Charter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Total Cost --></label>
+        <name>Estimated_Total_Cost__c</name>
+    </fields>
+    <fields>
+        <help><!-- Confirmed that FET is included in the Estimated Cost. --></help>
+        <label><!-- FET Included --></label>
+        <name>FET_Included__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fuel Stop Risk --></label>
+        <name>Fuel_Stop_Risk__c</name>
+        <picklistValues>
+            <masterLabel>A fuel stop will add billable time and costs when compared to program trip sheet estimate</masterLabel>
+            <translation><!-- A fuel stop will add billable time and costs when compared to program trip sheet estimate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aircraft Type – Vendor says non-stop, but we think a tech-stop is possible</masterLabel>
+            <translation><!-- Aircraft Type – Vendor says non-stop, but we think a tech-stop is possible --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Hourly Rate --></label>
+        <name>Hourly_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hours Savings --></label>
+        <name>Hours_Savings__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hours --></label>
+        <name>Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- If Subcontracted, Operator --></label>
+        <name>If_Subcontracted_Operator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Important Solution Notes --></label>
+        <name>Important_Solution_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- International Cancellation Terms --></label>
+        <name>International_Cancellation_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- International Risk or Fees --></label>
+        <name>International_Risk_Fees__c</name>
+        <picklistValues>
+            <masterLabel>International fees on program flights Europe-Europe Program flights can often be $1-$5k</masterLabel>
+            <translation><!-- International fees on program flights Europe-Europe Program flights can often be $1-$5k --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>International fees on program flights US-Europe Program flights can often be $10-15k</masterLabel>
+            <translation><!-- International fees on program flights US-Europe Program flights can often be $10-15k --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Restricted customs hours, permit/handling deadlines, pet restrictions, minors without both parents require a notarized form from the other parent</masterLabel>
+            <translation><!-- Restricted customs hours, permit/handling deadlines, pet restrictions, minors without both parents require a notarized form from the other parent --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Itinerary Solution Owner --></label>
+        <name>Itinerary_Solution_Owner__c</name>
+        <relationshipLabel><!-- Itinerary Solutions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Max Seats --></label>
+        <name>Max_Seats__c</name>
+    </fields>
+    <fields>
+        <label><!-- Negotiated Description --></label>
+        <name>Negotiated_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Negotiated Terms --></label>
+        <name>Negotiated_Terms__c</name>
+        <picklistValues>
+            <masterLabel>Aircraft Positioning</masterLabel>
+            <translation><!-- Aircraft Positioning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aircraft Type</masterLabel>
+            <translation><!-- Aircraft Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancellation Terms</masterLabel>
+            <translation><!-- Cancellation Terms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost</masterLabel>
+            <translation><!-- Cost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crewing</masterLabel>
+            <translation><!-- Crewing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Legal</masterLabel>
+            <translation><!-- Other Legal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment Terms</masterLabel>
+            <translation><!-- Payment Terms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peak Day Restrictions</masterLabel>
+            <translation><!-- Peak Day Restrictions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sliding Departure</masterLabel>
+            <translation><!-- Sliding Departure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WiFi Cost</masterLabel>
+            <translation><!-- WiFi Cost --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- New Forecasted Trend --></label>
+        <name>New_Forecasted_Trend__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operating Annual Cost Savings --></label>
+        <name>Operating_Annual_Cost_Savings__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operating Annual Cost --></label>
+        <name>Operating_Annual_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aircraft confirmed to use wet runway? --></label>
+        <name>Operator_Confirmed_Aircraft__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Operator Confirmed Nonstop --></label>
+        <name>Operator_Confirmed_Nonstop__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Operator Point of Contact --></label>
+        <name>Operator_Point_of_Contact__c</name>
+        <relationshipLabel><!-- Itinerary Solutions (Contact Name) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Operator --></label>
+        <name>Operator__c</name>
+        <relationshipLabel><!-- Itinerary Solutions (Operator) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- # of Overnights --></label>
+        <name>Overnights__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Terms --></label>
+        <name>Payment_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Peak Cancellation Terms --></label>
+        <name>Peak_Cancellation_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Peak/High Demand Day Risk --></label>
+        <name>Peak_High_Demand_Day_Risk__c</name>
+        <picklistValues>
+            <masterLabel>Backup/recovery solutions will be significantly longer than standard demand days</masterLabel>
+            <translation><!-- Backup/recovery solutions will be significantly longer than standard demand days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Morning flights have far less issues (delays, crew duty, diversions) than flights later in the day</masterLabel>
+            <translation><!-- Morning flights have far less issues (delays, crew duty, diversions) than flights later in the day --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Does not include catering and ground --></help>
+        <label><!-- Potential Additional Fees (Charter) --></label>
+        <name>Potential_Additional_Fees_Charter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Potential Additional Fees --></label>
+        <name>Potential_Additional_Fees__c</name>
+        <picklistValues>
+            <masterLabel>Additional Fees ADDED to the contracted cost include additional flight time, international fees, hangar, and de-icing fees due to inclement weather, catering WIFI and flight phone charges</masterLabel>
+            <translation><!-- Additional Fees ADDED to the contracted cost include additional flight time, international fees, hangar, and de-icing fees due to inclement weather, catering WIFI and flight phone charges --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>De-icing fees on large cabin planes can cost an additional $5k-$20k</masterLabel>
+            <translation><!-- De-icing fees on large cabin planes can cost an additional $5k-$20k --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>De-icing fees on light cabin planes can cost an additional $2k-$5k</masterLabel>
+            <translation><!-- De-icing fees on light cabin planes can cost an additional $2k-$5k --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>De-icing fees on mid cabin planes can cost an additional $3k-$6k</masterLabel>
+            <translation><!-- De-icing fees on mid cabin planes can cost an additional $3k-$6k --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>De-icing fees on super-mid cabin planes can cost an additional $4k-$8k</masterLabel>
+            <translation><!-- De-icing fees on super-mid cabin planes can cost an additional $4k-$8k --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pet cleaning fees are often $500-$1,500</masterLabel>
+            <translation><!-- Pet cleaning fees are often $500-$1,500 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WiFi fees can be as high as $25k-$50k</masterLabel>
+            <translation><!-- WiFi fees can be as high as $25k-$50k --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WiFi fees can be as high as $50k-$100k</masterLabel>
+            <translation><!-- WiFi fees can be as high as $50k-$100k --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WiFi fees can be as high as $5k-$25k</masterLabel>
+            <translation><!-- WiFi fees can be as high as $5k-$25k --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Program Period --></label>
+        <name>Program_Period__c</name>
+        <relationshipLabel><!-- Itinerary Solutions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Program --></label>
+        <name>Program__c</name>
+        <relationshipLabel><!-- Itinerary Solutions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Qualifying Discounts --></label>
+        <name>Qualifying_Discounts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote # --></label>
+        <name>Quote__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recovery Cost --></label>
+        <name>Recovery_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recovery % --></label>
+        <name>Recovery_Percentage__c</name>
+        <picklistValues>
+            <masterLabel>10,20,30,40,50,60,70,80,90,100</masterLabel>
+            <translation><!-- 10,20,30,40,50,60,70,80,90,100 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Risk Data --></label>
+        <name>Risk_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Salesforce Update? --></label>
+        <name>Salesforce_Update__c</name>
+    </fields>
+    <fields>
+        <label><!-- Same Day Roundtrip? --></label>
+        <name>Same_day_roundtrip__c</name>
+    </fields>
+    <fields>
+        <label><!-- Solution Category --></label>
+        <name>Solution_Category__c</name>
+        <picklistValues>
+            <masterLabel>Aircraft Owner</masterLabel>
+            <translation><!-- Aircraft Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Empty Leg</masterLabel>
+            <translation><!-- Empty Leg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guaranteed</masterLabel>
+            <translation><!-- Guaranteed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Guaranteed/Charter</masterLabel>
+            <translation><!-- Non-Guaranteed/Charter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shuttle</masterLabel>
+            <translation><!-- Shuttle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TBD</masterLabel>
+            <translation><!-- TBD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Solution Preference --></label>
+        <name>Solution_Preference__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Solution Risk --></label>
+        <name>Solution_Risk__c</name>
+        <picklistValues>
+            <masterLabel>Aircraft will not be staying with you for the duration of the trip so you may not be able to leave early</masterLabel>
+            <translation><!-- Aircraft will not be staying with you for the duration of the trip so you may not be able to leave early --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Positioning on leg one may only be 60 minutes prior because aircraft is based at another airport</masterLabel>
+            <translation><!-- Positioning on leg one may only be 60 minutes prior because aircraft is based at another airport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Positioning on leg one may only be 60 minutes prior because floating fleet</masterLabel>
+            <translation><!-- Positioning on leg one may only be 60 minutes prior because floating fleet --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Solution Status --></label>
+        <name>Solution_Status__c</name>
+        <picklistValues>
+            <masterLabel>Available</masterLabel>
+            <translation><!-- Available --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Booked</masterLabel>
+            <translation><!-- Booked --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled - Maintenance</masterLabel>
+            <translation><!-- Cancelled - Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Longer Available</masterLabel>
+            <translation><!-- No Longer Available --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Hold for Non-AvP Client</masterLabel>
+            <translation><!-- On Hold for Non-AvP Client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Owner Denied</masterLabel>
+            <translation><!-- Owner Denied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Owner Approval</masterLabel>
+            <translation><!-- Pending Owner Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recovery Available</masterLabel>
+            <translation><!-- Recovery Available --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recovery Booked</masterLabel>
+            <translation><!-- Recovery Booked --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recovery Unavailable</masterLabel>
+            <translation><!-- Recovery Unavailable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requested</masterLabel>
+            <translation><!-- Requested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unavailable</masterLabel>
+            <translation><!-- Unavailable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Solution Trip Type --></label>
+        <name>Solution_Trip_Type__c</name>
+        <picklistValues>
+            <masterLabel>Multi-Segment</masterLabel>
+            <translation><!-- Multi-Segment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>One-Way</masterLabel>
+            <translation><!-- One-Way --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Round Trip</masterLabel>
+            <translation><!-- Round Trip --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Same-Day Round Trip</masterLabel>
+            <translation><!-- Same-Day Round Trip --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Standard Cancellation Terms --></label>
+        <name>Standard_Cancellation_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub-Contracted? --></label>
+        <name>Subcontracted__c</name>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tail Number --></label>
+        <name>Tail_Number__c</name>
+        <relationshipLabel><!-- Itinerary Solutions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Trip End Date --></label>
+        <name>Trip_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trip Manager Number --></label>
+        <name>Trip_Manager_Number__c</name>
+        <relationshipLabel><!-- Itinerary Solutions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Trip Start Date --></label>
+        <name>Trip_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trip Type --></label>
+        <name>Trip_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Upgrade/Downgrade --></label>
+        <name>Upgrade_Downgrade__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value for Price Difference --></label>
+        <name>Value_for_Price_Difference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value of Discounts --></label>
+        <name>Value_of_Discounts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Variable Cost Savings --></label>
+        <name>Variable_Cost_Savings__c</name>
+    </fields>
+    <fields>
+        <label><!-- Variable Cost --></label>
+        <name>Variable_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vendor Name --></label>
+        <name>Vendor_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Why was this solution selected? --></label>
+        <name>Why_was_this_solution_selected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Will Crew Pass ARGUS or Wyvern? --></label>
+        <name>Will_Crew_Pass_ARGUS_or_Wyvern__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <description><!-- Itinerary Solutions not visible to Community Users --></description>
+        <label><!-- Not Visible --></label>
+        <name>Not_Visible</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Itinerary Solutions that are visible to Community Users. --></description>
+        <label><!-- Visible --></label>
+        <name>Visible</name>
+    </recordTypes>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- You cannot change the record type for this Solution Status. --></errorMessage>
+        <name>Cannot_change_record_type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter Operator Confirmed Aircraft Wet Runway --></errorMessage>
+        <name>Enter_Aircraft_Confirmed_Wet_Runway</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter Broker Fee --></errorMessage>
+        <name>Enter_Broker_Fee</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter Will crew pass Argus or Wyvern --></errorMessage>
+        <name>Enter_Crew_Pass</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter estimated billable time --></errorMessage>
+        <name>Enter_Estimated_Billable_Time</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter estimated operator cost --></errorMessage>
+        <name>Enter_Estimated_Cost</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter Operator Confirmed Nonstop --></errorMessage>
+        <name>Enter_Operator_Confirmed_Nonstop</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter reason for selecting this itinerary solution --></errorMessage>
+        <name>Enter_Selection_Reason</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Itinerary_Full_View --></label>
+        <name>Itinerary_Full_View</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Related_Legs --></label>
+        <name>Related_Legs</name>
+    </webLinks>
+</CustomObjectTranslation>

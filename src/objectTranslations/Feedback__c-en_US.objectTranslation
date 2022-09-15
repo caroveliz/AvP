@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Feedback</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Feedback</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Name2 --></label>
+        <name>Account_Name2__c</name>
+        <relationshipLabel><!-- Feedbacks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Category --></label>
+        <name>Aircraft_Category__c</name>
+        <picklistValues>
+            <masterLabel>Amenities</masterLabel>
+            <translation><!-- Amenities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cleanliness</masterLabel>
+            <translation><!-- Cleanliness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comfort &amp; Aesthetics</masterLabel>
+            <translation><!-- Comfort &amp; Aesthetics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WIFI</masterLabel>
+            <translation><!-- WIFI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Comment --></label>
+        <name>Aircraft_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Score --></label>
+        <name>Aircraft_Score__c</name>
+        <picklistValues>
+            <masterLabel>1 - Unacceptable</masterLabel>
+            <translation><!-- 1 - Unacceptable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Normal</masterLabel>
+            <translation><!-- 2 - Normal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Excellent</masterLabel>
+            <translation><!-- 3 - Excellent --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Aircraft --></label>
+        <name>Aircraft__c</name>
+        <relationshipLabel><!-- Feedbacks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Broker Category --></label>
+        <name>Broker_Category__c</name>
+        <picklistValues>
+            <masterLabel>Clear Communication</masterLabel>
+            <translation><!-- Clear Communication --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Service</masterLabel>
+            <translation><!-- Client Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contingency Planning</masterLabel>
+            <translation><!-- Contingency Planning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing</masterLabel>
+            <translation><!-- Pricing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Safety</masterLabel>
+            <translation><!-- Safety --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teamwork with AvP</masterLabel>
+            <translation><!-- Teamwork with AvP --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Broker Comment --></label>
+        <name>Broker_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Broker Contact Name --></label>
+        <name>Broker_Contact_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Broker Name --></label>
+        <name>Broker_Name__c</name>
+        <relationshipLabel><!-- Feedbacks (Broker Name) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Broker Score --></label>
+        <name>Broker_Score__c</name>
+        <picklistValues>
+            <masterLabel>1 - Unacceptable</masterLabel>
+            <translation><!-- 1 - Unacceptable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Normal</masterLabel>
+            <translation><!-- 2 - Normal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Excellent</masterLabel>
+            <translation><!-- 3 - Excellent --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact Name --></label>
+        <name>Contact_Name__c</name>
+        <relationshipLabel><!-- Feedbacks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Crew Category --></label>
+        <name>Crew_Category__c</name>
+        <picklistValues>
+            <masterLabel>Attire</masterLabel>
+            <translation><!-- Attire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Friendliness</masterLabel>
+            <translation><!-- Friendliness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Level</masterLabel>
+            <translation><!-- Service Level --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Crew Comment --></label>
+        <name>Crew_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Crew Name --></label>
+        <name>Crew_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Crew Score --></label>
+        <name>Crew_Score__c</name>
+        <picklistValues>
+            <masterLabel>1 - Unacceptable</masterLabel>
+            <translation><!-- 1 - Unacceptable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Unsatisfactory</masterLabel>
+            <translation><!-- 2 - Unsatisfactory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Normal</masterLabel>
+            <translation><!-- 3 - Normal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Above the bar</masterLabel>
+            <translation><!-- 4 - Above the bar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Excellent</masterLabel>
+            <translation><!-- 5 - Excellent --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Feedback Date/Time --></label>
+        <name>Feedback_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal/External --></label>
+        <name>Internal_External__c</name>
+        <picklistValues>
+            <masterLabel>External</masterLabel>
+            <translation><!-- External --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal</masterLabel>
+            <translation><!-- Internal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Leg --></label>
+        <name>Leg__c</name>
+        <relationshipLabel><!-- Feedback --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Operator Category --></label>
+        <name>Operator_Category__c</name>
+        <picklistValues>
+            <masterLabel>Clear Communication</masterLabel>
+            <translation><!-- Clear Communication --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Service</masterLabel>
+            <translation><!-- Client Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contingency Planning</masterLabel>
+            <translation><!-- Contingency Planning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing</masterLabel>
+            <translation><!-- Pricing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Safety</masterLabel>
+            <translation><!-- Safety --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teamwork with AvP</masterLabel>
+            <translation><!-- Teamwork with AvP --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Operator Comment --></label>
+        <name>Operator_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operator Contact Name --></label>
+        <name>Operator_Contact_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operator Name --></label>
+        <name>Operator_Name__c</name>
+        <relationshipLabel><!-- Feedbacks (Operator Name) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Operator Score --></label>
+        <name>Operator_Score__c</name>
+        <picklistValues>
+            <masterLabel>1 - Unacceptable</masterLabel>
+            <translation><!-- 1 - Unacceptable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Normal</masterLabel>
+            <translation><!-- 2 - Normal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Excellent</masterLabel>
+            <translation><!-- 3 - Excellent --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Other Comments --></label>
+        <name>Other_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Name --></label>
+        <name>Other_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Score --></label>
+        <name>Other_Score__c</name>
+        <picklistValues>
+            <masterLabel>1 - Unacceptable</masterLabel>
+            <translation><!-- 1 - Unacceptable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Normal</masterLabel>
+            <translation><!-- 3 - Normal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Excellent</masterLabel>
+            <translation><!-- 5 - Excellent --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Trip Manager # --></label>
+        <name>Trip_Manager__c</name>
+        <relationshipLabel><!-- Feedbacks --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

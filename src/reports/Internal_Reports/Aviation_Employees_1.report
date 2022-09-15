@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>EMAIL</field>
+    </columns>
+    <columns>
+        <field>PHONE1</field>
+    </columns>
+    <columns>
+        <field>PHONE3</field>
+    </columns>
+    <columns>
+        <field>TITLE</field>
+    </columns>
+    <columns>
+        <field>ADDRESS2_STREET</field>
+    </columns>
+    <columns>
+        <field>ADDRESS2_CITY</field>
+    </columns>
+    <columns>
+        <field>ADDRESS2_STATE</field>
+    </columns>
+    <description>Does not include Flight Attendents</description>
+    <filter>
+        <booleanFilter>1 or 2 or 3 or 4 or 5 or 6 or 7 or 8 or 9 or 10 or 11 or 12 or 13 or 14 or 15 or 16 or 17 or 18 or 19 or 20</booleanFilter>
+        <criteriaItems>
+            <column>Contact.Profession__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Aviation-Whole Aircraft Brokerage</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Profession__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Aviation-Pilot</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Profession__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Aviation-Operator Sales</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Profession__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Aviation-Operator Internal Operations</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Profession__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Aviation-Operator Executive</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Profession__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Aviation-OEM-Sales</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Profession__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Aviation-OEM-Executive</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Profession__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Aviation-Management Sales</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Profession__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Aviation-Leasing &amp; Lending</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Profession__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Attorney-Aviation</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Profession__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Aviation-FBO Executive</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Profession__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Aviation-Director of Operation (DO)</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Profession__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Aviation-Director of Maintenance (DOM)</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Profession__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Aviation-Corporate Flight Dept.</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Profession__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Aviation-Consultant</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Profession__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Aviation-Chief Pilot</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Profession__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Aviation-Caterer</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Profession__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Aviation-Brokerage Sales</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Profession__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Aviation-Brokerage Internal Operations</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Profession__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Aviation-Brokerage Executive</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Aviation Employees_1</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ContactList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

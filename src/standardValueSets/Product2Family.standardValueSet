@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Program</fullName>
+        <default>false</default>
+        <label>Program</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Charter</fullName>
+        <default>false</default>
+        <label>Charter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Blended</fullName>
+        <default>false</default>
+        <label>Blended</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Whole Aircraft</fullName>
+        <default>false</default>
+        <label>Whole Aircraft</label>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>FSTR__Checklist_Component_Columns__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Determines which columns will be displayed in the checklist table view only.</description>
+        <externalId>false</externalId>
+        <label>Checklist Component Columns JSON</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__Show_Step_View__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, checklist component displays in step view. When unchecked, it displays with all checklist items in a table.</description>
+        <externalId>false</externalId>
+        <label>Checklist Component Show Step View</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Conga Orchestrate User Preferences</label>
+    <visibility>Public</visibility>
+</CustomObject>

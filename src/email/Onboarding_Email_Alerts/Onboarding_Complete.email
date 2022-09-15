@@ -1,0 +1,3 @@
+Onboarding Complete
+Link to opportunity: {!Opportunity.Link}
+Link to Program: {!Client_Program__c.Link}

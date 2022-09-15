@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>Airport_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Airport_Compact_Layout</fullName>
+        <fields>Street_Address__c</fields>
+        <fields>City__c</fields>
+        <fields>State__c</fields>
+        <fields>Country__c</fields>
+        <fields>ZIP_Code__c</fields>
+        <label>Airport Compact Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Read</externalSharingModel>
+    <fields>
+        <fullName>Airport_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Airport Name</label>
+        <length>180</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Airport_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>AIRPORT NOTES</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>8</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Airport_Operating_Hours__c</fullName>
+        <description>Hours of operations</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Hours of operations.</inlineHelpText>
+        <label>Airport Operating Hours</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>City_Code__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>3-letter city code</inlineHelpText>
+        <label>City Code</label>
+        <length>180</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>City__c</fullName>
+        <externalId>false</externalId>
+        <label>City</label>
+        <length>180</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Closest_Alternate_Airport_1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Closest Alternate Airport 1</label>
+        <referenceTo>Airport__c</referenceTo>
+        <relationshipName>Closest_Alternate_Airport_1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Closest_Alternate_Airport_2__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Closest Alternate Airport 2</label>
+        <referenceTo>Airport__c</referenceTo>
+        <relationshipName>Closest_Alternate_Airport_2</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Closest_Alternate_Airport_3__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Closest Alternate Airport 3</label>
+        <referenceTo>Airport__c</referenceTo>
+        <relationshipName>Closest_Alternate_Airport_3</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Country__c</fullName>
+        <externalId>false</externalId>
+        <label>Country</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customs_After_Hours_Available__c</fullName>
+        <externalId>false</externalId>
+        <label>Customs After Hours Available</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Customs_Available__c</fullName>
+        <externalId>false</externalId>
+        <label>Customs Available</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Customs_Hours__c</fullName>
+        <externalId>false</externalId>
+        <label>Customs Hours</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Drive_time_to_Alternate_Airport_1_mins__c</fullName>
+        <externalId>false</externalId>
+        <label>Drive time to Alternate Airport 1 (mins)</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Drive_time_to_Alternate_Airport_2_mins__c</fullName>
+        <externalId>false</externalId>
+        <label>Drive time to Alternate Airport 2 (mins)</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Drive_time_to_Alternate_Airport_3_mins__c</fullName>
+        <externalId>false</externalId>
+        <label>Drive time to Alternate Airport 3 (mins)</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IATA_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>IATA Code</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NetJets_HE_Airport__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>NetJets HE Airport</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Phone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>State__c</fullName>
+        <externalId>false</externalId>
+        <label>State</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Street_Address__c</fullName>
+        <externalId>false</externalId>
+        <label>Street Address</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Weather_Sensitivity_Score__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>1= Not typically weather sensitive
+2= Sometimes weather sensitive
+3= Often weather sensitive</inlineHelpText>
+        <label>Weather Sensitivity Score</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>true</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ZIP_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>ZIP Code</label>
+        <length>10</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Airport</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>IATA_Code__c</columns>
+        <columns>Airport_Name__c</columns>
+        <columns>City__c</columns>
+        <columns>State__c</columns>
+        <columns>Country__c</columns>
+        <columns>Customs_Available__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>US_Airports</fullName>
+        <columns>NAME</columns>
+        <columns>IATA_Code__c</columns>
+        <columns>Airport_Name__c</columns>
+        <columns>City__c</columns>
+        <columns>State__c</columns>
+        <columns>Country__c</columns>
+        <columns>Customs_Available__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>startsWith</operation>
+            <value>K</value>
+        </filters>
+        <label>U.S. Airports</label>
+    </listViews>
+    <nameField>
+        <label>Airport Code (ICAO Code)</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Airports</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Airport_Name__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>City__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>State__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Country__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Customs_Available__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Airport_Notes__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Airport_Name__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>City__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>State__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Country__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Customs_Available__c</lookupDialogsAdditionalFields>
+        <lookupFilterFields>NAME</lookupFilterFields>
+        <lookupFilterFields>Airport_Name__c</lookupFilterFields>
+        <lookupFilterFields>City__c</lookupFilterFields>
+        <lookupFilterFields>State__c</lookupFilterFields>
+        <lookupFilterFields>Country__c</lookupFilterFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Airport_Name__c</searchFilterFields>
+        <searchFilterFields>City_Code__c</searchFilterFields>
+        <searchFilterFields>City__c</searchFilterFields>
+        <searchFilterFields>Closest_Alternate_Airport_1__c</searchFilterFields>
+        <searchFilterFields>IATA_Code__c</searchFilterFields>
+        <searchResultsAdditionalFields>Airport_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>City__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>State__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Country__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Customs_Available__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Airport_Notes__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <fullName>Proper_Case</fullName>
+        <active>true</active>
+        <description>Airport name should be proper case</description>
+        <errorConditionFormula>NOT( 
+OR( 
+BEGINS( Airport_Name__c ,&quot;A&quot;), 
+BEGINS( Airport_Name__c ,&quot;B&quot;), 
+BEGINS( Airport_Name__c ,&quot;C&quot;), 
+BEGINS( Airport_Name__c ,&quot;D&quot;), 
+BEGINS( Airport_Name__c ,&quot;E&quot;), 
+BEGINS( Airport_Name__c ,&quot;F&quot;), 
+BEGINS( Airport_Name__c ,&quot;G&quot;), 
+BEGINS( Airport_Name__c ,&quot;H&quot;), 
+BEGINS( Airport_Name__c ,&quot;I&quot;), 
+BEGINS( Airport_Name__c ,&quot;J&quot;), 
+BEGINS( Airport_Name__c ,&quot;K&quot;), 
+BEGINS( Airport_Name__c ,&quot;L&quot;), 
+BEGINS( Airport_Name__c ,&quot;M&quot;), 
+BEGINS( Airport_Name__c ,&quot;N&quot;), 
+BEGINS( Airport_Name__c ,&quot;O&quot;), 
+BEGINS( Airport_Name__c ,&quot;P&quot;), 
+BEGINS( Airport_Name__c ,&quot;Q&quot;), 
+BEGINS( Airport_Name__c ,&quot;R&quot;), 
+BEGINS( Airport_Name__c ,&quot;S&quot;), 
+BEGINS( Airport_Name__c ,&quot;T&quot;), 
+BEGINS( Airport_Name__c ,&quot;U&quot;), 
+BEGINS( Airport_Name__c ,&quot;V&quot;), 
+BEGINS( Airport_Name__c ,&quot;W&quot;), 
+BEGINS( Airport_Name__c ,&quot;X&quot;), 
+BEGINS( Airport_Name__c ,&quot;Y&quot;), 
+BEGINS( Airport_Name__c ,&quot;Z&quot;) 
+))</errorConditionFormula>
+        <errorMessage>Please capitalize first words of the Airport Name</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

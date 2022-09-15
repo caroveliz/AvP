@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- CRMC Action Grid Defaults --></label>
+        <name>CRMC_PP__CRMC_Action_Grid_Defaults</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Agreement/Addendum Collected --></label>
+        <name>Agreement_Addendum_Collected__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Agreement/Addendum Executed &amp; Sent Back --></label>
+        <name>Agreement_Addendum_Executed_Sent_Back__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Agreement/Addendum Sent --></label>
+        <name>Agreement_Addendum_Sent__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Agreement Sent --></label>
+        <name>Agreement_Sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auto-Renew --></label>
+        <name>Auto_Renew__c</name>
+    </fields>
+    <fields>
+        <label><!-- Charter Referral --></label>
+        <name>Charter_Referral__c</name>
+    </fields>
+    <fields>
+        <label><!-- Collection 90 days to close --></label>
+        <name>Collection_90_days_to_close__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is always the entire length of the current signed contract/addendum --></help>
+        <label><!-- Contract Length --></label>
+        <name>Contract_Length__c</name>
+        <picklistValues>
+            <masterLabel>0 Months</masterLabel>
+            <translation><!-- 0 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 Month</masterLabel>
+            <translation><!-- 1 Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 Months</masterLabel>
+            <translation><!-- 10 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11 Months</masterLabel>
+            <translation><!-- 11 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12 Months</masterLabel>
+            <translation><!-- 12 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15 Months</masterLabel>
+            <translation><!-- 15 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18 Months</masterLabel>
+            <translation><!-- 18 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 Months</masterLabel>
+            <translation><!-- 2 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>24 Months</masterLabel>
+            <translation><!-- 24 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 Months</masterLabel>
+            <translation><!-- 3 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30 Months</masterLabel>
+            <translation><!-- 30 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>36 Months</masterLabel>
+            <translation><!-- 36 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 Months</masterLabel>
+            <translation><!-- 4 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>48 months</masterLabel>
+            <translation><!-- 48 months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 Months</masterLabel>
+            <translation><!-- 5 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 Months</masterLabel>
+            <translation><!-- 6 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60 months</masterLabel>
+            <translation><!-- 60 months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 Months</masterLabel>
+            <translation><!-- 7 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8 Months</masterLabel>
+            <translation><!-- 8 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9 Months</masterLabel>
+            <translation><!-- 9 Months --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- DOCUSIGN1 Year Ext Concurrent to Program --></label>
+        <name>DOCUSIGN1_Year_Ext_Concurrent_to_Program__c</name>
+    </fields>
+    <fields>
+        <label><!-- DOCUSIGN 2 yr ext conc to program --></label>
+        <name>DOCUSIGN_2_yr_ext_conc_to_program__c</name>
+    </fields>
+    <fields>
+        <label><!-- Decision Time Frame --></label>
+        <name>Decision_Time_Frame__c</name>
+        <picklistValues>
+            <masterLabel>30 Days</masterLabel>
+            <translation><!-- 30 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30-60 Days</masterLabel>
+            <translation><!-- 30-60 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60-90 Days</masterLabel>
+            <translation><!-- 60-90 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90-120 Days</masterLabel>
+            <translation><!-- 90-120 Days --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- DocuSign Complete --></label>
+        <name>DocuSign_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dont Auto-Invoice --></label>
+        <name>Dont_Auto_Invoice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entire Agreement End Date --></label>
+        <name>Entire_Agreement_End_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Trust Name or another name where the funds were transferred from. --></help>
+        <label><!-- Entity Name- Paid From --></label>
+        <name>Entity_Name_Paid_From__c</name>
+    </fields>
+    <fields>
+        <label><!-- AVP Entity Name --></label>
+        <name>Entity_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Flight Volume --></label>
+        <name>Estimated_Flight_Volume__c</name>
+        <picklistValues>
+            <masterLabel>0-24</masterLabel>
+            <translation><!-- 0-24 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100-200</masterLabel>
+            <translation><!-- 100-200 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>200+</masterLabel>
+            <translation><!-- 200+ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25-49</masterLabel>
+            <translation><!-- 25-49 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50-99</masterLabel>
+            <translation><!-- 50-99 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This field is automatically updated by the Auto Close page with how many steps are being skipped by the auto close action. --></help>
+        <label><!-- Auto Close - Steps Not Created --></label>
+        <name>FSTR__Auto_Close_Steps_Not_Created__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auto Close --></label>
+        <name>FSTR__Auto_Close__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process Completed By --></label>
+        <name>FSTR__Completed_By__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Process Completed Date --></label>
+        <name>FSTR__Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>FSTR__Contact_BPM__c</name>
+        <relationshipLabel><!-- Opportunities - ProcessComposer --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Definition --></label>
+        <name>FSTR__PCE_Definition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process Group --></label>
+        <name>FSTR__Process_Group__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Process Initiated --></label>
+        <name>FSTR__Process_Initiated__c</name>
+    </fields>
+    <fields>
+        <help><!-- If this Opportunity was created from a Recurring Business Process record this field links back to that record. --></help>
+        <label><!-- Recurring Business Process --></label>
+        <name>FSTR__Recurring_Business_Process__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Skipped Steps --></label>
+        <name>FSTR__Skipped_Steps__c</name>
+    </fields>
+    <fields>
+        <help><!-- Link to the Definition that this object is executing on currently. --></help>
+        <label><!-- Definition --></label>
+        <name>FSTR__pce_definition_lookup__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Financially Qualified --></label>
+        <name>Financially_Qualified__c</name>
+        <picklistValues>
+            <masterLabel>Maybe</masterLabel>
+            <translation><!-- Maybe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Idea</masterLabel>
+            <translation><!-- No Idea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Introduction --></label>
+        <name>Introduction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Send Date --></label>
+        <name>Invoice_Send_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice to 2 email --></label>
+        <name>Invoice_to_2_email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice to 3 email --></label>
+        <name>Invoice_to_3_email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice to Goes By --></label>
+        <name>Invoice_to_Goes_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Onboarding Opportunity? --></label>
+        <name>Is_Onboarding_Opportunity__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last Email --></label>
+        <name>Last_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Phone Message --></label>
+        <name>Last_Phone_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Text --></label>
+        <name>Last_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lost Deal Description --></label>
+        <name>Lost_Deal_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lost Deal Email Sent --></label>
+        <name>Lost_Deal_Email_Sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lost Deal Hand Note Sent --></label>
+        <name>Lost_Deal_Hand_Note_Sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Method of Payment --></label>
+        <name>Method_of_Payment__c</name>
+        <picklistValues>
+            <masterLabel>ACH</masterLabel>
+            <translation><!-- ACH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Check</masterLabel>
+            <translation><!-- Check --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Card</masterLabel>
+            <translation><!-- Credit Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wire</masterLabel>
+            <translation><!-- Wire --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Next Agreement Start Date --></label>
+        <name>Next_Agreement_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Step #1 --></label>
+        <name>Next_Step_1__c</name>
+        <picklistValues>
+            <masterLabel>TBD</masterLabel>
+            <translation><!-- TBD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Next Step #2 --></label>
+        <name>Next_Step_2__c</name>
+        <picklistValues>
+            <masterLabel>AAAA</masterLabel>
+            <translation><!-- AAAA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Next Step(s) --></label>
+        <name>Next_Step_s__c</name>
+        <picklistValues>
+            <masterLabel>Collect Contract</masterLabel>
+            <translation><!-- Collect Contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collect Contract &amp; Payment</masterLabel>
+            <translation><!-- Collect Contract &amp; Payment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collect Payment</masterLabel>
+            <translation><!-- Collect Payment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Research</masterLabel>
+            <translation><!-- Internal Research --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Provide Quotes</masterLabel>
+            <translation><!-- Provide Quotes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Provide Research Analysis</masterLabel>
+            <translation><!-- Provide Research Analysis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal Analysis</masterLabel>
+            <translation><!-- Renewal Analysis --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- One Yr Extension --></label>
+        <name>One_Yr_Extension__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operator Program Name --></label>
+        <name>Operator_Program_Name__c</name>
+        <picklistValues>
+            <masterLabel>25-Hour QS Executive Card</masterLabel>
+            <translation><!-- 25-Hour QS Executive Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advanced Air</masterLabel>
+            <translation><!-- Advanced Air --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Air Partner Card Program</masterLabel>
+            <translation><!-- Air Partner Card Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Apollo Jets</masterLabel>
+            <translation><!-- Apollo Jets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clay Lacy ETP</masterLabel>
+            <translation><!-- Clay Lacy ETP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delta Private Jets $100k Card</masterLabel>
+            <translation><!-- Delta Private Jets $100k Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delta Private Jets $1mm Card</masterLabel>
+            <translation><!-- Delta Private Jets $1mm Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delta Private Jets $250k Card</masterLabel>
+            <translation><!-- Delta Private Jets $250k Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delta Private Jets $500k Card</masterLabel>
+            <translation><!-- Delta Private Jets $500k Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delta Private Jets $50k Amex Centurion</masterLabel>
+            <translation><!-- Delta Private Jets $50k Amex Centurion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delta Private Jets Sky Access</masterLabel>
+            <translation><!-- Delta Private Jets Sky Access --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EJM Elite Point-to-Point Program</masterLabel>
+            <translation><!-- EJM Elite Point-to-Point Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EJM Flat Rate Program</masterLabel>
+            <translation><!-- EJM Flat Rate Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FX Air Aviator</masterLabel>
+            <translation><!-- FX Air Aviator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flexjet 25-Hour Card</masterLabel>
+            <translation><!-- Flexjet 25-Hour Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flexjet Fractional Lease</masterLabel>
+            <translation><!-- Flexjet Fractional Lease --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flexjet Fractional Share</masterLabel>
+            <translation><!-- Flexjet Fractional Share --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jet Edge Reserve Program</masterLabel>
+            <translation><!-- Jet Edge Reserve Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jet Linx Executive Card</masterLabel>
+            <translation><!-- Jet Linx Executive Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marquis Cross Country Card</masterLabel>
+            <translation><!-- Marquis Cross Country Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marquis Elite Card</masterLabel>
+            <translation><!-- Marquis Elite Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marquis Standard Card</masterLabel>
+            <translation><!-- Marquis Standard Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NetJets Europe Entry Card</masterLabel>
+            <translation><!-- NetJets Europe Entry Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NetJets Europe Fractional Share</masterLabel>
+            <translation><!-- NetJets Europe Fractional Share --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NetJets Europe Standard Card</masterLabel>
+            <translation><!-- NetJets Europe Standard Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NetJets Fractional Lease</masterLabel>
+            <translation><!-- NetJets Fractional Lease --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NetJets Fractional Share</masterLabel>
+            <translation><!-- NetJets Fractional Share --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NetJets Mission Capable Card</masterLabel>
+            <translation><!-- NetJets Mission Capable Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planesense Fractional Share</masterLabel>
+            <translation><!-- Planesense Fractional Share --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sentient Jet Card</masterLabel>
+            <translation><!-- Sentient Jet Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skyjet Explorer</masterLabel>
+            <translation><!-- Skyjet Explorer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skyjet Explorer Membership</masterLabel>
+            <translation><!-- Skyjet Explorer Membership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VistaJet FSP</masterLabel>
+            <translation><!-- VistaJet FSP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wheels Up Corporate No Fund Program</masterLabel>
+            <translation><!-- Wheels Up Corporate No Fund Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wheels Up Funds - $100k</masterLabel>
+            <translation><!-- Wheels Up Funds - $100k --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wheels Up Funds - $100k Corporate</masterLabel>
+            <translation><!-- Wheels Up Funds - $100k Corporate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wheels Up Funds - $200k</masterLabel>
+            <translation><!-- Wheels Up Funds - $200k --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wheels Up Funds - $200k Corporate</masterLabel>
+            <translation><!-- Wheels Up Funds - $200k Corporate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wheels Up Funds - $400k</masterLabel>
+            <translation><!-- Wheels Up Funds - $400k --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wheels Up Funds - $400k Corporate</masterLabel>
+            <translation><!-- Wheels Up Funds - $400k Corporate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wheels Up Funds - $50k</masterLabel>
+            <translation><!-- Wheels Up Funds - $50k --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wheels Up Standard Member</masterLabel>
+            <translation><!-- Wheels Up Standard Member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XOJET Elite Access</masterLabel>
+            <translation><!-- XOJET Elite Access --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XOJET Preferred Access</masterLabel>
+            <translation><!-- XOJET Preferred Access --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XOJET Select Access</masterLabel>
+            <translation><!-- XOJET Select Access --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XOJET Signature Access</masterLabel>
+            <translation><!-- XOJET Signature Access --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zetta Block Hour Membership</masterLabel>
+            <translation><!-- Zetta Block Hour Membership --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Operator Program not required --></label>
+        <name>Operator_Program_not_required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Next Step --></label>
+        <name>Opportunity_Next_Step__c</name>
+    </fields>
+    <fields>
+        <label><!-- Originally Signed Contract is Missing --></label>
+        <name>Originally_Signed_Contract_is_Missing__c</name>
+    </fields>
+    <fields>
+        <label><!-- PortfolioProtectCorporate --></label>
+        <name>PortfolioProtectCorporate__c</name>
+    </fields>
+    <fields>
+        <label><!-- PortfolioPartner --></label>
+        <name>Portfolio_Partner__c</name>
+    </fields>
+    <fields>
+        <label><!-- PortfolioProtect --></label>
+        <name>Portfolio_Protect__c</name>
+    </fields>
+    <fields>
+        <label><!-- Potential Adj Rev --></label>
+        <name>Potential_Adj_Rev__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Type --></label>
+        <name>Product_Type__c</name>
+        <picklistValues>
+            <masterLabel>Blended</masterLabel>
+            <translation><!-- Blended --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Charter</masterLabel>
+            <translation><!-- Charter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Program</masterLabel>
+            <translation><!-- Program --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Products --></label>
+        <name>Products__c</name>
+        <picklistValues>
+            <masterLabel>Portfolio Intelligence</masterLabel>
+            <translation><!-- Portfolio Intelligence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portfolio Protect</masterLabel>
+            <translation><!-- Portfolio Protect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor Due Diligence</masterLabel>
+            <translation><!-- Vendor Due Diligence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Whole Aircraft</masterLabel>
+            <translation><!-- Whole Aircraft --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Program Entity Name --></label>
+        <name>Program_Entity_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proposal Sent --></label>
+        <name>Proposal_Sent__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unnecessary</masterLabel>
+            <translation><!-- Unnecessary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Prospect Strength --></label>
+        <name>Prospect_Strength__c</name>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neutral</masterLabel>
+            <translation><!-- Neutral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strong</masterLabel>
+            <translation><!-- Strong --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Strong</masterLabel>
+            <translation><!-- Very Strong --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zero</masterLabel>
+            <translation><!-- Zero --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reason For Closed Deal --></label>
+        <name>Reason_1_For_Closed_Deal__c</name>
+        <picklistValues>
+            <masterLabel>TBD</masterLabel>
+            <translation><!-- TBD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reason for Lost Deal --></label>
+        <name>Reason_1_For_Lost_Deal__c</name>
+        <picklistValues>
+            <masterLabel>Doesn&apos;t fly enough</masterLabel>
+            <translation><!-- Doesn&apos;t fly enough --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doesn&apos;t understand our value / unhappy with our value</masterLabel>
+            <translation><!-- Doesn&apos;t understand our value / unhappy with our value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Happy with how they are flying, don&apos;t need more help</masterLabel>
+            <translation><!-- Happy with how they are flying, don&apos;t need more help --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (write out)</masterLabel>
+            <translation><!-- Other (write out) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Referred by --></label>
+        <name>Referred_by__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Research --></label>
+        <name>Research__c</name>
+    </fields>
+    <fields>
+        <label><!-- Send Authorization Form to --></label>
+        <name>Send_Authorization_Form_to__c</name>
+        <relationshipLabel><!-- Opportunities (Send Authorization Form to) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Send Authorization to full name --></label>
+        <name>Send_Authorization_to_full_name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Send Invoice To --></label>
+        <name>Send_Invoice_To__c</name>
+        <relationshipLabel><!-- Opportunities (Send Invoice To) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Send Invoice to 2 --></label>
+        <name>Send_Invoice_to_2__c</name>
+        <relationshipLabel><!-- Opportunities (Send Invoice to 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Send Invoice to 3 --></label>
+        <name>Send_Invoice_to_3__c</name>
+        <relationshipLabel><!-- Opportunities (Send Invoice to 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- If term end date is less than 1 year, enter end date here --></help>
+        <label><!-- Special Term End Date --></label>
+        <name>Special_Term_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Square Link --></label>
+        <name>Square_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Standard Collection --></label>
+        <name>Standard_Collection__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use this field to store key information about a deal that can be referenced during a customer&apos;s onboarding project. --></help>
+        <label><!-- Deal Handoff Notes --></label>
+        <name>TASKRAY__trDealHandoffNotes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use this field to capture a customer&apos;s desired outcome(s) for their onboarding process. --></help>
+        <label><!-- Desired Outcomes --></label>
+        <name>TASKRAY__trDesiredOutcomes__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field will be automatically updated if the TaskRay Onboarding Kickoff Flow has been completed for a given Opportunity. --></help>
+        <label><!-- Onboarding Kickoff Completed --></label>
+        <name>TASKRAY__trOnboardingKickoffCompleted__c</name>
+    </fields>
+    <fields>
+        <help><!-- 1-year after start date --></help>
+        <label><!-- Term End Date --></label>
+        <name>Term_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Term Start Date --></label>
+        <name>Term_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Amount with CC % --></label>
+        <name>Total_Amount_with_CC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Two Yr Extension --></label>
+        <name>Two_Yr_Extension__c</name>
+    </fields>
+    <fields>
+        <label><!-- 30 Days to Close --></label>
+        <name>X30_Days_to_Close__c</name>
+    </fields>
+    <fields>
+        <label><!-- 60 Days to Close --></label>
+        <name>X60_Days_to_Close__c</name>
+    </fields>
+    <fields>
+        <label><!-- 90 days to close --></label>
+        <name>X90_days_to_close__c</name>
+    </fields>
+    <fields>
+        <label><!-- YTD --></label>
+        <name>YTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year 1 Term Extension End --></label>
+        <name>Year_1_Term_Extension_End__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year 1 Term Extension Start --></label>
+        <name>Year_1_Term_Extension_Start__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year 2 End Date --></label>
+        <name>Year_2_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year 2 Start Date --></label>
+        <name>Year_2_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year 2 Term Extension End --></label>
+        <name>Year_2_Term_Extension_End__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year 2 Term Extension Start --></label>
+        <name>Year_2_Term_Extension_Start__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year 3 End Date --></label>
+        <name>Year_3_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year 3 Start Date --></label>
+        <name>Year_3_Start_Date__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- You must have a value selected before moving to Closed Won --></errorMessage>
+        <name>Require_Vendors_upon_Closed_Won</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Conga_Composer_OAuth --></label>
+        <name>APXTConga4__Conga_Composer_OAuth</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Mail_Merge --></label>
+        <name>APXTConga4__Conga_Mail_Merge</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Addendum --></label>
+        <name>Conga_Composer_Addendum</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Authorizations --></label>
+        <name>Conga_Composer_Authorizations</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_AvP_Contract --></label>
+        <name>Conga_Composer_AvP_Contract</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Composer_SP_Invoice --></label>
+        <name>Conga_Composer_Composer_SP_Invoice</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Composer_SP_Proposal --></label>
+        <name>Conga_Composer_Composer_SP_Proposal</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_DOCUSIGN1_Year_Ext_Concurrent_to_Program --></label>
+        <name>Conga_Composer_DOCUSIGN1_Year_Ext_Concurrent_to_Program</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_DOCUSIGN_2_yr_ext_conc_to_program --></label>
+        <name>Conga_Composer_DOCUSIGN_2_yr_ext_conc_to_program</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_DocuSign_Contract --></label>
+        <name>Conga_Composer_DocuSign_Contract</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_DocuSign_Quote --></label>
+        <name>Conga_Composer_DocuSign_Quote</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Invoice2 --></label>
+        <name>Conga_Composer_Invoice2</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_One_Yr_Extension --></label>
+        <name>Conga_Composer_One_Yr_Extension</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Two_Yr_Extension --></label>
+        <name>Conga_Composer_Two_Yr_Extension</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Welcome_Letter --></label>
+        <name>Conga_Composer_Welcome_Letter</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Close --></label>
+        <name>FSTR__Close</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Close_Opportunity_and_Steps --></label>
+        <name>FSTR__Close_Opportunity_and_Steps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Process_Details --></label>
+        <name>FSTR__Process_Details</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Process_Visual --></label>
+        <name>FSTR__Process_Visual</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Test --></label>
+        <name>Test</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_with_DocuSign --></label>
+        <name>dsfs__Send_with_DocuSign</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Verify_with_DNB --></label>
+        <name>dsfs__Verify_with_DNB</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_to_Slack --></label>
+        <name>slackv2__Send_to_Slack</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Slack_Alerts --></label>
+        <name>slackv2__Slack_Alerts</name>
+    </webLinks>
+    <workflowTasks>
+        <description><!-- It has been 24 hours since the Agreement was sent. --></description>
+        <name>Follow_Up_on_Agreement_Sent</name>
+        <subject><!-- Follow Up on Agreement Sent --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <name>Month_1_Call</name>
+        <subject><!-- Month 1 Call --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <name>Month_1_Email</name>
+        <subject><!-- Month 1 Email --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

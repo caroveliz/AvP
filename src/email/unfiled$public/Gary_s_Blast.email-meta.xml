@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Gary&apos;s Blast</name>
+    <style>none</style>
+    <subject>Introducing Aviation Portfolio</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+Have you ever been frustrated or questioned the value of your private aviation spending?
+
+Is it possible that you are not utilizing the private aviation service(s) that best fit your needs?
+
+If the answer to either of these questions is yes, then please consider Aviation Portfolio, an independent market intelligence company. You DON&apos;T need to switch providers for us to make an impact.
+
+Craig Ross, the former COO of Marquis Jet, founded Aviation Portfolio in 2011.
+
+May we schedule five minutes to discuss?
+
+Best regards,
+
+Luke Hatfield 
+Aviation Portfolio, LLC 
+www.aviationportfolio.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Program Period</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Program Periods</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Id --></label>
+        <name>Account_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- For conga --></help>
+        <label><!-- Account Owner ID --></label>
+        <name>Account_Owner_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Hours flown divided by hour accrued to date. Closer to 100% the better --></help>
+        <label><!-- Accrual/Actual Delta --></label>
+        <name>Accrual_Actual_Delta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Accrual/Actual Delta (days) --></label>
+        <name>Accrual_Actual_Delta_days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Accrual Per Day (Day Program) --></label>
+        <name>Accrual_Per_Day_Day_Program__c</name>
+    </fields>
+    <fields>
+        <label><!-- Accrual per Day --></label>
+        <name>Accrual_per_Day__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total Deposit Amount-Flight Spend --></help>
+        <label><!-- Actual Amount Remaining --></label>
+        <name>Actual_Amount_Remaining__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actual Deposit Hours Remaining --></label>
+        <name>Actual_Deposit_Hours_Remaining__c</name>
+    </fields>
+    <fields>
+        <help><!-- Contract Hours Calculation minus Total Billed Hours --></help>
+        <label><!-- Actual Hours Remaining --></label>
+        <name>Actual_Hours_Remaining__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allotted plus prior yr carry over --></label>
+        <name>Allotted_plus_prior_yr_carry_over__c</name>
+    </fields>
+    <fields>
+        <label><!-- Annual Days Allotted --></label>
+        <name>Annual_Days_Allotted__c</name>
+    </fields>
+    <fields>
+        <help><!-- Allotted hours for this program year --></help>
+        <label><!-- Annual Hours Allotted --></label>
+        <name>Annual_Hours_Allotted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Annual Hours Remaining --></label>
+        <name>Annual_Hours_Remaining__c</name>
+    </fields>
+    <fields>
+        <label><!-- Archive? --></label>
+        <name>Archive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auto Close --></label>
+        <name>Auto_Close__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field goes into the operator program and checks how many days prior the client has to give notice not to auto-renew (e.g. 30 days). Then it subtracts that number from the contract end date. To be used for client alerts --></help>
+        <label><!-- Auto-renew notification date --></label>
+        <name>Auto_renew_notification_date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Field for Conga Conductor --></help>
+        <label><!-- Balance Update Ready to Send --></label>
+        <name>Balance_Update_Ready_to_Send__c</name>
+    </fields>
+    <fields>
+        <help><!-- Actual Amount Remaining + Total Flown NOT Reconciled Estimated Cost --></help>
+        <label><!-- Balance as of Last Statement --></label>
+        <name>Balance_as_of_Last_Statement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billed + Booked Hours --></label>
+        <name>Billed_Booked_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bonus Hours --></label>
+        <name>Bonus_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Booked Hours --></label>
+        <name>Booked_Hours__c</name>
+    </fields>
+    <fields>
+        <help><!-- Need this field for fractional summary report --></help>
+        <label><!-- Borrow-able hours this year --></label>
+        <name>Borrow_able_hours_this_year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Account --></label>
+        <name>Business_Account__c</name>
+        <relationshipLabel><!-- Client Program Year --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CONGA Jet Card Hours Remaining --></label>
+        <name>CONGA_Jet_Card_Hours_Remaining__c</name>
+    </fields>
+    <fields>
+        <label><!-- Charter Program Deposit Amount --></label>
+        <name>Charter_Program_Deposit_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Additional deposits - not the first deposit. --></help>
+        <label><!-- Charter Program Deposit Date --></label>
+        <name>Charter_Program_Deposit_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Aware of Term End or Low Balance? --></label>
+        <name>Client_Aware_of_Term_End_or_Low_Balance__c</name>
+        <picklistValues>
+            <masterLabel>Yes, client is aware and made/will make additional purchase</masterLabel>
+            <translation><!-- Yes, client is aware and made/will make additional purchase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes, client is aware and plans to catch up before terms end</masterLabel>
+            <translation><!-- Yes, client is aware and plans to catch up before terms end --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes, client is aware but does not wish to take action</masterLabel>
+            <translation><!-- Yes, client is aware but does not wish to take action --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Client Program --></label>
+        <name>Client_Program__c</name>
+        <relationshipLabel><!-- Program Periods --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Client --></label>
+        <name>Client__c</name>
+        <relationshipLabel><!-- Client Program Year --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Completed By --></label>
+        <name>Completed_By__c</name>
+        <relationshipLabel><!-- Client Program Year --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Completed Date --></label>
+        <name>Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conga Workflow Frax Hours remaining --></label>
+        <name>Conga_Workflow_Frax_Hours_remaining__c</name>
+    </fields>
+    <fields>
+        <help><!-- Annual allotted hours PLUS prior year carry-over NOT TO EXCEED annual max threshold --></help>
+        <label><!-- Contract Hours Calculation --></label>
+        <name>Contract_Hours_Calculation__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total Flown Hours/Days into Program Year x 365 --></help>
+        <label><!-- Current Annual Trend --></label>
+        <name>Current_Annual_Trend__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Yr MMF per Hour --></label>
+        <name>Current_Yr_MMF_per_Hour__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days into Program Year --></label>
+        <name>Days_into_Program_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Billed + Tentative Days --></label>
+        <name>Estimated_Billed_Tentative_Days__c</name>
+    </fields>
+    <fields>
+        <help><!-- For FlexJet Only.  Charter Threshold.  Annual Allotted Hours*5% --></help>
+        <label><!-- FJ 95% --></label>
+        <name>FJ_95__c</name>
+    </fields>
+    <fields>
+        <label><!-- FJ Total Charter Reconciled Hours --></label>
+        <name>FJ_Total_Charter_Reconciled_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flown + Credited --></label>
+        <name>Flown_Credited__c</name>
+    </fields>
+    <fields>
+        <label><!-- Forecast Amount Remaining --></label>
+        <name>Forecast_Amount_Remaining__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total Hours - Total Flown and Estimated Hours --></help>
+        <label><!-- Forecasted CARD Hours Remaining --></label>
+        <name>Forecasted_Card_Hours_Remaining__c</name>
+    </fields>
+    <fields>
+        <help><!-- Forecasted Amount Remaining/Hourly Rate --></help>
+        <label><!-- Forecasted Deposit Hours Remaining --></label>
+        <name>Forecasted_Deposit_Hours_Remaining__c</name>
+    </fields>
+    <fields>
+        <help><!-- Contract Hours Calculation minus total forecasted hours (billed plus booked and tentative) --></help>
+        <label><!-- Forecasted Hours Remaining --></label>
+        <name>Forecasted_Hours_Remaining__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total Forecasted Hours(Billed hours plus booked and tentative)/Annual Hours Allotted --></help>
+        <label><!-- Forecasted % Utilized --></label>
+        <name>Forecasted_Utilized__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total Forecasted Hours /  Purchased_Hours --></help>
+        <label><!-- Forecasted % Utilized Cards Only --></label>
+        <name>Forecasted_Utlizied_Card__c</name>
+    </fields>
+    <fields>
+        <help><!-- For Wheels Up and XOJet to Track Deposit Date.  Start date for these two programs is the date of the first flight. --></help>
+        <label><!-- Funds Deposit Date --></label>
+        <name>Funds_Deposit_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hourly Rate --></label>
+        <name>Hourly_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- JetCard Dollars Remaining Lightning --></label>
+        <name>JetCard_Dollars_Remaining_Lightning__c</name>
+    </fields>
+    <fields>
+        <label><!-- CONGA Jet Card Dollars Remaining --></label>
+        <name>Jet_Card_Dollars_Remaining__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jet Card Hours Remaining --></label>
+        <name>Jet_Card_Hours_Remaining__c</name>
+    </fields>
+    <fields>
+        <label><!-- King Air Hourly Rate --></label>
+        <name>King_Air_Hourly_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Large Cabin Hourly Rate --></label>
+        <name>Large_Cabin_Hourly_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- FLEX-Contract Hours Calc - Reconciled Hours (Should match Remaining Hours on Statement)
+NJ- Remaining Hours Avail- Add&apos;l Hours --></help>
+        <label><!-- Last Statement Reconciled Remaining Hour --></label>
+        <name>Last_Statement_Reconciled_Remaining_Hour__c</name>
+    </fields>
+    <fields>
+        <help><!-- Grabs the MMF amount from the last reconciled expense record --></help>
+        <label><!-- Latest MMF --></label>
+        <name>Latest_MMF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lease Payments Made --></label>
+        <name>Lease_Payments_Made__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level 1 Overage OHF Hourly Rate --></label>
+        <name>Level_1_Overage_OHF_Hourly_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- (usually 25% over annual permitted) --></help>
+        <label><!-- Level 1 to Level 2 Trigger Level --></label>
+        <name>Level_1_to_Level_2_Trigger_Level__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level 2 Overage OHF Hourly Rate --></label>
+        <name>Level_2_Overage_OHF_Hourly_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Light Cabin Hourly Rate --></label>
+        <name>LightCabin_Hourly_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total MMF to be paid for entire program year divided into a daily number and multiplied by number of days into program year --></help>
+        <label><!-- MMF Accrued to Date --></label>
+        <name>MMF_Accrued_to_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- MMF Paid --></label>
+        <name>MMF_Paid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Membership Bonus --></label>
+        <name>Membership_Bonus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Membership Deposit --></label>
+        <name>Membership_Deposit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mid Cabin Hourly Rate --></label>
+        <name>Mid_Cabin_Houly_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- (Contract Hours Calcuation*Owner 1 Split Share %)-Owner 1 Reconciled Hours --></help>
+        <label><!-- Owner 1 Hours Remaining --></label>
+        <name>Owner_1_Hours_Remaining__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner 1 Max Threshold --></label>
+        <name>Owner_1_Max_Threshold__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner 1 Split Share % --></label>
+        <name>Owner_1_Split_Share__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner 2 Hours Remaining --></label>
+        <name>Owner_2_Hours_Remaining__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner 2 Max Threshold --></label>
+        <name>Owner_2_Max_Threshold__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner 2 Split Share % --></label>
+        <name>Owner_2_Split_Share__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner 3 Hours Remaining --></label>
+        <name>Owner_3_Hours_Remaining__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner 3 Max Threshold --></label>
+        <name>Owner_3_Max_Threshold__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner 3 Split Share % --></label>
+        <name>Owner_3_Split_Share__c</name>
+    </fields>
+    <fields>
+        <label><!-- Definition Lookup --></label>
+        <name>PCE_Definition_Lookup__c</name>
+        <relationshipLabel><!-- Client Program Year --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Definition --></label>
+        <name>PCE_Definition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percent Utilized --></label>
+        <name>Percent_Utilized__c</name>
+    </fields>
+    <fields>
+        <help><!-- Actual Hours Flown Prior to Exchange Rate (Reconciled Only) --></help>
+        <label><!-- Pre Exchange Rate Hours Flown --></label>
+        <name>Pre_IR_Hours_Flown__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prior Program Year --></label>
+        <name>Prior_Program_Year__c</name>
+        <relationshipLabel><!-- Program Periods --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Remaining hours from last year to be added to this year&apos;s allotment OR borrowed hours being taken out of this year --></help>
+        <label><!-- Prior Year Carry-Over --></label>
+        <name>Prior_Year_Carry_Over__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process Initiated --></label>
+        <name>Process_Initiated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Program Name Date --></label>
+        <name>Program_Name_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Program Period Note --></label>
+        <name>Program_Period_Note__c</name>
+    </fields>
+    <fields>
+        <label><!-- Program Year --></label>
+        <name>Program_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchased Hours --></label>
+        <name>Purchased_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reconciled Hours Owner 1 Lead Pax --></label>
+        <name>Reconciled_Hours_Lead_Pax_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reconciled Hours Owner 2 Lead Pax --></label>
+        <name>Reconciled_Hours_Owner_2_Lead_Pax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reconciled Hours Owner 3 Lead Pax --></label>
+        <name>Reconciled_Hours_Owner_3_Lead_Pax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reconciled Hours --></label>
+        <name>Reconciled_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recurring Business Process --></label>
+        <name>Recurring_Business_Process__c</name>
+        <relationshipLabel><!-- Client Program Year --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Remaining Hours (Billed+ Booked) --></label>
+        <name>Remaining_Hours_Billed_Booked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Skipped Steps --></label>
+        <name>Skipped_Steps__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Term Expiration Date Detail --></label>
+        <name>Special_Term_Expiration_Date_Detail__c</name>
+        <picklistValues>
+            <masterLabel>Guaranteed Availability</masterLabel>
+            <translation><!-- Guaranteed Availability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hourly Rate Increase</masterLabel>
+            <translation><!-- Hourly Rate Increase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peak Day</masterLabel>
+            <translation><!-- Peak Day --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Special Terms Expiration Date --></label>
+        <name>Special_Terms_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Canceled</masterLabel>
+            <translation><!-- Canceled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Subject --></label>
+        <name>Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Super-Mid Cabin Hourly Rate --></label>
+        <name>SuperMid_Cabin_Hourly_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Billed Days --></label>
+        <name>Total_Billed_Days__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total hours reconciled and flown MINUS any hours credited back (e.g. for service issues, etc.) --></help>
+        <label><!-- Total Billed Hours --></label>
+        <name>Total_Billed_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Credited Hours --></label>
+        <name>Total_Credited_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Days Accrued to Date --></label>
+        <name>Total_Days_Accrued_to_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Days Credited --></label>
+        <name>Total_Days_Credited__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Days Flown --></label>
+        <name>Total_Days_Flown__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is used to calculate % of program year remaining. --></help>
+        <label><!-- Total Days in Program Period --></label>
+        <name>Total_Days_in_Program_Period__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Days in Review --></label>
+        <name>Total_Days_in_Review__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Deposit Amount --></label>
+        <name>Total_Deposit_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- To aggregate deposit refund amount --></help>
+        <label><!-- Total Deposit Refund --></label>
+        <name>Total_Deposit_Refund__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Estimated Flight Cost --></label>
+        <name>Total_Estimated_Flight_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Booked and Tentative Hours --></label>
+        <name>Total_Estimated_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Flight Spend --></label>
+        <name>Total_Flight_Spend__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Flown Days + Credited Days --></label>
+        <name>Total_Flown_Days_Credited_Days__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total amounts applied to deposit from all reconciled flights plus estimated costs for all flown flights --></help>
+        <label><!-- Total Flown Flight Spend --></label>
+        <name>Total_Flown_Flight_Spend__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total reconciled and flown hours --></help>
+        <label><!-- Total Flown Hours --></label>
+        <name>Total_Flown_Hours__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total Flown Including Credited Hours --></help>
+        <label><!-- Total Flown Including Credited Hours --></label>
+        <name>Total_Flown_Including_Credited_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Flown not Reconciled Est Cost --></label>
+        <name>Total_Flown_not_Reconciled_Est_Cost__c</name>
+    </fields>
+    <fields>
+        <help><!-- Billed hours plus booked and tentative hours --></help>
+        <label><!-- Total Forecasted Hours --></label>
+        <name>Total_Forecasted_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Hours Accrued to Date --></label>
+        <name>Total_Hours_Accrued_to_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- To account for hours that are &quot;In Review&quot; --></help>
+        <label><!-- Total Hours &quot;In Review&quot; --></label>
+        <name>Total_Hours_In_Review__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Hours --></label>
+        <name>Total_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Annual Days Max --></label>
+        <name>Total_Permitted_Annual_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Annual Hours Max --></label>
+        <name>Total_Permitted_Annual_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Reconciled Days --></label>
+        <name>Total_Reconciled_Days__c</name>
+    </fields>
+    <fields>
+        <help><!-- For FJ Only --></help>
+        <label><!-- VP Hour Contribution Limit --></label>
+        <name>VP_Hour_Contribution_Limit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year-End Remaining Hours --></label>
+        <name>Year_End_Remaining_Hours__c</name>
+    </fields>
+    <fields>
+        <help><!-- Days into Program Year/Total Days in Program Period --></help>
+        <label><!-- % of Program Year Remaining --></label>
+        <name>of_Program_Year_Remaining__c</name>
+    </fields>
+    <fields>
+        <label><!-- OwnerId --></label>
+        <name>ownerid__c</name>
+    </fields>
+    <quickActions>
+        <label><!-- New Leg --></label>
+        <name>NewExpense</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Charter Deposit Programs --></label>
+        <name>Charter_Deposit_Programs</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Fractional Lease --></label>
+        <name>Fractional_Lease</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Fractional Share --></label>
+        <name>Fractional_Share</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Jetcard/Membership --></label>
+        <name>Jetcard_Membership</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Membership with Multiple Hourly Rates --></label>
+        <name>Membership_with_Multiple_Hourly_Rates</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Card_Deposit_Dollars_and_Hours_Remaining --></label>
+        <name>Card_Deposit_Dollars_and_Hours_Remaining</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Charter_Dollars_Remaining --></label>
+        <name>Conga_Composer_Charter_Dollars_Remaining</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Fractional_Booked_Hours_Remaining_Lightning --></label>
+        <name>Conga_Composer_Fractional_Booked_Hours_Remaining_Lightning</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Fractional_Booked_Remaining_Hours_Solution --></label>
+        <name>Conga_Composer_Fractional_Booked_Remaining_Hours_Solution</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_JetCard_Dollars_Remaining_Lightning --></label>
+        <name>Conga_Composer_JetCard_Dollars_Remaining_Lightning</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Jet_Card_Hours_Remaining --></label>
+        <name>Conga_Composer_Jet_Card_Hours_Remaining</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Jet_Card_Hours_Remaining_Lightning --></label>
+        <name>Conga_Composer_Jet_Card_Hours_Remaining_Lightning</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Membership_Remaining --></label>
+        <name>Conga_Composer_Membership_Remaining</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Charter_Program_Deposit --></label>
+        <name>Create_Charter_Program_Deposit</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Expenses --></label>
+        <name>Create_Expenses</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Credit_Report --></label>
+        <name>Credit_Report</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- FJ_Charter_Hours_Expected_Credit --></label>
+        <name>FJ_Charter_Hours_Expected_Credit</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Flight_History_Report --></label>
+        <name>Flight_History_Report</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Flight_History_Report_Lightning --></label>
+        <name>Flight_History_Report_Lightning</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Flight_History_Report_Lightning_FJ_95 --></label>
+        <name>Flight_History_Report_Lightning_FJ_95</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Fractional_Booked_Hours_Remaining_Lightning_Orchestrate --></label>
+        <name>Fractional_Booked_Hours_Remaining_Lightning_Orchestrate</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- JetCard_Dollars_Remaining_Lightning_Orchestrate --></label>
+        <name>JetCard_Dollars_Remaining_Lightning_Orchestrate</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- JetCard_Hours_Remaining_Lighting_Orchestrate --></label>
+        <name>JetCard_Hours_Remaining_Lighting_Orchestrate</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Jet_Card_Dollars_Remaining --></label>
+        <name>Jet_Card_Dollars_Remaining</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Upgrade_Downgrade_Calculator --></label>
+        <name>Upgrade_Downgrade_Calculator</name>
+    </webLinks>
+</CustomObjectTranslation>

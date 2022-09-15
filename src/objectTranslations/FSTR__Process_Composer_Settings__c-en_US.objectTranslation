@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Do not use this field unless instructed by Conga Support to do so. This field allows additional matching to occur when searching for Process Team Members based on this account field. --></help>
+        <label><!-- Account Match Field --></label>
+        <name>FSTR__Account_Match_Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- Allow Conga Orchestrate to Close a Case when the process it is executing is completed. --></help>
+        <label><!-- Allow Case Close From Process Completion --></label>
+        <name>FSTR__Allow_Case_Close_From_Process_Completion__c</name>
+    </fields>
+    <fields>
+        <help><!-- Only the values entered will display in the Assignee Type picklist when defining a Step. If there are no selected values, all values will display in the Assignee Type picklist. --></help>
+        <label><!-- Allowed Assignee Types --></label>
+        <name>FSTR__Allowed_Assignee_Types__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field holds a list of allowable namespaces for Conga Orchestrate.  This setting tells Conga Orchestrate the namespaces to look in when checking for allowable process objects. --></help>
+        <label><!-- Allowed Namespaces --></label>
+        <name>FSTR__Allowed_Namespaces__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this box if you want Conga Orchestrate to automatically post updates to Chatter. --></help>
+        <label><!-- Automatic Chatter Posting --></label>
+        <name>FSTR__Automatic_Chatter_Posting__c</name>
+    </fields>
+    <fields>
+        <help><!-- This lists the field that you want the automatic Chatter posting to put into the post. It defaults to name but can be any field on the process object. --></help>
+        <label><!-- Chatter Post Name Field --></label>
+        <name>FSTR__Chatter_Post_Name_Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field indicates if Salesforce Account Team Members or Team Members will be used to @ mention in Chatter posts.  Enter SFDC for Salesforce Account Team and CO for Team Members --></help>
+        <label><!-- Chatter Team Selection --></label>
+        <name>FSTR__Chatter_Team_Selection__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closed Color Code --></label>
+        <name>FSTR__Closed_Color_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- This value defaults to Completed and Canceled. Add any other status value that should count as closed. Used to indicate Closed Status values for custom step objects. --></help>
+        <label><!-- Closed Status Values --></label>
+        <name>FSTR__Closed_Status_Values__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process Summary: Color Code External --></label>
+        <name>FSTR__Color_Code_External_Step__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process Summary: Color Code - Internal --></label>
+        <name>FSTR__Color_Code_Internal_Step__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process Summary: Color Code - Overdue --></label>
+        <name>FSTR__Color_Code_Overdue_Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- Defines the name of the certificate used to authenticate with Composer using an API user. --></help>
+        <label><!-- Composer Certificate Name --></label>
+        <name>FSTR__Composer_Certificate_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Defines the endpoint used for Composer merges. --></help>
+        <label><!-- Composer Endpoint --></label>
+        <name>FSTR__Composer_Endpoint__c</name>
+    </fields>
+    <fields>
+        <help><!-- If using a custom process group object and the grouping object contains an Account lookup field, add the Account lookup field&apos;s API name here to display the associated Account&apos;s Name on the Gantt chart. Optional. --></help>
+        <label><!-- Custom Process Group - Account Lookup --></label>
+        <name>FSTR__Custom_Process_Group_Account_Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- Field for estimated completion date --></help>
+        <label><!-- Custom Process Group - End Date Field --></label>
+        <name>FSTR__Custom_Process_Group_End_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Defines the process object for the process group. --></help>
+        <label><!-- Custom Process Group - Name --></label>
+        <name>FSTR__Custom_Process_Group_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Field for estimated start date --></help>
+        <label><!-- Custom Process Group - Start Date Field --></label>
+        <name>FSTR__Custom_Process_Group_Start_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- You should only populate this field if instructed to do so by Conga Support. The text entered here will dictate which custom sharing operations are used. --></help>
+        <label><!-- Custom Sharing Method --></label>
+        <name>FSTR__Custom_Sharing_Method__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deactivated Step Color Code --></label>
+        <name>FSTR__Deactivated_Step_Color_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Composer URL --></label>
+        <name>FSTR__Default_Composer_URL__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the default step Assignee Type option here. If nothing is selected User will be the default assignee type. --></help>
+        <label><!-- Default Step Assignee Type --></label>
+        <name>FSTR__Default_Step_Assignee_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- User Id for Default Step Assignee --></help>
+        <label><!-- Default Step Assignee User --></label>
+        <name>FSTR__Default_Step_Assignee_User__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the object that should be defaulted when creating new steps within Definitions. If no objects are selected, the Salesforce Task object will be defaulted. --></help>
+        <label><!-- Default Step Object --></label>
+        <name>FSTR__Default_Step_Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delayed Color Code --></label>
+        <name>FSTR__Delayed_Color_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- Normally, Conga Orchestrate sets the Account object lookup field if a Contact is associated with a process. Enable this setting to prevent this behavior on process objects and steps. This is commonly disabled when default Activity History roll-up is off. --></help>
+        <label><!-- Disable Setting Account Lookup --></label>
+        <name>FSTR__DisableSetAccountLookup__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable this to disable the Conga Orchestrate trigger on the Account object.  This should only be done if there are conflicts with other triggers or if directed by Conga support. --></help>
+        <label><!-- Disable Account Trigger --></label>
+        <name>FSTR__Disable_Account_Trigger__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable this to disable the Conga Orchestrate trigger on the Business Process object. This should only be done if there are conflicts with other triggers or if directed by Conga support. --></help>
+        <label><!-- Disable Business Process Trigger --></label>
+        <name>FSTR__Disable_Business_Process_Trigger__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable this to disable the Conga Orchestrate trigger on the Campaign object.  This should only be done if there are conflicts with other triggers or if directed by Conga support. --></help>
+        <label><!-- Disable Campaign Trigger --></label>
+        <name>FSTR__Disable_Campaign_Trigger__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable this to disable the Conga Orchestrate trigger on the Case object.  This should only be done if there are conflicts with other triggers or if directed by Conga support. --></help>
+        <label><!-- Disable Case Trigger --></label>
+        <name>FSTR__Disable_Case_Trigger__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable this to disable the Conga Orchestrate trigger on the Contact object.  This should only be done if there are conflicts with other triggers or if directed by Conga support. --></help>
+        <label><!-- Disable Contact Trigger --></label>
+        <name>FSTR__Disable_Contact_Trigger__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable this to disable the Conga Orchestrate trigger on the Contract object. This should only be done if there are conflicts with other triggers or if directed by Conga support. --></help>
+        <label><!-- Disable Contract Trigger --></label>
+        <name>FSTR__Disable_Contract_Trigger__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable this if you would like to prevent users from editing or deleting closed steps generated by Conga Orchestrate. Typically this setting would be turned on for compliance reasons. --></help>
+        <label><!-- Disable Edit/Delete of Closed Steps --></label>
+        <name>FSTR__Disable_Edit_Delete_of_Closed_Steps__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable this to disable the Conga Orchestrate trigger on the Event object. This should only be done if there are conflicts with other triggers or if directed by Conga support. --></help>
+        <label><!-- Disable Event Trigger --></label>
+        <name>FSTR__Disable_Event_Trigger__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable this if you would like to disable the export button on the Definition screen. --></help>
+        <label><!-- Disable Export --></label>
+        <name>FSTR__Disable_Export__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable this to disable the Conga Orchestrate trigger on the Lead object. This should only be done if there are conflicts with other triggers or if directed by Conga support. --></help>
+        <label><!-- Disable Lead Trigger --></label>
+        <name>FSTR__Disable_Lead_Trigger__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable this if you utilize non task steps and manual sharing functionality on those objects. This will remove assignee type options that don&apos;t apply when defining steps. This should only be checked if instructed to do so by Conga Support. --></help>
+        <label><!-- Disable Non Task Step Assignee Options --></label>
+        <name>FSTR__Disable_Non_Task_Step_Assignee_Options__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable this to disable the Conga Orchestrate trigger on the Opportunity object.  This should only be done if there are conflicts with other triggers or if directed by Conga support. --></help>
+        <label><!-- Disable Opportunity Trigger --></label>
+        <name>FSTR__Disable_Opportunity_Trigger__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable this to disable the Conga Orchestrate trigger on the Process Task object. This should only be done if there are conflicts with other triggers or if directed by Conga support. --></help>
+        <label><!-- Disable Process Task Trigger --></label>
+        <name>FSTR__Disable_Process_Task_Trigger__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable this if you DO NOT want the Process Team Duplicate checking turned on.  This should only be checked if instructed to do so by Conga Support. --></help>
+        <label><!-- Disable Process Team Duplicate Check --></label>
+        <name>FSTR__Disable_Process_Team_Duplicate_Check__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable this to disable Record Match Definition Initiators and hide them as options. --></help>
+        <label><!-- Disable Record Matches Initiator Option --></label>
+        <name>FSTR__Disable_Record_Matches_Initiator_Option__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable this to disable the Conga Orchestrate trigger on the Task object.  This should only be done if there are conflicts with other triggers or if directed by Conga support. --></help>
+        <label><!-- Disable Task Trigger --></label>
+        <name>FSTR__Disable_Task_Trigger__c</name>
+    </fields>
+    <fields>
+        <help><!-- If this is enabled, deactivating a user in Salesforce will not execute User participation checks. Only enable this feature if instructed to do so by Conga Support. --></help>
+        <label><!-- Disable User Deactivation Checks --></label>
+        <name>FSTR__Disable_User_Deactivation_Checks__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable this if you would like to disable the ability to create a step that is a web service callout. --></help>
+        <label><!-- Disable Web Service Callout --></label>
+        <name>FSTR__Disable_Web_Service_Callout__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Merge - Use QA --></label>
+        <name>FSTR__Document_Merge_Use_QA__c</name>
+    </fields>
+    <fields>
+        <help><!-- If you want Conga Orchestrate to skip non working days (typically weekends and holidays) when calculating due dates select this option.  It also requires a Business Hours record called Conga Orchestrate that specifies your working hours. --></help>
+        <label><!-- Due Date - Skip Non Working Days --></label>
+        <name>FSTR__Due_Date_Skip_Non_Working_Days__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this box to show the delete button on Visualforce pages where users don&apos;t have delete access but have edit access.  Enabling this feature requires a delete button override for the associated object so that sharing rules will be ignored on delete. --></help>
+        <label><!-- Enable Delete Override --></label>
+        <name>FSTR__Enable_Delete_Override__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable this to log document merge urls to the Callout Error Queue. --></help>
+        <label><!-- Enable Document Merge Logging --></label>
+        <name>FSTR__Enable_Doc_Merge_Logging__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable this setting to have Orchestrate generate custom logs to help debug issues with Creation Conditions on Steps. --></help>
+        <label><!-- Enable Orchestrate Debug Logs --></label>
+        <name>FSTR__Enable_Orchestrate_Debug_Logs__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable this to log Platform Events. --></help>
+        <label><!-- Enable Platform Event Logging --></label>
+        <name>FSTR__Enable_Platform_Event_Logging__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable this to log RPA requests to the Callout Error Queue. --></help>
+        <label><!-- Enable RPA Logging --></label>
+        <name>FSTR__Enable_RPA_Logging__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event On Calendar Color Code --></label>
+        <name>FSTR__Event_On_Calendar_Color_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- Label for external steps. --></help>
+        <label><!-- Process Summary: External Step Label --></label>
+        <name>FSTR__External_Step_Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Dependent Fields Color Code --></label>
+        <name>FSTR__Has_Dependent_Fields_Color_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- This will determine if our Getting Started page needs to be shown (unchecked) or not (checked). In new orgs this will be unchecked and automatically checked when users finish the Getting Started page. --></help>
+        <label><!-- Has Gone Through New User Setup --></label>
+        <name>FSTR__Has_Gone_Through_Setup__c</name>
+    </fields>
+    <fields>
+        <label><!-- In Process Color Code --></label>
+        <name>FSTR__In_Process_Color_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- To include non-closed statuses in &apos;Create if Parent&apos; values for Salesforce Tasks. --></help>
+        <label><!-- Include Non-Closed Statuses --></label>
+        <name>FSTR__Include_Non_Closed_Statuses__c</name>
+    </fields>
+    <fields>
+        <help><!-- List of Account fields for each Initiator Custom Object. Used to indicate if a Account lookup field exists on each object. --></help>
+        <label><!-- Initiator Object - Account Field --></label>
+        <name>FSTR__Initiator_Custom_Object_Account_Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- List of Contact fields for each Initiator Custom Object. Used to indicate if a Contact lookup field exists on each object. --></help>
+        <label><!-- Initiator Object - Contact Field --></label>
+        <name>FSTR__Initiator_Custom_Object_Contact_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initiator Object Overflow - Acct --></label>
+        <name>FSTR__Initiator_Custom_Object_Overflow_Acct__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initiator Object Overflow - Cont --></label>
+        <name>FSTR__Initiator_Custom_Object_Overflow_Cont__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initiator Objects Overflow --></label>
+        <name>FSTR__Initiator_Custom_Objects_Overflow__c</name>
+    </fields>
+    <fields>
+        <help><!-- List of custom objects that have been configured to work with initiators. This requires a trigger to be set up for that object. --></help>
+        <label><!-- Initiator Objects --></label>
+        <name>FSTR__Initiator_Custom_Objects__c</name>
+    </fields>
+    <fields>
+        <help><!-- Label for internal steps. --></help>
+        <label><!-- Process Summary: Internal Step Label --></label>
+        <name>FSTR__Internal_Step_Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- Not Yet Created Color Code --></label>
+        <name>FSTR__Not_Yet_Created_Color_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- Error Notifications from Conga Orchestrate will be sent to this Address. --></help>
+        <label><!-- Notification Email Address --></label>
+        <name>FSTR__Notification_Email_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- ProcessRecordMatchInitiators Batch Size --></label>
+        <name>FSTR__ProcessRecordMatchInitiators_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select to show the step list separated by Internal and External steps along with the Gantt chart. Adds a &apos;Classification&apos; picklist to the Step page. --></help>
+        <label><!-- Process Summary: Step Classifications --></label>
+        <name>FSTR__ProcessSummary_ShowTasks__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used to configure Process Archive objects. Separate parameters with dashes, object data with semi-colons.
+
+Signature: object_api_name__c-IsGroupingObject-account_lookup_field__c
+
+Ex: fstr__process_group__c-true-fstr__business_account__c; --></help>
+        <label><!-- Process Archive Objects --></label>
+        <name>FSTR__Process_Archive_Objects__c</name>
+    </fields>
+    <fields>
+        <help><!-- Semi-colon separated list of object names that are supported as process objects.  This is used in the case that an org has too many custom objects defined and the discovery process will exceed governor limits.  Use the api name (i.e. business_process__c) --></help>
+        <label><!-- Process Objects --></label>
+        <name>FSTR__Process_Objects__c</name>
+    </fields>
+    <fields>
+        <help><!-- Do not use this field unless instructed by Conga Support to do so. This field allows additional matching to occur when searching for Process Team Members. --></help>
+        <label><!-- Process Team Member Match Field --></label>
+        <name>FSTR__Process_Team_Member_Match_Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use the following format: StepObjectName-FieldName. Separate multiple process object/fields with semi-colons. --></help>
+        <label><!-- Public Notes Field(s) --></label>
+        <name>FSTR__Public_Notes_Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- When checked, will show all record types, not just those with Active Definitions, as choices for Recurring Business Processes. --></help>
+        <label><!-- Recurring Bps: Show All Record Types --></label>
+        <name>FSTR__Recurring_BP_Show_All_Record_Types__c</name>
+    </fields>
+    <fields>
+        <help><!-- List out the roles that you would like @ mentioned in Chatter posts by Conga Orchestrate. If this field is blank all roles will be mentioned. --></help>
+        <label><!-- Roles to Mention in Chatter Post --></label>
+        <name>FSTR__Roles_to_Mention_in_Chatter_Post__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this box if you would like to notify users via SMS that they have been assigned a step by Conga Orchestrate. --></help>
+        <label><!-- SMS Notifications Enabled --></label>
+        <name>FSTR__SMS_Notifications_Enabled__c</name>
+    </fields>
+    <fields>
+        <help><!-- If this field is checked an email will be sent to whoever scheduled the batch job to process Recurring Business Processes with information about the execution.  If it is unchecked an email will only be sent when errors occur. --></help>
+        <label><!-- Send Recurring Batch Job Emails --></label>
+        <name>FSTR__Send_Recurring_Batch_Job_Emails__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Advanced Step Settings --></label>
+        <name>FSTR__Show_Advanced_Step_Settings__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this box if you would like to have the Notes and Attachments related list show up on the Step page. --></help>
+        <label><!-- Show Notes and Attachments on Step Page --></label>
+        <name>FSTR__Show_Notes_and_Attachments_on_Step_Page__c</name>
+    </fields>
+    <fields>
+        <help><!-- A semi-colon separated list of objects that can be used as steps within a process.  This is used for orgs that have too many custom objects and fail the discovery process.  Use the api name of the object (i.e. client_service_trade__c) --></help>
+        <label><!-- Step Objects --></label>
+        <name>FSTR__Step_Objects__c</name>
+    </fields>
+    <fields>
+        <help><!-- When a custom lookup field is used for related process objects (&apos;Task Steps: Custom Process Object&apos; is required), optionally set this field to pass through a custom value from the process object to the Related To (WhatId) field on generated Tasks. --></help>
+        <label><!-- Task Steps: Related To Passthrough Field --></label>
+        <name>FSTR__TaskCustomLookupRelatedToPassthrough__c</name>
+    </fields>
+    <fields>
+        <help><!-- To use a custom process object lookup field in place of &apos;Related To&apos; for Task steps. When using a custom lookup field, the related Account will be passed into the Related To field automatically. --></help>
+        <label><!-- Task Steps: Custom Process Object Lookup --></label>
+        <name>FSTR__TaskCustomProcessObjectLookup__c</name>
+    </fields>
+    <fields>
+        <help><!-- URL that is to be used in text messages sent for task notification reminders --></help>
+        <label><!-- Text Link URL --></label>
+        <name>FSTR__Text_Link_URL__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the message that will be inserted into text messages notifying the assigned user --></help>
+        <label><!-- Text Notification Message --></label>
+        <name>FSTR__Text_Notification_Message__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the message that is inserted into the text message when a step is assigned to another user. --></help>
+        <label><!-- Text Reassignment Message --></label>
+        <name>FSTR__Text_Reassignment_Message__c</name>
+    </fields>
+    <fields>
+        <help><!-- Defines the Twilio Account Id for use in the integration. --></help>
+        <label><!-- Twilio AccountSid --></label>
+        <name>FSTR__TwilioAccountSid__c</name>
+    </fields>
+    <fields>
+        <help><!-- Defines the Twilio Application Id for use in the integration. --></help>
+        <label><!-- Twilio ApplicationSid --></label>
+        <name>FSTR__TwilioApplicationSid__c</name>
+    </fields>
+    <fields>
+        <help><!-- Defines the Twilio AuthToken for use in the integration. --></help>
+        <label><!-- Twilio AuthToken --></label>
+        <name>FSTR__TwilioAuthToken__c</name>
+    </fields>
+    <fields>
+        <label><!-- Twilio From Number --></label>
+        <name>FSTR__TwilioFromNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Use QA --></label>
+        <name>FSTR__Use_QA__c</name>
+    </fields>
+    <fields>
+        <help><!-- The current Conga Orchestrate product version. --></help>
+        <label><!-- Version --></label>
+        <name>FSTR__Version__c</name>
+    </fields>
+    <fields>
+        <help><!-- Overflow field. Use only when &apos;Virtual Steps: Objects&apos; field is reaching character limits. Used to configure Virtual Steps to create/update. --></help>
+        <label><!-- Virtual Steps: Objects (2) --></label>
+        <name>FSTR__Virtual_Step_Objects2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used to configure Virtual Steps to create/update. --></help>
+        <label><!-- Virtual Steps: Objects --></label>
+        <name>FSTR__Virtual_Step_Objects__c</name>
+    </fields>
+    <fields>
+        <help><!-- If Virtual Step Objects are configured, check to auto-calculate changes to Virtual Steps when a step record related to a process record is updated. --></help>
+        <label><!-- Virtual Steps: Recalculate --></label>
+        <name>FSTR__Virtual_Steps_Recalculate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process Summary Enabled --></label>
+        <name>FSTR__isProcessSummaryEnabled__c</name>
+    </fields>
+</CustomObjectTranslation>

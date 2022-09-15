@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Ask for Introduction</fullName>
+        <default>false</default>
+        <label>Ask for Introduction</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Ask Mutual Connection for Introduction</fullName>
+        <default>false</default>
+        <label>Ask Mutual Connection for Introduction</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Call</fullName>
+        <default>false</default>
+        <label>Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Collect Contact Info</fullName>
+        <default>false</default>
+        <label>Collect Contact Info</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Collect Contract</fullName>
+        <default>false</default>
+        <label>Collect Contract</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Collect Payment</fullName>
+        <default>false</default>
+        <label>Collect Payment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Collect Payment &amp; Contract</fullName>
+        <default>false</default>
+        <label>Collect Payment &amp; Contract</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Confirm Conference Call</fullName>
+        <default>false</default>
+        <label>Confirm Conference Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Confirm Flight Booking</fullName>
+        <default>false</default>
+        <label>Confirm Flight Booking</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Confirm Meeting</fullName>
+        <default>false</default>
+        <label>Confirm Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Find Correct Contact</fullName>
+        <default>false</default>
+        <label>Find Correct Contact</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Internal-Create Proposal</fullName>
+        <default>false</default>
+        <label>Internal-Create Proposal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Officially Book Flight(s)</fullName>
+        <default>false</default>
+        <label>Officially Book Flight(s)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Provide Introduction</fullName>
+        <default>false</default>
+        <label>Provide Introduction</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Schedule Conference Call</fullName>
+        <default>false</default>
+        <label>Schedule Conference Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Schedule Meeting</fullName>
+        <default>false</default>
+        <label>Schedule Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Send Contracts</fullName>
+        <default>false</default>
+        <label>Send Contracts</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Send Email</fullName>
+        <default>false</default>
+        <label>Send Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Send Quote</fullName>
+        <default>false</default>
+        <label>Send Quote</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Send Requested Info</fullName>
+        <default>false</default>
+        <label>Send Requested Info</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Send Thank You Note</fullName>
+        <default>false</default>
+        <label>Send Thank You Note</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-AprCall</fullName>
+        <default>false</default>
+        <label>zClient-AprCall</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-AprEmail</fullName>
+        <default>false</default>
+        <label>zClient-AprEmail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-AugCall</fullName>
+        <default>false</default>
+        <label>zClient-AugCall</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-AugEmail</fullName>
+        <default>false</default>
+        <label>zClient-AugEmail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-DecCall</fullName>
+        <default>false</default>
+        <label>zClient-DecCall</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-DecEmail</fullName>
+        <default>false</default>
+        <label>zClient-DecEmail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-FebCall</fullName>
+        <default>false</default>
+        <label>zClient-FebCall</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-FebEmail</fullName>
+        <default>false</default>
+        <label>zClient-FebEmail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-JanCall</fullName>
+        <default>false</default>
+        <label>zClient-JanCall</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-JanEmail</fullName>
+        <default>false</default>
+        <label>zClient-JanEmail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-JulCall</fullName>
+        <default>false</default>
+        <label>zClient-JulCall</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-JulEmail</fullName>
+        <default>false</default>
+        <label>zClient-JulEmail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-JunCall</fullName>
+        <default>false</default>
+        <label>zClient-JunCall</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-JunEmail</fullName>
+        <default>false</default>
+        <label>zClient-JunEmail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-MarCall</fullName>
+        <default>false</default>
+        <label>zClient-MarCall</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-MarEmail</fullName>
+        <default>false</default>
+        <label>zClient-MarEmail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-MayCall</fullName>
+        <default>false</default>
+        <label>zClient-MayCall</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-MayEmail</fullName>
+        <default>false</default>
+        <label>zClient-MayEmail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-Monthly-DedicatedHoursLog</fullName>
+        <default>false</default>
+        <label>zClient-Monthly-DedicatedHoursLog</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-Monthly-ValueReceived</fullName>
+        <default>false</default>
+        <label>zClient-Monthly-ValueReceived</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-NovCall</fullName>
+        <default>false</default>
+        <label>zClient-NovCall</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-NovEmail</fullName>
+        <default>false</default>
+        <label>zClient-NovEmail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-OctCall</fullName>
+        <default>false</default>
+        <label>zClient-OctCall</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-OctEmail</fullName>
+        <default>false</default>
+        <label>zClient-OctEmail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-RenewalCall1</fullName>
+        <default>false</default>
+        <label>zClient-RenewalCall1</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-RenewalCall2</fullName>
+        <default>false</default>
+        <label>zClient-RenewalCall2</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-RenewalCall3</fullName>
+        <default>false</default>
+        <label>zClient-RenewalCall3</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-R-U-Happy1?</fullName>
+        <default>false</default>
+        <label>zClient-R-U-Happy1?</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-R-U-Happy2?</fullName>
+        <default>false</default>
+        <label>zClient-R-U-Happy2?</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-R-U-Happy3?</fullName>
+        <default>false</default>
+        <label>zClient-R-U-Happy3?</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-R-U-Happy4?</fullName>
+        <default>false</default>
+        <label>zClient-R-U-Happy4?</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-SendRenewalDocusign</fullName>
+        <default>false</default>
+        <label>zClient-SendRenewalDocusign</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-SepCall</fullName>
+        <default>false</default>
+        <label>zClient-SepCall</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-SepEmail</fullName>
+        <default>false</default>
+        <label>zClient-SepEmail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-ThankYou4BeingClientNote</fullName>
+        <default>false</default>
+        <label>zClient-ThankYou4BeingClientNote</label>
+    </standardValue>
+    <standardValue>
+        <fullName>zClient-ThankYou4PurchaseHandWrittenNote</fullName>
+        <default>false</default>
+        <label>zClient-ThankYou4PurchaseHandWrittenNote</label>
+    </standardValue>
+</StandardValueSet>

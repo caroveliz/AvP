@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Operator Program</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Operator Programs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Additional Pricing Considerations --></label>
+        <name>Additional_Fees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days notice required before auto-renew --></label>
+        <name>Days_notice_required_before_auto_renew__c</name>
+    </fields>
+    <fields>
+        <label><!-- Domestic Booking Notice --></label>
+        <name>Domestic_Booking_Notice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expiration --></label>
+        <name>Expiration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Guaranteed Availability --></label>
+        <name>Guaranteed_Availability__c</name>
+    </fields>
+    <fields>
+        <label><!-- Important to Discuss with Client --></label>
+        <name>Important_to_Discuss_with_Client__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incentives to Negotiate --></label>
+        <name>Incentives_to_Negotiate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Int&apos;l Booking Notice - Includes AK HI --></label>
+        <name>Int_l_Booking_Notice_Includes_AK_HI__c</name>
+    </fields>
+    <fields>
+        <label><!-- Int&apos;l Cancellation Terms - inc. AK HI --></label>
+        <name>Int_l_Cancellation_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Minimum Deposit Required --></label>
+        <name>Minimum_Deposit_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non- Peak Base Hourly - King Air --></label>
+        <name>Non_Peak_Base_Hourly_King_Air__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non-Peak Base Hourly  - Light Cabin --></label>
+        <name>Non_Peak_Base_Hourly_Light_Cabin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non-Peak Base Hourly- Mid Cabin --></label>
+        <name>Non_Peak_Base_Hourly_Mid_Cabin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non-Peak Base Hourly- Super Mid --></label>
+        <name>Non_Peak_Base_Hourly_Super_Mid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operator --></label>
+        <name>Operator__c</name>
+        <relationshipLabel><!-- Operator Programs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Other Program Notes --></label>
+        <name>Other_Program_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Peak Booking Notice --></label>
+        <name>Peak_Booking_Notice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Peak Cancellation Terms --></label>
+        <name>Peak_Cancellation_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Peak Day Departure Move --></label>
+        <name>Peak_Day_Departure_Move__c</name>
+    </fields>
+    <fields>
+        <label><!-- Peak Premium --></label>
+        <name>Peak_Premium__c</name>
+    </fields>
+    <fields>
+        <label><!-- Peak Restrictions --></label>
+        <name>Peak_Restrictions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Program Status --></label>
+        <name>Program_Status__c</name>
+        <picklistValues>
+            <masterLabel>Available</masterLabel>
+            <translation><!-- Available --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unavailable</masterLabel>
+            <translation><!-- Unavailable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Refundability --></label>
+        <name>Refundability__c</name>
+    </fields>
+    <fields>
+        <label><!-- Standard Cancellation Terms --></label>
+        <name>Standard_Cancellation_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Upgrades and Downgrades --></label>
+        <name>Upgrades_and_Downgrades__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Hours --></label>
+        <name>of_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Peak Days Next Month --></label>
+        <name>of_Peak_Days_Next_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Peak Days --></label>
+        <name>of_Peak_Days_del__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Charter --></label>
+        <name>Charter</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Fractional --></label>
+        <name>Fractional</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Guaranteed Program --></label>
+        <name>Guaranteed_Program</name>
+    </recordTypes>
+    <startsWith>Vowel</startsWith>
+    <webLinks>
+        <label><!-- Current_Year_Peak_Days --></label>
+        <name>Current_Year_Peak_Days</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Peak_Day_by_Operator_Lightning --></label>
+        <name>Peak_Day_by_Operator_Lightning</name>
+    </webLinks>
+</CustomObjectTranslation>

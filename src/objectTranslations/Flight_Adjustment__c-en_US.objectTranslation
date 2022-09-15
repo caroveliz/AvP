@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Flight Adjustment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Flight Adjustments</value>
+    </caseValues>
+    <fields>
+        <label><!-- Adjustment --></label>
+        <name>Adjustment__c</name>
+        <relationshipLabel><!-- Flight Adjustments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Itinerary Solution --></label>
+        <name>Itinerary_Solution__c</name>
+        <relationshipLabel><!-- Flight Adjustments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Peak Day/Blackout Day --></label>
+        <name>Peak_Day__c</name>
+        <relationshipLabel><!-- Flight Adjustments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Transaction --></label>
+        <name>Transaction__c</name>
+        <relationshipLabel><!-- Flight Adjustments --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

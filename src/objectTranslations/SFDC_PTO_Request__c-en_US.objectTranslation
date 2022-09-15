@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>PTO Request</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>PTO Requests</value>
+    </caseValues>
+    <fields>
+        <label><!-- Date of Request --></label>
+        <name>Date_of_Request__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Off --></label>
+        <name>Days_Off__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee --></label>
+        <name>Employee__c</name>
+        <relationshipLabel><!-- Paid Time Off Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Paid Time Off? --></label>
+        <name>Paid_Time_Off__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request End Date --></label>
+        <name>Request_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Start Date --></label>
+        <name>Request_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Type --></label>
+        <name>Request_Type__c</name>
+        <picklistValues>
+            <masterLabel>Business Trip</masterLabel>
+            <translation><!-- Business Trip --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Family Emergency</masterLabel>
+            <translation><!-- Family Emergency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Materity Leave</masterLabel>
+            <translation><!-- Materity Leave --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vacation</masterLabel>
+            <translation><!-- Vacation --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

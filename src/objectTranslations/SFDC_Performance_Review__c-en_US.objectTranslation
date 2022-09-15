@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Performance Review</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Performance Reviews</value>
+    </caseValues>
+    <fields>
+        <label><!-- Customer Service (Internal &amp; External) --></label>
+        <name>Customer_Service_Internal_External__c</name>
+        <picklistValues>
+            <masterLabel>Exceeds expectations</masterLabel>
+            <translation><!-- Exceeds expectations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gives complete &amp; timely responses</masterLabel>
+            <translation><!-- Gives complete &amp; timely responses --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Responds to customer needs</masterLabel>
+            <translation><!-- Responds to customer needs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Understands customer needs</masterLabel>
+            <translation><!-- Understands customer needs --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Customer Service Notes --></label>
+        <name>Customer_Service_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Service Rating --></label>
+        <name>Customer_Service_Rating__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Dependability Notes --></label>
+        <name>Dependability_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dependability Rating --></label>
+        <name>Dependability_Rating__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Dependability --></label>
+        <name>Dependability__c</name>
+        <picklistValues>
+            <masterLabel>Adjusts to changing responsibilities</masterLabel>
+            <translation><!-- Adjusts to changing responsibilities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attends work regularly</masterLabel>
+            <translation><!-- Attends work regularly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Embraces positive change</masterLabel>
+            <translation><!-- Embraces positive change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plans appropriately for absences</masterLabel>
+            <translation><!-- Plans appropriately for absences --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Employee Comments --></label>
+        <name>Employee_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee Review Notes --></label>
+        <name>Employee_Review_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee --></label>
+        <name>Employee__c</name>
+        <relationshipLabel><!-- Reviews --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Initiative Notes --></label>
+        <name>Initiative_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initiative Rating --></label>
+        <name>Initiative_Rating__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Initiative --></label>
+        <name>Initiative__c</name>
+        <picklistValues>
+            <masterLabel>Accepts new tasks enthusiastically</masterLabel>
+            <translation><!-- Accepts new tasks enthusiastically --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Actively seeks new assignments</masterLabel>
+            <translation><!-- Actively seeks new assignments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Assumes responsibility for tasks</masterLabel>
+            <translation><!-- Assumes responsibility for tasks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Works independently when appropriate</masterLabel>
+            <translation><!-- Works independently when appropriate --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Job Knowledge Notes --></label>
+        <name>Job_Knowledge_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Knowledge Rating --></label>
+        <name>Job_Knowledge_Rating__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Job Knowledge --></label>
+        <name>Job_Knowledge__c</name>
+        <picklistValues>
+            <masterLabel>Applies standard procedures</masterLabel>
+            <translation><!-- Applies standard procedures --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Documents work processes</masterLabel>
+            <translation><!-- Documents work processes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintains technical proficiency</masterLabel>
+            <translation><!-- Maintains technical proficiency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Serves as a job resource for others</masterLabel>
+            <translation><!-- Serves as a job resource for others --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Manager Status --></label>
+        <name>Manager_Status__c</name>
+        <picklistValues>
+            <masterLabel>Managing Others</masterLabel>
+            <translation><!-- Managing Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Subordinates</masterLabel>
+            <translation><!-- No Subordinates --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Period Review --></label>
+        <name>Period_Review__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quality of Work Notes --></label>
+        <name>Quality_of_Work_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quality of Work Rating --></label>
+        <name>Quality_of_Work_Rating__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Quality of Work --></label>
+        <name>Quality_of_Work__c</name>
+        <picklistValues>
+            <masterLabel>Analyzes and dev effective solutions</masterLabel>
+            <translation><!-- Analyzes and dev effective solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Follows instruction carefully</masterLabel>
+            <translation><!-- Follows instruction carefully --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Implements process improvements</masterLabel>
+            <translation><!-- Implements process improvements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work is thorough and accurate</masterLabel>
+            <translation><!-- Work is thorough and accurate --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Quantity of Work Notes --></label>
+        <name>Quantity_of_Work_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity of Work Rating --></label>
+        <name>Quantity_of_Work_Rating__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Quantity of Work --></label>
+        <name>Quantity_of_Work__c</name>
+        <picklistValues>
+            <masterLabel>Organizes and prioritizes work</masterLabel>
+            <translation><!-- Organizes and prioritizes work --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performs well under pressure</masterLabel>
+            <translation><!-- Performs well under pressure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Produces acceptable work products</masterLabel>
+            <translation><!-- Produces acceptable work products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Works quickly and efficiently</masterLabel>
+            <translation><!-- Works quickly and efficiently --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Review Date --></label>
+        <name>Review_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Review Notes --></label>
+        <name>Review_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Review Overall Score --></label>
+        <name>Review_Overall_Score__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Review Type --></label>
+        <name>Review_Type__c</name>
+        <picklistValues>
+            <masterLabel>Annual</masterLabel>
+            <translation><!-- Annual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Probationary</masterLabel>
+            <translation><!-- Probationary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation><!-- Quarterly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special</masterLabel>
+            <translation><!-- Special --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reviewer --></label>
+        <name>Reviewer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supervision Notes --></label>
+        <name>Supervision_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supervision Rating --></label>
+        <name>Supervision_Rating__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Supervision --></label>
+        <name>Supervision__c</name>
+        <picklistValues>
+            <masterLabel>Clearly defines expectations</masterLabel>
+            <translation><!-- Clearly defines expectations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demonstrates leadership</masterLabel>
+            <translation><!-- Demonstrates leadership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Encourages staff development</masterLabel>
+            <translation><!-- Encourages staff development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Provides motivation and guidance</masterLabel>
+            <translation><!-- Provides motivation and guidance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treats problems with sensitivity</masterLabel>
+            <translation><!-- Treats problems with sensitivity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Understands and adheres to policy</masterLabel>
+            <translation><!-- Understands and adheres to policy --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Teamwork/Cooperation Rating --></label>
+        <name>Teamwork_Cooperation_Rating__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Teamwork and Cooperation Notes --></label>
+        <name>Teamwork_and_Cooperation_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Teamwork and Cooperation --></label>
+        <name>Teamwork_and_Cooperation__c</name>
+        <picklistValues>
+            <masterLabel>Earns respect &amp; confidence of others</masterLabel>
+            <translation><!-- Earns respect &amp; confidence of others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sets group success as priority</masterLabel>
+            <translation><!-- Sets group success as priority --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shows concern for others</masterLabel>
+            <translation><!-- Shows concern for others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Works with others toward success</masterLabel>
+            <translation><!-- Works with others toward success --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

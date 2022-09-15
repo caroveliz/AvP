@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Leg__c.Departure_Date__c</field>
+    </columns>
+    <columns>
+        <field>Leg__c.Departing_Airport__c</field>
+    </columns>
+    <columns>
+        <field>Leg__c.Arriving_Airport__c</field>
+    </columns>
+    <columns>
+        <field>Leg__c.Operator_Name__c</field>
+    </columns>
+    <columns>
+        <field>Leg__c.Account_Name_Formula__c</field>
+    </columns>
+    <columns>
+        <field>Leg__c.Actual_Flight_Time_hours__c</field>
+    </columns>
+    <columns>
+        <field>Leg__c.Charter_Flight_Cost__c</field>
+    </columns>
+    <columns>
+        <field>Leg__c.Guaranteed_Variable_Cost__c</field>
+    </columns>
+    <columns>
+        <field>Leg__c.Total_Additional_Cost__c</field>
+    </columns>
+    <columns>
+        <field>Leg__c.Total_Flight_Cost__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Leg__c.Account_Name_Formula__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Snapchat Inc.</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>AVP Client Reporting Master</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Leg__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Leg__c.Arrival_Date_del__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

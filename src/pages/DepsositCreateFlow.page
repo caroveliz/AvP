@@ -1,0 +1,7 @@
+<apex:page standardController="Client_Program_Year__c">
+    <flow:interview name="CreatePayments" finishLocation="/{!Client_Program_Year__c.Id}"> 
+        <apex:param name="vClientProgramYear" value="{!Client_Program_Year__c.Id}"/>
+        <apex:param name="vClientProgram" value="{!Client_Program_Year__c.Client_Program__c}"/>
+        <apex:param name="vAccountID" value="{!Client_Program_Year__c.Client_Program__r.Account__r.Id}"/>
+        </flow:interview>
+</apex:page>

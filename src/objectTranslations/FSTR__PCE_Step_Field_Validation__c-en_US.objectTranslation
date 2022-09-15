@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Field to store the data type corresponding to field name --></help>
+        <label><!-- DataType --></label>
+        <name>FSTR__DataType__c</name>
+    </fields>
+    <fields>
+        <help><!-- Actual name of the field being evaluated. --></help>
+        <label><!-- Field Name --></label>
+        <name>FSTR__Field_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Value that the field is evaluated against. --></help>
+        <label><!-- Field Value --></label>
+        <name>FSTR__Field_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- If there are multiple dependent field values this field indicates how this value is combined with the other values --></help>
+        <label><!-- Joining Operator --></label>
+        <name>FSTR__Joining_Operator__c</name>
+        <picklistValues>
+            <masterLabel>AND</masterLabel>
+            <translation><!-- AND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation><!-- OR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Lookup Name --></label>
+        <name>FSTR__Lookup_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of the object that the field corresponds to. --></help>
+        <label><!-- Object Name --></label>
+        <name>FSTR__Object_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates how the Field is compared to the Field Value field. --></help>
+        <label><!-- Operator --></label>
+        <name>FSTR__Operator__c</name>
+        <picklistValues>
+            <masterLabel>!=</masterLabel>
+            <translation><!-- != --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&lt;</masterLabel>
+            <translation><!-- &lt; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&lt;=</masterLabel>
+            <translation><!-- &lt;= --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>=</masterLabel>
+            <translation><!-- = --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;</masterLabel>
+            <translation><!-- &gt; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;=</masterLabel>
+            <translation><!-- &gt;= --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Step --></label>
+        <name>FSTR__Step__c</name>
+        <relationshipLabel><!-- Step Validation Rules --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

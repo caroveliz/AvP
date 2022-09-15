@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Event Data --></label>
+        <name>FSTR__Event_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Number --></label>
+        <name>FSTR__Event_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Replay Count --></label>
+        <name>FSTR__Event_Replay_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub Event Number --></label>
+        <name>FSTR__Sub_Event_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subject Id --></label>
+        <name>FSTR__Subject_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Id --></label>
+        <name>FSTR__User_Id__c</name>
+    </fields>
+</CustomObjectTranslation>

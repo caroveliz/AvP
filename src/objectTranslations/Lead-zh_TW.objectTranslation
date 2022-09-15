@@ -1,0 +1,1482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- CRMC Action Grid Defaults --></label>
+        <name>CRMC_PP__CRMC_Action_Grid_Defaults</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Lead Filter Fields --></label>
+        <name>MC4SF__Lead_Filter_Fields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Agent Firm --></label>
+        <name>Agent_Firm__c</name>
+        <picklistValues>
+            <masterLabel>CAA</masterLabel>
+            <translation><!-- CAA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Excel</masterLabel>
+            <translation><!-- Excel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ICM</masterLabel>
+            <translation><!-- ICM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paradigm</masterLabel>
+            <translation><!-- Paradigm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UTA</masterLabel>
+            <translation><!-- UTA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WME</masterLabel>
+            <translation><!-- WME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wasserman</masterLabel>
+            <translation><!-- Wasserman --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Agent Name --></label>
+        <name>Agent_Name__c</name>
+        <picklistValues>
+            <masterLabel>HOLDER</masterLabel>
+            <translation><!-- HOLDER --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Anniversary --></label>
+        <name>Anniversary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attorney --></label>
+        <name>Attorney__c</name>
+        <relationshipLabel><!-- Primary Attorney For --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Bio --></label>
+        <name>Bio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Birthday --></label>
+        <name>Birthday__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Assistant Email --></label>
+        <name>Business_Assistant_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Assistant Name --></label>
+        <name>Business_Assistant_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Assistant Phone --></label>
+        <name>Business_Assistant_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- CPA Firm --></label>
+        <name>CPA_Firm__c</name>
+        <picklistValues>
+            <masterLabel>HOLDER</masterLabel>
+            <translation><!-- HOLDER --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CPA Name --></label>
+        <name>CPA_Name__c</name>
+        <relationshipLabel><!-- CPA For --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Category #1 --></label>
+        <name>Category_1__c</name>
+        <picklistValues>
+            <masterLabel>100 Most Powerful</masterLabel>
+            <translation><!-- 100 Most Powerful --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50 Richest</masterLabel>
+            <translation><!-- 50 Richest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AMSTAT</masterLabel>
+            <translation><!-- AMSTAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Company Sale</masterLabel>
+            <translation><!-- Company Sale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Forbes 500</masterLabel>
+            <translation><!-- Forbes 500 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hedge Fund</masterLabel>
+            <translation><!-- Hedge Fund --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IPO</masterLabel>
+            <translation><!-- IPO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stock Sale</masterLabel>
+            <translation><!-- Stock Sale --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Category #2 --></label>
+        <name>Category_2__c</name>
+        <picklistValues>
+            <masterLabel>100 Most Powerful</masterLabel>
+            <translation><!-- 100 Most Powerful --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50 Richest</masterLabel>
+            <translation><!-- 50 Richest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AMSTAT</masterLabel>
+            <translation><!-- AMSTAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Company Sale</masterLabel>
+            <translation><!-- Company Sale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Forbes 500</masterLabel>
+            <translation><!-- Forbes 500 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hedge Fund</masterLabel>
+            <translation><!-- Hedge Fund --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IPO</masterLabel>
+            <translation><!-- IPO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stock Sale</masterLabel>
+            <translation><!-- Stock Sale --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Category #3 --></label>
+        <name>Category_3__c</name>
+        <picklistValues>
+            <masterLabel>100 Most Powerful</masterLabel>
+            <translation><!-- 100 Most Powerful --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50 Richest</masterLabel>
+            <translation><!-- 50 Richest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AMSTAT</masterLabel>
+            <translation><!-- AMSTAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Company Sale</masterLabel>
+            <translation><!-- Company Sale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Forbes 500</masterLabel>
+            <translation><!-- Forbes 500 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hedge Fund</masterLabel>
+            <translation><!-- Hedge Fund --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IPO</masterLabel>
+            <translation><!-- IPO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stock Sale</masterLabel>
+            <translation><!-- Stock Sale --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Charity --></label>
+        <name>Charity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Residential Delivery Indicator --></label>
+        <name>CloudingoAgent__ARDI__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address Type --></label>
+        <name>CloudingoAgent__AR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address Status --></label>
+        <name>CloudingoAgent__AS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address Timezone --></label>
+        <name>CloudingoAgent__ATZ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address Vacancy --></label>
+        <name>CloudingoAgent__AV__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Email Status --></label>
+        <name>CloudingoAgent__LES__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Address --></label>
+        <name>Company_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company State --></label>
+        <name>Company_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Street --></label>
+        <name>Company_Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Zip --></label>
+        <name>Company_Zip__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email #2 --></label>
+        <name>Email_2__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is automatically updated by the Auto Close page with how many steps are being skipped by the auto close action. --></help>
+        <label><!-- Auto Close - Steps Not Created --></label>
+        <name>FSTR__Auto_Close_Steps_Not_Created__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auto Close --></label>
+        <name>FSTR__Auto_Close__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process Completed By --></label>
+        <name>FSTR__Completed_By__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Process Completed Date --></label>
+        <name>FSTR__Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Definition --></label>
+        <name>FSTR__PCE_Definition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process Group --></label>
+        <name>FSTR__Process_Group__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Process Initiated --></label>
+        <name>FSTR__Process_Initiated__c</name>
+    </fields>
+    <fields>
+        <help><!-- If this Lead was created from a Recurring Business Process record this field links back to that record. --></help>
+        <label><!-- Recurring Business Process --></label>
+        <name>FSTR__Recurring_Business_Process__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Skipped Steps --></label>
+        <name>FSTR__Skipped_Steps__c</name>
+    </fields>
+    <fields>
+        <help><!-- Link to the Definition that this object is executing on currently. --></help>
+        <label><!-- Definition --></label>
+        <name>FSTR__pce_definition_lookup__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Fantasy Sports Fan --></label>
+        <name>Fantasy_Sports_Fan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Favorite College Basketball Team --></label>
+        <name>Favorite_College_Basketball_Team__c</name>
+        <picklistValues>
+            <masterLabel>HOLDER</masterLabel>
+            <translation><!-- HOLDER --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Favorite College Football Team --></label>
+        <name>Favorite_College_Football_Team__c</name>
+        <picklistValues>
+            <masterLabel>HOLDER</masterLabel>
+            <translation><!-- HOLDER --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Favorite MLB Team --></label>
+        <name>Favorite_MLB_Team__c</name>
+        <picklistValues>
+            <masterLabel>HOLDER</masterLabel>
+            <translation><!-- HOLDER --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Favorite NBA Team --></label>
+        <name>Favorite_NBA_Team__c</name>
+        <picklistValues>
+            <masterLabel>HOLDER</masterLabel>
+            <translation><!-- HOLDER --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Favorite NFL Team --></label>
+        <name>Favorite_NFL_Team__c</name>
+        <picklistValues>
+            <masterLabel>HOLDER</masterLabel>
+            <translation><!-- HOLDER --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Favorite NHL Team --></label>
+        <name>Favorite_NHL_Team__c</name>
+        <picklistValues>
+            <masterLabel>HOLDER</masterLabel>
+            <translation><!-- HOLDER --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Fraction Aircraft Owned --></label>
+        <name>Fraction_Aircraft_Owned__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fraction Date Purchased --></label>
+        <name>Fraction_Date_Purchased__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fraction Expiration Date --></label>
+        <name>Fraction_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fraction Percent Owned --></label>
+        <name>Fraction_Percent_Owned__c</name>
+    </fields>
+    <fields>
+        <label><!-- Graduate --></label>
+        <name>Graduate__c</name>
+        <picklistValues>
+            <masterLabel>HOLDER</masterLabel>
+            <translation><!-- HOLDER --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Home #2 City --></label>
+        <name>Home_2_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Home #2 State --></label>
+        <name>Home_2_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Home #2 Street Address --></label>
+        <name>Home_2_Street_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Home #2 Zip Code --></label>
+        <name>Home_2_Zip_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Home #3 City --></label>
+        <name>Home_3_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Home #3 State --></label>
+        <name>Home_3_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Home #3 Street Address --></label>
+        <name>Home_3_Street_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Home #3 Zip Code --></label>
+        <name>Home_3_Zip_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- House #2 Phone --></label>
+        <name>House_2_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- House #3 Phone --></label>
+        <name>House_3_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interest #1 --></label>
+        <name>Interest_1__c</name>
+        <picklistValues>
+            <masterLabel>Art</masterLabel>
+            <translation><!-- Art --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cars</masterLabel>
+            <translation><!-- Cars --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fly Fishing</masterLabel>
+            <translation><!-- Fly Fishing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Golf</masterLabel>
+            <translation><!-- Golf --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skiing</masterLabel>
+            <translation><!-- Skiing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Surfing</masterLabel>
+            <translation><!-- Surfing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tennis</masterLabel>
+            <translation><!-- Tennis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wine</masterLabel>
+            <translation><!-- Wine --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Interest #2 --></label>
+        <name>Interest_2__c</name>
+        <picklistValues>
+            <masterLabel>Art</masterLabel>
+            <translation><!-- Art --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cars</masterLabel>
+            <translation><!-- Cars --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fly Fishing</masterLabel>
+            <translation><!-- Fly Fishing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Golf</masterLabel>
+            <translation><!-- Golf --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skiing</masterLabel>
+            <translation><!-- Skiing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Surfing</masterLabel>
+            <translation><!-- Surfing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tennis</masterLabel>
+            <translation><!-- Tennis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wine</masterLabel>
+            <translation><!-- Wine --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Interest #3 --></label>
+        <name>Interest_3__c</name>
+        <picklistValues>
+            <masterLabel>Art</masterLabel>
+            <translation><!-- Art --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cars</masterLabel>
+            <translation><!-- Cars --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fly Fishing</masterLabel>
+            <translation><!-- Fly Fishing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Golf</masterLabel>
+            <translation><!-- Golf --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skiing</masterLabel>
+            <translation><!-- Skiing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Surfing</masterLabel>
+            <translation><!-- Surfing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tennis</masterLabel>
+            <translation><!-- Tennis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wine</masterLabel>
+            <translation><!-- Wine --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Interest #4 --></label>
+        <name>Interest_4__c</name>
+        <picklistValues>
+            <masterLabel>Art</masterLabel>
+            <translation><!-- Art --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cars</masterLabel>
+            <translation><!-- Cars --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fly Fishing</masterLabel>
+            <translation><!-- Fly Fishing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Golf</masterLabel>
+            <translation><!-- Golf --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skiing</masterLabel>
+            <translation><!-- Skiing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Surfing</masterLabel>
+            <translation><!-- Surfing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tennis</masterLabel>
+            <translation><!-- Tennis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wine</masterLabel>
+            <translation><!-- Wine --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Kid #1 Birthday --></label>
+        <name>Kid_1_Birthday__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kid #1 Interest 2 --></label>
+        <name>Kid_1_Interest_1__c</name>
+        <picklistValues>
+            <masterLabel>HOLDER</masterLabel>
+            <translation><!-- HOLDER --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Kid #1 Interest 1 --></label>
+        <name>Kid_1_Interest__c</name>
+        <picklistValues>
+            <masterLabel>HOLDER</masterLabel>
+            <translation><!-- HOLDER --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Kid #1 Name --></label>
+        <name>Kid_1_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kid #1 Sex --></label>
+        <name>Kid_1_Sex__c</name>
+        <picklistValues>
+            <masterLabel>Female</masterLabel>
+            <translation><!-- Female --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Male</masterLabel>
+            <translation><!-- Male --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Kid #2 Name --></label>
+        <name>Kid_2_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kid #2 Sex --></label>
+        <name>Kid_2_Sex__c</name>
+        <picklistValues>
+            <masterLabel>Female</masterLabel>
+            <translation><!-- Female --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Male</masterLabel>
+            <translation><!-- Male --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Life Insurance Agent --></label>
+        <name>Life_Insurance_Agent__c</name>
+        <relationshipLabel><!-- Life Insurance Agent For --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Life Insurance Provider --></label>
+        <name>Life_Insurance_Provider__c</name>
+        <picklistValues>
+            <masterLabel>HOLDER</masterLabel>
+            <translation><!-- HOLDER --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- MC Subscriber --></label>
+        <name>MC4SF__MC_Subscriber__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Marital Status --></label>
+        <name>Marital_Status__c</name>
+        <picklistValues>
+            <masterLabel>Divorced</masterLabel>
+            <translation><!-- Divorced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Married</masterLabel>
+            <translation><!-- Married --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remarried</masterLabel>
+            <translation><!-- Remarried --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single</masterLabel>
+            <translation><!-- Single --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Widowed</masterLabel>
+            <translation><!-- Widowed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Mobile --></label>
+        <name>Mobile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Worth --></label>
+        <name>Net_Worth__c</name>
+        <picklistValues>
+            <masterLabel>10-25mm</masterLabel>
+            <translation><!-- 10-25mm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100-250mm</masterLabel>
+            <translation><!-- 100-250mm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25-50mm</masterLabel>
+            <translation><!-- 25-50mm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>250-500mm</masterLabel>
+            <translation><!-- 250-500mm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5-10mm</masterLabel>
+            <translation><!-- 5-10mm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50-100mm</masterLabel>
+            <translation><!-- 50-100mm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>500mm+</masterLabel>
+            <translation><!-- 500mm+ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&lt;5mm</masterLabel>
+            <translation><!-- &lt;5mm --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Other # --></label>
+        <name>Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone #2 --></label>
+        <name>Phone_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Home # --></label>
+        <name>Primary_Home__c</name>
+    </fields>
+    <fields>
+        <label><!-- Publicly Traded Company --></label>
+        <name>Publicly_Traded_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referred By --></label>
+        <name>Referred_By__c</name>
+        <relationshipLabel><!-- Referrals --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Religion --></label>
+        <name>Religion__c</name>
+        <picklistValues>
+            <masterLabel>Buddhist</masterLabel>
+            <translation><!-- Buddhist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Christian</masterLabel>
+            <translation><!-- Christian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hindu</masterLabel>
+            <translation><!-- Hindu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jewish</masterLabel>
+            <translation><!-- Jewish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Muslim</masterLabel>
+            <translation><!-- Muslim --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CorrelationID --></label>
+        <name>SFGA__CorrelationID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Correlation Data --></label>
+        <name>SFGA__Correlation_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Web Source --></label>
+        <name>SFGA__Web_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Season Tickets #1 --></label>
+        <name>Season_Tickets_1__c</name>
+        <picklistValues>
+            <masterLabel>HOLDER</masterLabel>
+            <translation><!-- HOLDER --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Season Tickets #2 --></label>
+        <name>Season_Tickets_2__c</name>
+        <picklistValues>
+            <masterLabel>HOLDER</masterLabel>
+            <translation><!-- HOLDER --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Season Tickets #3 --></label>
+        <name>Season_Tickets_3__c</name>
+        <picklistValues>
+            <masterLabel>HOLDER</masterLabel>
+            <translation><!-- HOLDER --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Season Tickets #4 --></label>
+        <name>Season_Tickets_4__c</name>
+        <picklistValues>
+            <masterLabel>HOLDER</masterLabel>
+            <translation><!-- HOLDER --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Secondary Attorney --></label>
+        <name>Secondary_Attorney__c</name>
+        <relationshipLabel><!-- Secondary Attorney For --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Serial Number --></label>
+        <name>Serial_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Smart Phone --></label>
+        <name>Smart_Phone__c</name>
+        <picklistValues>
+            <masterLabel>Android</masterLabel>
+            <translation><!-- Android --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blackberry</masterLabel>
+            <translation><!-- Blackberry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iPhone</masterLabel>
+            <translation><!-- iPhone --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Spouse Bio --></label>
+        <name>Spouse_Bio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Spouse Birthday --></label>
+        <name>Spouse_Birthday__c</name>
+    </fields>
+    <fields>
+        <label><!-- Spouse Charity --></label>
+        <name>Spouse_Charity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Spouse Company Street Address --></label>
+        <name>Spouse_Company_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Spouse Company City --></label>
+        <name>Spouse_Company_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Spouse Company Name --></label>
+        <name>Spouse_Company_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Spouse Company State --></label>
+        <name>Spouse_Company_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Spouse Company Title --></label>
+        <name>Spouse_Company_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Spouse Company Zip Code --></label>
+        <name>Spouse_Company_Zip_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Spouse Email #1 --></label>
+        <name>Spouse_Email_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Spouse Email #2 --></label>
+        <name>Spouse_Email_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Spouse Facebook --></label>
+        <name>Spouse_Facebook__c</name>
+    </fields>
+    <fields>
+        <label><!-- Spouse First Name --></label>
+        <name>Spouse_First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Spouse Graduate --></label>
+        <name>Spouse_Graduate__c</name>
+        <picklistValues>
+            <masterLabel>HOLDER</masterLabel>
+            <translation><!-- HOLDER --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Spouse Interest #1 --></label>
+        <name>Spouse_Interest_1__c</name>
+        <picklistValues>
+            <masterLabel>Art</masterLabel>
+            <translation><!-- Art --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cars</masterLabel>
+            <translation><!-- Cars --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fly Fishing</masterLabel>
+            <translation><!-- Fly Fishing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Golf</masterLabel>
+            <translation><!-- Golf --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skiing</masterLabel>
+            <translation><!-- Skiing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Surfing</masterLabel>
+            <translation><!-- Surfing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tennis</masterLabel>
+            <translation><!-- Tennis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wine</masterLabel>
+            <translation><!-- Wine --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Spouse Interest #2 --></label>
+        <name>Spouse_Interest_2__c</name>
+        <picklistValues>
+            <masterLabel>Art</masterLabel>
+            <translation><!-- Art --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cars</masterLabel>
+            <translation><!-- Cars --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fly Fishing</masterLabel>
+            <translation><!-- Fly Fishing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Golf</masterLabel>
+            <translation><!-- Golf --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skiing</masterLabel>
+            <translation><!-- Skiing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Surfing</masterLabel>
+            <translation><!-- Surfing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tennis</masterLabel>
+            <translation><!-- Tennis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wine</masterLabel>
+            <translation><!-- Wine --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Spouse Last Name --></label>
+        <name>Spouse_Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Spouse Mobile # --></label>
+        <name>Spouse_Mobile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Spouse Personal Website --></label>
+        <name>Spouse_Personal_Website__c</name>
+    </fields>
+    <fields>
+        <label><!-- Spouse Smart Phone --></label>
+        <name>Spouse_Smart_Phone__c</name>
+        <picklistValues>
+            <masterLabel>Android</masterLabel>
+            <translation><!-- Android --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blackberry</masterLabel>
+            <translation><!-- Blackberry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iPhone</masterLabel>
+            <translation><!-- iPhone --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Spouse Tablet --></label>
+        <name>Spouse_Table__c</name>
+        <picklistValues>
+            <masterLabel>iPad</masterLabel>
+            <translation><!-- iPad --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Spouse Twitter --></label>
+        <name>Spouse_Twitter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Spouse Undergraduate --></label>
+        <name>Spouse_Undergraduate__c</name>
+        <picklistValues>
+            <masterLabel>HOLDER</masterLabel>
+            <translation><!-- HOLDER --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Spouse Work # --></label>
+        <name>Spouse_Work__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tablet --></label>
+        <name>Tablet__c</name>
+        <picklistValues>
+            <masterLabel>iPad</masterLabel>
+            <translation><!-- iPad --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tail Number --></label>
+        <name>Tail_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ticker Symbol --></label>
+        <name>Ticker_Symbol__c</name>
+    </fields>
+    <fields>
+        <label><!-- Undergraduate --></label>
+        <name>Undergraduate__c</name>
+        <picklistValues>
+            <masterLabel>HOLDER</masterLabel>
+            <translation><!-- HOLDER --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- User Type #1 --></label>
+        <name>User_Type_1__c</name>
+        <picklistValues>
+            <masterLabel>Aviation Employee</masterLabel>
+            <translation><!-- Aviation Employee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aviation/Travel Writer</masterLabel>
+            <translation><!-- Aviation/Travel Writer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client</masterLabel>
+            <translation><!-- Client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Influencer</masterLabel>
+            <translation><!-- Influencer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospect</masterLabel>
+            <translation><!-- Prospect --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- User Type #2 --></label>
+        <name>User_Type_2__c</name>
+        <picklistValues>
+            <masterLabel>Attorney-Aviation</masterLabel>
+            <translation><!-- Attorney-Aviation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attorney-Divorce</masterLabel>
+            <translation><!-- Attorney-Divorce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attorney-Entertainment</masterLabel>
+            <translation><!-- Attorney-Entertainment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aviation Operator Employee</masterLabel>
+            <translation><!-- Aviation Operator Employee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aviation Services Employee</masterLabel>
+            <translation><!-- Aviation Services Employee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPA/BizMgr</masterLabel>
+            <translation><!-- CPA/BizMgr --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Charter Brokerage Employee</masterLabel>
+            <translation><!-- Charter Brokerage Employee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Concierge Rep</masterLabel>
+            <translation><!-- Concierge Rep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment Agent</masterLabel>
+            <translation><!-- Entertainment Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment Manager</masterLabel>
+            <translation><!-- Entertainment Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment-Actor</masterLabel>
+            <translation><!-- Entertainment-Actor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment-CA</masterLabel>
+            <translation><!-- Entertainment-CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment-Director</masterLabel>
+            <translation><!-- Entertainment-Director --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment-Executive</masterLabel>
+            <translation><!-- Entertainment-Executive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment-NY</masterLabel>
+            <translation><!-- Entertainment-NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment-Other</masterLabel>
+            <translation><!-- Entertainment-Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment-Producer</masterLabel>
+            <translation><!-- Entertainment-Producer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment-Writer</masterLabel>
+            <translation><!-- Entertainment-Writer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heir</masterLabel>
+            <translation><!-- Heir --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Influencer</masterLabel>
+            <translation><!-- Influencer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investment Banking</masterLabel>
+            <translation><!-- Investment Banking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Life Insurance Agent</masterLabel>
+            <translation><!-- Life Insurance Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;C Agent</masterLabel>
+            <translation><!-- P&amp;C Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private Equity</masterLabel>
+            <translation><!-- Private Equity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Company</masterLabel>
+            <translation><!-- Public Company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Publicist</masterLabel>
+            <translation><!-- Publicist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate</masterLabel>
+            <translation><!-- Real Estate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sports Agent</masterLabel>
+            <translation><!-- Sports Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel Agent</masterLabel>
+            <translation><!-- Travel Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Venture Capital</masterLabel>
+            <translation><!-- Venture Capital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wealth Advisor</masterLabel>
+            <translation><!-- Wealth Advisor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Whole Aircraft Brokerage Employee</masterLabel>
+            <translation><!-- Whole Aircraft Brokerage Employee --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- User Type #3 --></label>
+        <name>User_Type_3__c</name>
+        <picklistValues>
+            <masterLabel>Attorney-Aviation</masterLabel>
+            <translation><!-- Attorney-Aviation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attorney-Divorce</masterLabel>
+            <translation><!-- Attorney-Divorce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attorney-Entertainment</masterLabel>
+            <translation><!-- Attorney-Entertainment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aviation Operator Employee</masterLabel>
+            <translation><!-- Aviation Operator Employee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aviation Services Employee</masterLabel>
+            <translation><!-- Aviation Services Employee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPA/BizMgr</masterLabel>
+            <translation><!-- CPA/BizMgr --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Charter Brokerage Employee</masterLabel>
+            <translation><!-- Charter Brokerage Employee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Concierge Rep</masterLabel>
+            <translation><!-- Concierge Rep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment Agent</masterLabel>
+            <translation><!-- Entertainment Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment Manager</masterLabel>
+            <translation><!-- Entertainment Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment-Actor</masterLabel>
+            <translation><!-- Entertainment-Actor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment-CA</masterLabel>
+            <translation><!-- Entertainment-CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment-Director</masterLabel>
+            <translation><!-- Entertainment-Director --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment-Executive</masterLabel>
+            <translation><!-- Entertainment-Executive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment-NY</masterLabel>
+            <translation><!-- Entertainment-NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment-Other</masterLabel>
+            <translation><!-- Entertainment-Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment-Producer</masterLabel>
+            <translation><!-- Entertainment-Producer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment-Writer</masterLabel>
+            <translation><!-- Entertainment-Writer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heir</masterLabel>
+            <translation><!-- Heir --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Influencer</masterLabel>
+            <translation><!-- Influencer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investment Banking</masterLabel>
+            <translation><!-- Investment Banking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Life Insurance Agent</masterLabel>
+            <translation><!-- Life Insurance Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;C Agent</masterLabel>
+            <translation><!-- P&amp;C Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private Equity</masterLabel>
+            <translation><!-- Private Equity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Company</masterLabel>
+            <translation><!-- Public Company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Publicist</masterLabel>
+            <translation><!-- Publicist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate</masterLabel>
+            <translation><!-- Real Estate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sports Agent</masterLabel>
+            <translation><!-- Sports Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel Agent</masterLabel>
+            <translation><!-- Travel Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Venture Capital</masterLabel>
+            <translation><!-- Venture Capital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wealth Advisor</masterLabel>
+            <translation><!-- Wealth Advisor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Whole Aircraft Brokerage Employee</masterLabel>
+            <translation><!-- Whole Aircraft Brokerage Employee --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Wealth Advisor 1 Firm --></label>
+        <name>Wealth_Advisor_1_Firm__c</name>
+        <picklistValues>
+            <masterLabel>HOLDER</masterLabel>
+            <translation><!-- HOLDER --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Wealth Advisor 1 Name --></label>
+        <name>Wealth_Advisor_1_Name__c</name>
+        <relationshipLabel><!-- Primary Wealth Advisor For --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Wealth Advisor 2 Firm --></label>
+        <name>Wealth_Advisor_2_Firm__c</name>
+        <picklistValues>
+            <masterLabel>HOLDER</masterLabel>
+            <translation><!-- HOLDER --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Wealth Advisor 2 Name --></label>
+        <name>Wealth_Advisor_2_Name__c</name>
+        <relationshipLabel><!-- Secondary Wealth Advisor For --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Wealth Aquired Via --></label>
+        <name>Wealth_Aquired_Via__c</name>
+        <picklistValues>
+            <masterLabel>Divorce</masterLabel>
+            <translation><!-- Divorce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High Paying Job</masterLabel>
+            <translation><!-- High Paying Job --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inheritance</masterLabel>
+            <translation><!-- Inheritance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investments-Financial</masterLabel>
+            <translation><!-- Investments-Financial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investments-Real Estate</masterLabel>
+            <translation><!-- Investments-Real Estate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lottery</masterLabel>
+            <translation><!-- Lottery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private Business</masterLabel>
+            <translation><!-- Private Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sold Company</masterLabel>
+            <translation><!-- Sold Company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stock Options</masterLabel>
+            <translation><!-- Stock Options --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Work # --></label>
+        <name>Work__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disable Duplicate Check --></label>
+        <name>dupcheck__dc3DisableDuplicateCheck__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duplicate Check Index --></label>
+        <name>dupcheck__dc3Index__c</name>
+    </fields>
+    <fields>
+        <label><!-- is Web2Lead --></label>
+        <name>dupcheck__dc3Web2Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsCreatedByZoomApp --></label>
+        <name>zoom_app__IsCreatedByZoomApp__c</name>
+    </fields>
+    <webLinks>
+        <label><!-- Conga_Composer_OAuth --></label>
+        <name>APXTConga4__Conga_Composer_OAuth</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Mail_Merge --></label>
+        <name>APXTConga4__Conga_Mail_Merge</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Close --></label>
+        <name>FSTR__Close</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Close_Lead_and_Steps --></label>
+        <name>FSTR__Close_Lead_and_Steps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Process_Details --></label>
+        <name>FSTR__Process_Details</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Process_Visual --></label>
+        <name>FSTR__Process_Visual</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- MailChimp_Subscriptions_detail --></label>
+        <name>MC4SF__MailChimp_Subscriptions_detail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- MailChimp_Subscriptions_list --></label>
+        <name>MC4SF__MailChimp_Subscriptions_list</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_with_DocuSign --></label>
+        <name>dsfs__Send_with_DocuSign</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- dc3Check --></label>
+        <name>dupcheck__dc3Check</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- dc3Convert --></label>
+        <name>dupcheck__dc3Convert</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- dc3Merge --></label>
+        <name>dupcheck__dc3Merge</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_to_Slack --></label>
+        <name>slackv2__Send_to_Slack</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Slack_Alerts --></label>
+        <name>slackv2__Slack_Alerts</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_To_Webinar --></label>
+        <name>zoom_app__Add_To_Webinar</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Webinar_Leads --></label>
+        <name>zoom_app__Add_to_Webinar_Leads</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Start_Zoom_Meeting --></label>
+        <name>zoom_app__Start_Zoom_Meeting</name>
+    </webLinks>
+</CustomObjectTranslation>

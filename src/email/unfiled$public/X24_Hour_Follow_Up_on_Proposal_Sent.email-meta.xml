@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>24 Hour Follow Up on Proposal Sent</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>24 Hour Follow Up on Proposal Sent</name>
+    <style>none</style>
+    <subject>Follow Up on Proposal Sent - {!Opportunity.Name}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

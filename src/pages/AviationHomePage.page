@@ -1,0 +1,234 @@
+<apex:page showHeader="false" standardStylesheets="false" sidebar="false" applyHtmlTag="false" applyBodyTag="false" docType="html-5.0" controller="AviationHomePageController">
+    <style>
+        .tableBorderColor{
+        border: 1px #2F75B5 solid !important;
+        }
+        .bgColor{
+        background-color: #DDEBF7 !important;
+        width: 368px !important;
+        }.
+        .slds-text-heading--small{
+        font-weight: bold !important;
+        }
+        .noBorder{
+        border-top: 1px white solid !important;
+        border-left: 1px white solid !important;
+        }
+        .bgDollarColor{
+        background-color: #E2EFDA !important;
+        }
+        .@media only screen and (min-device-width: 412px) and (max-device-width: 511px){
+             
+        }
+        .clsCenter{
+        text-align:center !important;
+        }
+        .slds-table td, .slds-table th {
+            white-space: inherit;
+        }
+    </style>
+    
+    <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" lang="en">
+        <head>
+            <meta charset="utf-8" />
+            <title>Home Page Component</title>
+            
+            <meta http-equiv="x-ua-compatible" content="ie=edge" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <apex:stylesheet value="{!URLFOR($Resource.HomePageLightning, 'assets/styles/salesforce-lightning-design-system.min.css')}"/>
+            
+        </head>
+        <body >
+            <!-- REQUIRED SLDS WRAPPER -->
+            <div class="slds"><apex:form >
+            <apex:outputLabel value="{!$Label.welcomeLabel}"></apex:outputLabel>
+            </apex:form>
+            <br/>
+                <div class="slds-grid--frame">
+                    <div class="slds-grid slds-wrap">
+                        <div class="slds-col slds-size--5-of-6">
+                            <p class="slds-text-heading--medium ">
+                                {!$Label.Annual_Report} {!strCurrentQtr}
+                            </p>
+                            <br/>
+                            <br/>
+                            <p class="slds-text-heading--small">
+                                {!$Label.Relationship_Summary}
+                            </p>
+                            <br/>
+                            <div style="overflow:auto">
+                                <table class="slds-table slds-table--bordered tableBorderColor"> 
+                                    <thead>
+                                    <tr class="tableBorderColor"> 
+                                            <td class="slds-is-sortable tableBorderColor bgColor"> 
+                                               <div>
+                                                    {!$Label.Aviation_Start_Date}
+                                                </div> 
+                                            </td>
+                                            <td class="slds-is-sortable tableBorderColor" scope="col"> 
+                                                <div> 
+                                                    <apex:outputText value="{0,date,MM/dd/yy}">
+                                                        <apex:param value="{!dateAvStartDate}" /> 
+                                                    </apex:outputText>
+                                                </div>
+                                            </td>
+                                        </tr>
+<!--                                         <tr class="tableBorderColor">  -->
+<!--                                             <td class="slds-is-sortable tableBorderColor bgColor" scope="col">  -->
+<!--                                                 <div class="slds-truncate">  -->
+<!--                                                     {!$Label.Annual_fees} -->
+<!--                                                 </div>  -->
+<!--                                             </td> -->
+<!--                                             <td class="slds-is-sortable tableBorderColor" scope="col">  -->
+<!--                                                 <div class="slds-truncate">  -->
+<!--                                                     <apex:outputText value="{0, Number, Currency}"> -->
+<!--                                                         <apex:param value="{!dblAVAnnualFee}" />  -->
+<!--                                                     </apex:outputText> -->
+<!--                                                 </div> -->
+<!--                                             </td> -->
+<!--                                         </tr> -->
+<!--                                         <tr> -->
+<!--                                             <td class="slds-is-sortable tableBorderColor bgColor" scope="col">  -->
+<!--                                                 <div class="slds-large">  -->
+<!--                                                    {!$Label.Av_renewal} -->
+<!--                                                 </div>  -->
+<!--                                             </td> -->
+<!--                                             <td class="slds-is-sortable tableBorderColor" scope="col">  -->
+<!--                                                 <div class=" slds-truncate">  -->
+<!--                                                     <apex:outputText value="{0,date,MM/dd/yy}">  -->
+<!--                                                         <apex:param value="{!dateContractRenewelDate}" /> -->
+<!--                                                     </apex:outputText> -->
+                                                    
+<!--                                                 </div> -->
+<!--                                             </td> -->
+<!--                                         </tr> -->
+                                        <tr>
+                                            <td class="slds-is-sortable tableBorderColor bgColor" scope="col"> 
+                                                <div> 
+                                                    {!$Label.Relationship_to_date}
+                                                </div> 
+                                            </td>
+                                            
+                                            <td class="slds-is-sortable tableBorderColor " scope="col"> 
+                                                <div> 
+                                                   <apex:outputText value="{0, Number, Currency}">
+                                                        <apex:param value="{!dblSavedForClient}" /> 
+                                                    </apex:outputText>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="slds-is-sortable tableBorderColor bgColor" scope="col"> 
+                                                <div> 
+                                                    {!$Label.Client_ROI}
+                                                </div> 
+                                            </td>
+                                            
+                                            <td class="slds-is-sortable tableBorderColor" scope="col"> 
+                                                <div > 
+                                                   <apex:outputText value="{0,number,0.00}"> 
+                                                        <apex:param value="{!dblClientROI}" />
+                                                    </apex:outputText>%
+                                                   <!--  <apex:outputText value="{!dblClientROI}" />% -->  
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="tableBorderColor"> 
+                                            <td class="slds-is-sortable tableBorderColor bgColor" scope="col"> 
+                                                <div > 
+                                                    {!$Label.Areas_of_AVP}
+                                                </div> 
+                                            </td>
+                                            <td class="slds-is-sortable tableBorderColor" scope="col"> 
+                                                <div > 
+                                                    {!strMainAreaOfAVPImpact}
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="slds-is-sortable tableBorderColor bgColor" scope="col"> 
+                                                <div> 
+                                                    {!$ObjectType.Quarterly_Summary__c.fields.Aviation_Portfolio_Relationship_Status__c.Label}
+                                                </div> 
+                                            </td>
+                                            
+                                            <td class="slds-is-sortable tableBorderColor" scope="col"> 
+                                                <div > 
+                                                    {!strAviationPortfolioRelationStatus}
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </thead>
+                                </table> 
+                            </div>
+                            <br/>
+                        </div>     
+                        <div class="slds-col slds-size--1-of-6"></div>
+                        <div class="slds-col slds-size--1-of-6">
+                            
+                        </div>
+                    </div>
+                    <div class="slds-grid slds-wrap">
+                        <div class="slds-col slds-size--5-of-6">
+                            <p class="slds-text-heading--small">
+                                {!$Label.AP} {!$Label.Perf_Summary}
+                            </p>
+                            <br/>
+                            
+                            <div style="overflow:auto">
+                                <table class="slds-table slds-table--bordered tableBorderColor"> 
+                                    <thead>
+                                    <tr class="tableBorderColor"> 
+                                            <td class="slds-is-sortable tableBorderColor bgColor" scope="col"> 
+                                                <div > 
+                                                    {!$Label.Areas_Focus}
+                                                </div> 
+                                            </td>
+                                            <td class="slds-is-sortable tableBorderColor" scope="col"> 
+                                                <div > 
+                                                    {!strMainAreasOfAvPFocus} </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="slds-is-sortable tableBorderColor bgColor" scope="col"> 
+                                                <div > 
+                                                    {!$ObjectType.Quarterly_Summary__c.fields.Portfolio_Optimization_Opportunities__c.Label}
+                                                    </div> 
+                                            </td>
+                                            <td class="slds-is-sortable tableBorderColor " scope="col"> 
+                                                <div > 
+                                                    {!strPortfolioOptimizationOpportunities}
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="slds-is-sortable tableBorderColor bgColor" scope="col"> 
+                                                <div class="slds-truncate"> 
+                                                    {!$Label.Hours_Spent_Acc}
+                                                    </div> 
+                                            </td>
+                                            <td class="slds-is-sortable tableBorderColor " scope="col"> 
+                                                <div class="slds-truncate"> 
+                                                    {!dblAccHours}
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </thead>
+                                </table> 
+                            </div> </div>
+                       <div class="slds-col slds-size--1-of-6"></div>
+                        <div class="slds-col slds-size--1-of-6"></div></div>
+                    <br/>
+                    <div class="slds-grid slds-wrap">
+                        <div class="slds-col slds-size--5-of-6">
+                         
+                        </div>
+                        <div class="slds-col slds-size--1-of-6"></div>
+                        <div class="slds-col slds-size--1-of-6"></div>
+                    </div>
+                    <br/>
+                </div>
+            </div>
+        </body>
+    </html>
+</apex:page>

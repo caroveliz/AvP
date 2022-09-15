@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Operator Market Intelligence</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Operator Market Intelligence</value>
+    </caseValues>
+    <fields>
+        <label><!-- Annual Revenue --></label>
+        <name>Annual_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Clients --></label>
+        <name>Number_of_Clients__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Employees --></label>
+        <name>Number_of_Employees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operator MI Status --></label>
+        <name>Operator_MI_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outdated</masterLabel>
+            <translation><!-- Outdated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Size of Fleet --></label>
+        <name>Size_of_Fleet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vendor Name --></label>
+        <name>Vendor_Name__c</name>
+        <relationshipLabel><!-- Operator Market Intelligence --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Year of Annual Revenue --></label>
+        <name>Year_of_Annual_Revenue__c</name>
+    </fields>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

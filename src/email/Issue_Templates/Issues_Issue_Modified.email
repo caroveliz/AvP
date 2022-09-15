@@ -1,0 +1,4 @@
+{!Issue__c.Link}
+Title: {!Issue__c.Title__c}              Status:  {!Issue__c.Status__c}
+Functional Area: {!Issue__c.Functional_Area__c}
+Description: {!Issue__c.Description__c}

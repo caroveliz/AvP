@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Team Member --></label>
+        <name>FSTR__Team_Member__c</name>
+        <relationshipLabel><!-- Process Team Members --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Team Role --></label>
+        <name>FSTR__Team_Role__c</name>
+        <picklistValues>
+            <masterLabel>Assistant</masterLabel>
+            <translation><!-- Assistant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Associate Advisor</masterLabel>
+            <translation><!-- Associate Advisor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead Advisor</masterLabel>
+            <translation><!-- Lead Advisor --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

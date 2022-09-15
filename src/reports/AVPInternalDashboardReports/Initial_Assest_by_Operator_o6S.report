@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Operator_Program__c$Name</field>
+    </columns>
+    <columns>
+        <field>Operator_Program__c.Client_Programs__r$Account__c</field>
+    </columns>
+    <columns>
+        <field>Operator_Program__c.Client_Programs__r$Name</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Operator_Program__c.Client_Programs__r$Initial_Asset_Value__c</field>
+    </columns>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Operator_Program__c$Operator__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Initial Assest- by Operator</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Operator_Programs_with_Programs__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Operator_Program__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- CRMC Action Grid Defaults --></label>
+        <name>CRMC_PP__CRMC_Action_Grid_Defaults</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Document Merge URL --></label>
+        <name>FSTR__Document_Merge_URL__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this box for users that should not evaluate Definition Initiators.  This would typically be checked for an integration user that automatically updates data in the background and does not need to initiate processes. --></help>
+        <label><!-- Ignore Definition Initiators --></label>
+        <name>FSTR__Ignore_PCE_Definition_Initiators__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field supports the ability to notify someone via task reminders that a new task has been assigned to them. --></help>
+        <label><!-- Notify on Assignment --></label>
+        <name>FSTR__Notify_on_Assignment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select a date and time that your Out of Office will end.  During this time period all of your tasks will be assigned to the user designated in the Out of Office Replacement User field. --></help>
+        <label><!-- Out of Office End --></label>
+        <name>FSTR__Out_of_Office_End__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select a user that will be assigned your tasks while you are out of the office --></help>
+        <label><!-- Out of Office Replacement User --></label>
+        <name>FSTR__Out_of_Office_Replacement_User__c</name>
+        <relationshipLabel><!-- Users --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Select a date and time that your Out of Office will start.  During this time period all of your tasks will be assigned to the user designated in the Out of Office Replacement User field. --></help>
+        <label><!-- Out of Office Start --></label>
+        <name>FSTR__Out_of_Office_Start__c</name>
+    </fields>
+    <fields>
+        <label><!-- DSProSFMembershipStatus --></label>
+        <name>dsfs__DSProSFMembershipStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- DSProSFPassword --></label>
+        <name>dsfs__DSProSFPassword__c</name>
+    </fields>
+    <fields>
+        <label><!-- DSProSFUsername --></label>
+        <name>dsfs__DSProSFUsername__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disable All Duplicate Check triggers --></label>
+        <name>dupcheck__dc3DisableDCTriggers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disable Duplicate Check --></label>
+        <name>dupcheck__dc3DisableDuplicateCheck__c</name>
+    </fields>
+    <fields>
+        <label><!-- Birthday Criteria --></label>
+        <name>ities_bsc__Birthday_Criteria__c</name>
+        <picklistValues>
+            <masterLabel>All Contacts</masterLabel>
+            <translation><!-- All Contacts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>My Contacts</masterLabel>
+            <translation><!-- My Contacts --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Birthday Range --></label>
+        <name>ities_bsc__Birthday_Range__c</name>
+    </fields>
+    <fields>
+        <help><!-- user level to disable invitation email,this option is subject to org level setting --></help>
+        <label><!-- Disable Invitation Email --></label>
+        <name>zoom_app__Disable_Invitation_Email__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specify Your Zoom Login Type --></help>
+        <label><!-- Login Type --></label>
+        <name>zoom_app__Login_Type__c</name>
+        <picklistValues>
+            <masterLabel>API</masterLabel>
+            <translation><!-- API --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facebook</masterLabel>
+            <translation><!-- Facebook --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Google</masterLabel>
+            <translation><!-- Google --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SSO</masterLabel>
+            <translation><!-- SSO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work Email</masterLabel>
+            <translation><!-- Work Email --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Non-PMI Meeting Passcode --></label>
+        <name>zoom_app__Meeting_Password_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Secret Token --></label>
+        <name>zoom_app__Secret_Token__c</name>
+    </fields>
+    <fields>
+        <help><!-- Provides an interface to send email to attendees while Launching Zoom Meeting from Start Zoom Meeting button. --></help>
+        <label><!-- Send Email to Attendees at Launch --></label>
+        <name>zoom_app__Send_Email_to_Attendee__c</name>
+    </fields>
+    <fields>
+        <help><!-- Send ICalendar Attachment File in Meeting Invitation Email --></help>
+        <label><!-- Send ICS in Invitation Email --></label>
+        <name>zoom_app__Send_ICS_in_Invitation_Email__c</name>
+    </fields>
+    <fields>
+        <help><!-- Send a notification to Zoom IM Bot if the meeting that you have scheduled did not start within 3 mins of the start time --></help>
+        <label><!-- Webhook Notification URL --></label>
+        <name>zoom_app__Webhook_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zoom Meeting Password --></label>
+        <name>zoom_app__Zoom_Meeting_Password__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable it if you want to use your Zoom PMI for creating instant meetings. --></help>
+        <label><!-- PMI Enabled For Scheduled Meeting --></label>
+        <name>zoom_app__isPMI_Enabled__c</name>
+    </fields>
+    <webLinks>
+        <label><!-- Conga_Composer_OAuth --></label>
+        <name>APXTConga4__Conga_Composer_OAuth</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Mail_Merge --></label>
+        <name>APXTConga4__Conga_Mail_Merge</name>
+    </webLinks>
+</CustomObjectTranslation>

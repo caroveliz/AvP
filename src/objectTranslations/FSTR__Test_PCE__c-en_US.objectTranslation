@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- AlreadyGenerated --></label>
+        <name>FSTR__AlreadyGenerated__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is automatically updated by the Auto Close page with how many steps are being skipped by the auto close action. --></help>
+        <label><!-- Auto Close - Steps Not Created --></label>
+        <name>FSTR__Auto_Close_Steps_Not_Created__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auto Close --></label>
+        <name>FSTR__Auto_Close__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>FSTR__Business_Account__c</name>
+        <relationshipLabel><!-- Test PCEs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Business Process --></label>
+        <name>FSTR__Business_Process__c</name>
+        <relationshipLabel><!-- Test PCEs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Case --></label>
+        <name>FSTR__Case__c</name>
+        <relationshipLabel><!-- Test PCEs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>FSTR__Client__c</name>
+        <relationshipLabel><!-- Test PCEs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Completed By --></label>
+        <name>FSTR__Completed_By__c</name>
+        <relationshipLabel><!-- Test PCEs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Completed Date --></label>
+        <name>FSTR__Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>FSTR__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>FSTR__Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Queue Members --></label>
+        <name>FSTR__Email_Queue_Members__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Sub Type --></label>
+        <name>FSTR__Event_Sub_Type__c</name>
+        <picklistValues>
+            <masterLabel>In Person</masterLabel>
+            <translation><!-- In Person --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation><!-- Phone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web</masterLabel>
+            <translation><!-- Web --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>FSTR__Opportunity__c</name>
+        <relationshipLabel><!-- Test PCEs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Definition --></label>
+        <name>FSTR__PCE_Definition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Event Id --></label>
+        <name>FSTR__Parent_Event_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Object Name --></label>
+        <name>FSTR__Parent_Object_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process Initiated --></label>
+        <name>FSTR__Process_Initiated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process Instance --></label>
+        <name>FSTR__Process_Instance__c</name>
+        <relationshipLabel><!-- Test PCEs --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- If this Test PCE was created from a Recurring Business Process record this field links back to that record. --></help>
+        <label><!-- Recurring Business Process --></label>
+        <name>FSTR__Recurring_Business_Process__c</name>
+        <relationshipLabel><!-- Test PCEs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Skipped Steps --></label>
+        <name>FSTR__Skipped_Steps__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>FSTR__Status__c</name>
+        <picklistValues>
+            <masterLabel>Canceled</masterLabel>
+            <translation><!-- Canceled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Step Id --></label>
+        <name>FSTR__Step_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Step Stage Id --></label>
+        <name>FSTR__Step_Stage_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subject --></label>
+        <name>FSTR__Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Checkbox --></label>
+        <name>FSTR__Test_Checkbox__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Currency --></label>
+        <name>FSTR__Test_Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Date Time --></label>
+        <name>FSTR__Test_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Email --></label>
+        <name>FSTR__Test_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Number Field --></label>
+        <name>FSTR__Test_Number_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test PCE --></label>
+        <name>FSTR__Test_PCE__c</name>
+        <relationshipLabel><!-- Test PCEs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Test Percent --></label>
+        <name>FSTR__Test_Percent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Picklist II --></label>
+        <name>FSTR__Test_Picklist_II__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Test Picklist --></label>
+        <name>FSTR__Test_Picklist__c</name>
+        <picklistValues>
+            <masterLabel>Maybe</masterLabel>
+            <translation><!-- Maybe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Never</masterLabel>
+            <translation><!-- Never --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Test String Field --></label>
+        <name>FSTR__Test_String_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Text Area --></label>
+        <name>FSTR__Test_Text_Area__c</name>
+    </fields>
+    <fields>
+        <help><!-- Test Unlink --></help>
+        <label><!-- Definition --></label>
+        <name>FSTR__pce_definition_lookup__c</name>
+        <relationshipLabel><!-- Test PCEs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Step --></label>
+        <name>FSTR__step_lookup__c</name>
+        <relationshipLabel><!-- Test PCEs --></relationshipLabel>
+    </fields>
+    <recordTypes>
+        <label><!-- Record Type 1 --></label>
+        <name>FSTR__Record_Type_1</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Record Type 2 --></label>
+        <name>FSTR__Record_Type_2</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- do not use this in unit tests just in UI testing. --></description>
+        <label><!-- ZZ Record Type To UI With --></label>
+        <name>FSTR__ZZ_Record_Type_To_UI_With</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ZZ Scheduling Record Type --></label>
+        <name>FSTR__ZZ_Scheduling_Record_Type</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- New_Test_PCE --></label>
+        <name>FSTR__New_Test_PCE</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Test_PCE_Person --></label>
+        <name>FSTR__New_Test_PCE_Person</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Process_Visual --></label>
+        <name>FSTR__Process_Visual</name>
+    </webLinks>
+</CustomObjectTranslation>

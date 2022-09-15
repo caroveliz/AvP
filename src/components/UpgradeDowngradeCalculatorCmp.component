@@ -1,0 +1,223 @@
+<apex:component controller="UpgradeDowngradeCalculatorCmp">
+
+    <apex:attribute name="legId" assignTo="{!legIdX}" type="Id" description="Leg Id" />
+    <apex:attribute name="programPeriodId" assignTo="{!programPeriodIdX}" type="Id" description="Program Period Id" />
+
+    <apex:form >
+        <apex:pageBlock title="Upgrade / Downgrade Calculator">
+            <apex:pageBlockButtons >
+                <apex:commandButton value="Back" action="{!Cancel}" />
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection columns="2">
+                <apex:pageBlockSectionItem >
+                	MMF
+                    <apex:outputText value="{0, number, $#,##0.00}">
+                        <apex:param value="{!program.Current_MMF__c}" />
+                    </apex:outputText>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                	Monthly Lease Fee
+                    <apex:outputText value="{0, number, $#,##0.00}">
+                        <apex:param value="{!program.Monthly_Lease_Fee__c}" />
+                    </apex:outputText>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                	Monthly
+                    <apex:outputText value="{0, number, $#,##0.00}">
+                        <apex:param value="{!Monthly}" />
+                    </apex:outputText>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                	Annual
+                    <apex:outputText value="{0, number, $#,##0.00}">
+                        <apex:param value="{!Yearly}" />
+                    </apex:outputText>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                	Owned Hours
+                    <apex:outputPanel >
+                        <apex:selectList value="{!OwnedHoursSelection}" size="1" multiselect="false">
+                            <apex:selectOption itemLabel="Annual Hours Allotted" itemValue="Annual Hours Allotted" />
+                            <apex:selectOption itemLabel="Annual Hours Contracted" itemValue="Annual Hours Contracted" />
+                            <apex:actionSupport event="onchange" action="{!BuildConversionTable}" />
+                        </apex:selectList>
+                        &nbsp;&nbsp;&nbsp;
+                        <apex:outputText value="{0, number, #,##0.00}">
+                            <apex:param value="{!OwnedHours}" />
+                        </apex:outputText>
+                    </apex:outputPanel>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    Fixed / Hour
+                    <apex:outputText value="{0, number, $#,##0.00}" style="font-weight:bold;">
+                        <apex:param value="{!FixedPerHour}" />
+                    </apex:outputText>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                	OHF
+                    <apex:outputText value="{0, number, $#,##0.00}">
+                        <apex:param value="{!program.Current_OHF__c}" />
+                    </apex:outputText>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                	Fuel
+                    <apex:outputText value="{0, number, $#,##0.00}">
+                        <apex:param value="{!program.Latest_Fuel__c}" />
+                    </apex:outputText>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                	Variable
+                    <apex:outputText value="{0, number, $#,##0.00}" style="font-weight:bold;">
+                        <apex:param value="{!Variable}" />
+                    </apex:outputText>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    All in / Hour
+                    <apex:outputText value="{0, number, $#,##0.00}" style="font-weight:bold;">
+                        <apex:param value="{!AllIn}" />
+                    </apex:outputText>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    Billed Hours
+                    <apex:outputPanel >
+                        <apex:outputText value="{0, number, #,##0.00}" style="font-weight:bold;" rendered="{!NOT(BilledHoursEditable)}">
+                            <apex:param value="{!BilledHours}" />
+                        </apex:outputText>
+                        <apex:inputText value="{!BilledHours}" rendered="{!BilledHoursEditable}">
+                            <apex:actionSupport event="onchange" action="{!BuildConversionTable}" />
+                        </apex:inputText>
+                    </apex:outputPanel>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    Variable Cost
+                    <apex:outputText value="{0, number, $#,##0.00}" style="font-weight:bold;">
+                        <apex:param value="{!VariableCost}" />
+                    </apex:outputText>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    All in Cost
+                    <apex:outputText value="{0, number, $#,##0.00}" style="font-weight:bold;">
+                        <apex:param value="{!AllInCost}" />
+                    </apex:outputText>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    Aircraft
+                    <apex:outputField value="{!program.Contracted_Aircraft_Type__c}" />
+                </apex:pageBlockSectionItem>
+                
+            </apex:pageBlockSection>
+            <br /><br />
+            <apex:outputPanel rendered="{!HasConversionData}">
+                <table class="list" border="0" cellpadding="0" cellspacing="0">
+                    <thead class="">
+                        <tr class="headerRow">
+                            <th class="headerRow" scope="col" colspan="1"></th>
+                            <apex:repeat value="{!ConversionTable}" var="column">
+                                <th class="headerRow" scope="col" colspan="1">
+                                    <apex:outputText escape="false" value="{!column.title}" />
+                                </th>
+                            </apex:repeat>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="dataRow even first" onmouseover="if (window.hiOn){hiOn(this);} " onmouseout="if (window.hiOff){hiOff(this);} " onblur="if (window.hiOff){hiOff(this);}" onfocus="if (window.hiOn){hiOn(this);}">
+                            <td class="dataCell" colspan="1">
+                                Conversion Rate
+                            </td>
+                            <apex:repeat value="{!ConversionTable}" var="column">
+                                <td class="dataCell" colspan="1">
+                                    <apex:outputText value="{0, number, #,##0.0000}">
+                                        <apex:param value="{!column.rate}" />
+                                    </apex:outputText>
+                                </td>
+                            </apex:repeat>
+                        </tr>
+                        <tr class="dataRow odd" onmouseover="if (window.hiOn){hiOn(this);} " onmouseout="if (window.hiOff){hiOff(this);} " onblur="if (window.hiOff){hiOff(this);}" onfocus="if (window.hiOn){hiOn(this);}">
+                            <td class="dataCell" colspan="1">
+                                Hours
+                            </td>
+                            <apex:repeat value="{!ConversionTable}" var="column">
+                                <td class="dataCell" colspan="1">
+                                    <apex:outputText value="{0, number, #,##0.0}">
+                                        <apex:param value="{!column.hours}" />
+                                    </apex:outputText>
+                                </td>
+                            </apex:repeat>
+                        </tr>
+                        <tr class="dataRow odd" onmouseover="if (window.hiOn){hiOn(this);} " onmouseout="if (window.hiOff){hiOff(this);} " onblur="if (window.hiOff){hiOff(this);}" onfocus="if (window.hiOn){hiOn(this);}">
+                            <td class="dataCell" colspan="1">
+                                Hours Savings
+                            </td>
+                            <apex:repeat value="{!ConversionTable}" var="column">
+                                <td class="dataCell" colspan="1">
+                                    <apex:outputText value="{0, number, #,##0.0}">
+                                        <apex:param value="{!column.hoursSavings}" />
+                                    </apex:outputText>
+                                </td>
+                            </apex:repeat>
+                        </tr>
+                        <tr class="dataRow even" onmouseover="if (window.hiOn){hiOn(this);} " onmouseout="if (window.hiOff){hiOff(this);} " onblur="if (window.hiOff){hiOff(this);}" onfocus="if (window.hiOn){hiOn(this);}">
+                            <td class="dataCell" colspan="1">
+                                Variable Cost
+                            </td>
+                            <apex:repeat value="{!ConversionTable}" var="column">
+                                <td class="dataCell" colspan="1">
+                                    <apex:outputText value="{0, number, $#,##0.00}">
+                                        <apex:param value="{!column.varCost}" />
+                                    </apex:outputText>
+                                </td>
+                            </apex:repeat>
+                        </tr>
+                        <tr class="dataRow even" onmouseover="if (window.hiOn){hiOn(this);} " onmouseout="if (window.hiOff){hiOff(this);} " onblur="if (window.hiOff){hiOff(this);}" onfocus="if (window.hiOn){hiOn(this);}">
+                            <td class="dataCell" colspan="1">
+                                Variable Cost Savings
+                            </td>
+                            <apex:repeat value="{!ConversionTable}" var="column">
+                                <td class="dataCell" colspan="1">
+                                    <apex:outputText value="{0, number, $#,##0.00}">
+                                        <apex:param value="{!column.varSavings}" />
+                                    </apex:outputText>
+                                </td>
+                            </apex:repeat>
+                        </tr>
+                        <tr class="dataRow even" onmouseover="if (window.hiOn){hiOn(this);} " onmouseout="if (window.hiOff){hiOff(this);} " onblur="if (window.hiOff){hiOff(this);}" onfocus="if (window.hiOn){hiOn(this);}">
+                            <td class="dataCell" colspan="1">
+                               All-In Cost
+                            </td>
+                            <apex:repeat value="{!ConversionTable}" var="column">
+                                <td class="dataCell" colspan="1">
+                                    <apex:outputText value="{0, number, $#,##0.00}">
+                                        <apex:param value="{!column.cost}" />
+                                    </apex:outputText>
+                                </td>
+                            </apex:repeat>
+                        </tr>
+                        <tr class="dataRow odd last" onmouseover="if (window.hiOn){hiOn(this);} " onmouseout="if (window.hiOff){hiOff(this);} " onblur="if (window.hiOff){hiOff(this);}" onfocus="if (window.hiOn){hiOn(this);}">
+                            <td class="dataCell" colspan="1">
+                                All-In Savings
+                            </td>
+                            <apex:repeat value="{!ConversionTable}" var="column">
+                                <td class="dataCell" colspan="1">
+                                    <apex:outputText value="{0, number, $#,##0.00}">
+                                        <apex:param value="{!column.savings}" />
+                                    </apex:outputText>
+                                </td>
+                            </apex:repeat>
+                        </tr>
+                    </tbody>
+                </table>
+            </apex:outputPanel>
+            <apex:pageMessage rendered="{!!HasConversionData}" title="Error" severity="error" summary="{!$Label.Upgrade_Calculator_Error}" />
+            
+        </apex:pageBlock>
+    </apex:form>
+
+</apex:component>

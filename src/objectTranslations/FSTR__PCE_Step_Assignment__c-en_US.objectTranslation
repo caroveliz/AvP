@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- The date and time this record was assigned. --></help>
+        <label><!-- Assignment Time --></label>
+        <name>FSTR__Assignment_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- If we have exceeded the reassignment interval then this box will indicate that the step needs to be assigned to the next assignment option. --></help>
+        <label><!-- Needs Reassignment --></label>
+        <name>FSTR__Needs_Reassignment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Reassignment rule that this assignment belongs to. --></help>
+        <label><!-- Step Reassignment --></label>
+        <name>FSTR__PCE_Step_Reassignment__c</name>
+        <relationshipLabel><!-- Step Assignments --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Step this assignment belongs to. --></help>
+        <label><!-- Step --></label>
+        <name>FSTR__PCE_Step__c</name>
+        <relationshipLabel><!-- Step Assignments --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- id of the object that this assignment applies to --></help>
+        <label><!-- Step Id --></label>
+        <name>FSTR__Step_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- api name of the object this assignment applies to.  Will be used in combination witht he step id field to query for the records that need to be updated. --></help>
+        <label><!-- Step Object Type --></label>
+        <name>FSTR__Step_Object_Type__c</name>
+    </fields>
+</CustomObjectTranslation>

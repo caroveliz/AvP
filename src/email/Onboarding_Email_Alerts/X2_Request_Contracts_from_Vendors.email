@@ -1,0 +1,10 @@
+Opportunity: {!Task.What} is signed. Please reach out to Vendors to request flight histories and contracts. 
+
+Once received forward to Aviv to enter info SF.
+
+Operator Programs:
+{!Opportunity.Operator_Program_Name__c}
+
+Complete this task when done:
+Link to task on Opp:
+{!Task.Link}

@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <customHelpPage>FSTR__PCEHelp</customHelpPage>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>This object is used to store information for the execution of Definitions when data on other objects changes.  This is called Cross Object Process Initiation.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>FSTR__Assign_Process_Object_By__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field determines who the generated object should be assigned to.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field determines who the generated object should be assigned to.</inlineHelpText>
+        <label>Assign Process Object By</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Executing User</fullName>
+                    <default>false</default>
+                    <label>Executing User</label>
+                </value>
+                <value>
+                    <fullName>User</fullName>
+                    <default>false</default>
+                    <label>User</label>
+                </value>
+                <value>
+                    <fullName>Role</fullName>
+                    <default>false</default>
+                    <label>Role</label>
+                </value>
+                <value>
+                    <fullName>Queue</fullName>
+                    <default>false</default>
+                    <label>Queue</label>
+                </value>
+                <value>
+                    <fullName>Salesforce Account Team Role</fullName>
+                    <default>false</default>
+                    <label>Salesforce Account Team Role</label>
+                </value>
+                <value>
+                    <fullName>Process Team Role</fullName>
+                    <default>false</default>
+                    <label>Process Team Role</label>
+                </value>
+                <value>
+                    <fullName>Monitored Object Owner</fullName>
+                    <default>false</default>
+                    <label>Monitored Object Owner</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FSTR__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>FSTR__Due_Date_Adjustment__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Numbers of days after the process is kicked off that it will be due.  This only applies for Definitions attached to  the Business Process and Custom objects.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Numbers of days after the process is kicked off that it will be due.  This only applies for Definitions attached to  the Business Process and Custom objects.</inlineHelpText>
+        <label>Due Date Adjustment</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__Initiation_Criteria__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Initiation Criteria</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>FSTR__IsActive__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Active</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Monitored_Object__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This is the object to be monitored.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is the object to be monitored.</inlineHelpText>
+        <label>Monitored Object</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>account</fullName>
+                    <default>false</default>
+                    <label>account</label>
+                </value>
+                <value>
+                    <fullName>contact</fullName>
+                    <default>false</default>
+                    <label>contact</label>
+                </value>
+                <value>
+                    <fullName>event</fullName>
+                    <default>false</default>
+                    <label>event</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FSTR__Monitored_Operations__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Select the operations that will initiate the associated Definition</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the operations that will initiate the associated Definition</inlineHelpText>
+        <label>Monitored Operation(s)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Update</fullName>
+                    <default>false</default>
+                    <label>Update</label>
+                </value>
+                <value>
+                    <fullName>Insert</fullName>
+                    <default>false</default>
+                    <label>Insert</label>
+                </value>
+                <value>
+                    <fullName>Record Matches Criteria - Button Click</fullName>
+                    <default>false</default>
+                    <label>Record Matches Criteria - Button Click</label>
+                </value>
+                <value>
+                    <fullName>Record Matches Criteria - Daily Check</fullName>
+                    <default>false</default>
+                    <label>Record Matches Criteria - Daily Check</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>FSTR__Number_of_Initiator_Criteria__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Number of Initiator Criteria</label>
+        <summaryForeignKey>FSTR__PCE_Definition_Initiator_Criteria__c.FSTR__PCE_Definition_Initiator__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Obj_Data_1__c</fullName>
+        <deprecated>false</deprecated>
+        <description>data of stored object</description>
+        <externalId>false</externalId>
+        <inlineHelpText>data of stored object</inlineHelpText>
+        <label>Obj Data 1</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>FSTR__Obj_Data_2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>extended object data stored</description>
+        <externalId>false</externalId>
+        <inlineHelpText>extended object data stored</inlineHelpText>
+        <label>Obj Data 2</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>FSTR__PCE_Definition__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>This is the definition that will execute when the rules defined in this object are true.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is the definition that will execute when the rules defined in this object are true.</inlineHelpText>
+        <label>Definition to Initiate</label>
+        <referenceTo>FSTR__PCE_Definition__c</referenceTo>
+        <relationshipLabel>Definition Initiators</relationshipLabel>
+        <relationshipName>PCE_Definition_Initiators</relationshipName>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>FSTR__Process_Object_Owner_Queue__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>If the Assign Process Object By field is set to Queue this is the field that indicates the queue.</inlineHelpText>
+        <label>Process Object Owner Queue</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__Process_Object_Owner_Role__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>If the Assign Process Object By field is set to Role this is the field that indicates the role.</inlineHelpText>
+        <label>Process Object Owner Role</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSTR__Process_Object_Owner_User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>If the Assign Process Object By field is set to User this is the field that indicates that user.</inlineHelpText>
+        <label>Process Object Owner User</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>PCE_Definition_Initiators</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Definition Initiator</label>
+    <listViews>
+        <fullName>FSTR__All</fullName>
+        <columns>NAME</columns>
+        <columns>FSTR__PCE_Definition__c</columns>
+        <columns>FSTR__Monitored_Object__c</columns>
+        <columns>FSTR__Monitored_Operations__c</columns>
+        <columns>FSTR__Initiation_Criteria__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>OWNER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Definition Initiator Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Definition Initiators</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>FSTR__PCE_Definition__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>FSTR__Monitored_Object__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>FSTR__Monitored_Operations__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>FSTR__Initiation_Criteria__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>UPDATEDBY_USER</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LAST_UPDATE</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>FSTR__Monitored_Object__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>FSTR__Monitored_Operations__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>FSTR__Initiation_Criteria__c</lookupDialogsAdditionalFields>
+        <searchResultsAdditionalFields>FSTR__PCE_Definition__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>FSTR__Monitored_Object__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>FSTR__Monitored_Operations__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>FSTR__Initiation_Criteria__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LAST_UPDATE</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

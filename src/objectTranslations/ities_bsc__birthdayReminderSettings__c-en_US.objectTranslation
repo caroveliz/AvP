@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- isAllVisible --></label>
+        <name>ities_bsc__isAllVisible__c</name>
+    </fields>
+    <fields>
+        <label><!-- Range --></label>
+        <name>ities_bsc__range__c</name>
+    </fields>
+    <fields>
+        <label><!-- Records (Horizontal) --></label>
+        <name>ities_bsc__recordsHorizontal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Records (Vertical) --></label>
+        <name>ities_bsc__recordsVertical__c</name>
+    </fields>
+</CustomObjectTranslation>

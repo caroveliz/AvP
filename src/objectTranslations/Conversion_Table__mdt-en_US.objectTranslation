@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Conversion Table</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Conversion Table</value>
+    </caseValues>
+    <fields>
+        <label><!-- Company --></label>
+        <name>Company__c</name>
+        <picklistValues>
+            <masterLabel>Flexjet, LLC</masterLabel>
+            <translation><!-- Flexjet, LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NetJets Aviation</masterLabel>
+            <translation><!-- NetJets Aviation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NetJets Europe</masterLabel>
+            <translation><!-- NetJets Europe --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Do Not Combine --></label>
+        <name>Do_Not_Combine__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exchange Rate --></label>
+        <name>Exchange_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- From Plane --></label>
+        <name>From_Plane__c</name>
+    </fields>
+    <fields>
+        <label><!-- To Plane --></label>
+        <name>To_Plane__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

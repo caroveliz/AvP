@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Client Program Year --></label>
+        <name>Client_Program_Year__c</name>
+        <relationshipLabel><!-- Delayed Steps --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approval To Create --></label>
+        <name>FSTR__Approval_To_Create__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Process --></label>
+        <name>FSTR__Business_Process__c</name>
+        <relationshipLabel><!-- Delayed Steps --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Callout Data --></label>
+        <name>FSTR__Callout_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Campaign --></label>
+        <name>FSTR__Campaign__c</name>
+        <relationshipLabel><!-- Delayed Steps --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Case --></label>
+        <name>FSTR__Case__c</name>
+        <relationshipLabel><!-- Delayed Steps --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Chatter Data --></label>
+        <name>FSTR__Chatter_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checklist To Create --></label>
+        <name>FSTR__Checklist_To_Create__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract --></label>
+        <name>FSTR__Contract__c</name>
+        <relationshipLabel><!-- Delayed Steps --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date to Create --></label>
+        <name>FSTR__DateToCreate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead --></label>
+        <name>FSTR__Lead__c</name>
+        <relationshipLabel><!-- Delayed Steps --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Message --></label>
+        <name>FSTR__Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>FSTR__Opportunity__c</name>
+        <relationshipLabel><!-- Delayed Steps --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Step --></label>
+        <name>FSTR__PCE_Step__c</name>
+        <relationshipLabel><!-- Delayed Steps --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Parent Event Id --></label>
+        <name>FSTR__Parent_Event_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process Record Ext --></label>
+        <name>FSTR__ProcessRecordExt__c</name>
+    </fields>
+    <fields>
+        <label><!-- RecordToCreateType --></label>
+        <name>FSTR__RecordToCreateType__c</name>
+    </fields>
+    <fields>
+        <help><!-- Serialized information to create when this Queued Step kicks off. --></help>
+        <label><!-- RecordToCreate --></label>
+        <name>FSTR__RecordToCreate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Send Notification Email --></label>
+        <name>FSTR__Send_Notification_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>FSTR__Status__c</name>
+        <picklistValues>
+            <masterLabel>Canceled</masterLabel>
+            <translation><!-- Canceled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Queued</masterLabel>
+            <translation><!-- Queued --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Step Assignment Data --></label>
+        <name>FSTR__Step_Assignment_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Step Data --></label>
+        <name>FSTR__Step_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Step Type --></label>
+        <name>FSTR__Step_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Text Data --></label>
+        <name>FSTR__Text_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- TimeToCreate --></label>
+        <name>FSTR__TimeToCreate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>FSTR__Type__c</name>
+        <picklistValues>
+            <masterLabel>CustomObject</masterLabel>
+            <translation><!-- CustomObject --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DocumentMerge</masterLabel>
+            <translation><!-- DocumentMerge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SendGridEmail</masterLabel>
+            <translation><!-- SendGridEmail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Task</masterLabel>
+            <translation><!-- Task --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Amstat/JetNet</fullName>
+        <default>false</default>
+        <label>Amstat/JetNet</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Barron&apos;s2011(Top100 Advisors)</fullName>
+        <default>false</default>
+        <label>Barron&apos;s2011(Top100 Advisors)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Barron&apos;s2011(Top100Independent Advisors)</fullName>
+        <default>false</default>
+        <label>Barron&apos;s2011(Top100Independent Advisors)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Barron&apos;s2011(Top100 Women Advisors)</fullName>
+        <default>false</default>
+        <label>Barron&apos;s2011(Top100 Women Advisors)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Barron&apos;s2012(Top1,000 by State)</fullName>
+        <default>false</default>
+        <label>Barron&apos;s2012(Top1,000 by State)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BB</fullName>
+        <default>false</default>
+        <label>BB</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Brenda1</fullName>
+        <default>false</default>
+        <label>Brenda1</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CAAir Fractional</fullName>
+        <default>false</default>
+        <label>CAAir Fractional</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CEG Worldwide 5.5.17 (John Bowen)</fullName>
+        <default>false</default>
+        <label>CEG Worldwide 5.5.17 (John Bowen)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ER List</fullName>
+        <default>false</default>
+        <label>ER List</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Jae</fullName>
+        <default>false</default>
+        <label>Jae</label>
+    </standardValue>
+    <standardValue>
+        <fullName>JetNet 2016</fullName>
+        <default>false</default>
+        <label>JetNet 2016</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Non-Owner Referral</fullName>
+        <default>false</default>
+        <label>Non-Owner Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Owner Referral</fullName>
+        <default>false</default>
+        <label>Owner Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PC-Five</fullName>
+        <default>false</default>
+        <label>PC-Five</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PC-Four</fullName>
+        <default>false</default>
+        <label>PC-Four</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PC-ONE</fullName>
+        <default>false</default>
+        <label>PC-ONE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PC-Three</fullName>
+        <default>false</default>
+        <label>PC-Three</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PC-Two</fullName>
+        <default>false</default>
+        <label>PC-Two</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Personal Network</fullName>
+        <default>false</default>
+        <label>Personal Network</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Purchased List</fullName>
+        <default>false</default>
+        <label>Purchased List</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Research-Offline</fullName>
+        <default>false</default>
+        <label>Research-Offline</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Research-Online</fullName>
+        <default>false</default>
+        <label>Research-Online</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Research-Online List</fullName>
+        <default>false</default>
+        <label>Research-Online List</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RP List</fullName>
+        <default>false</default>
+        <label>RP List</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SOHO House</fullName>
+        <default>false</default>
+        <label>SOHO House</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Soloff Referral</fullName>
+        <default>false</default>
+        <label>Soloff Referral</label>
+    </standardValue>
+</StandardValueSet>

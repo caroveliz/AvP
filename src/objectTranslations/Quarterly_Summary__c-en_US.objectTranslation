@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Quarterly Summary</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Quarterly Summaries</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Name Text --></label>
+        <name>Account_Name_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- AvP Relationship Improvement Areas --></label>
+        <name>AvP_Relationship_Improvement_Areas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aviation Portfolio Relationship Status --></label>
+        <name>Aviation_Portfolio_Relationship_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client --></label>
+        <name>Client__c</name>
+        <relationshipLabel><!-- Quarterly Summaries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Program Key Takeaway --></label>
+        <name>Fractional_Key_Takeaway__c</name>
+    </fields>
+    <fields>
+        <label><!-- Main Areas of AvP Focus --></label>
+        <name>Main_Areas_of_AvP_Focus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Main Areas of AvP Impact to Client --></label>
+        <name>Main_Areas_of_AvP_Impact_to_Client__c</name>
+    </fields>
+    <fields>
+        <label><!-- Portfolio Optimization Opportunities --></label>
+        <name>Portfolio_Optimization_Opportunities__c</name>
+    </fields>
+    <fields>
+        <label><!-- Portfolio Optimization Successes --></label>
+        <name>Portfolio_Optimization_Successes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quarter End Date --></label>
+        <name>Quarter_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quarter --></label>
+        <name>Quarter__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Executive_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Executive Sharing</label>
+        <sharedTo>
+            <role>Executive</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Executive</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Luke_Intern</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Luke/Intern</label>
+        <sharedTo>
+            <role>Consultant</role>
+        </sharedTo>
+        <sharedFrom>
+            <group>Luke_Hatfield</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Luke_InternContact</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Luke/InternContact</label>
+        <sharedTo>
+            <group>Research_Analyst</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Luke_Hatfield</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Michael_Horowitz</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Michael Horowitz</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <sharedFrom>
+            <role>Executive</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Michael_Horowitz2</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Michael Horowitz2</label>
+        <sharedTo>
+            <role>Consultant</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Consultant</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Michael_Horowitz3</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Michael Horowitz3</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Research_Analyst_Luke_Contact</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Research Analyst/Luke Contact</label>
+        <sharedTo>
+            <group>Luke_Hatfield</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Research_Analyst</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

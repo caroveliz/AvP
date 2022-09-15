@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Risk</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Risk</value>
+    </caseValues>
+    <fields>
+        <label><!-- Average Leg Score --></label>
+        <name>Average_Leg_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Backup and Recovery Score --></label>
+        <name>Backup_and_Recovery_Score__c</name>
+    </fields>
+    <fields>
+        <help><!-- 1= No event sensitivity
+2= Yes but outside of 3 hours (dom) or 5 hours (int) of dep/arr times
+3= Yes and within 3 / 5 hours of flight times --></help>
+        <label><!-- Event Sensitivity Score --></label>
+        <name>Event_Sensitivity_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Itinerary Solution --></label>
+        <name>ItinerarySolution__c</name>
+        <relationshipLabel><!-- Risk --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Leg --></label>
+        <name>Leg__c</name>
+        <relationshipLabel><!-- Risk --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Non-Business Hours (dep/arr) --></label>
+        <name>Non_Business_Hours_dep_arr__c</name>
+        <picklistValues>
+            <masterLabel>Crew duty issues may occur at these non-standard operating hours</masterLabel>
+            <translation><!-- Crew duty issues may occur at these non-standard operating hours --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Potential conflict with airport operating hours exist</masterLabel>
+            <translation><!-- Potential conflict with airport operating hours exist --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- 1= Non Peak or High Volume Day
+2= High Volume/Demand Day
+3= Peak Day --></help>
+        <label><!-- Peak Day Score --></label>
+        <name>Peak_Day_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trip Manager --></label>
+        <name>Trip_Manager__c</name>
+        <relationshipLabel><!-- Risk --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- 1= Airport is not usually impacted by weather
+2= Airport is occasionally impacted by weather
+3= Airport is often impacted by weather --></help>
+        <label><!-- Weather Sensitivity Score --></label>
+        <name>Weather_Sensitivity_Score__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

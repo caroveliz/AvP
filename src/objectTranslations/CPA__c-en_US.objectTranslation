@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CPA</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CPAs</value>
+    </caseValues>
+    <fields>
+        <label><!-- CPA Customer Name --></label>
+        <name>CPA_Customer_Name__c</name>
+        <relationshipLabel><!-- CPAs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CPA Firm --></label>
+        <name>CPA_Firm__c</name>
+        <relationshipLabel><!-- CPA Clients --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CPA --></label>
+        <name>CPA__c</name>
+        <relationshipLabel><!-- CPA For --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary CPA --></label>
+        <name>Primary_CPA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>Start_Date__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>powerpack__Skip_Sharing_Settings__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When merging cases the current user needs to have permission to update related records and attach them to the new case. To bypass sharing rules and allow anyone to update these records when merging a case, check this box and enter the related object in the Name field (i.e. Task, Event, My_Custom_Object__c).</description>
+        <externalId>false</externalId>
+        <label>Skip Sharing Settings when Merging</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Case Merge - Related Record Options</label>
+    <visibility>Public</visibility>
+</CustomObject>

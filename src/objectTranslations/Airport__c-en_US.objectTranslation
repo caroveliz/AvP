@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Airport</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Airports</value>
+    </caseValues>
+    <fields>
+        <label><!-- Airport Name --></label>
+        <name>Airport_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- AIRPORT NOTES --></label>
+        <name>Airport_Notes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Hours of operations. --></help>
+        <label><!-- Airport Operating Hours --></label>
+        <name>Airport_Operating_Hours__c</name>
+    </fields>
+    <fields>
+        <help><!-- 3-letter city code --></help>
+        <label><!-- City Code --></label>
+        <name>City_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closest Alternate Airport 1 --></label>
+        <name>Closest_Alternate_Airport_1__c</name>
+        <relationshipLabel><!-- Airports (Closest Alternate Airport 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Closest Alternate Airport 2 --></label>
+        <name>Closest_Alternate_Airport_2__c</name>
+        <relationshipLabel><!-- Airports (Closest Alternate Airport 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Closest Alternate Airport 3 --></label>
+        <name>Closest_Alternate_Airport_3__c</name>
+        <relationshipLabel><!-- Airports (Closest Alternate Airport 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customs After Hours Available --></label>
+        <name>Customs_After_Hours_Available__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Customs Available --></label>
+        <name>Customs_Available__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Customs Hours --></label>
+        <name>Customs_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Drive time to Alternate Airport 1 (mins) --></label>
+        <name>Drive_time_to_Alternate_Airport_1_mins__c</name>
+    </fields>
+    <fields>
+        <label><!-- Drive time to Alternate Airport 2 (mins) --></label>
+        <name>Drive_time_to_Alternate_Airport_2_mins__c</name>
+    </fields>
+    <fields>
+        <label><!-- Drive time to Alternate Airport 3 (mins) --></label>
+        <name>Drive_time_to_Alternate_Airport_3_mins__c</name>
+    </fields>
+    <fields>
+        <label><!-- IATA Code --></label>
+        <name>IATA_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- NetJets HE Airport --></label>
+        <name>NetJets_HE_Airport__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Street Address --></label>
+        <name>Street_Address__c</name>
+    </fields>
+    <fields>
+        <help><!-- 1= Not typically weather sensitive
+2= Sometimes weather sensitive
+3= Often weather sensitive --></help>
+        <label><!-- Weather Sensitivity Score --></label>
+        <name>Weather_Sensitivity_Score__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ZIP Code --></label>
+        <name>ZIP_Code__c</name>
+    </fields>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please capitalize first words of the Airport Name --></errorMessage>
+        <name>Proper_Case</name>
+    </validationRules>
+</CustomObjectTranslation>

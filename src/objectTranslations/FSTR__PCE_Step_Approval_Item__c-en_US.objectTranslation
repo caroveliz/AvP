@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>FSTR__Approval_Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- This user is assigned to approve this step --></help>
+        <label><!-- Approver --></label>
+        <name>FSTR__Approver__c</name>
+        <relationshipLabel><!-- Step Approval Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Recalled Status --></label>
+        <name>FSTR__Recalled_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rejection Status --></label>
+        <name>FSTR__Rejection_Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- This step is associated with the approval --></help>
+        <label><!-- Step --></label>
+        <name>FSTR__Step__c</name>
+        <relationshipLabel><!-- Step Approval Items --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

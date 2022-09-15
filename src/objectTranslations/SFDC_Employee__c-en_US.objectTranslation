@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Employee</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Employees</value>
+    </caseValues>
+    <fields>
+        <label><!-- Additional Education --></label>
+        <name>Additional_Education__c</name>
+    </fields>
+    <fields>
+        <label><!-- BU Description --></label>
+        <name>BU_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bonus (Potential) --></label>
+        <name>Bonus_Potential__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Unit --></label>
+        <name>Business_Unit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call Center # --></label>
+        <name>Call_Center__c</name>
+    </fields>
+    <fields>
+        <label><!-- Corp Photo --></label>
+        <name>Corp_Photo__c</name>
+    </fields>
+    <fields>
+        <label><!-- DOB --></label>
+        <name>DOB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Employed --></label>
+        <name>Days_Employed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dental Benefits --></label>
+        <name>Dental_Benefits__c</name>
+    </fields>
+    <fields>
+        <label><!-- Desk Terminal --></label>
+        <name>Desk_Terminal__c</name>
+    </fields>
+    <fields>
+        <label><!-- EMERGENCY CONTACT --></label>
+        <name>EMERGENCY_CONTACT__c</name>
+    </fields>
+    <fields>
+        <label><!-- EMP ID --></label>
+        <name>EMP_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Degrees --></label>
+        <name>Education__c</name>
+        <picklistValues>
+            <masterLabel>AA</masterLabel>
+            <translation><!-- AA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BA</masterLabel>
+            <translation><!-- BA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BS</masterLabel>
+            <translation><!-- BS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HS</masterLabel>
+            <translation><!-- HS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MBA</masterLabel>
+            <translation><!-- MBA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD</masterLabel>
+            <translation><!-- MD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MFT</masterLabel>
+            <translation><!-- MFT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PhD</masterLabel>
+            <translation><!-- PhD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Email Address --></label>
+        <name>Email_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Emergency Contact Phone --></label>
+        <name>Emergency_Contact_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Emergency Contact Relationship --></label>
+        <name>Emergency_Contact_Relationship__c</name>
+        <picklistValues>
+            <masterLabel>Child</masterLabel>
+            <translation><!-- Child --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parent</masterLabel>
+            <translation><!-- Parent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Significant Other</masterLabel>
+            <translation><!-- Significant Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Employee Fax --></label>
+        <name>Employee_Fax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee ID --></label>
+        <name>Employee_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee Status --></label>
+        <name>Employee_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LOA</masterLabel>
+            <translation><!-- LOA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Terminated</masterLabel>
+            <translation><!-- Terminated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Employee Type --></label>
+        <name>Employee_Type__c</name>
+        <picklistValues>
+            <masterLabel>Contract</masterLabel>
+            <translation><!-- Contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Full Time</masterLabel>
+            <translation><!-- Full Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Part Time</masterLabel>
+            <translation><!-- Part Time --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Ethnicity --></label>
+        <name>Ethnicity__c</name>
+        <picklistValues>
+            <masterLabel>Afican-American</masterLabel>
+            <translation><!-- Afican-American --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asian</masterLabel>
+            <translation><!-- Asian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caucasion</masterLabel>
+            <translation><!-- Caucasion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indian</masterLabel>
+            <translation><!-- Indian --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Field Location --></label>
+        <name>Field_Location__c</name>
+        <picklistValues>
+            <masterLabel>Chicago</masterLabel>
+            <translation><!-- Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Los Angeles</masterLabel>
+            <translation><!-- Los Angeles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New York</masterLabel>
+            <translation><!-- New York --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Francisco</masterLabel>
+            <translation><!-- San Francisco --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Former Employer 1 --></label>
+        <name>Former_Employer_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Former Employer 3 --></label>
+        <name>Former_Employer_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Former Employer 2 --></label>
+        <name>Former_Employer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gender --></label>
+        <name>Gender__c</name>
+        <picklistValues>
+            <masterLabel>Female</masterLabel>
+            <translation><!-- Female --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Male</masterLabel>
+            <translation><!-- Male --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Group # --></label>
+        <name>Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gym Member --></label>
+        <name>Gym_Member__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hire Date --></label>
+        <name>Hire_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Home Address --></label>
+        <name>Home_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Home Email --></label>
+        <name>Home_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsAssistant --></label>
+        <name>IsAssistant__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- JPG --></label>
+        <name>JPG__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Function --></label>
+        <name>Job_Function__c</name>
+        <relationshipLabel><!-- Employees --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Last Review Date --></label>
+        <name>Last_Review_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>Location__c</name>
+        <picklistValues>
+            <masterLabel>Headquarters</masterLabel>
+            <translation><!-- Headquarters --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remote</masterLabel>
+            <translation><!-- Remote --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Mail Drop --></label>
+        <name>Mail_Drop__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marital Status --></label>
+        <name>Marital_Status__c</name>
+        <picklistValues>
+            <masterLabel>Married</masterLabel>
+            <translation><!-- Married --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single</masterLabel>
+            <translation><!-- Single --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Med Type --></label>
+        <name>Med_Type__c</name>
+        <picklistValues>
+            <masterLabel>HMO</masterLabel>
+            <translation><!-- HMO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PPO</masterLabel>
+            <translation><!-- PPO --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Medical Benefits --></label>
+        <name>Medical_Benefits__c</name>
+    </fields>
+    <fields>
+        <label><!-- Org Unit --></label>
+        <name>Org_Unit__c</name>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation><!-- Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Human Resources</masterLabel>
+            <translation><!-- Human Resources --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operations</masterLabel>
+            <translation><!-- Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Development</masterLabel>
+            <translation><!-- Product Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation><!-- Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services</masterLabel>
+            <translation><!-- Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support</masterLabel>
+            <translation><!-- Support --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Phone Number --></label>
+        <name>Phone_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Position Date --></label>
+        <name>Position_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Position ID --></label>
+        <name>Position_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- SF User --></label>
+        <name>SF_User__c</name>
+        <relationshipLabel><!-- Employees --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Salary --></label>
+        <name>Salary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Section Sup --></label>
+        <name>Section_Sup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Security ID --></label>
+        <name>Security_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Skills --></label>
+        <name>Special_Skills__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stock Options --></label>
+        <name>Stock_Options__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stock Value (Day 1) --></label>
+        <name>Stock_Value_Day_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supervisor Emp ID --></label>
+        <name>Supervisor_Emp_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supervisor Name (Full) --></label>
+        <name>Supervisor_Name_Full__c</name>
+    </fields>
+    <fields>
+        <label><!-- Termination Date --></label>
+        <name>Termination_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Stock Value --></label>
+        <name>Total_Stock_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit --></label>
+        <name>Unit__c</name>
+    </fields>
+    <fields>
+        <label><!-- User ID --></label>
+        <name>User_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vacation Days --></label>
+        <name>Vacation_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- 401K --></label>
+        <name>X401K__c</name>
+    </fields>
+    <fields>
+        <label><!-- Yahoo IM --></label>
+        <name>Yahoo_IM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Yearly Comp --></label>
+        <name>Yearly_Comp__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

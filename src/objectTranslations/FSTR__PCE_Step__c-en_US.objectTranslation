@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- If a task is approved, the task is set to the selected status. --></help>
+        <label><!-- Approval Status --></label>
+        <name>FSTR__Approval_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Step --></label>
+        <name>FSTR__Approval_Step__c</name>
+    </fields>
+    <fields>
+        <help><!-- Choose whether this step is assigned to a specific user or a role based on client team. --></help>
+        <label><!-- Assignee Type --></label>
+        <name>FSTR__Assignee_Type__c</name>
+        <picklistValues>
+            <masterLabel>Executing User</masterLabel>
+            <translation><!-- Executing User --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parent Event Assignee</masterLabel>
+            <translation><!-- Parent Event Assignee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parent Object Owner</masterLabel>
+            <translation><!-- Parent Object Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Process Team Role</masterLabel>
+            <translation><!-- Process Team Role --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Queue</masterLabel>
+            <translation><!-- Queue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Related Account Owner</masterLabel>
+            <translation><!-- Related Account Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Account Team Role</masterLabel>
+            <translation><!-- Salesforce Account Team Role --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Team Member Role</masterLabel>
+            <translation><!-- Team Member Role --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User</masterLabel>
+            <translation><!-- User --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Field</masterLabel>
+            <translation><!-- User Field --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- A specific user that this step should be assigned to --></help>
+        <label><!-- Assignee --></label>
+        <name>FSTR__Assignee__c</name>
+        <relationshipLabel><!-- Steps (Assignee) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Chatter Notification Message --></label>
+        <name>FSTR__Chatter_Notification_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Chatter Notification --></label>
+        <name>FSTR__Chatter_Notification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checklist --></label>
+        <name>FSTR__Checklist__c</name>
+    </fields>
+    <fields>
+        <label><!-- Classification --></label>
+        <name>FSTR__Classification__c</name>
+        <picklistValues>
+            <masterLabel>External</masterLabel>
+            <translation><!-- External --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal</masterLabel>
+            <translation><!-- Internal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sort Order --></label>
+        <name>FSTR__Clause_Bundle_Sort_Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Collaborate Solution --></label>
+        <name>FSTR__Collaborate_Solution__c</name>
+    </fields>
+    <fields>
+        <help><!-- When a checklist is complete, it will set the status of the step to this value. --></help>
+        <label><!-- Complete With Status --></label>
+        <name>FSTR__Complete_With_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Composer Email Template Id --></label>
+        <name>FSTR__Composer_Email_Template_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Composer Email Template Name --></label>
+        <name>FSTR__Composer_Email_Template_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Composer Solution Name --></label>
+        <name>FSTR__Composer_Solution_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Composer Solution --></label>
+        <name>FSTR__Composer_Solution__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field will tell the system to copy the subject field from the parent process object to the subject/name of this step. --></help>
+        <label><!-- Copy Subject From Parent Process Object --></label>
+        <name>FSTR__Copy_Subject_From_Parent_Process_Object__c</name>
+    </fields>
+    <fields>
+        <help><!-- Allows duplicate steps by default anytime reevaluation criteria is met. If checked, will only ever create one step no matter how many times the reevaluation criteria is met. --></help>
+        <label><!-- Create On First Match Only --></label>
+        <name>FSTR__Create_On_First_Match_Only__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field has been superseded by the Create If Parent Field. --></help>
+        <label><!-- Create if Parent Canceled --></label>
+        <name>FSTR__Create_if_Parent_Canceled__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field has been superseded by the Create If Parent Field. --></help>
+        <label><!-- Create if Parent Completed --></label>
+        <name>FSTR__Create_if_Parent_Completed__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field indicates the status(es) that will permit creation of this Step.  The Parent Step status must be set to one of these values for this step to create. --></help>
+        <label><!-- Create if Parent --></label>
+        <name>FSTR__Create_if_Parent__c</name>
+    </fields>
+    <fields>
+        <help><!-- The step will be created with the status value set in this field. --></help>
+        <label><!-- Create with Status --></label>
+        <name>FSTR__Create_with_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cumulative Date Adjustment --></label>
+        <name>FSTR__Cumulative_Date_Adjustment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Optional. Choose to default to this User when one is not found using the configured Assignee Type. If this field is not set, Conga Orchestrate will default to the Process Object owner. --></help>
+        <label><!-- Contingent Assignee --></label>
+        <name>FSTR__Default_Assignee_User__c</name>
+        <relationshipLabel><!-- Steps (Contingent Assignee) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This is the Business Process that this step belongs to. --></help>
+        <label><!-- Definition --></label>
+        <name>FSTR__Definition__c</name>
+        <relationshipLabel><!-- Steps (Definition) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The date selected in this field will be used to calculate the delayed creation of this step. --></help>
+        <label><!-- Delay Creation Base Date --></label>
+        <name>FSTR__Delay_Creation_Base_Date__c</name>
+        <picklistValues>
+            <masterLabel>Current Date</masterLabel>
+            <translation><!-- Current Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Date Field</masterLabel>
+            <translation><!-- Date Field --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parent Event</masterLabel>
+            <translation><!-- Parent Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parent Object</masterLabel>
+            <translation><!-- Parent Object --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This number can be negative or positive. It will be added or subtracted from the date specified in the Delay Creation Base Date field. --></help>
+        <label><!-- Delay Creation Date Adjustment --></label>
+        <name>FSTR__Delay_Creation_Date_Adjustment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delay Creation Date Field Name --></label>
+        <name>FSTR__Delay_Creation_Date_Field_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delay Creation Date Field --></label>
+        <name>FSTR__Delay_Creation_Date_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delay Creation Time --></label>
+        <name>FSTR__Delay_Creation_Time__c</name>
+        <picklistValues>
+            <masterLabel>10:00 AM</masterLabel>
+            <translation><!-- 10:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10:00 PM</masterLabel>
+            <translation><!-- 10:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11:00 AM</masterLabel>
+            <translation><!-- 11:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11:00 PM</masterLabel>
+            <translation><!-- 11:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12:00 AM</masterLabel>
+            <translation><!-- 12:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12:00 PM</masterLabel>
+            <translation><!-- 12:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1:00 AM</masterLabel>
+            <translation><!-- 1:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1:00 PM</masterLabel>
+            <translation><!-- 1:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2:00 AM</masterLabel>
+            <translation><!-- 2:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2:00 PM</masterLabel>
+            <translation><!-- 2:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3:00 AM</masterLabel>
+            <translation><!-- 3:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3:00 PM</masterLabel>
+            <translation><!-- 3:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4:00 AM</masterLabel>
+            <translation><!-- 4:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4:00 PM</masterLabel>
+            <translation><!-- 4:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5:00 AM</masterLabel>
+            <translation><!-- 5:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5:00 PM</masterLabel>
+            <translation><!-- 5:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6:00 AM</masterLabel>
+            <translation><!-- 6:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6:00 PM</masterLabel>
+            <translation><!-- 6:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7:00 AM</masterLabel>
+            <translation><!-- 7:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7:00 PM</masterLabel>
+            <translation><!-- 7:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8:00 AM</masterLabel>
+            <translation><!-- 8:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8:00 PM</masterLabel>
+            <translation><!-- 8:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9:00 AM</masterLabel>
+            <translation><!-- 9:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9:00 PM</masterLabel>
+            <translation><!-- 9:00 PM --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If checked, Conga Orchestrate will delay creating this step until the day specified by the Send Date Adjustment. --></help>
+        <label><!-- Delay Creation --></label>
+        <name>FSTR__Delay_Creation__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the text of the step.  When the step is generated these are the instructions to the user that are inserted in the step object. --></help>
+        <label><!-- Description --></label>
+        <name>FSTR__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- If this step has already been Closed do not reopen it if the Due Date Adjustment Base Date is modified. --></help>
+        <label><!-- Do Not Reopen --></label>
+        <name>FSTR__Do_Not_Reopen__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this box to set this step as a Document Merge step --></help>
+        <label><!-- Document Merge --></label>
+        <name>FSTR__Document_Merge__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date selected in this field will be used to calculate the due date of this step. --></help>
+        <label><!-- Due Date Adjustment Base Date --></label>
+        <name>FSTR__Due_Date_Adjustment_Base_Date__c</name>
+        <picklistValues>
+            <masterLabel>Current Date</masterLabel>
+            <translation><!-- Current Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Date Field</masterLabel>
+            <translation><!-- Date Field --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parent Event</masterLabel>
+            <translation><!-- Parent Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parent Object</masterLabel>
+            <translation><!-- Parent Object --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Due Date Adjustment Date Field Name --></label>
+        <name>FSTR__Due_Date_Adjustment_Date_Field_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Designates the field that due dates will be based off of --></help>
+        <label><!-- Due Date Adjustment Date Field --></label>
+        <name>FSTR__Due_Date_Adjustment_Date_Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- This number can be negative or positive.  It will be added or subtracted from the date specified in the Due Date Adjustment Base Date field. --></help>
+        <label><!-- Due Date Adjustment --></label>
+        <name>FSTR__Due_Date_Adjustment__c</name>
+    </fields>
+    <fields>
+        <help><!-- List of additional Email To Addresses separated by semi colons (;). --></help>
+        <label><!-- Email Additional To --></label>
+        <name>FSTR__Email_Additional_To__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this box if this step will send an email alert. --></help>
+        <label><!-- Email Alert --></label>
+        <name>FSTR__Email_Alert__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email BCC --></label>
+        <name>FSTR__Email_BCC__c</name>
+    </fields>
+    <fields>
+        <help><!-- Email Address this email alert will be sent from. --></help>
+        <label><!-- Email From Name --></label>
+        <name>FSTR__Email_From_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Id of the from email, this is either a user id or a org wide email address id. --></help>
+        <label><!-- Email From (Sender) --></label>
+        <name>FSTR__Email_From__c</name>
+    </fields>
+    <fields>
+        <help><!-- Id of the email template to be used. --></help>
+        <label><!-- Email Template Id --></label>
+        <name>FSTR__Email_Template_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of the template the email alert will use. --></help>
+        <label><!-- Email Template Name --></label>
+        <name>FSTR__Email_Template_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field dictates how merge fields are populated on the email template. If the template has User merge fields select User and if the email template has Contact, Account or process object merge fields select Contact. --></help>
+        <label><!-- Email Template Merge Field Source --></label>
+        <name>FSTR__Email_To_Target__c</name>
+        <picklistValues>
+            <masterLabel>Contact</masterLabel>
+            <translation><!-- Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User</masterLabel>
+            <translation><!-- User --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Field to Store all of the selected Email To Address Options. --></help>
+        <label><!-- Email To --></label>
+        <name>FSTR__Email_To__c</name>
+    </fields>
+    <fields>
+        <help><!-- If this box is checked then this step is a placeholder for an event. This is used to manage steps related to event occurences. --></help>
+        <label><!-- Event Placeholder --></label>
+        <name>FSTR__Event_Placeholder__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is a placeholder for the event sub types that the event placeholder is for.  This field is populated from a multi-select list on the edit page. --></help>
+        <label><!-- Event Sub Type --></label>
+        <name>FSTR__Event_Sub_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- This Step is a Field Update --></help>
+        <label><!-- Field Update --></label>
+        <name>FSTR__Field_Update__c</name>
+    </fields>
+    <fields>
+        <help><!-- When using Step field validations, present users with this message. --></help>
+        <label><!-- Validation Rule Message --></label>
+        <name>FSTR__Field_Validation_Message__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this box and an email will be generated notifying the assignee when this step is created. --></help>
+        <label><!-- Generate Email Notification --></label>
+        <name>FSTR__Generate_Email_Notification__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this box if you would like the assignee of this step to have a SMS (text) message sent to their mobile number.  This will only work if their mobile number is specified in their user record and Twilio information is defined in your custom settings. --></help>
+        <label><!-- Generate SMS Notification --></label>
+        <name>FSTR__Generate_SMS_Notification__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates if this step should generate a step in the system.  This is used with the Web Service Callout functionality.  If it is checked a step will be generated along with the callout.  If unchecked only the callout will happen. --></help>
+        <label><!-- Generate Step --></label>
+        <name>FSTR__Generate_Step__c</name>
+    </fields>
+    <fields>
+        <label><!-- Go Back To Stage --></label>
+        <name>FSTR__Go_Back_To_Stage__c</name>
+        <relationshipLabel><!-- Steps (Go Back To Stage) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Go Back To Step --></label>
+        <name>FSTR__Go_Back_To_Step__c</name>
+        <relationshipLabel><!-- Steps (Go Back To Step) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Ignore this step when determining whether Stage child steps should be created. Only applies if this Step is part of a Stage and it has field dependencies. See documentation. --></help>
+        <label><!-- Ignore In Stage Completion --></label>
+        <name>FSTR__Ignore_In_Stage_Completion__c</name>
+    </fields>
+    <fields>
+        <help><!-- When a checklist has been started, the related step object&apos;s status will change to the selected status. --></help>
+        <label><!-- In Progress Status --></label>
+        <name>FSTR__In_Progress_Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- When this is checked, the Step will not be evaluated during execution of a definition. --></help>
+        <label><!-- Is Deactivated --></label>
+        <name>FSTR__Is_Deactivated__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select whether steps created can be deleted. --></help>
+        <label><!-- Deletable --></label>
+        <name>FSTR__Is_Deletable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merge Button Id --></label>
+        <name>FSTR__Merge_Button_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merge Button Name --></label>
+        <name>FSTR__Merge_Button_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merge Product Name --></label>
+        <name>FSTR__Merge_Product_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merge Product --></label>
+        <name>FSTR__Merge_Product__c</name>
+    </fields>
+    <fields>
+        <help><!-- Choose a field that will be used as the prefix for the generated file name.  The resulting file name will be in the form &quot;Value from selected field - Step name&quot;.  If nothing is chosen it  will default to have the form &quot;Process name - Step Name. --></help>
+        <label><!-- Merge Result File Name Prefix --></label>
+        <name>FSTR__Merge_Result_File_Name_Prefix__c</name>
+    </fields>
+    <fields>
+        <help><!-- If E-Signature is enabled for the selected template, you may submit for e-signature by selecting this box. --></help>
+        <label><!-- Submit For E-Signature --></label>
+        <name>FSTR__Merge_Submit_ESign__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merge Template Id --></label>
+        <name>FSTR__Merge_Template_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merge Template Name --></label>
+        <name>FSTR__Merge_Template_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Checklist Items --></label>
+        <name>FSTR__Number_of_Checklist_Items__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Dependent Fields --></label>
+        <name>FSTR__Number_of_Dependent_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Validation Rules --></label>
+        <name>FSTR__Number_of_Field_Validations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Loop Back Criteria --></label>
+        <name>FSTR__Number_of_Loop_Back_Criteria__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Record Updates --></label>
+        <name>FSTR__Number_of_Record_Updates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Reevaluation Criteria --></label>
+        <name>FSTR__Number_of_Reevaluation_Criteria__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obj Data 1 --></label>
+        <name>FSTR__Obj_Data_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obj Data 2 --></label>
+        <name>FSTR__Obj_Data_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Record Type To Create Name --></label>
+        <name>FSTR__Object_Record_Type_To_Create_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field stores the record type to create of the object to create object.  Ignored if this step is an event placeholder. --></help>
+        <label><!-- Object Record Type To Create --></label>
+        <name>FSTR__Object_Record_Type_To_Create__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Type To Create Name --></label>
+        <name>FSTR__Object_Type_To_Create_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- This holds the name of the object type to create for this step. Custom objects with status, description, and due date fields are allowed.  In addition, the Task object is allowed.  Ignored if this step is an event placeholder. --></help>
+        <label><!-- Object Type To Create --></label>
+        <name>FSTR__Object_Type_To_Create__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this box to have the Document Merge output the results as a PDF --></help>
+        <label><!-- Output to PDF --></label>
+        <name>FSTR__Output_to_PDF__c</name>
+    </fields>
+    <fields>
+        <help><!-- this is only used for non full version steps that kick off a process as a step --></help>
+        <label><!-- Definition to Execute --></label>
+        <name>FSTR__PCE_Definition_to_Execute__c</name>
+        <relationshipLabel><!-- Steps (Definition to Execute) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Parent Object ID --></label>
+        <name>FSTR__Parent_Object_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Object Lookup Field --></label>
+        <name>FSTR__Parent_Object_Lookup_Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field indicates what stage is a parent to this step.  If a step has a parent stage, all of the steps in the parent stage must be completed before this step is created. --></help>
+        <label><!-- Parent Stage --></label>
+        <lookupFilter>
+            <errorMessage><!-- Invalid Parent Stage: Parent Stage must belong to the same definition as this step and not be the same as this Step&apos;s Stage. --></errorMessage>
+            <informationalMessage><!-- Parent Stage must belong to the same definition as this step and not be the same as this Step&apos;s Stage. --></informationalMessage>
+        </lookupFilter>
+        <name>FSTR__Parent_Stage__c</name>
+        <relationshipLabel><!-- Steps (Parent Stage) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Parent Step --></label>
+        <lookupFilter>
+            <errorMessage><!-- Invalid Parent Step: Step Type of Parent Step does not allow child Steps, the Parent Step is not a part of this Definition, or the Parent Step cannot be the same as the current Step. --></errorMessage>
+            <informationalMessage><!-- Parent Step must be from the same definition, Parent Step cannot be the current Step, and Parent Step cannot be the following types: Update Records, Generate Document, Send Email, Post to Chatter, or Clause Bundle. --></informationalMessage>
+        </lookupFilter>
+        <name>FSTR__Parent_Step__c</name>
+        <relationshipLabel><!-- Steps (Parent Step) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- When the callout is performed; i.e. on Create, Update, and/or Close of the Step object. --></help>
+        <label><!-- Perform Callout On --></label>
+        <name>FSTR__Perform_Callout_On__c</name>
+        <picklistValues>
+            <masterLabel>Close</masterLabel>
+            <translation><!-- Close --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Create</masterLabel>
+            <translation><!-- Create --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update</masterLabel>
+            <translation><!-- Update --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Platform Event Object --></label>
+        <name>FSTR__Platform_Event_Object__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the queue that an object will be assigned to if assignee type is set to queue. --></help>
+        <label><!-- Queue --></label>
+        <name>FSTR__Queue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reassignment Count --></label>
+        <name>FSTR__Reassignment_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recalled Status --></label>
+        <name>FSTR__Recalled_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reevaluate When --></label>
+        <name>FSTR__Reevaluate_When__c</name>
+        <picklistValues>
+            <masterLabel>--None--</masterLabel>
+            <translation><!-- - - None- -  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event</masterLabel>
+            <translation><!-- Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Process Object Changes</masterLabel>
+            <translation><!-- Process Object Changes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Rejection Action --></label>
+        <name>FSTR__Rejection_Action__c</name>
+        <picklistValues>
+            <masterLabel>Continue</masterLabel>
+            <translation><!-- Continue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Go Back</masterLabel>
+            <translation><!-- Go Back --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stop Process</masterLabel>
+            <translation><!-- Stop Process --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If a task is rejected, the task is set to the selected status. --></help>
+        <label><!-- Rejection Status --></label>
+        <name>FSTR__Rejection_Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field indicates the role that this step is assigned to.  When a process is executed and the step assignee type is role this field determines which role this step is assigned to. --></help>
+        <label><!-- Role --></label>
+        <name>FSTR__Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- SendGrid Email Sender --></label>
+        <name>FSTR__SendGridEmailSender__c</name>
+    </fields>
+    <fields>
+        <label><!-- SendGrid Email Template --></label>
+        <name>FSTR__SendGridEmailTemplateId__c</name>
+    </fields>
+    <fields>
+        <label><!-- SendGrid Email Template Name --></label>
+        <name>FSTR__SendGridEmailTemplateName__c</name>
+    </fields>
+    <fields>
+        <help><!-- If this box is checked the Step will not be created if the calculated due date results in a date earlier than the current day. --></help>
+        <label><!-- Skip if Past Due --></label>
+        <name>FSTR__Skip_if_Past_Due__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field indicates if a step is part of a step stage or not. --></help>
+        <label><!-- Stage --></label>
+        <lookupFilter>
+            <errorMessage><!-- Invalid Stage: Stage must belong to the same definition as this Step and not be the same as this Step&apos;s Parent Stage. --></errorMessage>
+            <informationalMessage><!-- Stage must belong to the same definition as this Step and not be the same as this Step&apos;s Parent Stage. --></informationalMessage>
+        </lookupFilter>
+        <name>FSTR__Stage__c</name>
+        <relationshipLabel><!-- Steps (Stage) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status Managed By --></label>
+        <name>FSTR__Status_Managed_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Step Creation Custom Criteria --></label>
+        <name>FSTR__Step_Creation_Custom_Criteria__c</name>
+    </fields>
+    <fields>
+        <label><!-- Step Type --></label>
+        <name>FSTR__Step_Type__c</name>
+        <picklistValues>
+            <masterLabel>Clause Bundle</masterLabel>
+            <translation><!-- Clause Bundle --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This field will override the Ignore in Stage Completion checkbox on child steps if a set in a parent step.  If the Step is set to one of the Status values selected here the process will stop even if the Ignore box is checked on all steps within a stage. --></help>
+        <label><!-- Stop Process if Status Set To --></label>
+        <name>FSTR__Stop_Process_if_Status_Set_To__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscribe Platform Event Object --></label>
+        <name>FSTR__Subscribe_Platform_Event_Object__c</name>
+    </fields>
+    <fields>
+        <help><!-- Field holds the step text if the object to be created is a task. --></help>
+        <label><!-- Task Comment --></label>
+        <name>FSTR__Task_Comment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select a user field from this list and the generated step will be assigned to whatever user is specified in the selected field. --></help>
+        <label><!-- User Field Name --></label>
+        <name>FSTR__User_Field_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select a user field from this list and the generated step will be assigned to whatever user is specified in the selected field. --></help>
+        <label><!-- User Field --></label>
+        <name>FSTR__User_Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- This stores the body of the HTTP request. If including a Body in the request, a Content-Type header should be specified above (i.e. Content-Type:text/json).  The format of body text should match that specified in the header (JSON,XML,etc.). --></help>
+        <label><!-- Web Service Callout Body --></label>
+        <name>FSTR__Web_Service_Callout_Body__c</name>
+    </fields>
+    <fields>
+        <help><!-- If using the Body field, specify at a minimum the Content-Type of the Body (JSON,XML,etc.) 
+
+Format: &apos;HeaderName:HeaderValue&apos; Example - for JSON requests: &apos;Content-Type:text/json&apos;
+
+Separate multiple headers with a semi-colon. --></help>
+        <label><!-- Web Service Callout Headers --></label>
+        <name>FSTR__Web_Service_Callout_Headers__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specifies the HTTP verb to use for this callout.  If blank, the callout method defaults to &apos;GET&apos; --></help>
+        <label><!-- Web Service Callout Method --></label>
+        <name>FSTR__Web_Service_Callout_Method__c</name>
+        <picklistValues>
+            <masterLabel>DELETE</masterLabel>
+            <translation><!-- DELETE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GET</masterLabel>
+            <translation><!-- GET --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HEAD</masterLabel>
+            <translation><!-- HEAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POST</masterLabel>
+            <translation><!-- POST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PUT</masterLabel>
+            <translation><!-- PUT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRACE</masterLabel>
+            <translation><!-- TRACE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This stores the actual Web Service Callout URL and any query parameters passed to the service. --></help>
+        <label><!-- Web Service Callout URL --></label>
+        <name>FSTR__Web_Service_Callout_URL__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates if this steps calls out to a web service --></help>
+        <label><!-- Web Service Callout --></label>
+        <name>FSTR__Web_Service_Callout__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- If Assignee Type is User then Assignee cannot be blank. --></errorMessage>
+        <name>FSTR__assignee_must_be_populated</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Steps cannot have a parent step and parent step stage, they must have one or the other. --></errorMessage>
+        <name>FSTR__can_only_have_one_parent</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Assignee Type is Queue then Object Type to create cannot be Task. --></errorMessage>
+        <name>FSTR__task_cant_be_queue</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- New_Child_Step --></label>
+        <name>FSTR__New_Child_Step</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Stage_Child_Step --></label>
+        <name>FSTR__New_Stage_Child_Step</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Stage_Step --></label>
+        <name>FSTR__New_Stage_Step</name>
+    </webLinks>
+</CustomObjectTranslation>

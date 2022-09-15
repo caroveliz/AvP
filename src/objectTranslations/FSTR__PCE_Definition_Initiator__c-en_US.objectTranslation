@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- This field determines who the generated object should be assigned to. --></help>
+        <label><!-- Assign Process Object By --></label>
+        <name>FSTR__Assign_Process_Object_By__c</name>
+        <picklistValues>
+            <masterLabel>Executing User</masterLabel>
+            <translation><!-- Executing User --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monitored Object Owner</masterLabel>
+            <translation><!-- Monitored Object Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Process Team Role</masterLabel>
+            <translation><!-- Process Team Role --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Queue</masterLabel>
+            <translation><!-- Queue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Role</masterLabel>
+            <translation><!-- Role --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Account Team Role</masterLabel>
+            <translation><!-- Salesforce Account Team Role --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User</masterLabel>
+            <translation><!-- User --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>FSTR__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Numbers of days after the process is kicked off that it will be due.  This only applies for Definitions attached to  the Business Process and Custom objects. --></help>
+        <label><!-- Due Date Adjustment --></label>
+        <name>FSTR__Due_Date_Adjustment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initiation Criteria --></label>
+        <name>FSTR__Initiation_Criteria__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>FSTR__IsActive__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the object to be monitored. --></help>
+        <label><!-- Monitored Object --></label>
+        <name>FSTR__Monitored_Object__c</name>
+        <picklistValues>
+            <masterLabel>account</masterLabel>
+            <translation><!-- account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>contact</masterLabel>
+            <translation><!-- contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>event</masterLabel>
+            <translation><!-- event --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select the operations that will initiate the associated Definition --></help>
+        <label><!-- Monitored Operation(s) --></label>
+        <name>FSTR__Monitored_Operations__c</name>
+        <picklistValues>
+            <masterLabel>Insert</masterLabel>
+            <translation><!-- Insert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Record Matches Criteria - Button Click</masterLabel>
+            <translation><!-- Record Matches Criteria - Button Click --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Record Matches Criteria - Daily Check</masterLabel>
+            <translation><!-- Record Matches Criteria - Daily Check --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update</masterLabel>
+            <translation><!-- Update --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Number of Initiator Criteria --></label>
+        <name>FSTR__Number_of_Initiator_Criteria__c</name>
+    </fields>
+    <fields>
+        <help><!-- data of stored object --></help>
+        <label><!-- Obj Data 1 --></label>
+        <name>FSTR__Obj_Data_1__c</name>
+    </fields>
+    <fields>
+        <help><!-- extended object data stored --></help>
+        <label><!-- Obj Data 2 --></label>
+        <name>FSTR__Obj_Data_2__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the definition that will execute when the rules defined in this object are true. --></help>
+        <label><!-- Definition to Initiate --></label>
+        <name>FSTR__PCE_Definition__c</name>
+        <relationshipLabel><!-- Definition Initiators --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- If the Assign Process Object By field is set to Queue this is the field that indicates the queue. --></help>
+        <label><!-- Process Object Owner Queue --></label>
+        <name>FSTR__Process_Object_Owner_Queue__c</name>
+    </fields>
+    <fields>
+        <help><!-- If the Assign Process Object By field is set to Role this is the field that indicates the role. --></help>
+        <label><!-- Process Object Owner Role --></label>
+        <name>FSTR__Process_Object_Owner_Role__c</name>
+    </fields>
+    <fields>
+        <help><!-- If the Assign Process Object By field is set to User this is the field that indicates that user. --></help>
+        <label><!-- Process Object Owner User --></label>
+        <name>FSTR__Process_Object_Owner_User__c</name>
+        <relationshipLabel><!-- Definition Initiators --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

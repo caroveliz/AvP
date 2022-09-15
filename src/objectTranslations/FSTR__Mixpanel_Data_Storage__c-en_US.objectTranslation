@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- DefinitionData --></label>
+        <name>FSTR__DefinitionData__c</name>
+    </fields>
+    <fields>
+        <label><!-- Definition Object Types --></label>
+        <name>FSTR__DefinitionObjectTypes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distinct Users (Past 30 Days) --></label>
+        <name>FSTR__DistinctUsers30__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distinct Users (Past 90 Days) --></label>
+        <name>FSTR__DistinctUsers90__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distinct Users --></label>
+        <name>FSTR__DistinctUsers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initiator Object Types --></label>
+        <name>FSTR__InitiatorObjectTypes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Major Version --></label>
+        <name>FSTR__MajorVersion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Minor Version --></label>
+        <name>FSTR__MinorVersion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patch --></label>
+        <name>FSTR__Patch__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Approval Steps --></label>
+        <name>FSTR__TotalApprovalSteps__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Checklist Items --></label>
+        <name>FSTR__TotalChecklistItems__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Checklists --></label>
+        <name>FSTR__TotalChecklists__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Definitions --></label>
+        <name>FSTR__TotalDefinitions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Delayed Steps --></label>
+        <name>FSTR__TotalDelayedSteps__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Dependencies --></label>
+        <name>FSTR__TotalDependencies__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Document Generation --></label>
+        <name>FSTR__TotalDocumentGeneration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Email Alerts --></label>
+        <name>FSTR__TotalEmailAlerts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Event Placeholders --></label>
+        <name>FSTR__TotalEventPlaceholders__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Field Update Steps --></label>
+        <name>FSTR__TotalFieldUpdateSteps__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Field Updates --></label>
+        <name>FSTR__TotalFieldUpdates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Initiator Criteria --></label>
+        <name>FSTR__TotalInitiatorCriteria__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Initiators --></label>
+        <name>FSTR__TotalInitiators__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Loopback Steps --></label>
+        <name>FSTR__TotalLoopBackSteps__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total PCE Steps --></label>
+        <name>FSTR__TotalPCESteps__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Steps --></label>
+        <name>FSTR__TotalSteps__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Tasks (Past 90 Days) --></label>
+        <name>FSTR__TotalTasks90__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Tasks --></label>
+        <name>FSTR__TotalTasks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Validations --></label>
+        <name>FSTR__TotalValidations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Webservice Callouts --></label>
+        <name>FSTR__TotalWebserviceCallouts__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Count --></label>
+        <name>FSTR__UserCount__c</name>
+    </fields>
+</CustomObjectTranslation>

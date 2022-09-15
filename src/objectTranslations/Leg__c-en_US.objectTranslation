@@ -1,0 +1,2970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Transaction</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Transactions</value>
+    </caseValues>
+    <fields>
+        <label><!-- AP to Challenge Vendor --></label>
+        <name>AP_to_Challenge_Vendor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Name Formula --></label>
+        <name>Account_Name_Formula__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is a red sky formula field that controls sharing permissions for communities --></help>
+        <label><!-- Account Name Text --></label>
+        <name>Account_Name_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+        <relationshipLabel><!-- Transactions (Account Name) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Actual Billed Flight Time Pre-Exchange R --></label>
+        <name>Actual_Flight_Time_Interchange_Ratio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actual Flight Time (hours) --></label>
+        <name>Actual_Flight_Time_hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional QC Notes --></label>
+        <name>Additional_QC_Notes__c</name>
+    </fields>
+    <fields>
+        <help><!-- If applicable --></help>
+        <label><!-- Address of Passenger Destination --></label>
+        <name>Address_of_Passenger_Destination__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is for clients that we bill after hours --></help>
+        <label><!-- After Hours Category Color --></label>
+        <name>After_Hours_Category_Color__c</name>
+        <picklistValues>
+            <masterLabel>Blue</masterLabel>
+            <translation><!-- Blue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation><!-- Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>White</masterLabel>
+            <translation><!-- White --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow</masterLabel>
+            <translation><!-- Yellow --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Used for clients that we bill for after-hours --></help>
+        <label><!-- After Hours Description Category --></label>
+        <name>After_Hours_Description_Category__c</name>
+        <picklistValues>
+            <masterLabel>Flights During Regular Business Hours</masterLabel>
+            <translation><!-- Flights During Regular Business Hours --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flights outside Business hours</masterLabel>
+            <translation><!-- Flights outside Business hours --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Check on Weekends</masterLabel>
+            <translation><!-- Pre-Check on Weekends --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekend Flights</masterLabel>
+            <translation><!-- Weekend Flights --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- After Hours --></label>
+        <name>After_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Change Reason --></label>
+        <name>Aircraft_Change_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Aircraft Mechanical</masterLabel>
+            <translation><!-- Aircraft Mechanical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aircraft Owner Pulled Aircraft</masterLabel>
+            <translation><!-- Aircraft Owner Pulled Aircraft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crewing</masterLabel>
+            <translation><!-- Crewing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operational Challenges</masterLabel>
+            <translation><!-- Operational Challenges --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduling</masterLabel>
+            <translation><!-- Scheduling --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Cleaning --></label>
+        <name>Aircraft_Cleaning__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Comment --></label>
+        <name>Aircraft_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aircraft MELs --></label>
+        <name>Aircraft_MELs__c</name>
+        <picklistValues>
+            <masterLabel>APU</masterLabel>
+            <translation><!-- APU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Air Conditioning</masterLabel>
+            <translation><!-- Air Conditioning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Air Show</masterLabel>
+            <translation><!-- Air Show --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment System</masterLabel>
+            <translation><!-- Entertainment System --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heat</masterLabel>
+            <translation><!-- Heat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lav Inop</masterLabel>
+            <translation><!-- Lav Inop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lav Sink</masterLabel>
+            <translation><!-- Lav Sink --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No MELs</masterLabel>
+            <translation><!-- No MELs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seat(s) Inop</masterLabel>
+            <translation><!-- Seat(s) Inop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tray Table(s)</masterLabel>
+            <translation><!-- Tray Table(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Water System</masterLabel>
+            <translation><!-- Water System --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WiFi Inop</masterLabel>
+            <translation><!-- WiFi Inop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Window Shades</masterLabel>
+            <translation><!-- Window Shades --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Passed Safety Check --></label>
+        <name>Aircraft_Passed_Safety_Check__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Requested Formula --></label>
+        <name>Aircraft_Requested_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Requested --></label>
+        <name>Aircraft_Requested__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Score --></label>
+        <name>Aircraft_Score__c</name>
+        <picklistValues>
+            <masterLabel>1 - Not Satisfied</masterLabel>
+            <translation><!-- 1 - Not Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Somewhat Satisfied</masterLabel>
+            <translation><!-- 2 - Somewhat Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Satisfied</masterLabel>
+            <translation><!-- 3 - Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Very Satisfied</masterLabel>
+            <translation><!-- 4 - Very Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Extremely Satisfied</masterLabel>
+            <translation><!-- 5 - Extremely Satisfied --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Tail Number --></label>
+        <lookupFilter>
+            <errorMessage><!-- Inactive Tail --></errorMessage>
+        </lookupFilter>
+        <name>Aircraft_Tail_Number__c</name>
+        <relationshipLabel><!-- Transactions (Aircraft Tail Number) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Type Formula --></label>
+        <name>Aircraft_Type_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Type --></label>
+        <name>Aircraft_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aircraft in Position? --></label>
+        <name>Aircraft_in_Position__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Aircraft staying with passengers? --></label>
+        <name>Aircraft_staying_with_passengers__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Airport Comment --></label>
+        <name>Airport_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Airport Feasibility - Post --></label>
+        <name>Airport_Feasibility_Post__c</name>
+        <picklistValues>
+            <masterLabel>1. Low volume flight activity; not limited by airport operating hours</masterLabel>
+            <translation><!-- 1. Low volume flight activity; not limited by airport operating hours --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2. Medium Volume Flight Activity or Potential Airport Operating Hours Concerns</masterLabel>
+            <translation><!-- 2. Medium Volume Flight Activity or Potential Airport Operating Hours Concerns --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3. High Volume Flight Activity and Very Real Airport Operating Hours Concerns</masterLabel>
+            <translation><!-- 3. High Volume Flight Activity and Very Real Airport Operating Hours Concerns --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Airport Feasibility (Sc.) Post --></label>
+        <name>Airport_Feasibility_Sc_Post__c</name>
+    </fields>
+    <fields>
+        <label><!-- Airport Feasibility (Score) --></label>
+        <name>Airport_Feasibility_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Airport Feasibility (W) Post --></label>
+        <name>Airport_Feasibility_W_Post__c</name>
+    </fields>
+    <fields>
+        <label><!-- Airport Feasibility (W Sc.) Post --></label>
+        <name>Airport_Feasibility_W_Sc_Post__c</name>
+    </fields>
+    <fields>
+        <label><!-- Airport Feasibility (Weight) --></label>
+        <name>Airport_Feasibility_Weight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Airport Feasibility (Weighted Score) --></label>
+        <name>Airport_Feasibility_Weighted_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Airport Feasibility --></label>
+        <name>Airport_Feasibility__c</name>
+        <picklistValues>
+            <masterLabel>1. Low volume flight activity; not limited by airport operating hours</masterLabel>
+            <translation><!-- 1. Low volume flight activity; not limited by airport operating hours --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2. Medium Volume Flight Activity or Potential Airport Operating Hours Concerns</masterLabel>
+            <translation><!-- 2. Medium Volume Flight Activity or Potential Airport Operating Hours Concerns --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3. High Volume Flight Activity and Very Real Airport Operating Hours Concerns</masterLabel>
+            <translation><!-- 3. High Volume Flight Activity and Very Real Airport Operating Hours Concerns --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Airport Score --></label>
+        <name>Airport_Score__c</name>
+        <picklistValues>
+            <masterLabel>1 - Not Satisfied</masterLabel>
+            <translation><!-- 1 - Not Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Somewhat Satisfied</masterLabel>
+            <translation><!-- 2 - Somewhat Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Satisfied</masterLabel>
+            <translation><!-- 3 - Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Very Satisfied</masterLabel>
+            <translation><!-- 4 - Very Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Extremely Satisfied</masterLabel>
+            <translation><!-- 5 - Extremely Satisfied --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Airport Weather History - Post --></label>
+        <name>Airport_Weather_History_Post__c</name>
+        <picklistValues>
+            <masterLabel>1. Airport is not traditionally impacted by bad weather</masterLabel>
+            <translation><!-- 1. Airport is not traditionally impacted by bad weather --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2. Airport is occasionally impacted by bad weather</masterLabel>
+            <translation><!-- 2. Airport is occasionally impacted by bad weather --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3. Airport is highly sensitive and often impacted by poor weather.</masterLabel>
+            <translation><!-- 3. Airport is highly sensitive and often impacted by poor weather. --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Airport Weather History (Sc.) Post --></label>
+        <name>Airport_Weather_History_Sc_Post__c</name>
+    </fields>
+    <fields>
+        <label><!-- Airport Weather History (Score) --></label>
+        <name>Airport_Weather_History_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Airport Weather History (W) Post --></label>
+        <name>Airport_Weather_History_W_Post__c</name>
+    </fields>
+    <fields>
+        <label><!-- Airport Weather History (Weight) --></label>
+        <name>Airport_Weather_History_Weight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Airport Weather History --></label>
+        <name>Airport_Weather_History__c</name>
+        <picklistValues>
+            <masterLabel>1. Airport is not traditionally impacted by bad weather</masterLabel>
+            <translation><!-- 1. Airport is not traditionally impacted by bad weather --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2. Airport is occasionally impacted by bad weather</masterLabel>
+            <translation><!-- 2. Airport is occasionally impacted by bad weather --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3. Airport is highly sensitive and often impacted by poor weather</masterLabel>
+            <translation><!-- 3. Airport is highly sensitive and often impacted by poor weather --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Airport Weather (W Sc.) Post --></label>
+        <name>Airport_Weather_W_Sc_Post__c</name>
+    </fields>
+    <fields>
+        <label><!-- Airport Weather (Weighted Score) --></label>
+        <name>Airport_Weather_Weighted_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- All Passports Sent to Operator --></label>
+        <name>All_Passports_Sent_to_Operator__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- All Passports Valid --></label>
+        <name>All_Passports_Valid__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If applicable, what is the alternate arrival airport? --></help>
+        <label><!-- Alternate Arrival Airport --></label>
+        <name>Alternate_Arrival_Airport__c</name>
+        <relationshipLabel><!-- Transactions (Alternate Arrival Airport) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- If applicable, what is the alternate departure airport? --></help>
+        <label><!-- Alternate Departure Airport --></label>
+        <name>Alternate_Departure_Airport__c</name>
+        <relationshipLabel><!-- Transactions (Alternate Departure Airport) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The amount that gets taken out of the deposit. Each vendor is different --></help>
+        <label><!-- Amount Applied to Deposit --></label>
+        <name>Amount_Applied_to_Deposit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amount --></label>
+        <name>Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Are all passengers U.S. Citizens? --></label>
+        <name>Are_all_passengers_U_S_Citizens__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Are both pilots ATP? --></label>
+        <name>Are_both_pilots_ATP__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Arr Airport Conga --></label>
+        <name>Arr_Airport_Conga__c</name>
+    </fields>
+    <fields>
+        <label><!-- Arr Time Calc --></label>
+        <name>Arr_Time_Calc__c</name>
+    </fields>
+    <fields>
+        <help><!-- Local arrival date --></help>
+        <label><!-- Arrival Date --></label>
+        <name>Arrival_Date_del__c</name>
+    </fields>
+    <fields>
+        <help><!-- Military Time (e.g., 03:00, 12:20, 21:30) --></help>
+        <label><!-- Arrival Time (Local) --></label>
+        <name>Arrival_Time_Local__c</name>
+    </fields>
+    <fields>
+        <help><!-- 4 Digit Military Code with :  eg (03:00 or 12:00). Used for reporting. --></help>
+        <label><!-- Arrival Time PT --></label>
+        <name>Arrival_Time_PT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Arrival Weather --></label>
+        <name>Arrival_Weather__c</name>
+    </fields>
+    <fields>
+        <label><!-- Arriving Airport Name --></label>
+        <name>Arriving_Airport_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- 4-letter airport code --></help>
+        <label><!-- Arriving Airport --></label>
+        <name>Arriving_Airport__c</name>
+        <relationshipLabel><!-- Transactions (Arriving Airport) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Auto Close --></label>
+        <name>Auto_Close__c</name>
+    </fields>
+    <fields>
+        <label><!-- AvP Process &amp; Communications Comment --></label>
+        <name>AvP_Process_Communications_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- AvP Process &amp; Communications Score --></label>
+        <name>AvP_Process_Communications_Score__c</name>
+        <picklistValues>
+            <masterLabel>1 - Not Satisfied</masterLabel>
+            <translation><!-- 1 - Not Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Somewhat Satisfied</masterLabel>
+            <translation><!-- 2 - Somewhat Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Satisfied</masterLabel>
+            <translation><!-- 3 - Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Very Satisfied</masterLabel>
+            <translation><!-- 4 - Very Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Extremely Satisfied</masterLabel>
+            <translation><!-- 5 - Extremely Satisfied --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Backed Up Commercially? --></label>
+        <name>Backed_Up_Commercially__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Backup &amp; Recovery - Post --></label>
+        <name>Backup_Recovery_Post__c</name>
+        <picklistValues>
+            <masterLabel>1. Guaranteed Solution (NetJets/Flexjet/Sentient)</masterLabel>
+            <translation><!-- 1. Guaranteed Solution (NetJets/Flexjet/Sentient) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2. EJM/National Charter</masterLabel>
+            <translation><!-- 2. EJM/National Charter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3. Non-Guaranteed Solution (Local Charter/Broker)</masterLabel>
+            <translation><!-- 3. Non-Guaranteed Solution (Local Charter/Broker) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Backup &amp; Recovery (Sc.) Post --></label>
+        <name>Backup_Recovery_Sc_Post__c</name>
+    </fields>
+    <fields>
+        <label><!-- Backup &amp; Recovery (Score) --></label>
+        <name>Backup_Recovery_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Backup &amp; Recovery (W) Post --></label>
+        <name>Backup_Recovery_W_Post__c</name>
+    </fields>
+    <fields>
+        <label><!-- Backup &amp; Recovery (Weight) --></label>
+        <name>Backup_Recovery_Weight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Backup &amp; Recovery --></label>
+        <name>Backup_Recovery__c</name>
+        <picklistValues>
+            <masterLabel>1. Guaranteed Solution (NetJets/FlexJet/Sentient)</masterLabel>
+            <translation><!-- 1. Guaranteed Solution (NetJets/FlexJet/Sentient) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2. EJM/National Charter</masterLabel>
+            <translation><!-- 2. EJM/National Charter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3. Non-Guaranteed Solution (Local Charter/Broker)</masterLabel>
+            <translation><!-- 3. Non-Guaranteed Solution (Local Charter/Broker) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Backup (W Sc.) Post --></label>
+        <name>Backup_W_Sc_Post__c</name>
+    </fields>
+    <fields>
+        <label><!-- Backup (Weighted Score) --></label>
+        <name>Backup_Weighted_Score__c</name>
+    </fields>
+    <fields>
+        <help><!-- Billed flight time minus any credited hours --></help>
+        <label><!-- Billed Flight Time Applied to Contract --></label>
+        <name>Billed_Flight_Time_Applied_to_Contract__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billed Flight Time --></label>
+        <name>Billed_Flight_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Comment --></label>
+        <name>Billing_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Error Description --></label>
+        <name>Billing_Error_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Error? --></label>
+        <name>Billing_Error__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Billing Followup Required --></label>
+        <name>Billing_Followup_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Broker Comment --></label>
+        <name>Broker_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Broker Contact --></label>
+        <name>Broker_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Broker Fee --></label>
+        <name>Broker_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Broker Name --></label>
+        <name>Broker_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Broker Score --></label>
+        <name>Broker_Scor__c</name>
+        <picklistValues>
+            <masterLabel>1 - Not Satisfied</masterLabel>
+            <translation><!-- 1 - Not Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Somewhat Satisfied</masterLabel>
+            <translation><!-- 2 - Somewhat Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Satisfied</masterLabel>
+            <translation><!-- 3 - Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Very Satisfied</masterLabel>
+            <translation><!-- 4 - Very Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Extremely Satisfied</masterLabel>
+            <translation><!-- 5 - Extremely Satisfied --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Business Account --></label>
+        <name>Business_Account__c</name>
+        <relationshipLabel><!-- Transactions (Business Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Business Passengers --></label>
+        <name>Business_Passengers__c</name>
+    </fields>
+    <fields>
+        <help><!-- Only flights to Canada --></help>
+        <label><!-- CANPASS Questions Provided to Operator --></label>
+        <name>CANPASS_Questions_Provided_to_Operator__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CA State Tax --></label>
+        <name>CA_State_Tax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cabin Type --></label>
+        <name>Cabin_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calendar Title - Leg --></label>
+        <name>CalendarTitleLeg__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calendar Year --></label>
+        <name>Calendar_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cancellation Description --></label>
+        <name>Cancellation_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cancellation Penalty --></label>
+        <name>Cancellation_Penalty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cancellation Policy --></label>
+        <name>Cancellation_Policy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cancellation Reason --></label>
+        <name>Cancellation_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Aircraft Mechanical</masterLabel>
+            <translation><!-- Aircraft Mechanical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Booked Direct w/ Operator</masterLabel>
+            <translation><!-- Booked Direct w/ Operator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial Flight Delay/Cancelled</masterLabel>
+            <translation><!-- Commercial Flight Delay/Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Driving</masterLabel>
+            <translation><!-- Driving --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate/Backup Booking</masterLabel>
+            <translation><!-- Duplicate/Backup Booking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flew with Friend</masterLabel>
+            <translation><!-- Flew with Friend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flying Commercial</masterLabel>
+            <translation><!-- Flying Commercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flying Own/Company Aircraft</masterLabel>
+            <translation><!-- Flying Own/Company Aircraft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fuel Stop Cancelled</masterLabel>
+            <translation><!-- Fuel Stop Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High Cost</masterLabel>
+            <translation><!-- High Cost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Length of Delay</masterLabel>
+            <translation><!-- Length of Delay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meeting Cancelled</masterLabel>
+            <translation><!-- Meeting Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Passenger Emergency</masterLabel>
+            <translation><!-- Passenger Emergency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Passenger Illness</masterLabel>
+            <translation><!-- Passenger Illness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plans Changed</masterLabel>
+            <translation><!-- Plans Changed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weather</masterLabel>
+            <translation><!-- Weather --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Catering Confirmed --></label>
+        <name>Catering_Confirmed__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Catering Cost Estimate --></label>
+        <name>Catering_Cost_Estimate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Catering Details --></label>
+        <name>Catering_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Catering Requested? --></label>
+        <name>Catering_Requested__c</name>
+        <picklistValues>
+            <masterLabel>No - Declined</masterLabel>
+            <translation><!-- No - Declined --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes - Ordered</masterLabel>
+            <translation><!-- Yes - Ordered --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Catering --></label>
+        <name>Catering__c</name>
+    </fields>
+    <fields>
+        <label><!-- Challenge Reason --></label>
+        <name>Challenge_Reason__c</name>
+    </fields>
+    <fields>
+        <help><!-- Includes credit card fee (if applicable). --></help>
+        <label><!-- Charter Flight Cost --></label>
+        <name>Charter_Flight_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Program Period --></label>
+        <name>Client_Program_Year__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Program --></label>
+        <name>Client_Program__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Client --></label>
+        <name>Client__c</name>
+        <relationshipLabel><!-- Transactions (Client) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The client&apos;s operator account name if there is more than one. --></help>
+        <label><!-- Client&apos;s Operator Acct Name --></label>
+        <name>Client_s_Operator_Acct_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comfort &amp; Condition of Aircraft Comment --></label>
+        <name>Comfort_Condition_of_Aircraft_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comfort &amp; Condition of Aircraft Score --></label>
+        <name>Comfort_Condition_of_Aircraft_Score__c</name>
+        <picklistValues>
+            <masterLabel>1 - Not Satisfied</masterLabel>
+            <translation><!-- 1 - Not Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Somewhat Satisfied</masterLabel>
+            <translation><!-- 2 - Somewhat Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Satisfied</masterLabel>
+            <translation><!-- 3 - Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Very Satisfied</masterLabel>
+            <translation><!-- 4 - Very Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Extremely Satisfied</masterLabel>
+            <translation><!-- 5 - Extremely Satisfied --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Completed By --></label>
+        <name>Completed_By__c</name>
+        <relationshipLabel><!-- Leg --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Completed Date --></label>
+        <name>Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consent Letter Sent to Operator --></label>
+        <name>Consent_Letter_Sent_to_Operator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Name --></label>
+        <name>Contact_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract ID --></label>
+        <name>Contract__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created 24 Hours --></label>
+        <name>Created_24_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Reason --></label>
+        <name>Credit_Reason__c</name>
+        <picklistValues>
+            <masterLabel>FlexJet- Subcontracted Credit</masterLabel>
+            <translation><!-- FlexJet- Subcontracted Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flexjet - Challenger 300 Credit</masterLabel>
+            <translation><!-- Flexjet - Challenger 300 Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Credit</masterLabel>
+            <translation><!-- Service Credit --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Crew Duty Notes --></label>
+        <name>Crew_Duty_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Crew Passed ARGUS --></label>
+        <name>Crew_Passed_ARGUS__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No - Red</masterLabel>
+            <translation><!-- No - Red --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No - Yellow</masterLabel>
+            <translation><!-- No - Yellow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Crew Passed Wyvern Registered --></label>
+        <name>Crew_Passed_Wyvern_Registered__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Crew Passed Wyvern Wingman --></label>
+        <name>Crew_Passed_Wyvern_Wingman__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Customs Hours at Arrival Airport --></label>
+        <name>Customs_Hours_at_Arrival_Airport__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customs Hours at Departure Airport --></label>
+        <name>Customs_Hours_at_Departure_Airport__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customs Stop (if applicable) --></label>
+        <name>Customs_Stop_if_applicable__c</name>
+        <relationshipLabel><!-- Transactions (Customs Stop (if applicable)) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date Booked --></label>
+        <name>Date_Booked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Reconciled --></label>
+        <name>Date_Reconciled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day of Flight Contact Provided --></label>
+        <name>Day_of_Flight_Contact_Provided__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Day of Flight Contact --></label>
+        <name>Day_of_Flight_Contact__c</name>
+        <relationshipLabel><!-- Transactions (Day of Flight Contact) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Day of Travel - Post --></label>
+        <name>Day_of_Travel_Post__c</name>
+        <picklistValues>
+            <masterLabel>1. No time sensitivity after landing</masterLabel>
+            <translation><!-- 1. No time sensitivity after landing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2. Time sensitive event 5 hours + after landing</masterLabel>
+            <translation><!-- 2. Time sensitive event 5 hours + after landing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3. Time sensitive event less than 5 hours after landing</masterLabel>
+            <translation><!-- 3. Time sensitive event less than 5 hours after landing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Day of Travel (Sc.) Post --></label>
+        <name>Day_of_Travel_Sc_Post__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day of Travel (Score) --></label>
+        <name>Day_of_Travel_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day of Travel (W) Post --></label>
+        <name>Day_of_Travel_W_Post__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day of Travel (W Sc.) Post --></label>
+        <name>Day_of_Travel_W_Sc_Post__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day of Travel (Weight) --></label>
+        <name>Day_of_Travel_Weight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day of Travel (Weighted Score) --></label>
+        <name>Day_of_Travel_Weighted_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day of Travel --></label>
+        <name>Day_of_Travel__c</name>
+        <picklistValues>
+            <masterLabel>1. No time sensitivity after landing</masterLabel>
+            <translation><!-- 1. No time sensitivity after landing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2. Time sensitive event 5 hours + after landing</masterLabel>
+            <translation><!-- 2. Time sensitive event 5 hours + after landing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3. Time sensitive event less than 5 hours after landing</masterLabel>
+            <translation><!-- 3. Time sensitive event less than 5 hours after landing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Deicing --></label>
+        <name>Deicing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delay Description --></label>
+        <name>Delay_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delay Reason --></label>
+        <name>Delay_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Air Traffic Control (ATC)</masterLabel>
+            <translation><!-- Air Traffic Control (ATC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aircraft Mechanical</masterLabel>
+            <translation><!-- Aircraft Mechanical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aircraft Positioning</masterLabel>
+            <translation><!-- Aircraft Positioning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Airport Construction</masterLabel>
+            <translation><!-- Airport Construction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Airport Operations</masterLabel>
+            <translation><!-- Airport Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ask Client Why</masterLabel>
+            <translation><!-- Ask Client Why --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Catering Late</masterLabel>
+            <translation><!-- Catering Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crew Duty</masterLabel>
+            <translation><!-- Crew Duty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crew Fatigue</masterLabel>
+            <translation><!-- Crew Fatigue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crewing Issue</masterLabel>
+            <translation><!-- Crewing Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customs</masterLabel>
+            <translation><!-- Customs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FBO Service</masterLabel>
+            <translation><!-- FBO Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flight Planning</masterLabel>
+            <translation><!-- Flight Planning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ground Stop</masterLabel>
+            <translation><!-- Ground Stop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect Booking</masterLabel>
+            <translation><!-- Incorrect Booking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POTUS</masterLabel>
+            <translation><!-- POTUS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Passenger Documentation</masterLabel>
+            <translation><!-- Passenger Documentation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Passengers Late</masterLabel>
+            <translation><!-- Passengers Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weather</masterLabel>
+            <translation><!-- Weather --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Dep Time Numeric --></label>
+        <name>Dep_Time_Numeric__c</name>
+    </fields>
+    <fields>
+        <label><!-- Depart. Date (Sc.) Post --></label>
+        <name>Depart_Date_Sc_Post__c</name>
+    </fields>
+    <fields>
+        <label><!-- Depart. Date (Service Impact) Post --></label>
+        <name>Depart_Date_Service_Impact_Post__c</name>
+        <picklistValues>
+            <masterLabel>1. Lowest Volume (~300 days per year)</masterLabel>
+            <translation><!-- 1. Lowest Volume (~300 days per year) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2. Medium Volume Days</masterLabel>
+            <translation><!-- 2. Medium Volume Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3. Highest Volume (Peak Days)</masterLabel>
+            <translation><!-- 3. Highest Volume (Peak Days) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Depart. Date [Service Impact] (Score) --></label>
+        <name>Depart_Date_Service_Impact_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Depart. Date [Service Impact] (Weight) --></label>
+        <name>Depart_Date_Service_Impact_Weight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Depart. Date (Service Impact) --></label>
+        <name>Depart_Date_Service_Impact__c</name>
+        <picklistValues>
+            <masterLabel>1. Lowest Volume (~300 days per year)</masterLabel>
+            <translation><!-- 1. Lowest Volume (~300 days per year) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2. Medium Volume Days</masterLabel>
+            <translation><!-- 2. Medium Volume Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3. Highest Volume (Peak Days)</masterLabel>
+            <translation><!-- 3. Highest Volume (Peak Days) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Depart. Date (W) Post --></label>
+        <name>Depart_Date_W_Post__c</name>
+    </fields>
+    <fields>
+        <label><!-- Depart. Date (W Sc.) Post --></label>
+        <name>Depart_Date_W_Sc_Post__c</name>
+    </fields>
+    <fields>
+        <label><!-- Depart. Date (Weighted Score) --></label>
+        <name>Depart_Date_Weighted_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Depart. Flex. &amp; Cancel. (Sc.) Post --></label>
+        <name>Depart_Flex_Cancel_Sc_Post__c</name>
+    </fields>
+    <fields>
+        <label><!-- Depart. Flex. &amp; Cancellation - Post --></label>
+        <name>Depart_Flex_Cancellation_Post__c</name>
+        <picklistValues>
+            <masterLabel>1. Guaranteed Solution (NetJets/Flexjet/Sentient)</masterLabel>
+            <translation><!-- 1. Guaranteed Solution (NetJets/Flexjet/Sentient) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2. EJM/National Charter/Dedicated Aircraft</masterLabel>
+            <translation><!-- 2. EJM/National Charter/Dedicated Aircraft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3. Non-Guaranteed Solution (Local Charter/Broker)</masterLabel>
+            <translation><!-- 3. Non-Guaranteed Solution (Local Charter/Broker) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Depart. Flex. &amp; Cancellation (Score) --></label>
+        <name>Depart_Flex_Cancellation_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Depart. Flex. &amp; Cancellation (W) Post --></label>
+        <name>Depart_Flex_Cancellation_W_Post__c</name>
+    </fields>
+    <fields>
+        <label><!-- Depart. Flex. &amp; Cancellation (Weight) --></label>
+        <name>Depart_Flex_Cancellation_Weight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Depart. Flex. &amp; Cancellation --></label>
+        <name>Depart_Flex_Cancellation__c</name>
+        <picklistValues>
+            <masterLabel>1. Guaranteed Solution (NetJets/FlexJet/Sentient)</masterLabel>
+            <translation><!-- 1. Guaranteed Solution (NetJets/FlexJet/Sentient) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2. EJM/National Charter/Dedicated Aircraft</masterLabel>
+            <translation><!-- 2. EJM/National Charter/Dedicated Aircraft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3. Non-Guaranteed Solution (Local Charter/Broker)</masterLabel>
+            <translation><!-- 3. Non-Guaranteed Solution (Local Charter/Broker) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Depart. Flex. (W Sc.) Post --></label>
+        <name>Depart_Flex_W_Sc_Post__c</name>
+    </fields>
+    <fields>
+        <label><!-- Depart. Flex. (Weighted Score) --></label>
+        <name>Depart_Flex_Weighted_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Departing Airport Name --></label>
+        <name>Departing_Airport_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- 4-letter airport code --></help>
+        <label><!-- Departing Airport --></label>
+        <name>Departing_Airport__c</name>
+        <relationshipLabel><!-- Transactions (Departing Airport) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Local departure date --></help>
+        <label><!-- Departure Date --></label>
+        <name>Departure_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Departure Flexibility? --></label>
+        <name>Departure_Flexibility__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- 4-digit military time with colon (e.g., 03:00, 12:20, 21:30) --></help>
+        <label><!-- Departure Time (Local) --></label>
+        <name>Departure_Time_Local__c</name>
+    </fields>
+    <fields>
+        <help><!-- Military Time (e.g., 03:00, 12:20, 21:30)
+Pacific Time --></help>
+        <label><!-- Departure Time (PT) --></label>
+        <name>Departure_Time_PT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Departure Weather --></label>
+        <name>Departure_Weather__c</name>
+    </fields>
+    <fields>
+        <help><!-- How many minutes did operator move departure time? (e.g., +120, +30, -45, -60) --></help>
+        <label><!-- Departure time adjustment (+/- minutes) --></label>
+        <name>Departure_time_adjustment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Departure time adjustment reason? --></label>
+        <name>Departure_time_adjustment_reason__c</name>
+        <picklistValues>
+            <masterLabel>Peak Day</masterLabel>
+            <translation><!-- Peak Day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slot Adjustment</masterLabel>
+            <translation><!-- Slot Adjustment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XOJET Flex</masterLabel>
+            <translation><!-- XOJET Flex --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Dept Date Grouping --></label>
+        <name>Dept_Date_Grouping__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dept Time Calc --></label>
+        <name>Dept_Time_Calc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Did Aircraft Change? --></label>
+        <name>Did_Aircraft_Change__c</name>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Did aircraft divert to alternate? --></label>
+        <name>Did_aircraft_need_to_divert_to_alternate__c</name>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Dietary Restrictions --></label>
+        <name>Dietary_Restrictions__c</name>
+    </fields>
+    <fields>
+        <help><!-- sm/1.15 --></help>
+        <label><!-- Distance (nm) --></label>
+        <name>Distance_nm__c</name>
+    </fields>
+    <fields>
+        <help><!-- Multiply nautical miles (nm) by 1.15. --></help>
+        <label><!-- Distance (sm) --></label>
+        <name>Distance_sm__c</name>
+    </fields>
+    <fields>
+        <label><!-- Domestic or International? --></label>
+        <name>Domestic_or_International__c</name>
+        <picklistValues>
+            <masterLabel>Domestic</masterLabel>
+            <translation><!-- Domestic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>International</masterLabel>
+            <translation><!-- International --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Downgrade Used --></label>
+        <name>Downgrade_Used__c</name>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>Due_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- If applicable --></help>
+        <label><!-- End of Arrival Slide (Local) --></label>
+        <name>End_of_Arrival_Slide_Local__c</name>
+    </fields>
+    <fields>
+        <help><!-- If applicable --></help>
+        <label><!-- End of Departure Slide (Local) --></label>
+        <name>End_of_Departure_Slide__c</name>
+    </fields>
+    <fields>
+        <label><!-- Escalation Fee --></label>
+        <name>Escalation_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Arrival Time --></label>
+        <name>Estimated_Arrival_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Days --></label>
+        <name>Estimated_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Flight Cost --></label>
+        <name>Estimated_Flight_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Billable Time --></label>
+        <name>Estimated_Flight_Time_hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Sensitivity? --></label>
+        <name>Event_Sensitivity__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes, but outside 3 / 5 hour range</masterLabel>
+            <translation><!-- Yes, but outside 3 / 5 hour range --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes, within 3 hours (dom) or 5 hours (int) range</masterLabel>
+            <translation><!-- Yes, within 3 hours (dom) or 5 hours (int) range --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Expected Billable Time per FlightAware --></label>
+        <name>Expected_Billable_Time_per_FlightAware__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expense Amount --></label>
+        <name>Expense_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expense Date --></label>
+        <name>Expense_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expense Note --></label>
+        <name>Expense_Note__c</name>
+    </fields>
+    <fields>
+        <help><!-- To be used for Prepaid MMF and Prepaid Lease Payments --></help>
+        <label><!-- Expense Savings --></label>
+        <name>Expense_Savings__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expense Status --></label>
+        <name>Expense_Status__c</name>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reconciled</masterLabel>
+            <translation><!-- Reconciled --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Expense Type --></label>
+        <name>Expense_Type__c</name>
+        <picklistValues>
+            <masterLabel>Annual Insurance Premium</masterLabel>
+            <translation><!-- Annual Insurance Premium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual Membership Fee</masterLabel>
+            <translation><!-- Annual Membership Fee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carbon Offset</masterLabel>
+            <translation><!-- Carbon Offset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Charter Program Deposit</masterLabel>
+            <translation><!-- Charter Program Deposit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial Travel</masterLabel>
+            <translation><!-- Commercial Travel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deposit Refund</masterLabel>
+            <translation><!-- Deposit Refund --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FET</masterLabel>
+            <translation><!-- FET --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initiation Fee</masterLabel>
+            <translation><!-- Initiation Fee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Payment</masterLabel>
+            <translation><!-- Invoice Payment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lease Deposit</masterLabel>
+            <translation><!-- Lease Deposit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lease Payment</masterLabel>
+            <translation><!-- Lease Payment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MMF</masterLabel>
+            <translation><!-- MMF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Misc.</masterLabel>
+            <translation><!-- Misc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly Membership Fee</masterLabel>
+            <translation><!-- Monthly Membership Fee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prepaid Lease</masterLabel>
+            <translation><!-- Prepaid Lease --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prepaid MMF</masterLabel>
+            <translation><!-- Prepaid MMF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral Credit</masterLabel>
+            <translation><!-- Referral Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer to New Program Period</masterLabel>
+            <translation><!-- Transfer to New Program Period --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>War Risk</masterLabel>
+            <translation><!-- War Risk --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- FET --></label>
+        <name>FET__c</name>
+    </fields>
+    <fields>
+        <help><!-- First flight with either new vendor or AvP --></help>
+        <label><!-- First Flight --></label>
+        <name>First_Flight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flight Delay --></label>
+        <name>Flight_Delay__c</name>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Used when waiting for information from vendor to move to Flown --></help>
+        <label><!-- Flight Movement in Progress --></label>
+        <name>Flight_Movement_in_Progress__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flight Rule --></label>
+        <name>Flight_Rule__c</name>
+        <picklistValues>
+            <masterLabel>Eu-ops</masterLabel>
+            <translation><!-- Eu-ops --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Part 121</masterLabel>
+            <translation><!-- Part 121 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Part 135</masterLabel>
+            <translation><!-- Part 135 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Part 91</masterLabel>
+            <translation><!-- Part 91 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Part 91k</masterLabel>
+            <translation><!-- Part 91k --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Flight Status --></label>
+        <name>Flight_Status__c</name>
+        <picklistValues>
+            <masterLabel>Booked</masterLabel>
+            <translation><!-- Booked --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brutal Recovery – Flew Commercial</masterLabel>
+            <translation><!-- Brutal Recovery – Flew Commercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cleared</masterLabel>
+            <translation><!-- Cleared --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Departed</masterLabel>
+            <translation><!-- Departed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flown</masterLabel>
+            <translation><!-- Flown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Imported</masterLabel>
+            <translation><!-- Imported --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review - Alana</masterLabel>
+            <translation><!-- In Review - Alana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review - Amy</masterLabel>
+            <translation><!-- In Review - Amy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review - Andrew</masterLabel>
+            <translation><!-- In Review - Andrew --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review - Bill</masterLabel>
+            <translation><!-- In Review - Bill --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review - Craig</masterLabel>
+            <translation><!-- In Review - Craig --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review - Jaime</masterLabel>
+            <translation><!-- In Review - Jaime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review - Jeff</masterLabel>
+            <translation><!-- In Review - Jeff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review - Luke</masterLabel>
+            <translation><!-- In Review - Luke --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review - Mark</masterLabel>
+            <translation><!-- In Review - Mark --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review - Needs Assignment</masterLabel>
+            <translation><!-- In Review - Needs Assignment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospect</masterLabel>
+            <translation><!-- Prospect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reconciled</masterLabel>
+            <translation><!-- Reconciled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special</masterLabel>
+            <translation><!-- Special --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tentative</masterLabel>
+            <translation><!-- Tentative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor Could Not Cover Flight - Violation</masterLabel>
+            <translation><!-- Vendor Could Not Cover Flight - Violation --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Flight Tracking --></label>
+        <name>Flight_Tracking__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requested</masterLabel>
+            <translation><!-- Requested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- To triple check flight time --></help>
+        <label><!-- Flightawre Trip Link --></label>
+        <name>Flightawre_Trip_Link__c</name>
+    </fields>
+    <fields>
+        <help><!-- Multiplied by the billed hours. --></help>
+        <label><!-- Fuel Rate --></label>
+        <name>Fuel_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fuel Stop Location (if applicable) --></label>
+        <name>Fuel_Stop_Location_if_applicable__c</name>
+        <relationshipLabel><!-- Transactions (Fuel Stop Location (if applicable)) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Fuel Stop? --></label>
+        <name>Fuel_Stop__c</name>
+        <picklistValues>
+            <masterLabel>Yes - Planned</masterLabel>
+            <translation><!-- Yes - Planned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes - Unexpected</masterLabel>
+            <translation><!-- Yes - Unexpected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Future Credit --></label>
+        <name>Future_Credit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ground Confirmed --></label>
+        <name>Ground_Confirmed__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Ground Cost Estimate --></label>
+        <name>Ground_Cost_Estimate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ground Details --></label>
+        <name>Ground_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ground Requested --></label>
+        <name>Ground_Requested__c</name>
+        <picklistValues>
+            <masterLabel>No - Declined</masterLabel>
+            <translation><!-- No - Declined --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes - Ordered</masterLabel>
+            <translation><!-- Yes - Ordered --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Ground --></label>
+        <name>Ground__c</name>
+    </fields>
+    <fields>
+        <help><!-- Fixed cost for guaranteed programs and is applied upon reporting. --></help>
+        <label><!-- Guaranteed Fixed Cost --></label>
+        <name>Guaranteed_Fixed_Cost__c</name>
+    </fields>
+    <fields>
+        <help><!-- Out-of-pocket cost invoiced per flight leg (fuel, taxes, etc). --></help>
+        <label><!-- Guaranteed Variable Cost --></label>
+        <name>Guaranteed_Variable_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hangar --></label>
+        <name>Hangar__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has the aircraft been in maintenance? --></label>
+        <name>Has_the_aircraft_been_in_maintenance__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- High Volume Day? --></label>
+        <name>High_Volume_Day__c</name>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Hourly Rate --></label>
+        <name>Hourly_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hours Credited --></label>
+        <name>Hours_Credited__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field auto-populates when &quot;subcontracted?&quot; field is checked yes --></help>
+        <label><!-- If Subcontracted, Operator --></label>
+        <name>If_Subcontracted_Operator__c</name>
+    </fields>
+    <fields>
+        <help><!-- 4-Letter Airport Code --></help>
+        <label><!-- If no, Aircraft Positioning Airport --></label>
+        <name>If_no_Aircraft_Positioning_Airport__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is for all of us to keep in mind for QC purposes --></help>
+        <label><!-- IMPORTANT FLIGHT NOTES --></label>
+        <name>Important_Flight_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interchange Ratio --></label>
+        <name>Interchange_Ratio__c</name>
+    </fields>
+    <fields>
+        <label><!-- International Crew Fee --></label>
+        <name>International_Crew_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- International Fees --></label>
+        <name>International_Fees__c</name>
+    </fields>
+    <fields>
+        <help><!-- Make sure to include ferry fuel charge as well. --></help>
+        <label><!-- International Ferry Charge --></label>
+        <name>International_Ferry_Charge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Intl Customs Confirmed (if applicable) --></label>
+        <name>Intl_Customs_Confirmed_if_applicable__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Is WiFi working? --></label>
+        <name>Is_WiFi_working__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Itinerary Solution Number --></label>
+        <name>Itinerary_Solution_Number__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Late Ops Setup (if applicable) --></label>
+        <name>Late_Ops_Setup_if_applicable__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Lead Passenger Group --></label>
+        <name>Lead_Passenger_Group__c</name>
+        <picklistValues>
+            <masterLabel>Owner 1 Lead Passengers</masterLabel>
+            <translation><!-- Owner 1 Lead Passengers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Owner 2 Lead Passengers</masterLabel>
+            <translation><!-- Owner 2 Lead Passengers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Owner 3 Lead Passengers</masterLabel>
+            <translation><!-- Owner 3 Lead Passengers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Owner 4 Lead Passengers</masterLabel>
+            <translation><!-- Owner 4 Lead Passengers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Owner 5 Lead Passengers</masterLabel>
+            <translation><!-- Owner 5 Lead Passengers --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Lead Passenger --></label>
+        <name>Lead_Passenger__c</name>
+        <relationshipLabel><!-- Transactions (Lead Passenger) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Leg Owner --></label>
+        <name>Leg_Owner__c</name>
+        <relationshipLabel><!-- Transactions (Leg Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Leg Season --></label>
+        <name>Leg_Season__c</name>
+    </fields>
+    <fields>
+        <help><!-- Leg Sequence Number (e.g., 1, 2, 3, 4, 5). --></help>
+        <label><!-- Leg Sequence # --></label>
+        <name>Leg_Sequence_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Length of Delay (minutes) --></label>
+        <name>Length_of_Delay_minutes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link to Flight Tracker --></label>
+        <name>Link_to_Flight_Tracker__c</name>
+    </fields>
+    <fields>
+        <label><!-- MEL Notes --></label>
+        <name>MEL_Notes__c</name>
+    </fields>
+    <fields>
+        <help><!-- This leg was mass uploaded as part of a new client&apos;s flight history that AvP was not involved in. --></help>
+        <label><!-- Mass Upload --></label>
+        <name>Mass_Upload__c</name>
+    </fields>
+    <fields>
+        <help><!-- If flight is guaranteed &amp; reconciled, use number in the billed flight time field
+If guaranteed &amp; not reconciled, use number in the est. billed time field
+If cancelled, put in 0
+If a flight is non-guar, use greater of est. billed time or invoiced time --></help>
+        <label><!-- Max Billed Flight Time --></label>
+        <name>Max_Billed_Flight_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- This box is checked when 1 leg has to be split into 2 for deposit reconciliation purposes. Don&apos;t want to double-count the number of legs taken in a year --></help>
+        <label><!-- Membership Reconciling Leg --></label>
+        <name>Membership_Reconciling_Leg__c</name>
+    </fields>
+    <fields>
+        <label><!-- Minors Requiring Consent Letter? --></label>
+        <name>Minors_Requiring_Consent_Letter__c</name>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Minors with one or no guardian? --></label>
+        <name>Minors_with_one_or_no_guardian__c</name>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Mission Feasibility - Post --></label>
+        <name>Mission_Feasibility_Post__c</name>
+        <picklistValues>
+            <masterLabel>1. No expected aircraft performance issues based on range/pax count</masterLabel>
+            <translation><!-- 1. No expected aircraft performance issues based on range/pax count --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2. There may be aircraft performance issues based on range/pax count</masterLabel>
+            <translation><!-- 2. There may be aircraft performance issues based on range/pax count --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3. There is a high probability of aircraft performance issues based on range/pax count</masterLabel>
+            <translation><!-- 3. There is a high probability of aircraft performance issues based on range/pax count --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Mission Feasibility (Sc.) Post --></label>
+        <name>Mission_Feasibility_Sc_Post__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mission Feasibility (Score) --></label>
+        <name>Mission_Feasibility_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mission Feasibility (W) Post --></label>
+        <name>Mission_Feasibility_W_Post__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mission Feasibility (W Sc.) Post --></label>
+        <name>Mission_Feasibility_W_Sc_Post__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mission Feasibility (Weight) --></label>
+        <name>Mission_Feasibility_Weight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mission Feasibility (Weighted Score) --></label>
+        <name>Mission_Feasibility_Weighted_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mission Feasibility --></label>
+        <name>Mission_Feasibility__c</name>
+        <picklistValues>
+            <masterLabel>1. No expected aircraft performance issues based on range/pax count</masterLabel>
+            <translation><!-- 1. No expected aircraft performance issues based on range/pax count --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2. There may be aircraft performance issues based on range/pax count</masterLabel>
+            <translation><!-- 2. There may be aircraft performance issues based on range/pax count --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3. There is a high probability of aircraft performance issues based on range/pax count</masterLabel>
+            <translation><!-- 3. There is a high probability of aircraft performance issues based on range/pax count --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Check box on flights input from statement. --></help>
+        <label><!-- Need to Confirm NJ Portal --></label>
+        <name>Need_to_Confirm_NJ_Portal__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Account Relationship --></label>
+        <name>New_Account_Relationship__c</name>
+        <relationshipLabel><!-- Transactions (New Account Relationship) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- New Airport? --></label>
+        <name>New_Airport__c</name>
+        <picklistValues>
+            <masterLabel>NEW</masterLabel>
+            <translation><!-- NEW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Operator Comment --></label>
+        <name>Operator_Comment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use to enter the total amount on the operator invoice. --></help>
+        <label><!-- Operator Invoice Total --></label>
+        <name>Operator_Invoice_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operator Name --></label>
+        <name>Operator_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operator Score --></label>
+        <name>Operator_Score__c</name>
+        <picklistValues>
+            <masterLabel>1 - Not Satisfied</masterLabel>
+            <translation><!-- 1 - Not Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Somewhat Satisfied</masterLabel>
+            <translation><!-- 2 - Somewhat Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Satisfied</masterLabel>
+            <translation><!-- 3 - Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Very Satisfied</masterLabel>
+            <translation><!-- 4 - Very Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Extremely Satisfied</masterLabel>
+            <translation><!-- 5 - Extremely Satisfied --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Did operator adjust departure time? --></label>
+        <name>Operator_departure_time_adjusted__c</name>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Original Aircraft --></label>
+        <name>Original_Aircraft__c</name>
+        <relationshipLabel><!-- Transactions (Original Aircraft) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This is the estimated billable time per trip sheet.  (Interchange ratio NOT applied) --></help>
+        <label><!-- Original Estimated Billable Time --></label>
+        <name>Original_Estimated_Billable_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- What airport was the aircraft originally scheduled for? --></help>
+        <label><!-- Originally scheduled airport --></label>
+        <name>Originally_scheduled_airport__c</name>
+        <relationshipLabel><!-- Transactions (Originally scheduled airport) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Other Experiential Comment Score --></label>
+        <name>Other_Experiential_Comment_Score__c</name>
+        <picklistValues>
+            <masterLabel>1 - Not Satisfied</masterLabel>
+            <translation><!-- 1 - Not Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Somewhat Satisfied</masterLabel>
+            <translation><!-- 2 - Somewhat Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Satisfied</masterLabel>
+            <translation><!-- 3 - Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Very Satisfied</masterLabel>
+            <translation><!-- 4 - Very Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Extremely Satisfied</masterLabel>
+            <translation><!-- 5 - Extremely Satisfied --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Other Experiential Comment --></label>
+        <name>Other_Experiential_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Taxes &amp; Fees --></label>
+        <name>Other_Taxes_Fees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overall Experience Comment --></label>
+        <name>Overall_Experience_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overall Experience Score --></label>
+        <name>Overall_Experience_Score__c</name>
+        <picklistValues>
+            <masterLabel>1 - Not Satisfied</masterLabel>
+            <translation><!-- 1 - Not Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Somewhat Satisfied</masterLabel>
+            <translation><!-- 2 - Somewhat Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Satisfied</masterLabel>
+            <translation><!-- 3 - Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Very Satisfied</masterLabel>
+            <translation><!-- 4 - Very Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Extremely Satisfied</masterLabel>
+            <translation><!-- 5 - Extremely Satisfied --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Definition Lookup --></label>
+        <name>PCE_Definition_Lookup__c</name>
+        <relationshipLabel><!-- Leg --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Definition --></label>
+        <name>PCE_Definition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Passenger Count --></label>
+        <name>Passanger_Count__c</name>
+    </fields>
+    <fields>
+        <help><!-- Separate passenger names with a semicolon; --></help>
+        <label><!-- Passenger Manifest --></label>
+        <name>Passenger_Manifest__c</name>
+    </fields>
+    <fields>
+        <label><!-- Passenger Weights Provided to Operator? --></label>
+        <name>Passenger_Weights_Provided_to_Operator__c</name>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Passenger Weights Required? --></label>
+        <name>Passenger_Weights_Required__c</name>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Passport Notes --></label>
+        <name>Passport_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Date --></label>
+        <name>Payment_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Setup task reminder for payment due. --></help>
+        <label><!-- Payment Due Date --></label>
+        <name>Payment_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Status --></label>
+        <name>Payment_Status__c</name>
+        <picklistValues>
+            <masterLabel>Not Paid</masterLabel>
+            <translation><!-- Not Paid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid</masterLabel>
+            <translation><!-- Paid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requested</masterLabel>
+            <translation><!-- Requested --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Payment Type --></label>
+        <name>Payment_Type__c</name>
+        <picklistValues>
+            <masterLabel>Account Deduction</masterLabel>
+            <translation><!-- Account Deduction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Check</masterLabel>
+            <translation><!-- Check --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Card</masterLabel>
+            <translation><!-- Credit Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wire</masterLabel>
+            <translation><!-- Wire --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Peak Day? --></label>
+        <name>Peak_Day__c</name>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Personal Entertainment Passengers --></label>
+        <name>Personal_Entertainment_Passengers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Personal Non-Entertainment Passengers --></label>
+        <name>Personal_Non_Entertainment_Passengers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pets Onboard --></label>
+        <name>Pets_Onboard__c</name>
+    </fields>
+    <fields>
+        <help><!-- What time is the aircraft scheduled to be in position? --></help>
+        <label><!-- Positioning ETA --></label>
+        <name>Positioning_ETA__c</name>
+    </fields>
+    <fields>
+        <help><!-- Anything bad or good that impacted the flight…client will be able to read notes, so scrub to be as succinct as possible without losing any content. --></help>
+        <label><!-- Post Flight Comments --></label>
+        <name>Post_Flight_Comments__c</name>
+    </fields>
+    <fields>
+        <help><!-- This box is checked for flight history that happened before person became our client. Often our flight history before they become client is incomplete so we want to be able to exclude these from our reporting --></help>
+        <label><!-- Prior --></label>
+        <name>Prior__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process Initiated --></label>
+        <name>Process_Initiated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process Status --></label>
+        <name>Process_Status__c</name>
+        <picklistValues>
+            <masterLabel>Canceled</masterLabel>
+            <translation><!-- Canceled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Professionalism of Crew Comment --></label>
+        <name>Professionalism_of_Crew_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Professionalism of Crew Score --></label>
+        <name>Professionalism_of_Crew_Score__c</name>
+        <picklistValues>
+            <masterLabel>1 - Not Satisfied</masterLabel>
+            <translation><!-- 1 - Not Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Somewhat Satisfied</masterLabel>
+            <translation><!-- 2 - Somewhat Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Satisfied</masterLabel>
+            <translation><!-- 3 - Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Very Satisfied</masterLabel>
+            <translation><!-- 4 - Very Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Extremely Satisfied</masterLabel>
+            <translation><!-- 5 - Extremely Satisfied --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Use this field to verify expected client charges match actual charges. --></help>
+        <label><!-- Projected Operator Invoice Total --></label>
+        <name>Projected_Operator_Invoice_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purpose of Trip --></label>
+        <name>Purpose_of_Trip__c</name>
+        <picklistValues>
+            <masterLabel>Business</masterLabel>
+            <translation><!-- Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business &amp; Personal</masterLabel>
+            <translation><!-- Business &amp; Personal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal</masterLabel>
+            <translation><!-- Personal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- What is the status of the QC? (eg, QC&apos;d, QC Pending) --></help>
+        <label><!-- QC Calendar Note --></label>
+        <name>QC_Calendar_Note__c</name>
+    </fields>
+    <fields>
+        <label><!-- QC Complete --></label>
+        <name>QC_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- QC Email --></label>
+        <name>QC_Email_Sent__c</name>
+        <picklistValues>
+            <masterLabel>Email NOT Required</masterLabel>
+            <translation><!-- Email NOT Required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emailed</masterLabel>
+            <translation><!-- Emailed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- QC In-Progress --></label>
+        <name>QC_In_Progress__c</name>
+    </fields>
+    <fields>
+        <label><!-- QC Operator Contact Name --></label>
+        <name>QC_Operator_Contact_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Who QC&apos;d the flight? --></help>
+        <label><!-- QC Owner - OLD --></label>
+        <name>QC_Owner_OLD__c</name>
+        <relationshipLabel><!-- Transactions (QC Owner - OLD) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- QC Owner --></label>
+        <name>QC_Owner__c</name>
+        <relationshipLabel><!-- Transactions (QC Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- QC Timestamp --></label>
+        <name>QC_Timestamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raft Onboard (if applicable) --></label>
+        <name>Raft_Onboard_if_applicable__c</name>
+        <picklistValues>
+            <masterLabel>No - Requested</masterLabel>
+            <translation><!-- No - Requested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Required</masterLabel>
+            <translation><!-- Not Required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reason for diversion --></label>
+        <name>Reason_for_diversion__c</name>
+        <picklistValues>
+            <masterLabel>Air Traffic Control</masterLabel>
+            <translation><!-- Air Traffic Control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aircraft Mechanical</masterLabel>
+            <translation><!-- Aircraft Mechanical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Could not fly nonstop</masterLabel>
+            <translation><!-- Could not fly nonstop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crew Scheduling</masterLabel>
+            <translation><!-- Crew Scheduling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customs Denied</masterLabel>
+            <translation><!-- Customs Denied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NOTAM</masterLabel>
+            <translation><!-- NOTAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sick Passenger</masterLabel>
+            <translation><!-- Sick Passenger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unexpected Airport Closure</masterLabel>
+            <translation><!-- Unexpected Airport Closure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weather</masterLabel>
+            <translation><!-- Weather --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Recurring Business Process --></label>
+        <name>Recurring_Business_Process__c</name>
+        <relationshipLabel><!-- Leg --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Refund/Credit Description --></label>
+        <name>Refund_Credit_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Refund --></label>
+        <name>Refund__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reservation # --></label>
+        <name>Reservation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Risk Assessment - Post --></label>
+        <name>Risk_Assessment_Post__c</name>
+    </fields>
+    <fields>
+        <label><!-- Risk Assessment --></label>
+        <name>Risk_Assessment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Risk Score - Post --></label>
+        <name>Risk_Score_Post__c</name>
+    </fields>
+    <fields>
+        <label><!-- Risk Score --></label>
+        <name>Risk_Score__c</name>
+    </fields>
+    <fields>
+        <help><!-- Why did the crew or aircraft fail the safety check? --></help>
+        <label><!-- Safety Check Failure Reason --></label>
+        <name>Safety_Check_Failure_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Salesforce Update? --></label>
+        <name>Salesforce_Update__c</name>
+    </fields>
+    <fields>
+        <label><!-- Secondary Additional QC Notes --></label>
+        <name>Secondary_Additional_QC_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Short Leg Waiver Used --></label>
+        <name>Short_Leg_Waiver_Used__c</name>
+    </fields>
+    <fields>
+        <label><!-- Simultaneous Usage Used --></label>
+        <name>Simultaneous_Usage_Used__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this box when simultaneous usage takes place so that it can be collected for fractional summary incentives reporting purposes --></help>
+        <label><!-- Simultaneous Usage? --></label>
+        <name>Simultaneous_Usage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Skipped Steps --></label>
+        <name>Skipped_Steps__c</name>
+    </fields>
+    <fields>
+        <label><!-- Slots Required? --></label>
+        <name>Slots_Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Solution Category --></label>
+        <name>Solution_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Flight Description --></label>
+        <name>Special_Flight_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special QC --></label>
+        <name>Special_QC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Strategy AC Type --></label>
+        <name>Strategy_AC_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Strategy Account Name --></label>
+        <name>Strategy_Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Strategy Arr Airport --></label>
+        <name>Strategy_Arr_Airport__c</name>
+    </fields>
+    <fields>
+        <label><!-- Strategy Cabin Type --></label>
+        <name>Strategy_Cabin_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Strategy Dep Airport --></label>
+        <name>Strategy_Dep_Airport__c</name>
+    </fields>
+    <fields>
+        <label><!-- Strategy Itin Type --></label>
+        <name>Strategy_Itin_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Strategy Vendor --></label>
+        <name>Strategy_Operator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Strategy Peak High Vol --></label>
+        <name>Strategy_Peak_High_Vol__c</name>
+    </fields>
+    <fields>
+        <label><!-- Strategy Season --></label>
+        <name>Strategy_Season__c</name>
+    </fields>
+    <fields>
+        <label><!-- Strategy Solution Type --></label>
+        <name>Strategy_Solution_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Strategy Tail # --></label>
+        <name>Strategy_Tail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Strategy Up/Downgrade --></label>
+        <name>Strategy_Up_Downgrade__c</name>
+    </fields>
+    <fields>
+        <label><!-- SubContracted Tail Info Email --></label>
+        <name>SubContracted_Tail_Info_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub-Contracted? --></label>
+        <name>Sub_Contracted__c</name>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Subject --></label>
+        <name>Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Text Tail # --></label>
+        <name>Text_Tail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Additional Cost --></label>
+        <name>Total_Additional_Cost__c</name>
+    </fields>
+    <fields>
+        <help><!-- (Hourly_Rate + Fuel_Rate))* Billed_Flight_Time)) +FET +CATax + EscalationFee+ OtherTaxesFees + CancellationPenalty + GuaranteedFC+ CharterFlightCost+ BrokerFee - Refund+ Deicing + Hangar+ WiFi + AircraftCleaning+ InternlCF + InternFees + InternFC --></help>
+        <label><!-- Total Flight Cost --></label>
+        <name>Total_Flight_Cost__c</name>
+    </fields>
+    <fields>
+        <help><!-- For reporting --></help>
+        <label><!-- Transaction- Pof1 --></label>
+        <name>Transaction_Pof1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Type --></label>
+        <name>Transaction_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trip Manager Number --></label>
+        <name>Trip_Manager_Number__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Trip Purpose Details --></label>
+        <name>Trip_Purpose_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trip Type --></label>
+        <name>Trip_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- If applicable --></help>
+        <label><!-- U.S. Address for Staying Night Prior --></label>
+        <name>U_S_Address_for_Staying_Night_Prior__c</name>
+    </fields>
+    <fields>
+        <label><!-- Upgrade or Downgrade Requested? --></label>
+        <name>Upgrade_Downgrade_Requested__c</name>
+        <picklistValues>
+            <masterLabel>Downgrade Guaranteed</masterLabel>
+            <translation><!-- Downgrade Guaranteed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Downgrade Not Guaranteed</masterLabel>
+            <translation><!-- Downgrade Not Guaranteed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request Denied</masterLabel>
+            <translation><!-- Request Denied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upgrade Guaranteed - Contractual</masterLabel>
+            <translation><!-- Upgrade Guaranteed - Contractual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upgrade Guaranteed - Non Contractual</masterLabel>
+            <translation><!-- Upgrade Guaranteed - Non Contractual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upgrade Not Guaranteed - Contractual</masterLabel>
+            <translation><!-- Upgrade Not Guaranteed - Contractual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upgrade Not Guaranteed - Non Contractual</masterLabel>
+            <translation><!-- Upgrade Not Guaranteed - Non Contractual --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Upgrade Used --></label>
+        <name>Upgrade_Used__c</name>
+    </fields>
+    <fields>
+        <label><!-- Upgraded or Downgraded --></label>
+        <name>Upgraded_or_Downgraded__c</name>
+        <picklistValues>
+            <masterLabel>Downgrade - Forced</masterLabel>
+            <translation><!-- Downgrade - Forced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Downgrade - Requested</masterLabel>
+            <translation><!-- Downgrade - Requested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Downgrade - Requested; Upgrade - Complimentary</masterLabel>
+            <translation><!-- Downgrade - Requested; Upgrade - Complimentary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Downgrade Request - Denied</masterLabel>
+            <translation><!-- Downgrade Request - Denied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upgrade - Complimentary</masterLabel>
+            <translation><!-- Upgrade - Complimentary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upgrade - Requested</masterLabel>
+            <translation><!-- Upgrade - Requested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upgrade Request - Denied</masterLabel>
+            <translation><!-- Upgrade Request - Denied --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This is automatically checked when there is a diversion, subcontracted aircraft or delay, then those transactions are put on the urgent follow-up report --></help>
+        <label><!-- Urgent Follow-Up? --></label>
+        <name>Urgent_Follow_Up__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Necessary</masterLabel>
+            <translation><!-- Not Necessary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Vendor Follow-Up Comments --></label>
+        <name>Vendor_Follow_Up_Comments__c</name>
+    </fields>
+    <fields>
+        <help><!-- If the vendor messes up and we need to follow-up regarding compensation. --></help>
+        <label><!-- Vendor Follow-up --></label>
+        <name>Vendor_Follow_up__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vendor Name --></label>
+        <name>Vendor_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Visa Required? --></label>
+        <name>Visa_Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Visas Sent to Operator --></label>
+        <name>Visas_Sent_to_Operator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Whole Aircraft Category --></label>
+        <name>Whole_Aircraft__c</name>
+        <picklistValues>
+            <masterLabel>3rd Party Charter</masterLabel>
+            <translation><!-- 3rd Party Charter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate Charter</masterLabel>
+            <translation><!-- Corporate Charter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal</masterLabel>
+            <translation><!-- Personal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- WiFi --></label>
+        <name>WiFi__c</name>
+    </fields>
+    <quickActions>
+        <label><!-- Calculate Tax --></label>
+        <name>Calculate_Tax</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Expense --></label>
+        <name>Expense</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Leg --></label>
+        <name>Leg</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please enter tail number --></errorMessage>
+        <name>Booked_Tail_Number</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter Special Flight Description --></errorMessage>
+        <name>Enter_Special_Flight_Desc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter estimated billable time --></errorMessage>
+        <name>Enter_estimated_billable_time</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Lead Passenger Group must be filled out. --></errorMessage>
+        <name>Lead_Passenger_Group</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter delay reason --></errorMessage>
+        <name>Need_Delay_Reason</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Aircraft_Conga --></label>
+        <name>Aircraft_Conga</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Aircraft_Selection --></label>
+        <name>Conga_Composer_Aircraft_Selection</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Airport_Notification --></label>
+        <name>Conga_Composer_Airport_Notification</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Client_Booking_Notifications --></label>
+        <name>Conga_Composer_Client_Booking_Notifications</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_KHPN_Construction --></label>
+        <name>Conga_Composer_KHPN_Construction</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Research_Request --></label>
+        <name>Conga_Composer_Research_Request</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_SubContracted_Tail_Info_Email --></label>
+        <name>Conga_Composer_SubContracted_Tail_Info_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Transaction_Reports --></label>
+        <name>Conga_Composer_Transaction_Reports</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Process_Visual --></label>
+        <name>Process_Visual</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Strategies --></label>
+        <name>Strategies</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Upgrade_Downgrade_Calculator --></label>
+        <name>Upgrade_Downgrade_Calculator</name>
+    </webLinks>
+</CustomObjectTranslation>

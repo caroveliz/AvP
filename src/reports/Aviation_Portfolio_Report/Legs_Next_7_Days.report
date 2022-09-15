@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Leg__c$Name</field>
+    </columns>
+    <columns>
+        <field>Leg__c$Departing_Airport__c</field>
+    </columns>
+    <columns>
+        <field>Leg__c$Arriving_Airport__c</field>
+    </columns>
+    <columns>
+        <field>Leg__c$Risk_Score__c</field>
+    </columns>
+    <columns>
+        <field>Leg__c$Risk_Score_Post__c</field>
+    </columns>
+    <columns>
+        <field>Leg__c$Flight_Status__c</field>
+    </columns>
+    <columns>
+        <field>Leg__c$Actual_Flight_Time_hours__c</field>
+    </columns>
+    <columns>
+        <field>Leg__c$Solution_Category__c</field>
+    </columns>
+    <format>Tabular</format>
+    <name>Legs Next 7 Days</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Legs__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Leg__c$Calendar_Year__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

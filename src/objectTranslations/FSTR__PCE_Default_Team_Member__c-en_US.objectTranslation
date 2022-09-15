@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account Owner --></label>
+        <name>FSTR__AccountOwner__c</name>
+        <relationshipLabel><!-- Default Team Members (Account Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Role --></label>
+        <name>FSTR__Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Team Member --></label>
+        <name>FSTR__TeamMember__c</name>
+        <relationshipLabel><!-- Default Team Members (Team Member) --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

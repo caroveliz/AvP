@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Label --></label>
+        <name>FSTR__Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- Provider --></label>
+        <name>FSTR__Provider__c</name>
+        <picklistValues>
+            <masterLabel>UiPath</masterLabel>
+            <translation><!-- UiPath --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>FSTR__Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value --></label>
+        <name>FSTR__Value__c</name>
+    </fields>
+</CustomObjectTranslation>

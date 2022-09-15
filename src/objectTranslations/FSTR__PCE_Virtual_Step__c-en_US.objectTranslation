@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account --></label>
+        <name>FSTR__Business_Account__c</name>
+        <relationshipLabel><!-- Virtual Steps --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Business Process --></label>
+        <name>FSTR__Business_Process__c</name>
+        <relationshipLabel><!-- Virtual Steps --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Campaign --></label>
+        <name>FSTR__Campaign__c</name>
+        <relationshipLabel><!-- Virtual Steps --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Case --></label>
+        <name>FSTR__Case__c</name>
+        <relationshipLabel><!-- Virtual Steps --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>FSTR__Client__c</name>
+        <relationshipLabel><!-- Virtual Steps --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Completed Date --></label>
+        <name>FSTR__Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract --></label>
+        <name>FSTR__Contract__c</name>
+        <relationshipLabel><!-- Virtual Steps --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Definition --></label>
+        <name>FSTR__Definition_Lookup__c</name>
+        <relationshipLabel><!-- Virtual Steps --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>FSTR__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>FSTR__Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Created --></label>
+        <name>FSTR__First_Created__c</name>
+    </fields>
+    <fields>
+        <label><!-- Generated Step Id --></label>
+        <name>FSTR__Generated_Step_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Generated Step --></label>
+        <name>FSTR__Is_Generated_Step__c</name>
+    </fields>
+    <fields>
+        <label><!-- Iteration --></label>
+        <name>FSTR__Iteration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead --></label>
+        <name>FSTR__Lead__c</name>
+        <relationshipLabel><!-- Virtual Steps --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- A link to the actual step object that has been generated, if it exists. --></help>
+        <label><!-- Generated Step Link --></label>
+        <name>FSTR__Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>FSTR__Opportunity__c</name>
+        <relationshipLabel><!-- Virtual Steps --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Stage --></label>
+        <name>FSTR__Stage_Lookup__c</name>
+        <relationshipLabel><!-- Virtual Steps --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>FSTR__Status__c</name>
+        <picklistValues>
+            <masterLabel>Canceled</masterLabel>
+            <translation><!-- Canceled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Step --></label>
+        <name>FSTR__Step_Lookup__c</name>
+        <relationshipLabel><!-- Virtual Steps --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Subject --></label>
+        <name>FSTR__Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unique Id --></label>
+        <name>FSTR__Unique_Id__c</name>
+    </fields>
+</CustomObjectTranslation>

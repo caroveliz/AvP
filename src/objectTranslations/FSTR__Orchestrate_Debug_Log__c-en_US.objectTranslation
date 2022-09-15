@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Definition Id --></label>
+        <name>FSTR__Definition_Id__c</name>
+        <relationshipLabel><!-- Orchestrate Debug Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Details --></label>
+        <name>FSTR__Details__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field will contain queries you can perform in the Developer Console to see which drill down records are causing your Step Creation Criteria to fail. --></help>
+        <label><!-- Drill Down Queries --></label>
+        <name>FSTR__Drill_Down_Queries__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process Object Id --></label>
+        <name>FSTR__Process_Object_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process Object Name --></label>
+        <name>FSTR__Process_Object_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process Object Type --></label>
+        <name>FSTR__Process_Object_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Step Id --></label>
+        <name>FSTR__Step_Id__c</name>
+        <relationshipLabel><!-- Orchestrate Debug Logs --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

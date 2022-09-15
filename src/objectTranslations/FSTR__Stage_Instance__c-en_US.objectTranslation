@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Completed Date --></label>
+        <name>FSTR__Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Definition --></label>
+        <name>FSTR__Definition__c</name>
+        <relationshipLabel><!-- Stage Instances --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Parent Process Instance --></label>
+        <name>FSTR__Parent_Process_Instance__c</name>
+        <relationshipLabel><!-- Stage Instances --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Process Instance --></label>
+        <name>FSTR__Process_Instance__c</name>
+        <relationshipLabel><!-- Stage Instances --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Stage --></label>
+        <name>FSTR__Stage__c</name>
+        <relationshipLabel><!-- Stage Instances --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>FSTR__Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>FSTR__Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation><!-- Not Started --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Time in Stage --></label>
+        <name>FSTR__Total_Time_in_Stage__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Operator Program Aircraft</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Operator Program Aircraft</value>
+    </caseValues>
+    <fields>
+        <label><!-- Aircraft Type --></label>
+        <name>Aircraft_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Incentives to Negotiate --></label>
+        <name>Aircraft__c</name>
+    </fields>
+    <fields>
+        <label><!-- All-In Cost Per Hour --></label>
+        <name>All_In_Cost_Per_Hour__c</name>
+    </fields>
+    <fields>
+        <label><!-- Annual Lease Fee --></label>
+        <name>Annual_Lease_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Annual MMF --></label>
+        <name>Annual_MMF__c</name>
+    </fields>
+    <fields>
+        <help><!-- For NetJets and FlexJet --></help>
+        <label><!-- CA Tax --></label>
+        <name>CA_Tax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cabin Type --></label>
+        <name>Cabin_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost per Hour (no FET) --></label>
+        <name>Cost_per_Hour_no_FET__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fuel Cost --></label>
+        <name>Fuel_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Important Notes to Discuss with Client --></label>
+        <name>Important_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lease Deposit --></label>
+        <name>Lease_Deposit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max Seating Capacity (Non-Lav) --></label>
+        <name>Max_Seating_Capacity_Non_Lav__c</name>
+    </fields>
+    <fields>
+        <label><!-- OHF --></label>
+        <name>OHF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operator Program Market Intelligence --></label>
+        <name>Operator_Program_Market_Intelligence__c</name>
+        <relationshipLabel><!-- Operator Program Aircraft --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Premium MMF --></label>
+        <name>Premium_MMF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchase Price --></label>
+        <name>Purchase_Price__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Fractional Aircraft --></label>
+        <name>Fractional_Aircraft</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Jetcard Aircraft --></label>
+        <name>Jetcard_Aircraft</name>
+    </recordTypes>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account --></label>
+        <name>FSTR__Account__c</name>
+        <relationshipLabel><!-- Recurring Business Processes --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This field determines who the generated object should be assigned to. --></help>
+        <label><!-- Assign Process Object By --></label>
+        <name>FSTR__Assign_Process_Object_By__c</name>
+        <picklistValues>
+            <masterLabel>Process Team Role</masterLabel>
+            <translation><!-- Process Team Role --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Queue</masterLabel>
+            <translation><!-- Queue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Related Account Owner</masterLabel>
+            <translation><!-- Related Account Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Role</masterLabel>
+            <translation><!-- Role --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Account Team Role</masterLabel>
+            <translation><!-- Salesforce Account Team Role --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User</masterLabel>
+            <translation><!-- User --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Indicates when the recurrence should start generating objects. --></help>
+        <label><!-- Begin Date --></label>
+        <name>FSTR__Begin_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>FSTR__Contact__c</name>
+        <relationshipLabel><!-- Recurring Business Processes --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Indicates how many days after the creation that a generated process object should be due. --></help>
+        <label><!-- Due Date Adjustment --></label>
+        <name>FSTR__Due_Date_Adjustment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates if the recurrence should stop at some point.  If this is null the recurrence continues forever. --></help>
+        <label><!-- End Date --></label>
+        <name>FSTR__End_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- If the Interval is set to Week, this field indicates the days of the week the Recurring will execute on.  If no days are selected the Recurring will execute 7 days after the previous execution. --></help>
+        <label><!-- Execute on --></label>
+        <name>FSTR__Execute_on__c</name>
+        <picklistValues>
+            <masterLabel>Friday</masterLabel>
+            <translation><!-- Friday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monday</masterLabel>
+            <translation><!-- Monday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saturday</masterLabel>
+            <translation><!-- Saturday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sunday</masterLabel>
+            <translation><!-- Sunday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thursday</masterLabel>
+            <translation><!-- Thursday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tuesday</masterLabel>
+            <translation><!-- Tuesday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wednesday</masterLabel>
+            <translation><!-- Wednesday --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- used in the background to indicate when the recurring should be generated --></help>
+        <label><!-- Generate Next Occurrence --></label>
+        <name>FSTR__Generate_Next_Occurrence__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is used in conjunction with Interval to calculate the next scheduled occurrence. For instance, if 4 is entered and Day is selected the Interval field, 4 days will be added to get the next occurrence. --></help>
+        <label><!-- Interval Number --></label>
+        <name>FSTR__Interval_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is used in conjunction with Interval Number to calculate the next scheduled occurrence. For instance, if Day is selected and 4 entered in the Interval Number field, 4 days will be added to get the next occurrence. --></help>
+        <label><!-- Interval --></label>
+        <name>FSTR__Interval__c</name>
+        <picklistValues>
+            <masterLabel>Day</masterLabel>
+            <translation><!-- Day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Month</masterLabel>
+            <translation><!-- Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarter</masterLabel>
+            <translation><!-- Quarter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Week</masterLabel>
+            <translation><!-- Week --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Year</masterLabel>
+            <translation><!-- Year --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last Scheduled Occurrence --></label>
+        <name>FSTR__Last_Scheduled_Occurence__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date of the next time this process will be fired. --></help>
+        <label><!-- Next Scheduled Occurrence --></label>
+        <name>FSTR__Next_Scheduled_Occurence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obj Data1 --></label>
+        <name>FSTR__Obj_Data1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obj Data2 --></label>
+        <name>FSTR__Obj_Data2__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field indicates the name of the type of object that this recurring process will generate when it executes. --></help>
+        <label><!-- Object Type To Create --></label>
+        <name>FSTR__Object_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Type To Create Name --></label>
+        <name>FSTR__Object_Type_To_Create_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field indicates the definition that should kick off from this recurring.  It is only used for lower versions where criteria is not entered. --></help>
+        <label><!-- Definition to Execute --></label>
+        <name>FSTR__PCE_Definition_to_Execute__c</name>
+        <relationshipLabel><!-- Recurring Business Processes --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- If the Assign Process Object By field is set to Queue this is the field that indicates the queue. --></help>
+        <label><!-- Process Object Owner Queue --></label>
+        <name>FSTR__Process_Object_Owner_Queue__c</name>
+    </fields>
+    <fields>
+        <help><!-- If the Assign Process Object By field is set to Role this is the field that indicates the role. --></help>
+        <label><!-- Process Object Owner Role --></label>
+        <name>FSTR__Process_Object_Owner_Role__c</name>
+    </fields>
+    <fields>
+        <help><!-- If the Assign Process Object By field is set to User this is the field that indicates that user. --></help>
+        <label><!-- Process Object Owner User --></label>
+        <name>FSTR__Process_Object_Owner_User__c</name>
+        <relationshipLabel><!-- Recurring Business Processes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Record Type To Create --></label>
+        <name>FSTR__RecordTypeId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Type To Create Name --></label>
+        <name>FSTR__Record_Type_To_Create_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field determines the next scheduled occurrence calculation.  If Created it will calculate the next occurrence based on when the current record was created.  If Completed it will calculate the next occurrence based on when it was completed. --></help>
+        <label><!-- Recurrence Type --></label>
+        <name>FSTR__Recurrence_Type__c</name>
+        <picklistValues>
+            <masterLabel>Completed Date</masterLabel>
+            <translation><!-- Completed Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Created Date</masterLabel>
+            <translation><!-- Created Date --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

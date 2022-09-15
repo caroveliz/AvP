@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- DataType --></label>
+        <name>FSTR__DataType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Name --></label>
+        <name>FSTR__Field_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Value --></label>
+        <name>FSTR__Field_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Joining Operator --></label>
+        <name>FSTR__Joining_Operator__c</name>
+        <picklistValues>
+            <masterLabel>AND</masterLabel>
+            <translation><!-- AND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation><!-- OR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Object Name --></label>
+        <name>FSTR__Object_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operator --></label>
+        <name>FSTR__Operator__c</name>
+        <picklistValues>
+            <masterLabel>!=</masterLabel>
+            <translation><!-- != --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&lt;</masterLabel>
+            <translation><!-- &lt; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&lt;=</masterLabel>
+            <translation><!-- &lt;= --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>=</masterLabel>
+            <translation><!-- = --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;</masterLabel>
+            <translation><!-- &gt; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;=</masterLabel>
+            <translation><!-- &gt;= --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Step --></label>
+        <name>FSTR__PCE_Step__c</name>
+        <relationshipLabel><!-- Step Reevaluation Criteria --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

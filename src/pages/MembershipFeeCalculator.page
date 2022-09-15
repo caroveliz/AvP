@@ -1,0 +1,15 @@
+<apex:page standardController="Client_Program__c" extensions="MembershipFeeCalculator">
+    <apex:pageBlock title="Membership Fee Calculator">
+        <apex:pageBlockSection columns="1">
+            <apex:outputField value="{!program.Name}" />
+            <apex:outputField value="{!program.Annual_Membership_Fee__c}" />
+            <apex:outputField value="{!program.Grand_Total_Billed_Hours__c}" label="Total Billed Hours" />
+            <apex:pageBlockSectionItem >
+                Membership Fee/Hour
+                <apex:outputText value="{0, number, $#,##0.00}">
+                    <apex:param value="{!membershipFeePerHour}" />
+                </apex:outputText>
+            </apex:pageBlockSectionItem>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+</apex:page>

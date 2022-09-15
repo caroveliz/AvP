@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Incentive</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Incentives</value>
+    </caseValues>
+    <fields>
+        <label><!-- Aircraft Type Downgrade Guaranteed --></label>
+        <name>Aircraft_Type_Downgrade_Guaranteed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Type Free --></label>
+        <name>Aircraft_Type_Free__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Type Guaranteed --></label>
+        <name>Aircraft_Type_Guaranteed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Program Year --></label>
+        <name>Client_Program_Year__c</name>
+        <relationshipLabel><!-- Incentives --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Downgrades Note --></label>
+        <name>Downgrades_Note__c</name>
+    </fields>
+    <fields>
+        <label><!-- Free Upgrades Notes --></label>
+        <name>Free_Upgrades_Note__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incentives Status --></label>
+        <name>Incentives_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Name of owner for this incentive --></label>
+        <name>Name_of_owner_for_this_incentive__c</name>
+        <relationshipLabel><!-- Incentives --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Number of Free Upgrades --></label>
+        <name>Number_of_Free_Upbrades__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Guaranteed Upgrades --></label>
+        <name>Number_of_Guaranteed_Upgrades__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Short-Leg Waivers --></label>
+        <name>Number_of_Short_Leg_Waivers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Simultaneous Usages --></label>
+        <name>Number_of_Simultaneous_Usages__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Guaranteed Downgrades --></label>
+        <name>Number_of_downgrades__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Incentives Notes --></label>
+        <name>Other_Incentives_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Short Leg Waivers Used --></label>
+        <name>Total_Short_Leg_Waivers_Used__c</name>
+    </fields>
+    <fields>
+        <label><!-- Upgrades Note --></label>
+        <name>Upgrades_Note__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Hours Free Upgrades --></label>
+        <name>of_Hours_Free_Upgrades__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Hours Guaranteed Upgrade --></label>
+        <name>of_Hours_Guaranteed_Upgrade__c</name>
+    </fields>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

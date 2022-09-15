@@ -1,0 +1,7 @@
+Opportunity: {!Opportunity.Name} Ready to send Authorizations
+
+Operator Programs:
+{!Opportunity.Operator_Program_Name__c}
+
+Please send authorizations for signature:
+{!Opportunity.Link}

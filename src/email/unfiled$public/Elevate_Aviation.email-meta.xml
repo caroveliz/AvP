@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Private Aviation Strategy</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>!Private Aviation Strategy</name>
+    <style>none</style>
+    <subject>Your Private Aviation Strategy</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+Are you aware of all the changes in the private aviation market?  How do you separate the hype from the reality?
+
+-Private aviation apps
+-New membership programs
+-Fractional fleet refreshments
+-Shrinking pilot workforce
+
+Aviation Portfolio proactively, and in real-time, advises on solutions and adjustments that give buyers an advantage in decision-making around private aviation.
+
+Can we schedule 5 minutes to discuss your overall aviation strategy?
+
+Jenny
+
+Jenny Lell | Aviation Portfolio® | Santa Monica, CA | 310-460-9219 | Fly Smart. Pay Right.™</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,113 @@
+<apex:page showHeader="true" sidebar="true"  docType="html-5.0" standardController="Case" extensions="TripManagerCtlr" tabStyle="New_Requests__tab">  
+    <html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>jQuery UI Accordion - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"/>
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css"/>
+  <script>
+  $(function() {
+    $( "#accordion" ).accordion();
+    $('select').css('width','205px');
+    $('input').css('width','200px');
+    $('input').css('font-family','sans-serif');
+    $('input').css('font-size','12px');
+    //$(['id^=saveBtn']).css('width','75px');
+  });
+ 
+    $( document ).ready(function() {
+       $('.pbSubExtra').hide();
+    });
+     </script>
+</head>
+<body>
+    <div id="accordion">
+        <h3>Trip Manager Request</h3>
+            <div>
+                <apex:pageMessages ></apex:pageMessages>
+                <apex:form id="theForm">        
+                    <apex:pageBlock id="theBlock" mode="edit">
+                        <apex:pageBlockSection id="theSection" columns="1" title="Trip Request" >
+                           <apex:input type="date" label="Date Requested" value="{!dReq}"  html-placeholder="{!ToDay()}"  id="DateR" /><br/> 
+
+                            <apex:inputText label="Trip Name" value="{!subj}" id="Subj"/>
+                            <apex:inputTextarea style="width: 200px; height: 50px;" label="Itinerary/Dates/Routing/ Times" value="{!des}" id="Des"/><br/> 
+
+                            <apex:selectList label="Type of Trip" value="{!trTypes}" size="1">
+                            <apex:selectOptions value="{!TripTypes}"/>
+                            </apex:selectList>
+
+                            <apex:selectList label="Aircraft Type Requested" value="{!arTypes}" size="1">
+                            <apex:selectOptions value="{!AirTypes}"/>
+                            </apex:selectList>
+
+                            <apex:selectList label="Non-Stop Required?" value="{!nonStopReq}" size="1">
+                            <apex:selectOptions value="{!NonStopReqTypes}"/>
+                            </apex:selectList>
+
+                            <apex:selectList label="Wifi Required?" value="{!wifiReq}" size="1">
+                            <apex:selectOptions value="{!WifiReqTypes}"/>
+                            </apex:selectList><br/> 
+
+                            <apex:selectList label="Purpose of Trip" value="{!pTrip}" size="1">
+                            <apex:selectOptions value="{!PTripTypes}"/>
+                            </apex:selectList>
+
+                            <apex:inputText label="Purpose of Trip, if Other" value="{!pTripOthr}" id="PTOther"/>
+
+                            <apex:selectList label="Travel to/from a Time Sensitive Event?" value="{!travelTime}" size="1">
+                            <apex:selectOptions value="{!TravelTimeTypes}"/>
+                            </apex:selectList>
+                            
+                            <apex:inputText label="Time Sensitive Event Description" value="{!timeSensitive}" id="TrTimeDes"/>
+                            <!-- <apex:outputPanel >
+                                <label style="font-family: Verdana;font-weight: bold; text_align:right;">Time Sensitive Event Description</label>                        
+                                
+                                <span class="helpButton" id="TrTimeDes_help">
+                                    <img src="/s.gif" alt="" class="helpOrb" title="Please provide details of your time sensitive event." />
+                                    <script>sfdcPage.setHelp('TrTimeDes_help', 'test');</script>
+                                </span>                                
+                            </apex:outputPanel> -->
+
+                            <apex:inputText label="Flight Budget" value="{!flihtBdgt}" id="FlghtBdgt"/><br/>
+                        </apex:pageBlockSection>
+
+                        <apex:pageBlockSection title="Passenger & Luggage Details" columns="1">
+                            <apex:inputText label="Special Luggage" value="{!spclLugg}" id="SpeclLugg"/>
+                            <apex:inputText label="Potential Max # of Seats Required?" value="{!maxPass}" id="MaxPass"/>
+                            <apex:inputText label="# of Adult Passengers" value="{!adltPass}" id="AdltPass"/>
+                            <apex:inputText label="# of Child Passengers" value="{!chldPass}" id="ChldPass"/>
+                            <apex:inputText label="# of Babies Under 24 Months" value="{!lapBabies}" id="LapBabies"/>
+                            <apex:inputText label="# of Potential Pets Traveling" value="{!pets}" id="pets"/><br/>
+                        </apex:pageBlockSection>
+
+                        <apex:pageBlockSection title="Connecting Commercial Flights" columns="1">        <!-- <apex:inputText label="Special Trip Request Notes" value="{!spclTripNotes}" id="SpeclTrReq"/> --> 
+                            <apex:selectList label="Connecting To/From Commercial Flight" value="{!ccFlight}" size="1">
+                            <apex:selectOptions value="{!CCFlightTypes}"/>  
+                            </apex:selectList>
+                            <apex:inputText label="Commercial Flight Details" value="{!cFlightDetails}" id="cFlgtDetail"/>
+                        </apex:pageBlockSection>    
+                    
+                        <center>
+                             <apex:PageBlockButtons location="bottom">
+                                <apex:commandButton action="{!saveRecord}" value="Save" id="saveBtn"/>
+                            </apex:PageBlockButtons>
+                        </center>    
+                    </apex:pageBlock> 
+                </apex:form>
+            </div>
+            <!-- <h3>Section 2</h3>
+            <div>
+            <p>
+            Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+            purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+            velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+            suscipit faucibus urna.
+            </p>
+        </div> -->
+    </div>
+ </body>
+</html>
+</apex:page>

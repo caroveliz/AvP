@@ -1,0 +1,6 @@
+<apex:page standardController="Account">
+    <flow:interview name="Direct_Book_V3" finishLocation="/{!Id}"> 
+        <apex:param name="vAccountID" value="{!Id}"/>
+        <apex:param name="vUserID" value="{!$User.Id}"/>
+        </flow:interview>
+</apex:page>

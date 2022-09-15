@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Portfolio Review</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Portfolio Reviews</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Portfolio Reviews (Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Client Preference 1 --></label>
+        <name>Client_Preference_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Preference 2 --></label>
+        <name>Client_Preference_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Considering Vendor 1 --></label>
+        <name>Considering_Vendor_1__c</name>
+        <relationshipLabel><!-- Portfolio Reviews (Considering Vendor 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Considering Vendor 2 --></label>
+        <name>Considering_Vendor_2__c</name>
+        <relationshipLabel><!-- Portfolio Reviews (Considering Vendor 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Considering Vendor 3 --></label>
+        <name>Considering_Vendor_3__c</name>
+        <relationshipLabel><!-- Portfolio Reviews (Considering Vendor 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Portfolio Reviews --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Current Management Company --></label>
+        <name>Current_Management_Company__c</name>
+        <relationshipLabel><!-- Portfolio Reviews (Current Management Company) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Estimated Annual # of Segments --></label>
+        <name>Estimated_Annual_of_Segments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flying Private Since? --></label>
+        <name>Flying_Private_Since__c</name>
+        <picklistValues>
+            <masterLabel>A few years, relatively new</masterLabel>
+            <translation><!-- A few years, relatively new --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flying private for a while</masterLabel>
+            <translation><!-- Flying private for a while --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New to private travel</masterLabel>
+            <translation><!-- New to private travel --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Historical Management Companies --></label>
+        <name>Historical_Management_Companies__c</name>
+    </fields>
+    <fields>
+        <label><!-- Historical Vendors Notes --></label>
+        <name>Historical_Vendors_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Historical Vendors --></label>
+        <name>Historical_Vendors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Likes/Dislikes Vendor 2 --></label>
+        <name>Likes_Dislikes_Vendor_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Likes/Dislikes Vendor 3 --></label>
+        <name>Likes_Dislikes_Vendor_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Llikes/Dislikes Vendor 1 --></label>
+        <name>Llikes_Dislikes_Vendor_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes about Vendors being Considered --></label>
+        <name>Notes_about_Vendors_being_Considered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owned AC Tail # --></label>
+        <name>Owned_AC_Tail__c</name>
+        <relationshipLabel><!-- Portfolio Reviews --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Peak Day Traveler? --></label>
+        <name>Peak_Day_Traveler__c</name>
+        <picklistValues>
+            <masterLabel>50/50 mix</masterLabel>
+            <translation><!-- 50/50 mix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not usually</masterLabel>
+            <translation><!-- Not usually --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes, primarily</masterLabel>
+            <translation><!-- Yes, primarily --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Primary Program 1 --></label>
+        <name>Primary_Program_1__c</name>
+        <relationshipLabel><!-- Portfolio Reviews --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Primary Program 2 --></label>
+        <name>Primary_Program_2__c</name>
+        <relationshipLabel><!-- Portfolio Reviews (Primary Program 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Primary Program 3 --></label>
+        <name>Primary_Program_3__c</name>
+        <relationshipLabel><!-- Portfolio Reviews (Primary Program 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Primary Vendor 1 --></label>
+        <name>Primary_Vendor_1__c</name>
+        <relationshipLabel><!-- Portfolio Reviews --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Primary Vendor 2 --></label>
+        <name>Primary_Vendor_2__c</name>
+        <relationshipLabel><!-- Portfolio Reviews (Primary Vendor 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Primary Vendor 3 --></label>
+        <name>Primary_Vendor_3__c</name>
+        <relationshipLabel><!-- Portfolio Reviews (Primary Vendor 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Risk Profile - Business Trips --></label>
+        <name>Risk_Profile_Business_Trips__c</name>
+    </fields>
+    <fields>
+        <label><!-- Risk Profile - Personal Trips --></label>
+        <name>Risk_Profile_Personal_Trips__c</name>
+    </fields>
+    <fields>
+        <label><!-- Typical Routes --></label>
+        <name>Typical_Routes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Whole AC Ownership Status --></label>
+        <name>Whole_AC_Ownership_Status__c</name>
+        <picklistValues>
+            <masterLabel>Currently owns whole aircraft</masterLabel>
+            <translation><!-- Currently owns whole aircraft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Never owned whole aircraft</masterLabel>
+            <translation><!-- Never owned whole aircraft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Used to own whole aircraft</masterLabel>
+            <translation><!-- Used to own whole aircraft --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- % of Trips Personal --></label>
+        <name>of_Trips_Personal__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

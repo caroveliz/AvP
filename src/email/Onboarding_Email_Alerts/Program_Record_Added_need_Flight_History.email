@@ -1,0 +1,5 @@
+Program Record Added. ID: {!Client_Program__c.Name} 
+
+Need to add flight history.
+
+Link: {!Client_Program__c.Link}

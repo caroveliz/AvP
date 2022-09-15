@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Executive_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Executive Sharing</label>
+        <sharedTo>
+            <role>Executive</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Executive</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Opportunity</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Opportunity</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Opportunity_Share</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Opportunity Share</label>
+        <sharedTo>
+            <roleAndSubordinates>Consultant</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Consultant</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Opportunity_executive</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Opportunity - executive</label>
+        <sharedTo>
+            <role>Consultant</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Executive</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>opportunity_consultanta</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>opportunity-consultanta</label>
+        <sharedTo>
+            <role>Executive</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Consultant</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

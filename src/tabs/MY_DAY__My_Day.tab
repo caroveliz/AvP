@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <icon>MY_DAY__My_Day/MY_DAY__MyDay_Icon.png</icon>
+    <label>MyDay</label>
+    <motif>Custom290: TV Widescreen</motif>
+    <page>MY_DAY__blmd_MyDay</page>
+</CustomTab>

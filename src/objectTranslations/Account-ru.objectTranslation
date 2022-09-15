@@ -1,0 +1,1445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- CRMC Action Grid Defaults --></label>
+        <name>CRMC_PP__CRMC_Action_Grid_Defaults</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Account Filter Fields --></label>
+        <name>MC4SF__Account_Filter_Fields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- AC Select Score --></label>
+        <name>AC_Select_Score__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AC Selection Summ --></label>
+        <name>AC_Selection_Summ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Considerations --></label>
+        <name>Additional_Considerations__c</name>
+    </fields>
+    <fields>
+        <label><!-- After Hours Available --></label>
+        <name>After_Hours_Available__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Upload Complete --></label>
+        <name>Aircraft_Upload_Complete__c</name>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approximate Company Revenue --></label>
+        <name>Approximate_Company_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned to --></label>
+        <name>Assigned_to__c</name>
+    </fields>
+    <fields>
+        <label><!-- Backup Analyst --></label>
+        <name>Backup_Analyst__c</name>
+        <picklistValues>
+            <masterLabel>Chris Jahn</masterLabel>
+            <translation><!-- Chris Jahn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dan Harris</masterLabel>
+            <translation><!-- Dan Harris --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Luke Hatfield</masterLabel>
+            <translation><!-- Luke Hatfield --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Booking Notice Score --></label>
+        <name>Booking_Notice_Score__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Broker Credit Card Fee --></label>
+        <name>Broker_Credit_Card_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Broker Wire Instructions --></label>
+        <name>Broker_Wire_Instructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cancel Terms Score --></label>
+        <name>Cancel_Terms_Score__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Cancel Terms Summ --></label>
+        <name>Cancel_Terms_Summ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cancellation Terms --></label>
+        <name>Cancellation_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client End Date --></label>
+        <name>Client_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Start Date --></label>
+        <name>Client_Start_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- If client - check box --></help>
+        <label><!-- Client --></label>
+        <name>Client__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Address Record Type --></label>
+        <name>CloudingoAgent__BAR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Address Status --></label>
+        <name>CloudingoAgent__BAS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Address Vacancy --></label>
+        <name>CloudingoAgent__BAV__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Residential Delivery Indicator --></label>
+        <name>CloudingoAgent__BRDI__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Timezone --></label>
+        <name>CloudingoAgent__BTZ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Address Record Type --></label>
+        <name>CloudingoAgent__SAR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Address Status --></label>
+        <name>CloudingoAgent__SAS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Address Vacancy --></label>
+        <name>CloudingoAgent__SAV__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Residential Delivery Indicator --></label>
+        <name>CloudingoAgent__SRDI__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Timezone --></label>
+        <name>CloudingoAgent__STZ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Details --></label>
+        <name>Contract_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Corp Sum Score --></label>
+        <name>Corp_Sum_Score__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Corporate Headquarters --></label>
+        <name>Corporate_Headquarters__c</name>
+    </fields>
+    <fields>
+        <label><!-- Corporate Summary --></label>
+        <name>Corporate_Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Card Fee --></label>
+        <name>Credit_Card_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Crew Information --></label>
+        <name>Crew_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Upload Note --></label>
+        <name>Data_Upload_Note__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Upload Status --></label>
+        <name>Data_Upload_Status__c</name>
+        <picklistValues>
+            <masterLabel>Audit / Reupload</masterLabel>
+            <translation><!-- Audit / Reupload --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Communities Launched</masterLabel>
+            <translation><!-- Communities Launched --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No History to Upload</masterLabel>
+            <translation><!-- No History to Upload --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offine Report Complete - Awaiting Upload</masterLabel>
+            <translation><!-- Offine Report Complete - Awaiting Upload --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upload Complete</masterLabel>
+            <translation><!-- Upload Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upload Partially Complete</masterLabel>
+            <translation><!-- Upload Partially Complete --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Departure Move --></label>
+        <name>Departure_Move__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deposit Score --></label>
+        <name>Deposit_Score__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Deposit Summ --></label>
+        <name>Deposit_Summ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Direct Booking --></label>
+        <name>Direct_Booking__c</name>
+    </fields>
+    <fields>
+        <label><!-- Domestic Booking Notice --></label>
+        <name>Domestic_Booking_Notice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Executives --></label>
+        <name>Executives__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expiration Score --></label>
+        <name>Expiration_Score__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Expiration Summ --></label>
+        <name>Expiration_Summ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expiration --></label>
+        <name>Expiration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fleet Aircraft --></label>
+        <name>Fleet_Aircraft__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fleet Size Score --></label>
+        <name>Fleet_Size_Score__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Fleet Size Summ --></label>
+        <name>Fleet_Size_Summ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frax AC Currently Avail --></label>
+        <name>Frax_AC_Currently_Avail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frax AC Selection Summ --></label>
+        <name>Frax_AC_Selection_Summ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frax Commitment Summ --></label>
+        <name>Frax_Commitment_Summ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frax Deposit Summ --></label>
+        <name>Frax_Deposit_Summ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frax Guaranteed Avail Summ --></label>
+        <name>Frax_Guaranteed_Avail_Summ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frax Liability Insurance --></label>
+        <name>Frax_Liability_Insurance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frax Peak Days Score --></label>
+        <name>Frax_Peak_Days_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frax Peak Days Summ --></label>
+        <name>Frax_Peak_Days_Summ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frax Price Range Summ --></label>
+        <name>Frax_Price_Range_Summ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frax Seating Config --></label>
+        <name>Frax_Seating_Config__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frax WIFI --></label>
+        <name>Frax_WIFI__c</name>
+    </fields>
+    <fields>
+        <label><!-- Free WIFI --></label>
+        <name>Free_WIFI__c</name>
+    </fields>
+    <fields>
+        <label><!-- Guaranteed Avail Score --></label>
+        <name>Guaranteed_Avail_Score__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Guaranteed Avail Summ --></label>
+        <name>Guaranteed_Avail_Summ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Guaranteed Availability --></label>
+        <name>Guaranteed_Availability__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Information moved over from Contact for Flight Strategy Reporting --></help>
+        <label><!-- Important Profile Notes from Contact --></label>
+        <name>Important_Profile_Notes_from_Contact__c</name>
+    </fields>
+    <fields>
+        <help><!-- Incentive Information for Flight Strategy --></help>
+        <label><!-- Incentive Information --></label>
+        <name>Incentive_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Int&apos;l Booking Notice - incl AK HI --></label>
+        <name>Int_l_Booking_Notice_incl_AK_HI__c</name>
+    </fields>
+    <fields>
+        <label><!-- International Cancellation Terms --></label>
+        <name>International_Cancellation_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is there an on-fleet recovery? --></label>
+        <name>Is_there_an_on_fleet_recovery__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Itinerary Type --></label>
+        <name>Itinerary_Type__c</name>
+        <picklistValues>
+            <masterLabel>One-way</masterLabel>
+            <translation><!-- One-way --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roundtrip</masterLabel>
+            <translation><!-- Roundtrip --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roundtrip &amp; One-way</masterLabel>
+            <translation><!-- Roundtrip &amp; One-way --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- # of Days Since Last Activity --></label>
+        <name>Last_Activity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Analyst --></label>
+        <name>Lead_Analyst__c</name>
+        <picklistValues>
+            <masterLabel>Chris Jahn</masterLabel>
+            <translation><!-- Chris Jahn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dan Harris</masterLabel>
+            <translation><!-- Dan Harris --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Luke Hatfield</masterLabel>
+            <translation><!-- Luke Hatfield --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Leg Reconcile Status --></label>
+        <name>Leg_Reconcile_Status__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partial - missing contracts</masterLabel>
+            <translation><!-- Partial - missing contracts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partial - need help</masterLabel>
+            <translation><!-- Partial - need help --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Leg Reconciliation Notes --></label>
+        <name>Leg_Reconciliation_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Liability Insurance --></label>
+        <name>Liability_Insurance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Main Email --></label>
+        <name>Main_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Major Safety Incidents --></label>
+        <name>Major_Safety_Incidents__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Peak Days --></label>
+        <name>Number_of_Peak_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offers Program? --></label>
+        <name>Offers_Program__c</name>
+    </fields>
+    <fields>
+        <label><!-- One-Pager Pricing Language --></label>
+        <name>One_Pager_Pricing_Language__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operations and Customer Service --></label>
+        <name>Operations_and_Customer_Service__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operator Owner --></label>
+        <name>Operator_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Terms --></label>
+        <name>Payment_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Peak Booking Notice --></label>
+        <name>Peak_Booking_Notice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Peak Cancellation Terms --></label>
+        <name>Peak_Cancellation_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Peak Days Score --></label>
+        <name>Peak_Days_Score__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Peak Days Summ --></label>
+        <name>Peak_Days_Summ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Peak Premium --></label>
+        <name>Peak_Premium__c</name>
+    </fields>
+    <fields>
+        <label><!-- Peak Restrictions --></label>
+        <name>Peak_Restrictions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Range Score --></label>
+        <name>Price_Range_Score__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Price Range Summ --></label>
+        <name>Price_Range_Summ__c</name>
+    </fields>
+    <fields>
+        <help><!-- Yes- Only --></help>
+        <label><!-- Priority Account --></label>
+        <name>Priority_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process Instance --></label>
+        <name>Process_Instance__c</name>
+        <relationshipLabel><!-- Account --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Profession --></label>
+        <name>Profession__c</name>
+        <picklistValues>
+            <masterLabel>Advertising/Marketing/Branding</masterLabel>
+            <translation><!-- Advertising/Marketing/Branding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Architect</masterLabel>
+            <translation><!-- Architect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Artist</masterLabel>
+            <translation><!-- Artist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attorney-Aviation</masterLabel>
+            <translation><!-- Attorney-Aviation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attorney-Divorce</masterLabel>
+            <translation><!-- Attorney-Divorce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attorney-Entertainment</masterLabel>
+            <translation><!-- Attorney-Entertainment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attorney-Estate</masterLabel>
+            <translation><!-- Attorney-Estate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attorney-Real Estate</masterLabel>
+            <translation><!-- Attorney-Real Estate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aviation- Broker</masterLabel>
+            <translation><!-- Aviation- Broker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aviation-Brokerage Executive</masterLabel>
+            <translation><!-- Aviation-Brokerage Executive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aviation-Brokerage Sales</masterLabel>
+            <translation><!-- Aviation-Brokerage Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aviation-Caterer</masterLabel>
+            <translation><!-- Aviation-Caterer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aviation-Consultant</masterLabel>
+            <translation><!-- Aviation-Consultant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aviation-Flight Attendant</masterLabel>
+            <translation><!-- Aviation-Flight Attendant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aviation-Operator</masterLabel>
+            <translation><!-- Aviation-Operator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aviation-Operator Executive</masterLabel>
+            <translation><!-- Aviation-Operator Executive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aviation-Operator Sales</masterLabel>
+            <translation><!-- Aviation-Operator Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aviation-Pilot</masterLabel>
+            <translation><!-- Aviation-Pilot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aviation-Whole Aircraft Brokerage</masterLabel>
+            <translation><!-- Aviation-Whole Aircraft Brokerage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beach Club Employee</masterLabel>
+            <translation><!-- Beach Club Employee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Car Dealership Employee</masterLabel>
+            <translation><!-- Car Dealership Employee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chef/Restauranteur</masterLabel>
+            <translation><!-- Chef/Restauranteur --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Club-Beach</masterLabel>
+            <translation><!-- Club-Beach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Club-Country</masterLabel>
+            <translation><!-- Club-Country --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Club-Destination</masterLabel>
+            <translation><!-- Club-Destination --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Club-Social</masterLabel>
+            <translation><!-- Club-Social --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Concierge</masterLabel>
+            <translation><!-- Concierge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Concierge Rep</masterLabel>
+            <translation><!-- Concierge Rep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Country Club Employee</masterLabel>
+            <translation><!-- Country Club Employee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Destination Club Employee</masterLabel>
+            <translation><!-- Destination Club Employee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doctor-Internest</masterLabel>
+            <translation><!-- Doctor-Internest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doctor-Orthopedic Surgeon</masterLabel>
+            <translation><!-- Doctor-Orthopedic Surgeon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineer</masterLabel>
+            <translation><!-- Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment-Actor</masterLabel>
+            <translation><!-- Entertainment-Actor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment-Actress</masterLabel>
+            <translation><!-- Entertainment-Actress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment-Adult</masterLabel>
+            <translation><!-- Entertainment-Adult --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment-Agent</masterLabel>
+            <translation><!-- Entertainment-Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment-Director</masterLabel>
+            <translation><!-- Entertainment-Director --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment-Manager</masterLabel>
+            <translation><!-- Entertainment-Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment-Music Producer</masterLabel>
+            <translation><!-- Entertainment-Music Producer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment-Music Singer</masterLabel>
+            <translation><!-- Entertainment-Music Singer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment-Music Writer</masterLabel>
+            <translation><!-- Entertainment-Music Writer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment-Producer</masterLabel>
+            <translation><!-- Entertainment-Producer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment-Publicist</masterLabel>
+            <translation><!-- Entertainment-Publicist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment-Studio Executive</masterLabel>
+            <translation><!-- Entertainment-Studio Executive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment-TV/Radio Personality</masterLabel>
+            <translation><!-- Entertainment-TV/Radio Personality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment-Writer/Creator</masterLabel>
+            <translation><!-- Entertainment-Writer/Creator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fashion-Agent</masterLabel>
+            <translation><!-- Fashion-Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fashion-Designer</masterLabel>
+            <translation><!-- Fashion-Designer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fashion-Model</masterLabel>
+            <translation><!-- Fashion-Model --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial- Family Office</masterLabel>
+            <translation><!-- Financial- Family Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial-Analyst</masterLabel>
+            <translation><!-- Financial-Analyst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial-Asset Manager</masterLabel>
+            <translation><!-- Financial-Asset Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial-CPA/BizMgr</masterLabel>
+            <translation><!-- Financial-CPA/BizMgr --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial-Hedge Fund Manager</masterLabel>
+            <translation><!-- Financial-Hedge Fund Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial-Investment Banking</masterLabel>
+            <translation><!-- Financial-Investment Banking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial-Private Banker</masterLabel>
+            <translation><!-- Financial-Private Banker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial-Private Equity</masterLabel>
+            <translation><!-- Financial-Private Equity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial-Trader</masterLabel>
+            <translation><!-- Financial-Trader --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial-Venture Capital</masterLabel>
+            <translation><!-- Financial-Venture Capital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial-Wealth Advisor</masterLabel>
+            <translation><!-- Financial-Wealth Advisor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gaming</masterLabel>
+            <translation><!-- Gaming --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heir</masterLabel>
+            <translation><!-- Heir --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hotel</masterLabel>
+            <translation><!-- Hotel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance Agent-Life</masterLabel>
+            <translation><!-- Insurance Agent-Life --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance Agent-P&amp;C</masterLabel>
+            <translation><!-- Insurance Agent-P&amp;C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jeweler</masterLabel>
+            <translation><!-- Jeweler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Journalist-Aviation</masterLabel>
+            <translation><!-- Journalist-Aviation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Journalist-Luxury</masterLabel>
+            <translation><!-- Journalist-Luxury --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Journalist-Travel</masterLabel>
+            <translation><!-- Journalist-Travel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Luxury Apartment Complex</masterLabel>
+            <translation><!-- Luxury Apartment Complex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Politician</masterLabel>
+            <translation><!-- Politician --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private Business Owner</masterLabel>
+            <translation><!-- Private Business Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Company Executive</masterLabel>
+            <translation><!-- Public Company Executive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate Agency</masterLabel>
+            <translation><!-- Real Estate Agency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate-Commercial</masterLabel>
+            <translation><!-- Real Estate-Commercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate-Developer</masterLabel>
+            <translation><!-- Real Estate-Developer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate-Residential</masterLabel>
+            <translation><!-- Real Estate-Residential --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retired</masterLabel>
+            <translation><!-- Retired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sports-Agency</masterLabel>
+            <translation><!-- Sports-Agency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sports-Agent</masterLabel>
+            <translation><!-- Sports-Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sports-Announcer</masterLabel>
+            <translation><!-- Sports-Announcer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sports-Boxer</masterLabel>
+            <translation><!-- Sports-Boxer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sports-Coach-MLB</masterLabel>
+            <translation><!-- Sports-Coach-MLB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sports-Coach-NBA</masterLabel>
+            <translation><!-- Sports-Coach-NBA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sports-Coach-NCAA Basketball</masterLabel>
+            <translation><!-- Sports-Coach-NCAA Basketball --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sports-Coach-NCAA Football</masterLabel>
+            <translation><!-- Sports-Coach-NCAA Football --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sports-Coach-NFL</masterLabel>
+            <translation><!-- Sports-Coach-NFL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sports-Coach-NHL</masterLabel>
+            <translation><!-- Sports-Coach-NHL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sports-IndyCar Driver</masterLabel>
+            <translation><!-- Sports-IndyCar Driver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sports-MLB Player</masterLabel>
+            <translation><!-- Sports-MLB Player --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sports-NBA Player</masterLabel>
+            <translation><!-- Sports-NBA Player --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sports-NFL Player</masterLabel>
+            <translation><!-- Sports-NFL Player --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sports-NHL Player</masterLabel>
+            <translation><!-- Sports-NHL Player --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sports-Nascar Driver</masterLabel>
+            <translation><!-- Sports-Nascar Driver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sports-Retired Athlete</masterLabel>
+            <translation><!-- Sports-Retired Athlete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sports-Soccer Player</masterLabel>
+            <translation><!-- Sports-Soccer Player --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sports-TV/Radio Personality</masterLabel>
+            <translation><!-- Sports-TV/Radio Personality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sports-UFC Fighter</masterLabel>
+            <translation><!-- Sports-UFC Fighter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sports-WWE Wrestler</masterLabel>
+            <translation><!-- Sports-WWE Wrestler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tailor</masterLabel>
+            <translation><!-- Tailor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Talent-Agency</masterLabel>
+            <translation><!-- Talent-Agency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel Agency</masterLabel>
+            <translation><!-- Travel Agency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel Agent</masterLabel>
+            <translation><!-- Travel Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Watch Employee</masterLabel>
+            <translation><!-- Watch Employee --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Program Notes --></label>
+        <name>Program_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Publicly Traded Company --></label>
+        <name>Publicly_Traded_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purpose of Trip Notes --></label>
+        <name>Purpose_of_Trip_Notes__c</name>
+    </fields>
+    <fields>
+        <help><!-- All flights MUST be QC&apos;d --></help>
+        <label><!-- QC Mandated Client --></label>
+        <name>QC_Mandated_Client__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reconciling Contact Email --></label>
+        <name>Reconciling_Contact_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reconciling Contact Phone --></label>
+        <name>Reconciling_Contact_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reconciling Contact --></label>
+        <name>Reconciling_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Refundability --></label>
+        <name>Refundability__c</name>
+    </fields>
+    <fields>
+        <label><!-- Safety Incident Description --></label>
+        <name>Safety_Incident_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Safety Protocols --></label>
+        <name>Safety_Protocols__c</name>
+    </fields>
+    <fields>
+        <label><!-- Safety Rating(s) --></label>
+        <name>Safety_Rating_s__c</name>
+        <picklistValues>
+            <masterLabel>ARGUS Gold</masterLabel>
+            <translation><!-- ARGUS Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ARGUS Gold+</masterLabel>
+            <translation><!-- ARGUS Gold+ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ARGUS Platinum</masterLabel>
+            <translation><!-- ARGUS Platinum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Air Charter Safety Foundation</masterLabel>
+            <translation><!-- Air Charter Safety Foundation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aviation Safety Action Program (ASAP)</masterLabel>
+            <translation><!-- Aviation Safety Action Program (ASAP) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IS-BAO</masterLabel>
+            <translation><!-- IS-BAO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IS-BAO Stage 1</masterLabel>
+            <translation><!-- IS-BAO Stage 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IS-BAO Stage 2</masterLabel>
+            <translation><!-- IS-BAO Stage 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IS-BAO Stage 3</masterLabel>
+            <translation><!-- IS-BAO Stage 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Safety Rating</masterLabel>
+            <translation><!-- No Safety Rating --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sentient Certified Pass</masterLabel>
+            <translation><!-- Sentient Certified Pass --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wyvern Registered</masterLabel>
+            <translation><!-- Wyvern Registered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wyvern Wingman</masterLabel>
+            <translation><!-- Wyvern Wingman --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Seating Configuration --></label>
+        <name>Seating_Configuration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Standard Booking Notice Summ --></label>
+        <name>Standard_Booking_Notice_Summ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Standard Cancellation Terms --></label>
+        <name>Standard_Cancellation_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stock Exchange Ticker --></label>
+        <name>Stock_Exchange_Ticker__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field stores a calculated customer onboarding score based on a TaskRay Project related to this Account. --></help>
+        <label><!-- Customer Onboarding Score --></label>
+        <name>TASKRAY__trCustomerOnboardingScore__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use this field to capture a customer&apos;s desired outcome(s). Can be populated from the Desired Outcomes field on TaskRay Project. --></help>
+        <label><!-- Desired Outcomes --></label>
+        <name>TASKRAY__trDesiredOutcomes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Onboarding Duration --></label>
+        <name>TASKRAY__trOnboardingDuration__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used by TaskRay to record the actual end date of the onboarding project associated with this account. --></help>
+        <label><!-- Onboarding End --></label>
+        <name>TASKRAY__trOnboardingEndDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used by TaskRay to record the actual start date of the onboarding project associated with this account. --></help>
+        <label><!-- Onboarding Start --></label>
+        <name>TASKRAY__trOnboardingStartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Clients/Prospects --></label>
+        <name>TEST__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Number of Aircraft in Fleet --></label>
+        <name>Total_Number_of_Aircraft_in_Fleet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Number of Fleet --></label>
+        <name>Total_Number_of_Fleet__c</name>
+    </fields>
+    <fields>
+        <help><!-- For clients that want AvP to track purpose of trip. --></help>
+        <label><!-- Track Purpose of Trip --></label>
+        <name>Track_Purpose_of_Trip__c</name>
+    </fields>
+    <fields>
+        <label><!-- Upgrades Downgrades --></label>
+        <name>Upgrades_Downgrades__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wire Instructions --></label>
+        <name>Wire_Instructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year Founded --></label>
+        <name>Year_Founded__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disable Duplicate Check --></label>
+        <name>dupcheck__dc3DisableDuplicateCheck__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duplicate Check Index --></label>
+        <name>dupcheck__dc3Index__c</name>
+    </fields>
+    <quickActions>
+        <label><!-- Booking Wizard (Lightning) --></label>
+        <name>Booking_Wizard_Lightning</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Booking Wizard (Lightning V1) --></label>
+        <name>Booking_Wizard_New_Lightning_Comp</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Use this Record Type for Broker Accounts. --></description>
+        <label><!-- Broker --></label>
+        <name>Broker</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Use this Record Type for Client Accounts. --></description>
+        <label><!-- Client --></label>
+        <name>Client</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Use this Record Type for Operator Accounts. --></description>
+        <label><!-- Operator --></label>
+        <name>Operator</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Please enter correct billing address --></errorMessage>
+        <name>Account_Billing_Address</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Conga_Composer_OAuth --></label>
+        <name>APXTConga4__Conga_Composer_OAuth</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Mail_Merge --></label>
+        <name>APXTConga4__Conga_Mail_Merge</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Account_Dashboard --></label>
+        <name>Account_Dashboard</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Account_Dashboard_Lightning --></label>
+        <name>Account_Dashboard_Lightning</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Aircraft_Age_Range --></label>
+        <name>Aircraft_Age_Range</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- All_Related_Legs_Lightning --></label>
+        <name>All_Related_Legs_Lightning</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- All_Related_Legs_Report --></label>
+        <name>All_Related_Legs_Report</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- AvP_Fee_Schedule --></label>
+        <name>AvP_Fee_Schedule</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- AvP_Hours_Spent --></label>
+        <name>AvP_Hours_Spent</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Booking_Wizard --></label>
+        <name>Booking_Wizard</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Broker_Feedback_Report --></label>
+        <name>Broker_Feedback_Report</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Broker_Flight_History_Report --></label>
+        <name>Broker_Flight_History_Report</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CVP_Client --></label>
+        <name>CVP_Client</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CVP_Tracker --></label>
+        <name>CVP_Tracker</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Community_User_Audit --></label>
+        <name>Community_User_Audit</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Account_Brief --></label>
+        <name>Conga_Composer_Account_Brief</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Account_Summaries --></label>
+        <name>Conga_Composer_Account_Summaries</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Balance_Update_All_Programs --></label>
+        <name>Conga_Composer_Balance_Update_All_Programs</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Composer_SP_Account_Brief --></label>
+        <name>Conga_Composer_Composer_SP_Account_Brief</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Current_Year_by_Lead_Pax_Group --></label>
+        <name>Conga_Composer_Current_Year_by_Lead_Pax_Group</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Important_Notes --></label>
+        <name>Conga_Composer_Important_Notes</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_KHPN_Closure_Account --></label>
+        <name>Conga_Composer_KHPN_Closure_Account</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_KHPN_Construction --></label>
+        <name>Conga_Composer_KHPN_Construction</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Last_Month_Flight_Activity --></label>
+        <name>Conga_Composer_Last_Month_Flight_Activity</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Market_Intelligence --></label>
+        <name>Conga_Composer_Market_Intelligence</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Operator_OnePager --></label>
+        <name>Conga_Composer_Operator_OnePager</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Test --></label>
+        <name>Conga_Composer_Test</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Flight_History_Client_Version --></label>
+        <name>Flight_History_Client_Version</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Flight_History_Report --></label>
+        <name>Flight_History_Report</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Flight_History_Report_Lightning --></label>
+        <name>Flight_History_Report_Lightning</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Important_Notes --></label>
+        <name>Important_Notes</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Incentives_Used --></label>
+        <name>Incentives_Used</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Lighting_FH_without_Cancelled_Flights --></label>
+        <name>Lighting_FH_without_Cancelled_Flights</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Lighting_Program_Summary --></label>
+        <name>Lighting_Program_Summary</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Lightning_Flight_History_In_Review_Flights --></label>
+        <name>Lightning_Flight_History_In_Review_Flights</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- MailChimp_Subscriptions --></label>
+        <name>MC4SF__MailChimp_Subscriptions</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Operator_Feedback_Report --></label>
+        <name>Operator_Feedback_Report</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Operator_Flight_History --></label>
+        <name>Operator_Flight_History</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- PHASE_2_LEG_CHECK --></label>
+        <name>PHASE_2_LEG_CHECK</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Portfolio_Optimizer_Data --></label>
+        <name>Portfolio_Optimizer_Data</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Programs_Summary --></label>
+        <name>Programs_Summary</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Test_Operator_Feedback --></label>
+        <name>Test_Operator_Feedback</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_with_DocuSign --></label>
+        <name>dsfs__Send_with_DocuSign</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Verify_with_DNB --></label>
+        <name>dsfs__Verify_with_DNB</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- dc3Check --></label>
+        <name>dupcheck__dc3Check</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- dc3Merge --></label>
+        <name>dupcheck__dc3Merge</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Find_Duplicates --></label>
+        <name>powerpack__Find_Duplicates</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_to_Slack --></label>
+        <name>slackv2__Send_to_Slack</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Slack_Alerts --></label>
+        <name>slackv2__Slack_Alerts</name>
+    </webLinks>
+</CustomObjectTranslation>

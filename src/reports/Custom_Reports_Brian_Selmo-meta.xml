@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <folderShares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>Current_AP_Employees</sharedTo>
+        <sharedToType>Group</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>BrianSelmoCustomerUser</sharedTo>
+        <sharedToType>PortalRoleAndSubordinates</sharedToType>
+    </folderShares>
+    <name>Custom Reports Brian Selmo</name>
+</ReportFolder>

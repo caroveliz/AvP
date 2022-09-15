@@ -1,0 +1,3 @@
+<apex:page standardController="Client_Program_Year__c">
+    <c:UpgradeDowngradeCalculatorCmp programPeriodId="{!Client_Program_Year__c.Id}" />
+</apex:page>

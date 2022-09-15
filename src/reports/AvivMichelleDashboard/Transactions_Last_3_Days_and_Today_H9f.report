@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Leg__c$Name</field>
+    </columns>
+    <columns>
+        <field>Leg__c$Flight_Status__c</field>
+    </columns>
+    <columns>
+        <field>Leg__c$Account_Name_Text__c</field>
+    </columns>
+    <columns>
+        <field>Leg__c$Departure_Date__c</field>
+    </columns>
+    <columns>
+        <field>Leg__c$Departing_Airport__c</field>
+    </columns>
+    <columns>
+        <field>Leg__c$Arriving_Airport__c</field>
+    </columns>
+    <filter>
+        <booleanFilter>(1 OR 2) AND 3 AND 4</booleanFilter>
+        <criteriaItems>
+            <column>Leg__c$Departure_Date__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>LAST_N_DAYS:3</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Leg__c$Departure_Date__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>TODAY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Leg__c$Flight_Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Booked,Departed,Tentative</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Leg__c$Account_Name__c.Owner</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Amy Ake</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Transactions Last 3 Days and Today</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Transactions_with_Account_Owner__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Leg__c$Arrival_Date_del__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

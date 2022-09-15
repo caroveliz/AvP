@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Private Aviation Trends</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>!Private Aviation Trends</name>
+    <style>none</style>
+    <subject>Private Aviation Trends</subject>
+    <textOnly>Hi {!Contact.FirstName} -,
+
+With all the changes in the private aviation market; i.e. vendor bankruptcies, a shrinking pilot workforce, fractional fleet refreshments, aviation apps and new membership programs, how do you separate the hype from the reality? Let’s sit down and discuss the nuances and what it means to your overall aviation strategy.
+
+Our goal is to constantly provide unbiased market intelligence to guide you through the complex private aviation market. Does Thursday at 11am work?
+
+Jenny
+
+Jenny Lell |Aviation Portfolio® |Santa Monica, CA |310-460-9219 |Fly Smart. Pay Right.™</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

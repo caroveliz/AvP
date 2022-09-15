@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Leg__c.Date__c</field>
+    </columns>
+    <columns>
+        <field>Leg__c.Departing_Airport__c</field>
+    </columns>
+    <columns>
+        <field>Leg__c.Arriving_Airport__c</field>
+    </columns>
+    <columns>
+        <field>Leg__c.Aircraft_Tail_Number__c</field>
+    </columns>
+    <columns>
+        <field>Leg__c.If_Subcontracted_Operator__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Leg__c.Billed_Flight_Time__c</field>
+    </columns>
+    <filter>
+        <booleanFilter>(1 OR 2 OR 4) AND 3</booleanFilter>
+        <criteriaItems>
+            <column>Leg__c.Client_Program__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>MAGBRK1 28346 Window Nation 50hr Legacy 450 Flexjet Lease RA BR LH SD RT</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Leg__c.Client_Program__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>27425 MAGBRM1 Window Nation 50hr Phenom 300 Lease (Split 75hr w/ Matt Nixon)</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Leg__c.Sub_Contracted__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Yes</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Leg__c.Client_Program__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>MAGBRM2 27447 Matt Nixon 25hr Phenom 300 Lease (Split 75hr w/ Window Nation) RT</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Leg__c.Client_Program__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Window Nation Subcontracted</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Leg__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Leg__c.Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

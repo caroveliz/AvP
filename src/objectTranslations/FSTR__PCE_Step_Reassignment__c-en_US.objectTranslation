@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- The unit used to calculate the interval at which the reassignment record will be invoked from the previous reassignment or initial assignment. --></help>
+        <label><!-- Interval Unit --></label>
+        <name>FSTR__Interval_Unit__c</name>
+        <picklistValues>
+            <masterLabel>Days</masterLabel>
+            <translation><!-- Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hours</masterLabel>
+            <translation><!-- Hours --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minutes</masterLabel>
+            <translation><!-- Minutes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The interval at which the reassignment record will be invoked from the previous reassignment or initial assignment. --></help>
+        <label><!-- Interval --></label>
+        <name>FSTR__Interval__c</name>
+    </fields>
+    <fields>
+        <help><!-- The order in which this record will be used when multiple step reassignments are assigned to a step. --></help>
+        <label><!-- Order --></label>
+        <name>FSTR__Order__c</name>
+    </fields>
+    <fields>
+        <help><!-- The step this reassignment record applies to --></help>
+        <label><!-- Step --></label>
+        <name>FSTR__PCE_Step__c</name>
+        <relationshipLabel><!-- Step Reassignments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Queue --></label>
+        <name>FSTR__Queue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Role --></label>
+        <name>FSTR__Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>FSTR__Type__c</name>
+        <picklistValues>
+            <masterLabel>Queue</masterLabel>
+            <translation><!-- Queue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Role</masterLabel>
+            <translation><!-- Role --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Account Team Role</masterLabel>
+            <translation><!-- Salesforce Account Team Role --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User</masterLabel>
+            <translation><!-- User --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>FSTR__User__c</name>
+        <relationshipLabel><!-- Step Reassignments --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- This field indicates what business day of the month it is.  This will take into account business days and holidays if assigned to the Conga Orchestrate Business Hours setting.  When the current day is a non business day this field will be set to -1. --></help>
+        <label><!-- Current Business Day --></label>
+        <name>FSTR__Current_Business_Day__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Friday of the Month --></label>
+        <name>FSTR__First_Friday_of_the_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Monday of the Month --></label>
+        <name>FSTR__First_Monday_of_the_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Saturday of the Month --></label>
+        <name>FSTR__First_Saturday_of_the_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Sunday of the Month --></label>
+        <name>FSTR__First_Sunday_of_the_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Thursday of the Month --></label>
+        <name>FSTR__First_Thursday_of_the_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Tuesday of the Month --></label>
+        <name>FSTR__First_Tuesday_of_the_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Wednesday of the Month --></label>
+        <name>FSTR__First_Wednesday_of_the_Month__c</name>
+    </fields>
+</CustomObjectTranslation>

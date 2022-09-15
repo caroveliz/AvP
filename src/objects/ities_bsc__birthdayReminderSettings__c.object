@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Customizations specific to the Birthday Reminder application.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>ities_bsc__isAllVisible__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Designation for showing all records to which the User has access.</description>
+        <externalId>false</externalId>
+        <label>isAllVisible</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ities_bsc__range__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The number of days to use in the SOQL query.</description>
+        <externalId>false</externalId>
+        <label>Range</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ities_bsc__recordsHorizontal__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The number of records to display in the horizontal lightning widget.</description>
+        <externalId>false</externalId>
+        <label>Records (Horizontal)</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ities_bsc__recordsVertical__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The number of records to display in the vertical Lightning widget.</description>
+        <externalId>false</externalId>
+        <label>Records (Vertical)</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Birthday Reminders Settings</label>
+    <visibility>Public</visibility>
+</CustomObject>

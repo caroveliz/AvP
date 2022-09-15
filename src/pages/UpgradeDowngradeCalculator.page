@@ -1,0 +1,3 @@
+<apex:page standardController="Leg__c">
+    <c:UpgradeDowngradeCalculatorCmp legId="{!Leg__c.Id}" />
+</apex:page>

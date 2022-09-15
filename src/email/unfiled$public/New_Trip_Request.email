@@ -1,0 +1,13 @@
+A new trip request has been submitted:
+
+Account:  {!Case.Account}
+Contact:   {!Case.Contact}
+
+Trip Name:  {!Case.Subject}
+
+Trip Request Details:  {!Case.Description}
+
+Lead Account Manager:      {!Contact.Lead_Analyst__c}
+Backup Account Manager:  {!Contact.Backup_Analyst__c}
+
+The review and update the Trip Manager, please follow the link: {!Case.Link}

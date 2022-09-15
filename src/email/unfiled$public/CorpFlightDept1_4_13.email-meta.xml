@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>CorpFlightDept1.4.13</name>
+    <style>none</style>
+    <subject>Introducing Aviation Portfolio</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+Aviation Portfolio, an independent market intelligence company, has become a valuable resource to corporate flight departments.
+
+Craig Ross, the former COO of Marquis Jet, founded Aviation Portfolio in 2011.
+
+May we schedule a brief, 5-minute introduction?
+
+Best Regards,
+
+Luke Hatfield 
+Aviation Portfolio, LLC 
+www.aviationportfolio.com
+
+Aviation Portfolio is NOT a flight brokerage, does not accept ANY compensation from operators and acts completely independent of any private air travel service.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

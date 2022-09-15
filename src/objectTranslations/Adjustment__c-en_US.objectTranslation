@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Adjustment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Adjustments</value>
+    </caseValues>
+    <fields>
+        <label><!-- API Field Impacted --></label>
+        <name>API_Field_Impacted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Adjustments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Adjustment Display --></label>
+        <name>Adjustment_Display__c</name>
+    </fields>
+    <fields>
+        <label><!-- Applicable Aircraft --></label>
+        <name>Applicable_Aircraft__c</name>
+        <relationshipLabel><!-- Adjustments (Applicable Aircraft) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- An indication of the parent Adjustment was applied to a transaction. --></help>
+        <label><!-- Applied --></label>
+        <name>Applied__c</name>
+    </fields>
+    <fields>
+        <label><!-- Applies At Measure --></label>
+        <name>Applies_At_Measure__c</name>
+        <picklistValues>
+            <masterLabel>Dollars</masterLabel>
+            <translation><!-- Dollars --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hours</masterLabel>
+            <translation><!-- Hours --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legs</masterLabel>
+            <translation><!-- Legs --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Applies At --></label>
+        <name>Applies_At__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Ratio --></label>
+        <name>Custom_Ratio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula Applied --></label>
+        <name>Formula_Applied__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use this field for the contracted Aircraft if the adjustment only applies when moving FROM a specific aircraft and TO another specific Aircraft --></help>
+        <label><!-- From Aircraft --></label>
+        <name>From_Aircraft__c</name>
+        <relationshipLabel><!-- Adjustments (From Aircraft) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The person this incentive belongs to if this is a split share --></help>
+        <label><!-- Incentive Contact --></label>
+        <name>Incentive_Contact__c</name>
+        <relationshipLabel><!-- Adjustments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Incentive Type --></label>
+        <name>Incentive_Type__c</name>
+        <picklistValues>
+            <masterLabel>Additional Hour Purchase</masterLabel>
+            <translation><!-- Additional Hour Purchase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Additional/Extra Hours</masterLabel>
+            <translation><!-- Additional/Extra Hours --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Black Out Days</masterLabel>
+            <translation><!-- Black Out Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blackout Days</masterLabel>
+            <translation><!-- Blackout Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bonus Hours</masterLabel>
+            <translation><!-- Bonus Hours --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carry Fwd Hrs Annual</masterLabel>
+            <translation><!-- Carry Fwd Hrs Annual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carry Fwd Hrs Bonus</masterLabel>
+            <translation><!-- Carry Fwd Hrs Bonus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract Extension</masterLabel>
+            <translation><!-- Contract Extension --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cross Country Discount (OHF)</masterLabel>
+            <translation><!-- Cross Country Discount (OHF) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discount MMF</masterLabel>
+            <translation><!-- Discount MMF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Early Contract Exit</masterLabel>
+            <translation><!-- Early Contract Exit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Early Out</masterLabel>
+            <translation><!-- Early Out --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ferry Fee Waiver</masterLabel>
+            <translation><!-- Ferry Fee Waiver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed/Locked Rates</masterLabel>
+            <translation><!-- Fixed/Locked Rates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flight Segment Waiver</masterLabel>
+            <translation><!-- Flight Segment Waiver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Free Upgrade</masterLabel>
+            <translation><!-- Free Upgrade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fuel Credit</masterLabel>
+            <translation><!-- Fuel Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fuel Credits</masterLabel>
+            <translation><!-- Fuel Credits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guaranteed Aircraft</masterLabel>
+            <translation><!-- Guaranteed Aircraft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guaranteed Downgrade</masterLabel>
+            <translation><!-- Guaranteed Downgrade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guaranteed Upgrade</masterLabel>
+            <translation><!-- Guaranteed Upgrade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High Cost Airports</masterLabel>
+            <translation><!-- High Cost Airports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High Efficiency</masterLabel>
+            <translation><!-- High Efficiency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High Efficiency Discount</masterLabel>
+            <translation><!-- High Efficiency Discount --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Long Haul Credit</masterLabel>
+            <translation><!-- Long Haul Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (See notes)</masterLabel>
+            <translation><!-- Other (See notes) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Out Clause</masterLabel>
+            <translation><!-- Out Clause --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peak Days</masterLabel>
+            <translation><!-- Peak Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preferred Airports</masterLabel>
+            <translation><!-- Preferred Airports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refund</masterLabel>
+            <translation><!-- Refund --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Round Trip Pricing</masterLabel>
+            <translation><!-- Round Trip Pricing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Short Leg Waiver</masterLabel>
+            <translation><!-- Short Leg Waiver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Downgrade Ratios</masterLabel>
+            <translation><!-- Special Downgrade Ratios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Interchange Rate</masterLabel>
+            <translation><!-- Special Interchange Rate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Upgrade Ratios</masterLabel>
+            <translation><!-- Special Upgrade Ratios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trade In Credit</masterLabel>
+            <translation><!-- Trade In Credit --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Manual Adjustments Needed --></label>
+        <name>Manual_Adjustments_Needed__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsure</masterLabel>
+            <translation><!-- Unsure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Multi-Use --></label>
+        <name>Multi_Use__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Simultaneous Usages --></label>
+        <name>Number_of_Simultaneous_Usages__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operator Program --></label>
+        <name>Operator_Program__c</name>
+        <relationshipLabel><!-- Adjustments --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Specifications for incentives if &quot;Other&quot; is chosen --></help>
+        <label><!-- Other Incentives Notes --></label>
+        <name>Other_Incentives_Notes__c</name>
+    </fields>
+    <fields>
+        <help><!-- The parent adjustment --></help>
+        <label><!-- Parent --></label>
+        <name>Parent__c</name>
+        <relationshipLabel><!-- Adjustments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Program Period --></label>
+        <name>Program_Period__c</name>
+        <relationshipLabel><!-- Adjustments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Program --></label>
+        <name>Program__c</name>
+        <relationshipLabel><!-- Adjustments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity Provided --></label>
+        <name>Quantity_Provided__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Remaining --></label>
+        <name>Quantity_Remaining__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Used --></label>
+        <name>Quantity_Used__c</name>
+    </fields>
+    <fields>
+        <help><!-- If there are specific limitations that need to be noted, list them in this field. --></help>
+        <label><!-- Specific Limitations --></label>
+        <name>Specific_Limitations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for Use</masterLabel>
+            <translation><!-- Ready for Use --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Used</masterLabel>
+            <translation><!-- Used --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Check this box ONLY if this is to be used as a template --></help>
+        <label><!-- Template --></label>
+        <name>Template__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Contracted --></label>
+        <name>Contracted</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Template --></label>
+        <name>Template</name>
+    </recordTypes>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- Contracted RT Adjustments must be attached to an Account, Program, and/or Program Period. If this is a template for cloning, please use &quot;Template&quot; RT --></errorMessage>
+        <name>Contracted_Adjustments_Must_Have_Client</name>
+    </validationRules>
+</CustomObjectTranslation>

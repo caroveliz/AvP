@@ -1,0 +1,1988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>AECOM</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>AECOM</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>AECOMCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>AECOM</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>ALO_LLC</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>ALO, LLC</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>ALOLLCCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>ALO,LLC</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Abbott_Brown</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Abbott Brown</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>AbbottBrownCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Abbott Brown</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Air_Jersey_LLC</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Air Jersey LLC</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>AirJerseyLLCCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Air Jersey LLC</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Alex_Klabin</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Alex Klabin</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>AlexKlabinCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Alex Klabin</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Andrew_Marks</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Andrew Marks</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>AndrewMarksCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Andrew Marks</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Andrew_Schwartzberg</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Andrew Schwartzberg</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>AndrewSchwartzbergCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Andrew Schwartzberg</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Andrew_Wilson</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Andrew Wilson</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>AndrewWilsonCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Andrew Wilson</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Anthony_DiSimone</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Anthony DiSimone</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>PeakRockCapitalCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Peak Rock Capital</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Arthur_Bilger</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Arthur Bilger</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>ArthurBilgerCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Arthur Bilger</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>B_Line_LLC_Morgan_Murphy_Media</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>B Line LLC Morgan Murphy Media</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>BLineLLCMorganMurphyMediaCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>B Line LLC Morgan Murphy Media</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Bart_Kavanaugh</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Bart Kavanaugh</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>BartKavanaughCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Bart Kavanaugh</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Becker_Holdings_1_Corp</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Becker Holdings 1 Corp</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>BeckerHoldings1CorpCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Becker Holdings 1 Corp</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Bel_Air_Investment_Advisors_LLC</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Bel Air Investment Advisors LLC</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>BelAirInvestmentAdvisorsLLCCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Bel Air Investment Advisors LLC</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Bill_Barnum_Brad_Jones</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Bill Barnum &amp; Brad Jones</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>BillBarnumBradJonesCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Bill Barnum &amp; Brad Jones</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Billy_Chambers</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Billy Chambers</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>BillyChambersCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Billy Chambers</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Brandon_Beck</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Brandon Beck</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>BrandonBeckCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Brandon Beck</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Brett_Landes</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Brett Landes</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>BrettLandesCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Brett Landes</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Brett_Wyard</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Brett Wyard</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>BrettWyardCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Brett Wyard</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Brian_Koo</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Brian Koo</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>BrianKooCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Brian Koo</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Brian_Selmo</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Brian Selmo</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>BrianSelmoCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Brian Selmo</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Bridgewater_Associates_LP</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Bridgewater Associates LP</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>BridgewaterAssociatesLPCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Bridgewater Associates LP</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Bruce_Hammonds</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Bruce Hammonds</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>BruceHammondsCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Bruce Hammonds</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Bryan_Lourd</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Bryan Lourd</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>BryanLourdCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Bryan Lourd</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Challenger_Partners</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Challenger Partners</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>ChallengerPartnersCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Challenger Partners</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Charles_Fitzgerald</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Charles Fitzgerald</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>CJHeatherFitzgeraldCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>C.J. &amp; Heather Fitzgerald</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Charles_Kaye</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Charles Kaye</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>CharlesKayeCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Charles Kaye</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Chris_Errico</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Chris Errico</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>ChrisErricoCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Chris Errico</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Chris_Hardwick</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Chris Hardwick</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>ChrisHardwickCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Chris Hardwick</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Chris_Silbermann</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Chris Silbermann</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>ChrisSilbermannCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Chris Silbermann</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Cohen_Asset_Management_Inc</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Cohen Asset Management Inc</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>CohenAssetManagementIncCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Cohen Asset Management Inc</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Cushman_Wakefield</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Cushman &amp; Wakefield</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>CushmanWakefieldCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Cushman &amp; Wakefield</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Dan_and_Allison_Rose</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Dan and Allison Rose</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>DanandAllisonRoseCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Dan and Allison Rose</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Dany2_Garcia_and_Dwayne_Johnson</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Dany Garcia and Dwayne Johnson</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>DanyGarciaandDwayneJohnsonCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Dany Garcia and Dwayne Johnson</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Dany_Garcia_and_Dwayne_Johnson</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Dany Garcia and Dwayne Johnson</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>DanyGarciaandDwayneJohnsonCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Dany Garcia and Dwayne Johnson</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Dave_Moellenhoff</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Dave Moellenhoff</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>DaveMoellenhoffCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Dave Moellenhoff</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>David_Cornfield</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>David Cornfield</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>DavidCornfieldCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>David Cornfield</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>David_Holmes</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>David Holmes</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>x3DManagementCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>3D Management</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>David_Moore</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>David Moore</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>DavidMooreCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>David Moore</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>David_O_Reilly</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>David O&apos;Reilly</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>DavidOReillyCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>David O&apos;Reilly</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>David_Tracy</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>David Tracy</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>DavidTracyCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>David Tracy</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Davis_Moore</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Davis Moore</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>DavisMooreCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Davis Moore</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Dennis_Masel</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Dennis Masel</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>DennisMaselCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Dennis Masel</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Dennis_Narlinger</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Dennis Narlinger</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>DennisNarlingerCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Dennis Narlinger</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Don_King</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Don King</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>DonKingCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Don King</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Donald_Bellisario</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Donald Bellisario</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>DonaldBellisarioCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Donald Bellisario</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Edward_Bernard</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Edward Bernard</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>EdwardBernardCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Edward Bernard</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Eric_Lane</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Eric Lane</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>EricLaneCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Eric Lane</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Gaines_Wehrle</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Gaines Wehrle</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>GainesWehrleCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Gaines Wehrle</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Gateway_Investment_Advisers_LLC</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Gateway Investment Advisers LLC</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>GatewayInvestmentAdvisersLLCCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Gateway Investment Advisers LLC</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>George_Hume</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>George Hume</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>GeorgeHumeCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>George Hume</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Gilbert_Cisneros</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Gilbert Cisneros</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>GilbertCisnerosCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Gilbert Cisneros</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Godchaux_Family</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Godchaux Family</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>GodchauxFamilyCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Godchaux Family</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Howard_Rowen</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Howard Rowen</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>HowardRowenCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Howard Rowen</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>IMT_Residential</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>IMT Residential</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>IMTResidentialCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>IMT Residential</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Imran_Khan</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Imran Khan</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>ImranKhanCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Imran Khan</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Intercontinental_Developers</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Intercontinental Developers</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>IntercontinentalDevelopersCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Intercontinental Developers</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Irwin_Gold</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Irwin Gold</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>IrwinGoldCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Irwin Gold</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Jacob_Kotzubei</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Jacob Kotzubei</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>JacobKotzubeiCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Jacob Kotzubei</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>James_Hill</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>James Hill</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>JamesHillCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>James Hill</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>James_Rudolph</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>James Rudolph</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>JamesRudolphCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>James Rudolph</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Jason_Lublin</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Jason Lublin</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>WMEEntertainmentCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>WME Entertainment</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Jay_Goldman</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Jay Goldman</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>JayGoldmanCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Jay Goldman</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Jean_Marc_Chapus</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Jean-Marc Chapus</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>JeanMarcChapusCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Jean-Marc Chapus</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Joe_Gregorio</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Joe Gregorio</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>PacificCraneMaintenanceCompanyCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Pacific Crane Maintenance Company</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>John_Antioco</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>John Antioco</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>JohnAntiocoCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>John Antioco</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>John_Canning_Jr</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>John Canning Jr</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>JohnACanningJrCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>John A. Canning Jr.</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>John_Donahoe</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>John Donahoe</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>ServiceNowCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>ServiceNow</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>John_Kenney</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>John Kenney</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>JohnKenneyCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>John Kenney</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>John_Khoury</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>John Khoury</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>JohnKhouryCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>John Khoury</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>John_Rocchio</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>John Rocchio</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>JohnRocchioCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>John Rocchio</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>John_Simonian</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>John Simonian</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>JohnSimonianCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>John Simonian</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>John_and_Marcia_Goldman</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>John and Marcia Goldman</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>JohnandMarciaGoldmanCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>John and Marcia Goldman</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Jon_Feiber</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Jon Feiber</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>JonFeiberCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Jon Feiber</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Jonathan_Carson</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Jonathan Carson</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>JonathanCarsonCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Jonathan Carson</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Judd_Enterprises</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Judd Enterprises</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>JuddEnterprisesCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Judd Enterprises</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Kevin_Huvane</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Kevin Huvane</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>KevinHuvaneCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Kevin Huvane</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Kevin_Wall</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Kevin Wall</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>KevinWallCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Kevin Wall</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Leo_Bunnin</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Leo Bunnin</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>LeoBunninCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Leo Bunnin</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Leonard_Fryer</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Leonard Fryer</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>LeonardFryerCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Leonard Fryer</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Lin_Manuel_Miranda</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Lin-Manuel Miranda</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>LinManuelMirandaCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Lin-Manuel Miranda</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Live_Nation_Entertainment_Inc</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Live Nation Entertainment Inc</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>LiveNationEntertainmentIncCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Live Nation Entertainment Inc</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Lloyd_Frink</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Lloyd Frink</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>LloydFrinkCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Lloyd Frink</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Lowell_Kraff</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Lowell Kraff</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>LowellKraffCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Lowell Kraff</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Manulife_Financial</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Manulife Financial</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>ManulifeFinancialCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Manulife Financial</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Marc_Anderson</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Marc Anderson</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>MarcAndersonCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Marc Anderson</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Mark_DiPaola</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Mark DiPaola</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>MarkDiPaolaCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Mark DiPaola</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Mark_Hancock</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Mark Hancock</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>MarkHancockCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Mark Hancock</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Marquette_Partners_LP</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Marquette Partners LP</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>MarquettePartnersLPCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Marquette Partners LP</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Matthew_McConaughey</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Matthew McConaughey</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>MatthewMcConaugheyCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Matthew McConaughey</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>McCabe_Family</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>McCabe Family</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>McCabeFamilyCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>McCabe Family</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Media_Rights_Capital</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Media Rights Capital</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>MediaRightsCapitalCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Media Rights Capital</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Megan_Jeff_Tagliaferri</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Megan &amp; Jeff Tagliaferri</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>MeganJeffTagliaferriCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Megan and Jeff Tagliaferri</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Michael_Douglas</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Michael Douglas</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>MichaelDouglasCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Michael Douglas</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Michael_Kassan</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Michael Kassan</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>MichaelKassanCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Michael Kassan</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Michael_Mussallem</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Michael Mussallem</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>MichaelMussallemCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Michael Mussallem</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Michael_Skinner</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Michael Skinner</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>MichaelSkinnerCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Michael Skinner</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Michelman_Inc</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Michelman Inc</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>MichelmanIncCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Michelman Inc</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Mickey_Mouse</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Mickey Mouse</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>MickeyMouseCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Mickey Mouse</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Nancy_and_Steven_Crown</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Nancy and Steven Crown</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>NancyandStevenCrownCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Nancy and Steven Crown</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Neal_Elattrache</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Neal Elattrache</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>NealElattracheCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Neal Elattrache</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Patrick_Guthrie</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Patrick Guthrie</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>PatrickGuthrieCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Patrick Guthrie</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Paul_Finnegan</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Paul Finnegan</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>PaulFinneganCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Paul Finnegan</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Paul_Kagan</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Paul Kagan</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>PaulKaganCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Paul Kagan</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Paul_Reed</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Paul Reed</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>PaulReedCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Paul Reed</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Peter_Chung</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Peter Chung</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>PeterChungCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Peter Chung</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Philadelphia_Eagles_Inc</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Philadelphia Eagles Inc</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>PhiladelphiaEaglesIncCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Philadelphia Eagles Inc</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Ray_Romano</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Ray Romano</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>RayRomanoCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Ray Romano</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Reagan_Silber</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Reagan Silber</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>ReaganSilberCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Reagan Silber</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Richard_Barton</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Richard Barton</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>RichardBartonCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Richard Barton</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Richard_Lovett</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Richard Lovett</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>RichardLovettCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Richard Lovett</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Rick_Selby</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Rick Selby</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>RickSelbyCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Rick Selby</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Robert_G_Scott</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Robert G. Scott</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>RobertGScottCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Robert G. Scott</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>San_Francisco_49ers</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>San Francisco 49ers</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>SanFrancisco49ersCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>San Francisco 49ers</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Ships_at_a_Distance_Inc</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Ships at a Distance Inc</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>ShipsataDistanceIncCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Ships at a Distance Inc</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Side_Porch_Productions_Inc</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Side Porch Productions Inc</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>DavidEKelleyMichellePfeifferCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Side Porch Productions Inc</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Snapchat_Inc</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Snapchat Inc</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>SnapchatIncCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Snapchat Inc</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Sol_Kumin</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Sol Kumin</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>SolKuminCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Sol Kumin</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Solera_Inc</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Solera Inc</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>SoleraIncCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Solera Inc</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Spencer_Rascoff</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Spencer Rascoff</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>SpencerRascoffCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Spencer Rascoff</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Spike_Booth</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Spike Booth</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>SpikeBoothCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Spike Booth</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Stephen_Kaufman</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Stephen Kaufman</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>StephenKaufmanCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Stephen Kaufman</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Steve_Errico</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Steve Errico</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>SteveErricoCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Steve Errico</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Steve_Romick</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Steve Romick</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>SteveRomickCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Steve Romick</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Steve_Starker</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Steve Starker</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>SteveStarkerCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Steve Starker</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Susie_and_Gideon_Yu</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Susie and Gideon Yu</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>GideonYuCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Susie and Gideon Yu</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>TOMS</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>TOMS</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>TOMSCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>TOMS</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Ted_Samuels</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Ted Samuels</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>TedSamuelsCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Ted Samuels</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Thomas_Laffont</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Thomas Laffont</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>ThomasLaffontCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Thomas Laffont</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Tim_Dattels</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Tim Dattels</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>TimDattelsCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Tim Dattels</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Tom_Bancroft</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Tom Bancroft</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>TomBancroftCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Tom Bancroft</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Trevor_Bezdek</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Trevor Bezdek</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>TrevorBezdekCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Trevor Bezdek</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Trian_Partners</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Trian Partners</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>TrianPartnersCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Trian Partners</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Venky_Harinarayan_and_Sudha_Neelakantan</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Venky Harinarayan and Sudha Neelakantan</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>VenkyHarinarayanandSudhaNeelakantanCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Venky Harinarayan and Sudha Neelakantan</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Vince_Gilligan</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Vince Gilligan</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>VinceGilliganCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Vince Gilligan</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Vince_Taormina</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Vince Taormina</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>VinceTaorminaCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Vince Taormina</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Weller_Family</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Weller Family</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>WellerFamilyCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Weller Family</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Will_Crump</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Will Crump</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>WillCrumpCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Will Crump</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Winner_Mandabach_Campaigns</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Winner &amp; Mandabach Campaigns</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>WinnerMandabachCampaignsCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Winner &amp; Mandabach Campaigns</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Zillow_Group</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Zillow Group</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>ZillowGroupCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Zillow Group</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Zuffa_LLC</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Zuffa LLC</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>ZuffaLLCCustomerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Name_Text__c</field>
+            <operation>equals</operation>
+            <value>Zuffa LLC</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>Share_Legs_Internally</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share Legs Internally</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

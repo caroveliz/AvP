@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Client Welcome Process</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Client Welcome Processes</value>
+    </caseValues>
+    <fields>
+        <label><!-- Agreement Signed --></label>
+        <name>Agreement_Signed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Welcome Call --></label>
+        <name>Client_Welcome_Call__c</name>
+    </fields>
+    <fields>
+        <label><!-- Collect Passports and DL --></label>
+        <name>Collect_Passports_and_DL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Collected Authorization Form from Client --></label>
+        <name>Collected_Authorization_Form_from_Client__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Client Welcome Processes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Create vCard for Client --></label>
+        <name>Create_vCard_for_Client__c</name>
+    </fields>
+    <fields>
+        <label><!-- Executed Agreement Returned --></label>
+        <name>Executed_Agreement_Returned__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gather Aviation Information --></label>
+        <name>Gather_Aviation_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gather Information --></label>
+        <name>Gather_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Money Collected --></label>
+        <name>Money_Collected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sent Authorization Forms to Client --></label>
+        <name>Sent_Authorization_Forms_to_Client__c</name>
+    </fields>
+    <fields>
+        <label><!-- Thank You Note Sent --></label>
+        <name>Thank_You_Note_Sent__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <workflowTasks>
+        <description><!-- Do we have a signed contract? 
+
+Gather information 
+
+Have we sent all appropriate authorization forms to client? 
+
+Welcome Call 
+
+Thank you note sent. --></description>
+        <name>Client_Welcome_Process_1</name>
+        <subject><!-- Client Welcome Process Phase 1 --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- Has executed agreement been returned? 
+
+Have we collected all authorization forms? 
+
+Collect DL and Passports 
+
+Create vCard --></description>
+        <name>Client_Welcome_Process_2</name>
+        <subject><!-- Client Welcome Process Phase 2 --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- Do we have a signed contract? 
+
+Gather information 
+
+Have we sent all appropriate authorization forms to client? 
+
+Welcome Call 
+
+Thank you note sent. --></description>
+        <name>Client_Welcome_Process_Phase_1</name>
+        <subject><!-- Client Welcome Process Phase 1 --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- Has executed agreement been returned? 
+
+Have we collected all authorization forms? 
+
+Collect DL and Passports 
+
+Create vCard --></description>
+        <name>Client_Welcome_Process_Phase_2</name>
+        <subject><!-- Client Welcome Process Phase 2 --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Itinerary_Solution__c.Account_Name__c</field>
+    </columns>
+    <columns>
+        <field>Itinerary_Solution__c.Operator__c</field>
+    </columns>
+    <columns>
+        <field>Itinerary_Solution__c.Broker__c</field>
+    </columns>
+    <columns>
+        <field>Itinerary_Solution__c.Trip_Start_Date__c</field>
+    </columns>
+    <columns>
+        <field>Itinerary_Solution__c.Trip_End_Date__c</field>
+    </columns>
+    <columns>
+        <field>Itinerary_Solution__c.Aircraft_Type__c</field>
+    </columns>
+    <columns>
+        <field>Itinerary_Solution__c.Tail_Number__c</field>
+    </columns>
+    <columns>
+        <field>Itinerary_Solution__c.Cost__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Itinerary_Solution__c.Solution_Category__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Guaranteed,Aircraft Owner</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>IS Created Yesterday</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Itinerary_Solution__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_YESTERDAY</interval>
+    </timeFrameFilter>
+</Report>

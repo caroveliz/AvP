@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Checklist Component Columns JSON --></label>
+        <name>FSTR__Checklist_Component_Columns__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checklist Component Show Step View --></label>
+        <name>FSTR__Show_Step_View__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Case.Legs__r$Name</field>
+    </columns>
+    <columns>
+        <field>Case.Legs__r$Departure_Date__c</field>
+    </columns>
+    <columns>
+        <field>Case.Legs__r$Solution_Category__c</field>
+    </columns>
+    <columns>
+        <field>Case.Legs__r$Operator_Name__c</field>
+    </columns>
+    <columns>
+        <field>Case$Traveling_on_a_Peak_Day__c</field>
+    </columns>
+    <columns>
+        <field>Case.Legs__r$Peak_Day__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Case$Account</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Wendy Warren Roth</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case$CaseNumber</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Client Peak Day Trending</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Trips_with_Legs__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Case$Date_of_Trip__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Client Value Proposition</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Client Value Propositions</value>
+    </caseValues>
+    <fields>
+        <label><!-- AP Time Invested --></label>
+        <name>AP_Time_Invested__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Name Text --></label>
+        <name>Account_Name_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Client Value Propositions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CVP Category --></label>
+        <name>CVP_Category__c</name>
+        <picklistValues>
+            <masterLabel>Billing Audit Error</masterLabel>
+            <translation><!-- Billing Audit Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract Terms</masterLabel>
+            <translation><!-- Contract Terms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost Negotiation</masterLabel>
+            <translation><!-- Cost Negotiation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Experiential</masterLabel>
+            <translation><!-- Experiential --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perks &amp; Incentives</masterLabel>
+            <translation><!-- Perks &amp; Incentives --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Risk Reduction</masterLabel>
+            <translation><!-- Risk Reduction --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CVP Date --></label>
+        <name>CVP_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- CVP Description --></label>
+        <name>CVP_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- CVP Savings $ --></label>
+        <name>CVP_Savings__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Time Saved --></label>
+        <name>Client_Time_Saved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Name --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Client Value Propositions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Record Count --></label>
+        <name>Record_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Research Impact --></label>
+        <name>Research_Impact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Impact --></label>
+        <name>Transaction_Impact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trip Manager # --></label>
+        <name>Trip_Manager__c</name>
+        <relationshipLabel><!-- Client Value Propositions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Trip(s) Impact Billing --></label>
+        <name>Trip_s_Impact_Billing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trip(s) Impact Safety --></label>
+        <name>Trip_s_Impact_Safety__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trip(s) Impact Service --></label>
+        <name>Trip_s_Impact_Service__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type of Savings --></label>
+        <name>Type_of_Savings__c</name>
+        <picklistValues>
+            <masterLabel>Actual</masterLabel>
+            <translation><!-- Actual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Theoretical</masterLabel>
+            <translation><!-- Theoretical --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

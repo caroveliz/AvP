@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Craig_Ross_Luke_Hatfield</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Craig Ross/Luke Hatfield</label>
+        <sharedTo>
+            <group>Luke_Hatfield</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>Executive</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

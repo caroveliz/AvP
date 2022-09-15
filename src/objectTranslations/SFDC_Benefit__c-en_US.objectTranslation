@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Benefit</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Benefits</value>
+    </caseValues>
+    <fields>
+        <label><!-- Benefit Plan --></label>
+        <name>Benefit_Plan__c</name>
+        <picklistValues>
+            <masterLabel>CHiP</masterLabel>
+            <translation><!-- CHiP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HMO</masterLabel>
+            <translation><!-- HMO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health Savings</masterLabel>
+            <translation><!-- Health Savings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicaid</masterLabel>
+            <translation><!-- Medicaid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicare</masterLabel>
+            <translation><!-- Medicare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PPO</masterLabel>
+            <translation><!-- PPO --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Benefit Type --></label>
+        <name>Benefit_Type__c</name>
+        <picklistValues>
+            <masterLabel>401k</masterLabel>
+            <translation><!-- 401k --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dental Insurance</masterLabel>
+            <translation><!-- Dental Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disability</masterLabel>
+            <translation><!-- Disability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health Insurance</masterLabel>
+            <translation><!-- Health Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Life Insurance</masterLabel>
+            <translation><!-- Life Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vision Insurance</masterLabel>
+            <translation><!-- Vision Insurance --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Employee --></label>
+        <name>Employee__c</name>
+        <relationshipLabel><!-- Benefits --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- # Months for Plan --></label>
+        <name>Months_for_Plan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plan End Date --></label>
+        <name>Plan_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plan Start Date --></label>
+        <name>Plan_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Date --></label>
+        <name>Request_Date__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

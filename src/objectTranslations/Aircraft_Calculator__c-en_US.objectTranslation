@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Aircraft Calculator</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Aircraft Calculators</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Aircraft Calculators --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Aircraft 1 --></label>
+        <name>Aircraft_1__c</name>
+        <relationshipLabel><!-- Aircraft Calculators --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Aircraft 2 --></label>
+        <name>Aircraft_2__c</name>
+        <relationshipLabel><!-- Aircraft Calculators (Aircraft 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Aircraft 3 --></label>
+        <name>Aircraft_3__c</name>
+        <relationshipLabel><!-- Aircraft Calculators (Aircraft 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Aircraft 4 --></label>
+        <name>Aircraft_4__c</name>
+        <relationshipLabel><!-- Aircraft Calculators (Aircraft 4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Charter Option --></label>
+        <name>Charter_Option__c</name>
+    </fields>
+    <fields>
+        <label><!-- Leg ID/ Name --></label>
+        <name>Leg_ID_Name__c</name>
+        <relationshipLabel><!-- Aircraft Calculators --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Either the original flight in question OR a blank flight to allow the calculations a foundation. --></help>
+        <label><!-- Original Flight --></label>
+        <name>Original_Flight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Program Period 1 --></label>
+        <name>Program_Period_1__c</name>
+        <relationshipLabel><!-- Aircraft Calculators (Program Period 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Program Period 2 --></label>
+        <name>Program_Period_2__c</name>
+        <relationshipLabel><!-- Aircraft Calculators (Program Period 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Program Period 3 --></label>
+        <name>Program_Period_3__c</name>
+        <relationshipLabel><!-- Aircraft Calculators (Program Period 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Program Period 4 --></label>
+        <name>Program_Period_4__c</name>
+        <relationshipLabel><!-- Aircraft Calculators (Program Period 4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Selected Aircraft 3 --></label>
+        <name>Select_Aircraft_3__c</name>
+        <relationshipLabel><!-- Aircraft Calculators (Select Aircraft 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Selected Aircraft 1 --></label>
+        <name>Selected_Aircraft_1__c</name>
+        <relationshipLabel><!-- Aircraft Calculators (Selected Aircraft 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Selected Aircraft 2 --></label>
+        <name>Selected_Aircraft_2__c</name>
+        <relationshipLabel><!-- Aircraft Calculators (Selected Aircraft 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Selected Aircraft 4 --></label>
+        <name>Selected_Aircraft_4__c</name>
+        <relationshipLabel><!-- Aircraft Calculators (Selected Aircraft 4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Selected Aircraft --></label>
+        <name>Selected_Aircraft__c</name>
+        <relationshipLabel><!-- Aircraft Calculators --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Selected Program Period --></label>
+        <name>Selected_Program_Period__c</name>
+        <relationshipLabel><!-- Aircraft Calculators --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Selected Program --></label>
+        <name>Selected_Program__c</name>
+        <relationshipLabel><!-- Aircraft Calculators --></relationshipLabel>
+    </fields>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

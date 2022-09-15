@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>general prospecting 2021</name>
+    <style>none</style>
+    <subject>{!Contact.FirstName} - call w/ Aviation Portfolio? Unbiased advice from industry insiders</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

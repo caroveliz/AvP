@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Loop --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Client Program Year --></label>
+        <name>Client_Program_Year__c</name>
+        <relationshipLabel><!-- Loop --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Client Program --></label>
+        <name>Client_Program__c</name>
+        <relationshipLabel><!-- Loop --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Business Process --></label>
+        <name>FSTR__Business_Process__c</name>
+        <relationshipLabel><!-- Loops --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Campaign --></label>
+        <name>FSTR__Campaign__c</name>
+        <relationshipLabel><!-- Loops --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Case --></label>
+        <name>FSTR__Case__c</name>
+        <relationshipLabel><!-- Loops --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Completed Date --></label>
+        <name>FSTR__Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract --></label>
+        <name>FSTR__Contract__c</name>
+        <relationshipLabel><!-- Loops --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- First Iteration --></label>
+        <name>FSTR__First_Iteration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Iteration --></label>
+        <name>FSTR__Iteration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead --></label>
+        <name>FSTR__Lead__c</name>
+        <relationshipLabel><!-- Loops --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>FSTR__Opportunity__c</name>
+        <relationshipLabel><!-- Loops --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Step Id --></label>
+        <name>FSTR__PCE_Step_Id__c</name>
+        <relationshipLabel><!-- Loops --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Parent Object Id --></label>
+        <name>FSTR__Parent_Object_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test PCE --></label>
+        <name>FSTR__Test_PCE__c</name>
+        <relationshipLabel><!-- Loops --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Leg --></label>
+        <name>Leg__c</name>
+        <relationshipLabel><!-- Loop --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

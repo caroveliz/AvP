@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Field to categorize definitions. --></help>
+        <label><!-- Categories --></label>
+        <name>FSTR__Categories__c</name>
+        <picklistValues>
+            <masterLabel>Compliance</masterLabel>
+            <translation><!-- Compliance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External</masterLabel>
+            <translation><!-- External --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal</masterLabel>
+            <translation><!-- Internal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If this box is checked and Automatic Chatter Posting is enabled; any records that use this Definition will automatically post updates to Chatter.  If unchecked, no automatic Chatter updates will be posted by records that use this Definition. --></help>
+        <label><!-- Chatter Enabled --></label>
+        <name>FSTR__Chatter_Enabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Criteria Count --></label>
+        <name>FSTR__Criteria_Count__c</name>
+    </fields>
+    <fields>
+        <help><!-- this field is a dynamic string that is updated by a trigger to reflect any criteria that apply to this definition --></help>
+        <label><!-- Definition Criteria --></label>
+        <name>FSTR__Definition_Criteria__c</name>
+    </fields>
+    <fields>
+        <label><!-- Definition Hierarchy --></label>
+        <name>FSTR__Definition_Hierarchy__c</name>
+    </fields>
+    <fields>
+        <help><!-- Add a description of the business process here. --></help>
+        <label><!-- Description --></label>
+        <name>FSTR__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disable Object Status Management --></label>
+        <name>FSTR__Disable_Object_Status_Management__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Active --></label>
+        <name>FSTR__Is_Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Top Level Reevaluation Steps --></label>
+        <name>FSTR__Number_of_Top_Level_Reevaluation_Steps__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Display Name --></label>
+        <name>FSTR__Object_Display_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the object the process will be executed against.  To kick off this process create an object of this type. --></help>
+        <label><!-- Object Name --></label>
+        <name>FSTR__Object_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Record Type Name --></label>
+        <name>FSTR__Object_Record_Type_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the record type the process will be executed against.  To kick off this process create an object (type specified in the Object Name field) with this record type. --></help>
+        <label><!-- Object Record Type --></label>
+        <name>FSTR__Object_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- When Process Status Set To --></label>
+        <name>FSTR__PO_Propagation_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Set Open Steps To --></label>
+        <name>FSTR__SO_Propagation_Status__c</name>
+    </fields>
+    <webLinks>
+        <label><!-- Create_From_Lucidchart --></label>
+        <name>FSTR__Create_From_Lucidchart</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Display_Usage --></label>
+        <name>FSTR__Display_Usage</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Export_Selected --></label>
+        <name>FSTR__Export_Selected</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Import_Definitions --></label>
+        <name>FSTR__Import_Definitions</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Synchronize_Features --></label>
+        <name>FSTR__Synchronize_Features</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Visual --></label>
+        <name>FSTR__Visual</name>
+    </webLinks>
+</CustomObjectTranslation>

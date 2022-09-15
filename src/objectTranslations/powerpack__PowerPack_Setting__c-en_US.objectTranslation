@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active --></label>
+        <name>powerpack__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day of Week --></label>
+        <name>powerpack__Day_of_Week__c</name>
+        <picklistValues>
+            <masterLabel>Friday</masterLabel>
+            <translation><!-- Friday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monday</masterLabel>
+            <translation><!-- Monday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saturday</masterLabel>
+            <translation><!-- Saturday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sunday</masterLabel>
+            <translation><!-- Sunday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thursday</masterLabel>
+            <translation><!-- Thursday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tuesday</masterLabel>
+            <translation><!-- Tuesday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wednesday</masterLabel>
+            <translation><!-- Wednesday --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>powerpack__End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frequency --></label>
+        <name>powerpack__Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation><!-- Daily --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation><!-- Monthly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation><!-- Weekly --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last Run --></label>
+        <name>powerpack__Last_Run__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preferred Time --></label>
+        <name>powerpack__Preferred_Time__c</name>
+        <picklistValues>
+            <masterLabel>01:00</masterLabel>
+            <translation><!-- 01:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>02:00</masterLabel>
+            <translation><!-- 02:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03:00</masterLabel>
+            <translation><!-- 03:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04:00</masterLabel>
+            <translation><!-- 04:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>05:00</masterLabel>
+            <translation><!-- 05:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>06:00</masterLabel>
+            <translation><!-- 06:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>07:00</masterLabel>
+            <translation><!-- 07:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>08:00</masterLabel>
+            <translation><!-- 08:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>09:00</masterLabel>
+            <translation><!-- 09:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10:00</masterLabel>
+            <translation><!-- 10:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11:00</masterLabel>
+            <translation><!-- 11:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12:00</masterLabel>
+            <translation><!-- 12:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13:00</masterLabel>
+            <translation><!-- 13:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14:00</masterLabel>
+            <translation><!-- 14:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15:00</masterLabel>
+            <translation><!-- 15:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16:00</masterLabel>
+            <translation><!-- 16:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17:00</masterLabel>
+            <translation><!-- 17:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18:00</masterLabel>
+            <translation><!-- 18:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>19:00</masterLabel>
+            <translation><!-- 19:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20:00</masterLabel>
+            <translation><!-- 20:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21:00</masterLabel>
+            <translation><!-- 21:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22:00</masterLabel>
+            <translation><!-- 22:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>23:00</masterLabel>
+            <translation><!-- 23:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>24:00</masterLabel>
+            <translation><!-- 24:00 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Settings --></label>
+        <name>powerpack__Settings__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>powerpack__Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Record Id --></label>
+        <name>powerpack__Target_Record_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>powerpack__Type__c</name>
+    </fields>
+</CustomObjectTranslation>

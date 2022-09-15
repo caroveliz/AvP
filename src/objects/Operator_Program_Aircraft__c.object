@@ -1,0 +1,2283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Aircraft or cabin classes related to operator programs</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Aircraft_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Aircraft Type</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Aircraft_Type</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Aircraft__c</fullName>
+        <externalId>false</externalId>
+        <label>Aircraft Incentives to Negotiate</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>All_In_Cost_Per_Hour__c</fullName>
+        <externalId>false</externalId>
+        <formula>(Cost_per_Hour_no_FET__c + Fuel_Cost__c) * 1.075</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>All-In Cost Per Hour</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Annual_Lease_Fee__c</fullName>
+        <externalId>false</externalId>
+        <label>Annual Lease Fee</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Annual_MMF__c</fullName>
+        <externalId>false</externalId>
+        <label>Annual MMF</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>CA_Tax__c</fullName>
+        <description>For NetJets and FlexJet</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For NetJets and FlexJet</inlineHelpText>
+        <label>CA Tax</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Cabin_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Cabin Type</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Cabin_Type</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Cost_per_Hour_no_FET__c</fullName>
+        <externalId>false</externalId>
+        <label>Cost per Hour (no FET)</label>
+        <precision>8</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Fuel_Cost__c</fullName>
+        <externalId>false</externalId>
+        <label>Fuel Cost</label>
+        <precision>8</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Important_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Important Notes to Discuss with Client</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Lease_Deposit__c</fullName>
+        <externalId>false</externalId>
+        <label>Lease Deposit</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Max_Seating_Capacity_Non_Lav__c</fullName>
+        <externalId>false</externalId>
+        <label>Max Seating Capacity (Non-Lav)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>OHF__c</fullName>
+        <externalId>false</externalId>
+        <label>OHF</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Operator_Program_Market_Intelligence__c</fullName>
+        <externalId>false</externalId>
+        <label>Operator Program Market Intelligence</label>
+        <referenceTo>Operator_Program_Market_Intelligence__c</referenceTo>
+        <relationshipName>Program_Aircraft</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Premium_MMF__c</fullName>
+        <externalId>false</externalId>
+        <label>Premium MMF</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Purchase_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>Purchase Price</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <label>Operator Program Aircraft</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>PAC-{0000}</displayFormat>
+        <label>Program Aircraft Name</label>
+        <trackHistory>true</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Operator Program Aircraft</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Fractional_Aircraft</fullName>
+        <active>true</active>
+        <label>Fractional Aircraft</label>
+        <picklistValues>
+            <picklist>Aircraft_Type__c</picklist>
+            <values>
+                <fullName>Aerospatiale AS 350B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aerospatiale AS 355F2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aerospatiale AS355 Helicopter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aerospatiale AS365 Helicopter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aerospatiale EC155</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Agusta 109</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Agusta A109</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Agusta SPA AB139</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Airbus 318</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Airbus 319</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Airbus 340-200</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Airbus 340-300</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Airbus 355 Helicopter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Astra SP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Astra SPX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Beechjet 400A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bell 429</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bell 430</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Boeing 737-200</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Boeing 737-300</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Boeing 737-400</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Boeing 737-600</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Boeing 737-700</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Boeing 737-800</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Boeing 737-900</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Boeing 747SP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Boeing 767-200</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Boeing 767-200VIP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Boeing 767-300</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Boeing 777-200</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Boeing 777-300</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Boeing Business Jet %28BBJ%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bombardier CRJ200</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cessna 402C</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cessna 441 Conquest II</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cessna Caravan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cessna Caravan EX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cessna Chancellor 414</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger 300</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger 300LXi</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger 350</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger 350LXi</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger 600</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger 601</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger 604</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger 605</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger 650</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger 850</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger 850 ELR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger 870</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger 890</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger SE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation Bravo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation CJ1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation CJ1%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation CJ2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation CJ2%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation CJ3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation CJ3%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation CJ4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation Encore</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation Encore%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation Excel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation I</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation I%2FSP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation II</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation II%2FSP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation III</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation Jet 525</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation Latitude</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation Longitude</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation M2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation Mustang</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation S%2FII</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation Sovereign</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation Sovereign%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation Ultra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation V</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation VI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation VII</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation X</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation X%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation XLS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation XLS%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delta Large Cabin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delta Light Cabin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delta Mid Cabin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delta Super-Mid Cabin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dornier 328</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EC14 Helicopter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EJM Heavy Cabin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EJM Large Cabin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EJM Mid Cabin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EJM Small Cabin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EJM Super-Mid Cabin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eclipse 500</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Embraer ERJ 135</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Embraer ERJ 145</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 100</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 2000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 2000 EASY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 2000EX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 2000EX EASY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 2000LX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 2000LXS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 50</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 50EX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 5X</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 7X</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 8X</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 900B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 900C</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 900DX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 900EX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 900EX EASY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 900LX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Global 5000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Global 6000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Global 7500</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Global Express</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Global Express XRS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream 100</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream 150</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream 200</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream 280</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream 300</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream 350</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream 400</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream 450</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream 500</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream 550</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream 600</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream 650</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream 650ER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream II</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream III</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream IV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream IV-SP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream V</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hawker 1000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hawker 4000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hawker 400XP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hawker 700A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hawker 750</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hawker 800</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hawker 800A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hawker 800XP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hawker 800XPi</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hawker 850XP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hawker 900XP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Helicopter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Honda Jet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jet Edge - BBJ - TBD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jet Edge - Challenger 300 TBD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jet Edge - G-IV - TBD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jet Edge - G-IVSP - TBD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jet Linx - Light</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jet Linx - Mid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jet Linx - Supermid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>King AIr 300</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>King Air 100</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>King Air 200</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>King Air 200GT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>King Air 250</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>King Air 350</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>King Air 350ER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>King Air 350i</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>King Air 90</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>King Air C90GTi</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>King Air C90GTx</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lear 31A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lear 35</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lear 35A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lear 36A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lear 40</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lear 40XR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lear 45</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lear 45LXi</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lear 45XR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lear 55</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lear 60</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lear 60XR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lear 70</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lear 75</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lear 75LXi</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Legacy 450</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Legacy 500</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Legacy 600</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Legacy 650</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Legacy 650E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Legacy Shuttle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lineage 1000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N%2FA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nextant 400XT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nextant 400XTi</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phenom 100</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phenom 300</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phenom 300E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Piaggio Avanti</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pilatus PC-12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pilatus PC-24</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Piper Cheyenne I</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Piper Meridian</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Piper Navajo Chieftain</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Piper PA-31 Navajo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Praetor 500</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Praetor 600</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Premier I</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Premier IA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Saab 340A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sentient Heavy Preferred</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sentient Heavy Select</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sentient Light Preferred</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sentient Light Select</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sentient Mid Preferred</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sentient Mid Select</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sentient Super-Mid Preferred</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sentient Super-Mid Select</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sikorsky S-76</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sikorsky S-76B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sikorsky S-76C</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TBD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Westwind II</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wheels Up  Midsize</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wheels Up Large</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wheels Up Light</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wheels Up Super - Mid</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Cabin_Type__c</picklist>
+            <values>
+                <fullName>Commercial Airliner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Helicopter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Large Cabin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Light Jet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Long Range Large Cabin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mid Cabin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Piston</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Super Mid Cabin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Turboprop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Very Light Jet %28VLJ%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Jetcard_Aircraft</fullName>
+        <active>true</active>
+        <label>Jetcard Aircraft</label>
+        <picklistValues>
+            <picklist>Aircraft_Type__c</picklist>
+            <values>
+                <fullName>Aerospatiale AS 350B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aerospatiale AS 355F2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aerospatiale AS355 Helicopter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aerospatiale AS365 Helicopter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aerospatiale EC155</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Agusta 109</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Agusta A109</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Agusta SPA AB139</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Airbus 318</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Airbus 319</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Airbus 340-200</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Airbus 340-300</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Airbus 355 Helicopter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Astra SP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Astra SPX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Beechjet 400A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bell 429</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bell 430</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Boeing 737-200</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Boeing 737-300</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Boeing 737-400</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Boeing 737-600</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Boeing 737-700</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Boeing 737-800</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Boeing 737-900</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Boeing 747SP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Boeing 767-200</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Boeing 767-200VIP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Boeing 767-300</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Boeing 777-200</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Boeing 777-300</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Boeing Business Jet %28BBJ%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bombardier CRJ200</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cessna 402C</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cessna 441 Conquest II</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cessna Caravan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cessna Caravan EX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cessna Chancellor 414</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger 300</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger 300LXi</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger 350</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger 350LXi</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger 600</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger 601</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger 604</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger 605</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger 650</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger 850</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger 850 ELR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger 870</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger 890</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger SE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation Bravo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation CJ1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation CJ1%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation CJ2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation CJ2%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation CJ3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation CJ3%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation CJ4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation Encore</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation Encore%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation Excel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation I</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation I%2FSP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation II</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation II%2FSP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation III</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation Jet 525</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation Latitude</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation Longitude</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation M2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation Mustang</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation S%2FII</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation Sovereign</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation Sovereign%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation Ultra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation V</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation VI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation VII</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation X</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation X%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation XLS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citation XLS%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delta Large Cabin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delta Light Cabin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delta Mid Cabin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delta Super-Mid Cabin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dornier 328</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EC14 Helicopter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EJM Heavy Cabin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EJM Large Cabin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EJM Mid Cabin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EJM Small Cabin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EJM Super-Mid Cabin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eclipse 500</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Embraer ERJ 135</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Embraer ERJ 145</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 100</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 2000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 2000 EASY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 2000EX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 2000EX EASY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 2000LX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 2000LXS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 50</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 50EX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 5X</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 7X</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 8X</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 900B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 900C</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 900DX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 900EX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 900EX EASY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falcon 900LX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Global 5000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Global 6000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Global 7500</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Global Express</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Global Express XRS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream 100</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream 150</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream 200</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream 280</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream 300</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream 350</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream 400</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream 450</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream 500</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream 550</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream 600</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream 650</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream 650ER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream II</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream III</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream IV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream IV-SP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gulfstream V</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hawker 1000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hawker 4000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hawker 400XP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hawker 700A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hawker 750</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hawker 800</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hawker 800A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hawker 800XP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hawker 800XPi</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hawker 850XP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hawker 900XP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Helicopter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Honda Jet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jet Edge - BBJ - TBD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jet Edge - Challenger 300 TBD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jet Edge - G-IV - TBD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jet Edge - G-IVSP - TBD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jet Linx - Light</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jet Linx - Mid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jet Linx - Supermid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>King AIr 300</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>King Air 100</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>King Air 200</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>King Air 200GT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>King Air 250</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>King Air 350</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>King Air 350ER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>King Air 350i</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>King Air 90</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>King Air C90GTi</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>King Air C90GTx</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lear 31A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lear 35</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lear 35A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lear 36A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lear 40</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lear 40XR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lear 45</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lear 45LXi</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lear 45XR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lear 55</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lear 60</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lear 60XR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lear 70</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lear 75</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lear 75LXi</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Legacy 450</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Legacy 500</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Legacy 600</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Legacy 650</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Legacy 650E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Legacy Shuttle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lineage 1000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N%2FA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nextant 400XT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nextant 400XTi</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phenom 100</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phenom 300</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phenom 300E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Piaggio Avanti</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pilatus PC-12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pilatus PC-24</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Piper Cheyenne I</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Piper Meridian</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Piper Navajo Chieftain</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Piper PA-31 Navajo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Praetor 500</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Praetor 600</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Premier I</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Premier IA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Saab 340A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sentient Heavy Preferred</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sentient Heavy Select</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sentient Light Preferred</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sentient Light Select</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sentient Mid Preferred</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sentient Mid Select</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sentient Super-Mid Preferred</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sentient Super-Mid Select</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sikorsky S-76</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sikorsky S-76B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sikorsky S-76C</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TBD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Westwind II</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wheels Up  Midsize</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wheels Up Large</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wheels Up Light</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wheels Up Super - Mid</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Cabin_Type__c</picklist>
+            <values>
+                <fullName>Commercial Airliner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Helicopter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Large Cabin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Light Jet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Long Range Large Cabin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mid Cabin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Piston</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Super Mid Cabin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Turboprop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Very Light Jet %28VLJ%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <startsWith>Vowel</startsWith>
+    <visibility>Public</visibility>
+</CustomObject>

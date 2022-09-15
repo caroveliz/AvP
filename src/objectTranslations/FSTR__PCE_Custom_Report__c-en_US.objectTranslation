@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Settings --></label>
+        <name>FSTR__Settings__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>FSTR__User__c</name>
+        <relationshipLabel><!-- Custom Reports --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- isAutoSaved --></label>
+        <name>FSTR__isAutoSaved__c</name>
+    </fields>
+    <fields>
+        <label><!-- isGlobalSetting --></label>
+        <name>FSTR__isGlobalSetting__c</name>
+    </fields>
+</CustomObjectTranslation>

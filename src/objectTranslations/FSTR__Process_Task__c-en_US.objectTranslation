@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- AlreadyGenerated --></label>
+        <name>FSTR__AlreadyGenerated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval --></label>
+        <name>FSTR__Approval__c</name>
+        <relationshipLabel><!-- Process Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Auto Close --></label>
+        <name>FSTR__Auto_Close__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>FSTR__Business_Account__c</name>
+        <relationshipLabel><!-- Process Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Business Process --></label>
+        <name>FSTR__Business_Process__c</name>
+        <relationshipLabel><!-- Process Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Campaign --></label>
+        <name>FSTR__Campaign__c</name>
+        <relationshipLabel><!-- Process Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Case --></label>
+        <name>FSTR__Case__c</name>
+        <relationshipLabel><!-- Process Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The checklist associated with this Process Task. --></help>
+        <label><!-- Checklist --></label>
+        <name>FSTR__Checklist__c</name>
+        <relationshipLabel><!-- Process Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>FSTR__Client__c</name>
+        <relationshipLabel><!-- Process Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Completed By --></label>
+        <name>FSTR__Completed_By__c</name>
+        <relationshipLabel><!-- Process Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Completed Date --></label>
+        <name>FSTR__Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract --></label>
+        <name>FSTR__Contract__c</name>
+        <relationshipLabel><!-- Process Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>FSTR__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>FSTR__Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Queue Members --></label>
+        <name>FSTR__Email_Queue_Members__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead --></label>
+        <name>FSTR__Lead__c</name>
+        <relationshipLabel><!-- Process Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>FSTR__Opportunity__c</name>
+        <relationshipLabel><!-- Process Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Parent Event Id --></label>
+        <name>FSTR__Parent_Event_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Object Name --></label>
+        <name>FSTR__Parent_Object_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process Instance --></label>
+        <name>FSTR__Process_Instance__c</name>
+        <relationshipLabel><!-- Process Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>FSTR__Status__c</name>
+        <picklistValues>
+            <masterLabel>Canceled</masterLabel>
+            <translation><!-- Canceled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Step Id --></label>
+        <name>FSTR__Step_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Step Stage Id --></label>
+        <name>FSTR__Step_Stage_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subject --></label>
+        <name>FSTR__Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Step --></label>
+        <name>FSTR__step_lookup__c</name>
+        <relationshipLabel><!-- Process Tasks --></relationshipLabel>
+    </fields>
+    <recordTypes>
+        <label><!-- Business Process --></label>
+        <name>FSTR__Business_Process</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Campaign --></label>
+        <name>FSTR__Campaign</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Case --></label>
+        <name>FSTR__Case</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Lead --></label>
+        <name>FSTR__Lead</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Opportunity --></label>
+        <name>FSTR__Opportunity</name>
+    </recordTypes>
+</CustomObjectTranslation>

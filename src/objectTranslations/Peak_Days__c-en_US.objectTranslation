@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Peak Days</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Peak Days</value>
+    </caseValues>
+    <fields>
+        <label><!-- Airport --></label>
+        <name>Airport__c</name>
+        <relationshipLabel><!-- Events --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Calendar Title - Peak Days --></label>
+        <name>Calendar_Title_Peak_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Description --></label>
+        <name>Event_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next month? --></label>
+        <name>Next_month__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operator Program --></label>
+        <name>Operator_Program__c</name>
+        <relationshipLabel><!-- Peak Days --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Operator or Broker Name --></label>
+        <name>Operator_or_Broker_Name__c</name>
+        <relationshipLabel><!-- Peak Days --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Peak Cancellation --></label>
+        <name>Peak_Cancellation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Peak Day Booking Notice --></label>
+        <name>Peak_Day_Booking_Notice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Peak Day Departure Move --></label>
+        <name>Peak_Day_Departure_Move__c</name>
+    </fields>
+    <fields>
+        <label><!-- Peak Premium --></label>
+        <name>Peak_Premium__c</name>
+    </fields>
+    <fields>
+        <label><!-- Peak Restrictions --></label>
+        <name>Peak_Restrictions__c</name>
+    </fields>
+    <fields>
+        <help><!-- Premium fees for travel on peak days. --></help>
+        <label><!-- Premium --></label>
+        <name>Premium__c</name>
+    </fields>
+    <fields>
+        <label><!-- Program --></label>
+        <name>Program__c</name>
+        <picklistValues>
+            <masterLabel>(0/10 Hours &amp; $50 Funds)</masterLabel>
+            <translation><!-- (0/10 Hours &amp; $50 Funds) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>(0/10/25 Hours &amp; $50/100/200 Funds)</masterLabel>
+            <translation><!-- (0/10/25 Hours &amp; $50/100/200 Funds) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>(0/10/25/50 Hours &amp; $50/100/200/400 Funds)</masterLabel>
+            <translation><!-- (0/10/25/50 Hours &amp; $50/100/200/400 Funds) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>(25 Hours &amp; $100/200 Funds)</masterLabel>
+            <translation><!-- (25 Hours &amp; $100/200 Funds) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>(25/50 Hours &amp; $100/200/400 Funds)</masterLabel>
+            <translation><!-- (25/50 Hours &amp; $100/200/400 Funds) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>(No Pre-Purchase)</masterLabel>
+            <translation><!-- (No Pre-Purchase) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>(No Pre-Purchase) INDIVIDUALS ONLY</masterLabel>
+            <translation><!-- (No Pre-Purchase) INDIVIDUALS ONLY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All Access</masterLabel>
+            <translation><!-- All Access --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOTH PROGRAMS</masterLabel>
+            <translation><!-- BOTH PROGRAMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EJM Flat Rate Program</masterLabel>
+            <translation><!-- EJM Flat Rate Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FLEXJET ONLY</masterLabel>
+            <translation><!-- FLEXJET ONLY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FLIGHT OPTIONS ONLY</masterLabel>
+            <translation><!-- FLIGHT OPTIONS ONLY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FSP</masterLabel>
+            <translation><!-- FSP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fractional</masterLabel>
+            <translation><!-- Fractional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jet Card</masterLabel>
+            <translation><!-- Jet Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marquis Jet</masterLabel>
+            <translation><!-- Marquis Jet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preferred Access</masterLabel>
+            <translation><!-- Preferred Access --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Description of peak day restrictions. --></help>
+        <label><!-- Restrictions --></label>
+        <name>Restrictions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type of Peak Day --></label>
+        <name>Type_of_Peak_Day__c</name>
+        <picklistValues>
+            <masterLabel>BLACKOUT DAY</masterLabel>
+            <translation><!-- BLACKOUT DAY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EVENT</masterLabel>
+            <translation><!-- EVENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FLEXJET NEW CLIENT RESTRICTED ACCESS</masterLabel>
+            <translation><!-- FLEXJET NEW CLIENT RESTRICTED ACCESS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HEAVY DEMAND</masterLabel>
+            <translation><!-- HEAVY DEMAND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HIGH DEMAND</masterLabel>
+            <translation><!-- HIGH DEMAND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LOW SEASON DAY</masterLabel>
+            <translation><!-- LOW SEASON DAY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO ACCESS DAY</masterLabel>
+            <translation><!-- NO ACCESS DAY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PEAK DAY</masterLabel>
+            <translation><!-- PEAK DAY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PEAK DAY PARTIAL - 12AM-6AM</masterLabel>
+            <translation><!-- PEAK DAY PARTIAL - 12AM-6AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PEAK DAY PARTIAL -9PM-12AM</masterLabel>
+            <translation><!-- PEAK DAY PARTIAL -9PM-12AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PREMIUM CHARGE DAY</masterLabel>
+            <translation><!-- PREMIUM CHARGE DAY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SENTIENT NO LONGER ACCEPTING BOOKINGS</masterLabel>
+            <translation><!-- SENTIENT NO LONGER ACCEPTING BOOKINGS --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
